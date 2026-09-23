@@ -1,0 +1,99 @@
+[
+  {
+    "slug": "reliable-ai-research",
+    "title": "Надёжные исследования с ИИ",
+    "report": "programs/reliable-ai-research/README.md",
+    "source_claims": 6,
+    "source_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05"
+    ]
+  },
+  {
+    "slug": "verified-learning",
+    "title": "Обучение на проверенных результатах",
+    "report": "programs/verified-learning/README.md",
+    "source_claims": 8,
+    "source_ids": [
+      "S03",
+      "S06",
+      "S07",
+      "S08",
+      "S09",
+      "S10",
+      "S11",
+      "S12"
+    ]
+  },
+  {
+    "slug": "consciousness",
+    "title": "Сознание и измерение",
+    "report": "programs/consciousness/README.md",
+    "source_claims": 2,
+    "source_ids": [
+      "C1",
+      "C2",
+      "C5"
+    ]
+  },
+  {
+    "slug": "digital-continuity",
+    "title": "Цифровая непрерывность личности",
+    "report": "programs/digital-continuity/README.md",
+    "source_claims": 4,
+    "source_ids": [
+      "I1",
+      "I2",
+      "I3",
+      "I4",
+      "I5",
+      "I7"
+    ]
+  },
+  {
+    "slug": "religion-and-cooperation",
+    "title": "Религия, ритуал и сотрудничество",
+    "report": "programs/religion-and-cooperation/README.md",
+    "source_claims": 4,
+    "source_ids": [
+      "R0",
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6"
+    ]
+  },
+  {
+    "slug": "voluntary-governance",
+    "title": "Добровольная координация",
+    "report": "programs/voluntary-governance/README.md",
+    "source_claims": 5,
+    "source_ids": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5"
+    ]
+  },
+  {
+    "slug": "philosophy-and-meaning",
+    "title": "Философия и смысл",
+    "report": "programs/philosophy-and-meaning/README.md",
+    "source_claims": 6,
+    "source_ids": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7"
+    ]
+  }
+]

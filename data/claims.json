@@ -1,0 +1,442 @@
+[
+  {
+    "id": "AIR-01",
+    "program": "reliable-ai-research",
+    "source_ids": [
+      "S01"
+    ],
+    "claim": "Актуальная версия MAST вывела 14 видов отказов из 150 исходных трасс и анализировала свыше 1600 масштабно размеченных трасс семи систем.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Исходная таксономия и масштабная разметка имеют разную процедуру; часть большой выборки размечена LLM.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "AIR-02",
+    "program": "reliable-ai-research",
+    "source_ids": [
+      "S01"
+    ],
+    "claim": "Три крупные группы отказов MAST: проектирование, согласование агентов, проверка задачи.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Классификация не претендует на исчерпывающий перечень всех будущих отказов.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "AIR-03",
+    "program": "reliable-ai-research",
+    "source_ids": [
+      "S02"
+    ],
+    "claim": "Разреженное общение шести агентов в проверенных задачах сохраняло или улучшало точность относительно полной сети и экономило входные токены.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Стоимость входных токенов не равна полной стоимости реального исследования.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "AIR-04",
+    "program": "reliable-ai-research",
+    "source_ids": [
+      "S03"
+    ],
+    "claim": "На проверенной комбинации SWE-Agent+GPT-4 после удаления проблемных случаев показатель решения снизился с 12,47% до 3,97%.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Оценка специфична для аудита выбранных патчей и методики фильтрации.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "AIR-05",
+    "program": "reliable-ai-research",
+    "source_ids": [
+      "S04"
+    ],
+    "claim": "Порядок двух ответов способен систематически менять оценки LLM-судей.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Степень и направление смещения варьируются по судье и задаче.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "AIR-06",
+    "program": "reliable-ai-research",
+    "source_ids": [
+      "S05"
+    ],
+    "claim": "Позиция релевантного документа в длинном контексте влияет на результаты извлечения/ответа в проверенных постановках.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Не прямое испытание литературного обзора; прочитана аннотация.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "VL-01",
+    "program": "verified-learning",
+    "source_ids": [
+      "S06"
+    ],
+    "claim": "В GSM8K отдельный верификатор повышал качество выбора среди многих решений; при небольшом наборе данных эффект отсутствовал.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Задачи с известным ответом, дорогая исследовательская процедура.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "VL-02",
+    "program": "verified-learning",
+    "source_ids": [
+      "S07"
+    ],
+    "claim": "На подмножестве MATH процессная супервизия превзошла супервизию конечного результата.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Опиралась на масштабную человеческую разметку; не переносится автоматически на иные домены.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "VL-03",
+    "program": "verified-learning",
+    "source_ids": [
+      "S08"
+    ],
+    "claim": "Добавление учительских объяснений улучшало обучение меньших моделей на четырёх NLP-бенчмарках в изученном методе.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Объяснение не удостоверяет собственную достоверность или причинную верность.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "VL-04",
+    "program": "verified-learning",
+    "source_ids": [
+      "S09"
+    ],
+    "claim": "STaR фильтрует объяснения по правильности финального ответа и затем дообучает модель.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Известный ответ не доказывает корректность каждого промежуточного шага; прочитана аннотация.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "VL-05",
+    "program": "verified-learning",
+    "source_ids": [
+      "S10"
+    ],
+    "claim": "Некритичное рекурсивное использование модельных данных способно терять редкие события исходного распределения.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Режим коллапса зависит от процедуры обновления; статья не запрещает всякую синтетику.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "VL-06",
+    "program": "verified-learning",
+    "source_ids": [
+      "S11"
+    ],
+    "claim": "Накопление исходных реальных данных вместе с синтетикой предотвращало изученный тип коллапса при проверенных архитектурах.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Не гарантия истинности отдельного эпизода; прочитана аннотация.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "VL-07",
+    "program": "verified-learning",
+    "source_ids": [
+      "S12"
+    ],
+    "claim": "Phi-1 обучали на отобранных веб-данных и синтетических учебных материалах, получив сильные показатели на кодовых задачах.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Значительные ресурсы обучения; нельзя приписать весь эффект одной синтетической части; прочитана аннотация.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "VL-08",
+    "program": "verified-learning",
+    "source_ids": [
+      "S03"
+    ],
+    "claim": "Отобранный по успешному выполнению тестов патч может не быть корректным, если тесты слабы.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Конкретный аудит программных задач; перенос на другие домены аналитический.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "C-01",
+    "program": "consciousness",
+    "source_ids": [
+      "C1"
+    ],
+    "confidence": "high on authors' method; unknown on phenomenality",
+    "counterpoint": "Функциональные теории могут придавать исполнению соответствующей роли больший онтологический вес.",
+    "falsifier_or_revision": "Независимая валидированная калибровка набора индикаторов на системах с согласованным ground truth потребовала бы пересмотра.",
+    "claim": "Теоретически выведенный индикатор является основанием для оценки гипотезы, но не откалиброванным доказательством субъективного переживания у ИИ.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Функциональные теории могут придавать исполнению соответствующей роли больший онтологический вес.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "C-02",
+    "program": "consciousness",
+    "source_ids": [
+      "C2",
+      "C5"
+    ],
+    "confidence": "high for measured contrasts; lower for global theory adjudication",
+    "counterpoint": "Сторонники GNWT оспаривают центральность offset-ignition и отмечают отсутствие бессознательного контраста.",
+    "falsifier_or_revision": "Новый заранее зарегистрированный дизайн с явным conscious/unconscious contrast и проверкой awareness of offset.",
+    "claim": "Состязательная проверка на 256 людях дала частичную поддержку и существенные проблемы для конкретных предсказаний IIT и GNWT.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Сторонники GNWT оспаривают центральность offset-ignition и отмечают отсутствие бессознательного контраста.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "I-01",
+    "program": "digital-continuity",
+    "source_ids": [
+      "I1",
+      "I2",
+      "I3"
+    ],
+    "confidence": "high",
+    "counterpoint": "Каждый набор существенно расширяет измерительные и модельные возможности.",
+    "falsifier_or_revision": "Реплицированная полная человеко-масштабная реконструкция с проверкой причинной динамики потребует обновления текущей границы.",
+    "claim": "Существуют полная карта мозга взрослой дрозофилы, кубомиллиметровая реконструкция человеческой коры и совмещённая структура/активность участка коры мыши; ни одна из них не является картой всей работающей личности человека.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Каждый набор существенно расширяет измерительные и модельные возможности.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "I-02",
+    "program": "digital-continuity",
+    "source_ids": [
+      "I4"
+    ],
+    "confidence": "high for studied circuit",
+    "counterpoint": "На другом масштабе или при дополнительной физиологии достаточность может измениться.",
+    "falsifier_or_revision": "Многозадачная out-of-distribution эмуляция того же препарата без подгонки ненаблюдаемых динамических параметров.",
+    "claim": "В модели зрительной системы мухи коннектом ограничивает модель, но неизвестные свойства пришлось оптимизировать под задачу; одной связности недостаточно для единственной динамики.",
+    "status": "SOURCE CLAIM",
+    "limitations": "На другом масштабе или при дополнительной физиологии достаточность может измениться.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "I-03",
+    "program": "digital-continuity",
+    "source_ids": [
+      "I5"
+    ],
+    "confidence": "high",
+    "counterpoint": "Реакция не тождественна полному воспоминанию или личности.",
+    "falsifier_or_revision": "Переоценка при опровержении воспроизведения результата или выявлении решающего экспериментального конфаундера.",
+    "claim": "Активация меченых клеток гиппокампа мыши вызвала выученную реакцию замирания.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Реакция не тождественна полному воспоминанию или личности.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "I-05",
+    "program": "digital-continuity",
+    "source_ids": [
+      "I7"
+    ],
+    "confidence": "high for characterization of argument",
+    "counterpoint": "Не допускающие ветвления или биологические теории личного тождества конкурируют с ней.",
+    "falsifier_or_revision": "Уточнение операционального определения идентичности; философский тезис не опровергается одним психологическим тестом.",
+    "claim": "Ветвящееся психологическое продолжение — аргументированная теория идентичности, не измерение перехода первого лица.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Не допускающие ветвления или биологические теории личного тождества конкурируют с ней.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "REL-01",
+    "program": "religion-and-cooperation",
+    "source_ids": [
+      "R1"
+    ],
+    "scope": "historical communes",
+    "confidence": "moderate on research question, low on effect size",
+    "claim": "В исторической выборке коммун изучалась связь требовательности к участникам с долговечностью сообщества.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Архивная сохранность, отбор, различия собственности и государственной защиты ограничивают перенос; благополучие участников не установлено.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "REL-02",
+    "program": "religion-and-cooperation",
+    "source_ids": [
+      "R2"
+    ],
+    "scope": "591 participants; co-religionists, not all strangers",
+    "confidence": "moderate",
+    "claim": "В восьми сообществах представления о карающих и осведомлённых богах были связаны с большими игровыми выделениями средств удалённым единоверцам.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Поперечная связь: возможны социальная желательность и влияние общих норм.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "REL-03",
+    "program": "religion-and-cooperation",
+    "source_ids": [
+      "R3"
+    ],
+    "scope": "single ritual setting",
+    "confidence": "low-to-moderate",
+    "claim": "Одно полевое исследование связывает экстремальный ритуал с просоциальными пожертвованиями в изученном контексте.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Возбуждение, публичный сигнал и отбор; долгосрочный универсальный эффект не установлен.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "REL-04",
+    "program": "religion-and-cooperation",
+    "source_ids": [
+      "R0",
+      "R4",
+      "R5",
+      "R6"
+    ],
+    "scope": "historical cross-societal model",
+    "confidence": "high on status, low on historical causal direction",
+    "claim": "Статья Nature 2019 года на данных Seshat отозвана; последующую переработку и спор о пропущенных данных следует различать по версиям.",
+    "status": "FACT",
+    "limitations": "Переработка не восстанавливает статус отозванной оригинальной статьи.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "CIV-01",
+    "program": "voluntary-governance",
+    "source_ids": [
+      "G1"
+    ],
+    "scope": "resource systems",
+    "confidence": "moderate",
+    "claim": "Некоторые сообщества самостоятельно организуют управление общими ресурсами; результаты зависят от характеристик системы и контекста.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Авторская рамка представляет синтез исследований, а не единый глобальный эксперимент.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "CIV-02",
+    "program": "voluntary-governance",
+    "source_ids": [
+      "G2"
+    ],
+    "scope": "laboratory social dilemma",
+    "confidence": "moderate",
+    "claim": "В лаборатории эндогенное формирование институтов повышало сотрудничество, но возникало не всегда; несправедливые возможности безбилетничества снижали принятие института.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Перенос на крупные политические системы отдельно не доказан.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "CIV-03",
+    "program": "voluntary-governance",
+    "source_ids": [
+      "G3"
+    ],
+    "scope": "600+ village road projects",
+    "confidence": "moderate",
+    "claim": "В эксперименте со строительством сельских дорог в Индонезии повышение вероятности аудита сократило необъяснённые расходы.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Эффект относится к конкретной реализации и среде.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "CIV-04",
+    "program": "voluntary-governance",
+    "source_ids": [
+      "G4"
+    ],
+    "scope": "development projects in published literature",
+    "confidence": "moderate",
+    "claim": "Синтез авторов Всемирного банка выделяет контекст, захват элитами и слабый мониторинг во многих проектах организованного участия.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Институциональный обзор не является одной причинной оценкой.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "CIV-05",
+    "program": "voluntary-governance",
+    "source_ids": [
+      "G5"
+    ],
+    "scope": "official UNFCCC decision as of 2023 stocktake",
+    "confidence": "high for decision wording",
+    "claim": "Первое глобальное подведение итогов Парижского соглашения отметило почти всеобщие климатические действия и одновременно недостаточность общего продвижения к целям.",
+    "status": "FACT",
+    "limitations": "Это не причинная оценка добровольного управления по сравнению с отсутствием соглашения.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "PHI-01",
+    "program": "philosophy-and-meaning",
+    "source_ids": [
+      "P1"
+    ],
+    "scope": "classical ethics, book I",
+    "confidence": "high on characterization, philosophical truth unresolved",
+    "claim": "Аристотель связывает человеческое благо с деятельностью согласно добродетели; это нормативное утверждение.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Телеологическая предпосылка и исключающий социальный контекст оригинала требуют критического чтения.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "PHI-02",
+    "program": "philosophy-and-meaning",
+    "source_ids": [
+      "P2"
+    ],
+    "scope": "one verse",
+    "confidence": "high on text-level observation",
+    "claim": "В стихе 5 Дхаммапады ненависти противопоставляется отсутствие ненависти.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Перевод и история текста значимы; один стих не представляет всю буддийскую философию.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "PHI-03",
+    "program": "philosophy-and-meaning",
+    "source_ids": [
+      "P3"
+    ],
+    "scope": "author philosophical account",
+    "confidence": "high on stated view, disputed as doctrine",
+    "claim": "Сьюзен Вулф связывает смысл с вовлечённостью в проекты, имеющие независимую ценность, и отличает смысл от счастья и морали.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Понятие объективной ценности оспаривается.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "PHI-04",
+    "program": "philosophy-and-meaning",
+    "source_ids": [
+      "P4"
+    ],
+    "scope": "author philosophical argument",
+    "confidence": "moderate",
+    "claim": "Томас Нагель исследует абсурд через способность человека ставить под вопрос собственные жизненные обязательства.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Это философский аргумент, а не клиническое свидетельство; существуют конкурирующие интерпретации.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "PHI-05",
+    "program": "philosophy-and-meaning",
+    "source_ids": [
+      "P5",
+      "P6"
+    ],
+    "scope": "political-philosophical arguments",
+    "confidence": "moderate",
+    "claim": "Публичный разум Ролза и публичное обсуждение Сена предлагают разные аргументы для плюралистического политического обоснования.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Остаются вопросы исключения маргинализированных голосов и институциональных предпосылок.",
+    "checked_at_utc": "2026-09-22"
+  },
+  {
+    "id": "PHI-06",
+    "program": "philosophy-and-meaning",
+    "source_ids": [
+      "P7"
+    ],
+    "scope": "validation samples",
+    "confidence": "moderate",
+    "claim": "Опросник MLQ разделяет самоотчёты о наличии смысла и поиске смысла.",
+    "status": "SOURCE CLAIM",
+    "limitations": "Психометрика не устанавливает объективную ценность; перевод и переносимость измерения требуют проверки.",
+    "checked_at_utc": "2026-09-22"
+  }
+]
