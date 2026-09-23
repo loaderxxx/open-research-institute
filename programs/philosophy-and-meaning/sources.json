@@ -1,0 +1,101 @@
+[
+  {
+    "id": "P1",
+    "title": "Aristotle, Nicomachean Ethics, Book I",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0054%3Abook%3D1",
+    "year": -340,
+    "read_depth": "книга I по исходному реестру; ссылка Perseus повторно недоступна",
+    "limitations": "Телеология и ограниченное понятие гражданства; переводческий спор вокруг eudaimonia",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "P2",
+    "title": "Dhammapada, verses 1–20, translation Bhikkhu Sujato",
+    "url": "https://suttacentral.net/dhp1-20/en/sujato",
+    "year": -300,
+    "read_depth": "реестр и страница переводчика; веб-извлечение текста ограничено",
+    "limitations": "Один стих не представляет разнообразие буддийской традиции",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "P3",
+    "title": "Susan Wolf, Meaning in Life and Why It Matters",
+    "url": "https://personal.lse.ac.uk/ROBERT49/teaching/ph103/pdf/WolfSusanne_2010_Meaning-in-Life-and-Why-It-Matters.pdf",
+    "year": 2010,
+    "read_depth": "PDF: введение, главы и раздел комментариев выборочно",
+    "limitations": "Объективная ценность и критерии вовлечения спорны",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "P4",
+    "title": "Thomas Nagel, The Absurd",
+    "url": "https://philosophy.as.uky.edu/sites/default/files/The%20Absurd%20-%20Thomas%20Nagel.pdf",
+    "year": 1971,
+    "read_depth": "полный PDF, философский аргумент",
+    "limitations": "Не клиническое свидетельство об ощущении бессмысленности",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "P5",
+    "title": "John Rawls, The Idea of Public Reason Revisited",
+    "url": "https://chicagounbound.uchicago.edu/uclrev/vol64/iss3/1/",
+    "year": 1997,
+    "read_depth": "страница первичной статьи, аннотация и библиография",
+    "limitations": "Процедура публичного разума не устраняет разногласий и не универсальна",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "P6",
+    "title": "Amartya Sen, Democracy as a Universal Value",
+    "url": "https://www.journalofdemocracy.org/articles/democracy-as-a-universal-value/",
+    "year": 1999,
+    "read_depth": "страница исходной статьи и основной текст выборочно",
+    "limitations": "Нормативная защита демократии, не доказательство единой концепции смысла",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "P7",
+    "title": "Steger et al., The Meaning in Life Questionnaire",
+    "url": "https://experts.umn.edu/en/publications/the-meaning-in-life-questionnaire-assessing-the-presence-of-and-s/",
+    "year": 2006,
+    "read_depth": "издательская запись, аннотация и методический обзор",
+    "limitations": "Самоотчет, выборки и факторная модель не устанавливают объективную ценность",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "P8",
+    "title": "Robert Nozick, The Experience Machine",
+    "url": "https://rintintin.colorado.edu/~vancecd/phil3160/Nozick1.pdf",
+    "year": 1974,
+    "read_depth": "первичный отрывок из книги по академической копии",
+    "limitations": "Мысленный эксперимент зависит от интуиций и формулировки",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "P9",
+    "title": "Frank Martela and Michael F. Steger, The three meanings of meaning in life",
+    "url": "https://www.researchgate.net/publication/292190023_The_three_meanings_of_meaning_in_life_Distinguishing_coherence_purpose_and_significance",
+    "year": 2016,
+    "read_depth": "аннотация авторской публикации",
+    "limitations": "Теоретическое различение аспектов не доказывает их культурную инвариантность",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "P10",
+    "title": "Laura A. King et al., Positive affect and the experience of meaning in life",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16448317/",
+    "year": 2006,
+    "read_depth": "библиографическая запись и аннотация оригинального исследования",
+    "limitations": "Экспериментальные и корреляционные связи переживания не решают нормативный вопрос",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "P11",
+    "title": "Harry Frankfurt, The Importance of What We Care About",
+    "url": "https://www.cambridge.org/core/books/importance-of-what-we-care-about/9691C950461B737990D6CE2AE5967E0A",
+    "year": 1988,
+    "read_depth": "издательская запись сборника; только общие положения",
+    "limitations": "Полный текст главы не извлечен; детали не приписываются ему",
+    "checked_at_utc": "2026-09-23"
+  }
+]

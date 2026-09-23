@@ -1,0 +1,110 @@
+[
+  {
+    "id": "A01",
+    "title": "Why Do Multi-Agent LLM Systems Fail?",
+    "url": "https://arxiv.org/html/2503.13657v3",
+    "year": 2025,
+    "read_depth": "аннотация и выборочные разделы HTML v3: введение, метод таксономии, результаты",
+    "limitations": "Таксономия из 150 исходных трасс; 1642 масштабно размеченные трассы семи систем включают LLM-аннотацию; не исчерпывает все режимы отказа.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "A02",
+    "title": "Improving Multi-Agent Debate with Sparse Communication Topology",
+    "url": "https://aclanthology.org/2024.findings-emnlp.427/",
+    "year": 2024,
+    "read_depth": "аннотация и библиографическая страница ACL",
+    "limitations": "Сопоставимые или лучшие результаты в проверенных моделях и задачах; экономия входных токенов не равна полной стоимости исследования.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "A03",
+    "title": "Enabling Large Language Models to Generate Text with Citations",
+    "url": "https://aclanthology.org/2023.emnlp-main.398/",
+    "year": 2023,
+    "read_depth": "аннотация и библиографическая страница ACL; выборочный PDF-фрагмент в поисковой выдаче",
+    "limitations": "ALCE оценивает ограниченные наборы вопросов и документов; корреляция автоматических и человеческих оценок не гарантирует все жанры.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "A04",
+    "title": "Evaluating Verifiability in Generative Search Engines",
+    "url": "https://aclanthology.org/2023.findings-emnlp.467/",
+    "year": 2023,
+    "read_depth": "аннотация и библиографическая страница ACL",
+    "limitations": "Ручной аудит четырёх систем и выбранных запросов; не универсальная частота любой поисковой системы.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "A05",
+    "title": "SWE-Bench+: Enhanced Coding Benchmark for LLMs",
+    "url": "https://arxiv.org/abs/2410.06992",
+    "year": 2024,
+    "read_depth": "аннотация и библиографическая страница; выборочные детали из исходного реестра 2026-09-22",
+    "limitations": "Аудит выбранных успешных патчей конкретной системы; нельзя обобщать процент на все кодовые задачи.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "A06",
+    "title": "Judging the Judges: A Systematic Study of Position Bias in LLM-as-a-Judge",
+    "url": "https://arxiv.org/html/2406.07791v9",
+    "year": 2025,
+    "read_depth": "аннотация обновлённой версии и выборочный HTML исходного реестра",
+    "limitations": "Смещение зависит от судьи, задачи и разницы качества; не измеряет непосредственно аннотацию MAST.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "A07",
+    "title": "Holistic Evaluation of Language Models",
+    "url": "https://arxiv.org/abs/2211.09110",
+    "year": 2022,
+    "read_depth": "аннотация и библиографическая страница arXiv",
+    "limitations": "Широта сценариев не означает полноту всех областей; меняющиеся модели и метрики ограничивают перенос.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "A08",
+    "title": "Lost in the Middle: How Language Models Use Long Contexts",
+    "url": "https://aclanthology.org/2024.tacl-1.9/",
+    "year": 2024,
+    "read_depth": "аннотация и библиографическая страница ACL",
+    "limitations": "Эффект позиции в изученных вопросно-ответных и поисковых заданиях; не прямое испытание научного обзора.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "A09",
+    "title": "FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation",
+    "url": "https://aclanthology.org/2023.emnlp-main.741/",
+    "year": 2023,
+    "read_depth": "аннотация и библиографическая страница ACL",
+    "limitations": "Атомарная фактическая точность зависит от базы знаний и разделения фактов; не измеряет полноту ответа.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "A10",
+    "title": "TruthfulQA: Measuring How Models Mimic Human Falsehoods",
+    "url": "https://aclanthology.org/2022.acl-long.229/",
+    "year": 2022,
+    "read_depth": "аннотация и библиографическая страница ACL",
+    "limitations": "Специально сконструированные вопросы о распространённых заблуждениях; показатели исторических моделей.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "A11",
+    "title": "Language Models (Mostly) Know What They Know",
+    "url": "https://arxiv.org/abs/2207.05221",
+    "year": 2022,
+    "read_depth": "аннотация и библиографическая страница arXiv",
+    "limitations": "Калибровка зависит от формата и задачи; предсказание знания на новых задачах ограничено.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "A13",
+    "title": "Automatic Evaluation of Attribution by Large Language Models",
+    "url": "https://aclanthology.org/2023.findings-emnlp.307/",
+    "year": 2023,
+    "read_depth": "аннотация и библиографическая страница ACL",
+    "limitations": "Курированный тест из 12 областей и симулированные примеры; обещающие результаты и трудности не создают идеального судью.",
+    "checked_at_utc": "2026-09-23"
+  }
+]

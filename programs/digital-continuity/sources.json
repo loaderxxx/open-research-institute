@@ -1,0 +1,137 @@
+[
+  {
+    "id": "I1",
+    "title": "Dorkenwald et al., Neuronal wiring diagram of an adult brain",
+    "url": "https://www.nature.com/articles/s41586-024-07558-y",
+    "year": 2024,
+    "read_depth": "Аннотация, основные результаты и фрагменты текста издателя",
+    "limitations": "Полная анатомия мозга взрослой дрозофилы; не живая динамика и не мозг человека.",
+    "checked_at_utc": "2026-09-23T04:27:50+00:00"
+  },
+  {
+    "id": "I2",
+    "title": "Shapson-Coe et al., A petavoxel fragment of human cerebral cortex reconstructed at nanoscale resolution",
+    "url": "https://www.science.org/doi/10.1126/science.adk4858",
+    "year": 2024,
+    "read_depth": "Аннотация издателя и индексированный результат",
+    "limitations": "Около 1 мм³ фиксированной человеческой ткани; полная статья и приложения не просмотрены.",
+    "checked_at_utc": "2026-09-23T04:27:50+00:00"
+  },
+  {
+    "id": "I3",
+    "title": "MICrONS Consortium, Functional connectomics spanning multiple areas of mouse visual cortex",
+    "url": "https://www.nature.com/articles/s41586-025-08790-w",
+    "year": 2025,
+    "read_depth": "Аннотация и индексированные фрагменты методов",
+    "limitations": "Локальный объём зрительной коры мыши; зарегистрированные и реконструированные клетки не одна совокупность.",
+    "checked_at_utc": "2026-09-23T04:27:50+00:00"
+  },
+  {
+    "id": "I4",
+    "title": "Lappalainen et al., Connectome-constrained networks predict neural activity across the fly visual system",
+    "url": "https://www.nature.com/articles/s41586-024-07939-3",
+    "year": 2024,
+    "read_depth": "Аннотация и основной текст о допущениях модели",
+    "limitations": "Оптимизация параметров и отдельная зрительная цепь; коннектом сам не задаёт единственную динамику.",
+    "checked_at_utc": "2026-09-23T04:27:50+00:00"
+  },
+  {
+    "id": "I5",
+    "title": "Liu et al., Optogenetic stimulation of a hippocampal engram activates fear memory recall",
+    "url": "https://www.nature.com/articles/nature11028",
+    "year": 2012,
+    "read_depth": "Аннотация и экспериментальное резюме",
+    "limitations": "Замирание мыши в условии страха, не восстановление полной биографии.",
+    "checked_at_utc": "2026-09-23T04:27:50+00:00"
+  },
+  {
+    "id": "I7",
+    "title": "Cerullo, Uploading and Branching Identity",
+    "url": "https://link.springer.com/article/10.1007/s11023-014-9352-8",
+    "year": 2015,
+    "read_depth": "Аннотация и фрагменты аргумента",
+    "limitations": "Философский аргумент о мыслимом разветвлении, не экспериментальная загрузка.",
+    "checked_at_utc": "2026-09-23T04:27:50+00:00"
+  },
+  {
+    "id": "I8",
+    "title": "Shiu et al., A Drosophila computational brain model reveals sensorimotor processing",
+    "url": "https://www.nature.com/articles/s41586-024-07763-9",
+    "year": 2024,
+    "read_depth": "Аннотация и индексированные фрагменты",
+    "limitations": "Упрощённая импульсная модель мозга дрозофилы и отдельные сенсомоторные задачи.",
+    "checked_at_utc": "2026-09-23T04:27:50+00:00"
+  },
+  {
+    "id": "I9",
+    "title": "Ramirez et al., Creating a false memory in the hippocampus",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23888038/",
+    "year": 2013,
+    "read_depth": "Авторская аннотация в PubMed",
+    "limitations": "Контекстное обучение и реакция замирания мыши, не вербальное содержимое памяти.",
+    "checked_at_utc": "2026-09-23T04:27:50+00:00"
+  },
+  {
+    "id": "I10",
+    "title": "Roy et al., Brain-wide mapping reveals that engrams for a single memory are distributed across multiple brain regions",
+    "url": "https://www.nature.com/articles/s41467-022-29384-4",
+    "year": 2022,
+    "read_depth": "Аннотация и фрагменты основного текста",
+    "limitations": "Частичная карта ансамблей одной контекстной памяти мыши по выбранным маркерам.",
+    "checked_at_utc": "2026-09-23T04:27:50+00:00"
+  },
+  {
+    "id": "I11",
+    "title": "Scoville and Milner, Loss of recent memory after bilateral hippocampal lesions",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/13406589/",
+    "year": 1957,
+    "read_depth": "Библиографическая запись оригинала и аннотация переиздания 2000 года PMID 10678523",
+    "limitations": "Девять неоднородных клинических случаев, исторические хирургические объёмы.",
+    "checked_at_utc": "2026-09-23T04:27:50+00:00"
+  },
+  {
+    "id": "I12",
+    "title": "Binz et al., A foundation model to predict and capture human cognition",
+    "url": "https://www.nature.com/articles/s41586-025-09215-4",
+    "year": 2025,
+    "read_depth": "Аннотация, введение и фрагменты методов/обсуждения открытой страницы издателя",
+    "limitations": "Psych-101: 160 экспериментов и более 10 млн выборов многих людей; не индивидуальное сознание.",
+    "checked_at_utc": "2026-09-23T04:27:50+00:00"
+  },
+  {
+    "id": "I13",
+    "title": "Namazova et al., Not Yet AlphaFold for the Mind: Evaluating Centaur as a Synthetic Participant",
+    "url": "https://arxiv.org/abs/2508.07887",
+    "year": 2025,
+    "read_depth": "Аннотация и индексированные фрагменты препринта",
+    "limitations": "Препринт; оценка генеративных распределений в определённых условиях не опровергает все прогнозы.",
+    "checked_at_utc": "2026-09-23T04:27:50+00:00"
+  },
+  {
+    "id": "I14",
+    "title": "Wang et al., Foundation model of neural activity predicts response to new stimulus types",
+    "url": "https://www.nature.com/articles/s41586-025-08829-y",
+    "year": 2025,
+    "read_depth": "Аннотация и фрагменты обсуждения издателя; обнаружена авторская поправка 2026, содержание поправки не проверено",
+    "limitations": "Динамические зрительные ответы коры мыши; не целый мозг и не личность. Поправка: https://www.nature.com/articles/s41586-026-10457-z",
+    "checked_at_utc": "2026-09-23T04:27:50+00:00"
+  },
+  {
+    "id": "I15",
+    "title": "Locke, An Essay Concerning Human Understanding, II.xxvii, Of Identity and Diversity",
+    "url": "https://www.gutenberg.org/files/10615/10615-h/10615-h.htm",
+    "year": 1694,
+    "read_depth": "Глава II.xxvii в доступном английском тексте; не филологическая сверка издания",
+    "limitations": "Философский первичный текст, не нейробиологическое доказательство.",
+    "checked_at_utc": "2026-09-23T04:27:50+00:00"
+  },
+  {
+    "id": "I16",
+    "title": "Eric T. Olson, The Human Animal: Personal Identity Without Psychology",
+    "url": "https://academic.oup.com/book/3191/chapter/144092799",
+    "year": 1997,
+    "read_depth": "Оглавление, аннотация издателя и доступные выдержки главы 6; полная книга не прочитана",
+    "limitations": "Первичный философский аргумент в главе The Biological Approach; не эмпирический эксперимент. Издание издателя также датировано 1999 годом.",
+    "checked_at_utc": "2026-09-23T04:27:50+00:00"
+  }
+]

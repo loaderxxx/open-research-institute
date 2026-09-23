@@ -1,0 +1,139 @@
+[
+  {
+    "id": "C1",
+    "title": "Identifying indicators of consciousness in AI systems",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41219038/",
+    "year": 2025,
+    "read_depth": "аннотация PubMed и метаданные; не полный текст",
+    "limitations": "Теоретико-методологическая статья; не эксперимент и не калибровка машинного переживания.",
+    "checked_at_utc": "2026-09-23",
+    "publication_dates": "online-first: 2025-11-10; journal issue: 2026-06",
+    "year_basis": "first online publication"
+  },
+  {
+    "id": "C2",
+    "title": "Adversarial testing of global neuronal workspace and integrated information theories of consciousness",
+    "url": "https://www.nature.com/articles/s41586-025-08888-1",
+    "year": 2025,
+    "read_depth": "открытый основной текст: введение, методы, результаты и обсуждение; дополнения выборочно по прежнему реестру",
+    "limitations": "Общая выборка 256; надпороговое человеческое зрение; частные анализы и математические ядра теорий не тождественны всему эксперименту.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "C3",
+    "title": "A theoretically based index of consciousness independent of sensory processing and behavior",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23946194/",
+    "year": 2013,
+    "read_depth": "аннотация PubMed и индексированный авторский результат",
+    "limitations": "PCI испытан на человеческих состояниях; не является точной формальной величиной IIT либо валидированным показателем для ИИ.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "C4",
+    "title": "No-Report Paradigms: Extracting the True Neural Correlates of Consciousness",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26585549/",
+    "year": 2015,
+    "read_depth": "аннотация PubMed и издательская аннотация",
+    "limitations": "Методологический аргумент о конфаунде отчета; безотчетный показатель сам требует валидации.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "C5",
+    "title": "Gamma band activity and the P3 reflect post-perceptual processes, not visual awareness",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4169212/",
+    "year": 2014,
+    "read_depth": "аннотация PubMed и доступные выдержки открытого полного текста",
+    "limitations": "Зрительная задача; не доказывает отсутствие всякой лобной роли при всех видах сознания.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "C6",
+    "title": "Distilling the neural correlates of consciousness",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22192881/",
+    "year": 2012,
+    "read_depth": "аннотация PubMed",
+    "limitations": "Методологический обзор предпосылок и последствий NCC, не отдельный причинный опыт.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "C7",
+    "title": "Conscious Processing and the Global Neuronal Workspace Hypothesis",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8770991/",
+    "year": 2020,
+    "read_depth": "аннотация PubMed и доступный основной текст обзорной статьи выборочно",
+    "limitations": "Авторский обзор GNWT; отдельные временные прогнозы зависят от модели и задачи.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "C8",
+    "title": "Integrated information theory (IIT) 4.0: Formulating the properties of phenomenal existence in physical terms",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10581496/",
+    "year": 2023,
+    "read_depth": "аннотация и выборочные разделы открытого текста",
+    "limitations": "Авторский формализм; спорные аксиомы и сложность переноса на реальные большие сети.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "C9",
+    "title": "A higher-order theory of emotional consciousness",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5347624/",
+    "year": 2017,
+    "read_depth": "аннотация и выборочные разделы открытого текста",
+    "limitations": "Одна версия семейства теорий высшего порядка, не единая позиция всех авторов.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "C10",
+    "title": "Visual Functions Generating Conscious Seeing",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32116908/",
+    "year": 2020,
+    "read_depth": "аннотация PubMed и открытый обзорный текст выборочно",
+    "limitations": "Авторская интерпретация зрительной возвратной обработки; не прямой тест всех теорий.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "C11",
+    "title": "Consciousness and cortical reactivity: a within-state study during non-rapid eye movement sleep",
+    "url": "https://www.nature.com/articles/srep30932",
+    "year": 2016,
+    "read_depth": "аннотация и выборочные разделы открытого текста",
+    "limitations": "Последующий отчет при пробуждении зависит от памяти; NREM не единое феноменальное состояние.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "C12",
+    "title": "Cognitive Motor Dissociation in Disorders of Consciousness",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39141852/",
+    "year": 2024,
+    "read_depth": "аннотация PubMed и библиографические сведения",
+    "limitations": "60/241 относится к обследованным без внешнего выполнения команд; отрицательный тест не доказывает отсутствие опыта.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "C13",
+    "title": "An adversarial collaboration protocol for testing contrasting predictions of global neuronal workspace and integrated information theory",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0268577",
+    "year": 2023,
+    "read_depth": "аннотация и основные разделы открытого протокола выборочно",
+    "limitations": "Пререгистрированный план не является результатами; переход от теории к измерению включает допущения.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "C14",
+    "title": "GNW theoretical framework and the “adversarial testing of global neuronal workspace and integrated information theories of consciousness”",
+    "url": "https://academic.oup.com/nc/article/2025/1/niaf037/8280147",
+    "year": 2025,
+    "read_depth": "основной аргумент по прежнему реестру и поисковой проверке; исправленную версию не сверили",
+    "limitations": "Заинтересованный ответ сторонников GNWT, не независимое повторение; есть коррекция C15 с неизвестным содержанием.",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "C15",
+    "title": "Correction to: GNW theoretical framework and the “adversarial testing of global neuronal workspace and integrated information theories of consciousness”",
+    "url": "https://academic.oup.com/nc/article/2026/1/niag020/8666310",
+    "year": 2026,
+    "read_depth": "только метаданные и поисковый сниппет; содержание недоступно",
+    "limitations": "Факт исправления подтвержден, предмет и влияние неизвестны; не приписывать конкретные изменения.",
+    "checked_at_utc": "2026-09-23"
+  }
+]

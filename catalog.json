@@ -2,98 +2,85 @@
   {
     "slug": "reliable-ai-research",
     "title": "Надёжные исследования с ИИ",
-    "report": "programs/reliable-ai-research/README.md",
-    "source_claims": 6,
-    "source_ids": [
-      "S01",
-      "S02",
-      "S03",
-      "S04",
-      "S05"
-    ]
+    "question": "Как отличить убедительный ответ от результата, который можно проверить?",
+    "page": "programs/reliable-ai-research/README.md",
+    "documents": [
+      "overview",
+      "agents-and-evaluation",
+      "evidence-and-citations"
+    ],
+    "status": "LITERATURE_REVIEW"
   },
   {
     "slug": "verified-learning",
     "title": "Обучение на проверенных результатах",
-    "report": "programs/verified-learning/README.md",
-    "source_claims": 8,
-    "source_ids": [
-      "S03",
-      "S06",
-      "S07",
-      "S08",
-      "S09",
-      "S10",
-      "S11",
-      "S12"
-    ]
+    "question": "Какие данные и способы проверки действительно помогают обучению моделей?",
+    "page": "programs/verified-learning/README.md",
+    "documents": [
+      "overview",
+      "process-verification",
+      "synthetic-data"
+    ],
+    "status": "LITERATURE_REVIEW"
   },
   {
     "slug": "consciousness",
     "title": "Сознание и измерение",
-    "report": "programs/consciousness/README.md",
-    "source_claims": 2,
-    "source_ids": [
-      "C1",
-      "C2",
-      "C5"
-    ]
+    "question": "Что можно измерить в исследованиях сознания, а что пока остаётся интерпретацией?",
+    "page": "programs/consciousness/README.md",
+    "documents": [
+      "overview",
+      "indicators-and-measurement",
+      "theories-and-evidence"
+    ],
+    "status": "LITERATURE_REVIEW"
   },
   {
     "slug": "digital-continuity",
     "title": "Цифровая непрерывность личности",
-    "report": "programs/digital-continuity/README.md",
-    "source_claims": 4,
-    "source_ids": [
-      "I1",
-      "I2",
-      "I3",
-      "I4",
-      "I5",
-      "I7"
-    ]
+    "question": "Что сохраняют данные о человеке и где проходит граница между моделью и личностью?",
+    "page": "programs/digital-continuity/README.md",
+    "documents": [
+      "overview",
+      "connectomics-and-memory",
+      "identity-and-models"
+    ],
+    "status": "LITERATURE_REVIEW"
   },
   {
     "slug": "religion-and-cooperation",
     "title": "Религия, ритуал и сотрудничество",
-    "report": "programs/religion-and-cooperation/README.md",
-    "source_claims": 4,
-    "source_ids": [
-      "R0",
-      "R1",
-      "R2",
-      "R3",
-      "R4",
-      "R5",
-      "R6"
-    ]
+    "question": "Как связаны религиозные представления, ритуалы и совместное действие?",
+    "page": "programs/religion-and-cooperation/README.md",
+    "documents": [
+      "overview",
+      "religion-and-institutions",
+      "ritual-and-cooperation"
+    ],
+    "status": "LITERATURE_REVIEW"
   },
   {
     "slug": "voluntary-governance",
     "title": "Добровольная координация",
-    "report": "programs/voluntary-governance/README.md",
-    "source_claims": 5,
-    "source_ids": [
-      "G1",
-      "G2",
-      "G3",
-      "G4",
-      "G5"
-    ]
+    "question": "При каких условиях люди поддерживают общие правила и подотчётность?",
+    "page": "programs/voluntary-governance/README.md",
+    "documents": [
+      "overview",
+      "commons-and-polycentricity",
+      "participation-and-accountability"
+    ],
+    "status": "LITERATURE_REVIEW"
   },
   {
     "slug": "philosophy-and-meaning",
     "title": "Философия и смысл",
-    "report": "programs/philosophy-and-meaning/README.md",
-    "source_claims": 6,
-    "source_ids": [
-      "P1",
-      "P2",
-      "P3",
-      "P4",
-      "P5",
-      "P6",
-      "P7"
-    ]
+    "question": "Как обсуждать ценности и смысл, сохраняя различие между аргументом и измерением?",
+    "page": "programs/philosophy-and-meaning/README.md",
+    "documents": [
+      "overview",
+      "pluralism-and-measurement",
+      "theories-of-meaning"
+    ],
+    "status": "LITERATURE_REVIEW"
   }
 ]

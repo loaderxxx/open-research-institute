@@ -1,0 +1,137 @@
+[
+  {
+    "id": "S03",
+    "title": "SWE-Bench+: Enhanced Coding Benchmark for LLMs",
+    "url": "https://arxiv.org/abs/2410.06992",
+    "year": 2024,
+    "read_depth": "аннотация и HTML: результаты и заключение",
+    "limitations": "оценки из аудита успешных патчей конкретной системы; не универсальный процент ошибки любого бенчмарка",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "S04",
+    "title": "Judging the Judges: A Systematic Study of Position Bias in LLM-as-a-Judge",
+    "url": "https://arxiv.org/html/2406.07791v9",
+    "year": 2025,
+    "read_depth": "аннотация v9 и HTML v9; ранее прочитанные детали из ранней версии использованы лишь для общей качественной формулировки",
+    "limitations": "смещение зависит от модели, задачи и разницы качества; не измеряет все виды неверифицируемых утверждений",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "S06",
+    "title": "Training Verifiers to Solve Math Word Problems",
+    "url": "https://arxiv.org/abs/2110.14168",
+    "year": 2021,
+    "read_depth": "аннотация и HTML: схема обучения, абляции",
+    "limitations": "арифметические задачи с известным ответом; в собственной процедуре требовались большие числа выборок",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "S07",
+    "title": "Let's Verify Step by Step",
+    "url": "https://arxiv.org/abs/2305.20050",
+    "year": 2023,
+    "read_depth": "аннотация и HTML, ключевые результаты",
+    "limitations": "MATH и дорогостоящие экспертные пометки шагов; нельзя переносить результат на произвольные рабочие эпизоды",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "S08",
+    "title": "Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes",
+    "url": "https://arxiv.org/abs/2305.02301",
+    "year": 2023,
+    "read_depth": "аннотация и HTML: обзор метода",
+    "limitations": "четыре NLP-бенчмарка; хорошие учебные сигналы не доказывают истинность каждого объяснения",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "S09",
+    "title": "STaR: Bootstrapping Reasoning With Reasoning",
+    "url": "https://arxiv.org/abs/2203.14465",
+    "year": 2022,
+    "read_depth": "аннотация; схема итерации",
+    "limitations": "правильный конечный ответ не подтверждает корректность рационализации; требуется известный ответ",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "S10",
+    "title": "AI models collapse when trained on recursively generated data",
+    "url": "https://www.nature.com/articles/s41586-024-07566-y",
+    "year": 2024,
+    "read_depth": "аннотация и HTML: методы, ограничения модели рекурсии",
+    "limitations": "опасность при рекурсивном замещении/загрязнении, не запрет любой синтетики",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "S11",
+    "title": "Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data",
+    "url": "https://arxiv.org/abs/2404.01413",
+    "year": 2024,
+    "read_depth": "аннотация",
+    "limitations": "сохранение исходных данных предотвращало конкретную метрику коллапса, не гарантирует правильность каждого нового эпизода",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "S12",
+    "title": "Textbooks Are All You Need",
+    "url": "https://arxiv.org/abs/2306.11644",
+    "year": 2023,
+    "read_depth": "аннотация",
+    "limitations": "значимые ресурсы обучения и смесь отобранных веб-данных с синтетикой; результаты на кодовых тестах не общий рецепт",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "VL13",
+    "title": "Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations",
+    "url": "https://arxiv.org/abs/2312.08935",
+    "year": 2023,
+    "read_depth": "аннотация и библиографическая страница v3",
+    "limitations": "автоматическая метка шага выведена из последующих исходов; это не независимая человеческая проверка и исследовано на математике",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "VL14",
+    "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+    "url": "https://arxiv.org/abs/2310.01798",
+    "year": 2023,
+    "read_depth": "аннотация и библиографическая страница",
+    "limitations": "исследуется внутренняя самокоррекция без внешней обратной связи; вывод не отрицает полезность проверяемых инструментов",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "VL15",
+    "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+    "url": "https://arxiv.org/abs/2203.11171",
+    "year": 2022,
+    "read_depth": "аннотация и поисковая запись первичной статьи",
+    "limitations": "согласие выборок повышает точность изученных задач, но не доказывает истинность согласованного ответа",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "VL16",
+    "title": "Collapse or Thrive? Perils and Promises of Synthetic Data in a Self-Generating World",
+    "url": "https://arxiv.org/abs/2410.16713",
+    "year": 2024,
+    "read_depth": "аннотация и библиографическая страница",
+    "limitations": "три модельных постановки; режим ограниченного объёма показывает постепенную деградацию и не обобщается на все корпуса",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "VL17",
+    "title": "Author Correction: AI models collapse when trained on recursively generated data",
+    "url": "https://www.nature.com/articles/s41586-025-08905-3",
+    "year": 2025,
+    "read_depth": "полный текст краткого уведомления об исправлении",
+    "limitations": "исправление обозначений α, β, γ в разделе теоретической интуиции; не является отзывом работы",
+    "checked_at_utc": "2026-09-23"
+  },
+  {
+    "id": "VL18",
+    "title": "LLMs cannot find reasoning errors, but can correct them when given the error location",
+    "url": "https://arxiv.org/abs/2311.08516",
+    "year": 2023,
+    "read_depth": "аннотация в результатах первичной публикации",
+    "limitations": "постановка локализации логической ошибки ограничена исследованными моделями и задачами",
+    "checked_at_utc": "2026-09-23"
+  }
+]
