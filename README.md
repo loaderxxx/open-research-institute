@@ -64,3 +64,11 @@ Open Research Institute — независимая исследовательс�
 Расширенные библиографии находятся на страницах каждой программы. Числа исходного выпуска не следует считать объёмом всей новой библиотеки.
 
 Исправления можно предлагать через Issues: укажите файл и раздел, первоисточник, проблему и предлагаемую формулировку. Не размещайте в публичных обсуждениях конфиденциальные сведения или персональные данные. Дата текущего выпуска: **23 сентября 2026 года**.
+
+## Contact / Контакты
+
+For project inquiries and technology collaboration: **[vladimir.uzbek.ai@gmail.com](mailto:vladimir.uzbek.ai@gmail.com)**.
+
+По вопросам проектов и сотрудничества: **[vladimir.uzbek.ai@gmail.com](mailto:vladimir.uzbek.ai@gmail.com)**.
+
+[Personal technology portfolio](https://personal-portfolio-web-production-1e48.up.railway.app/) · [All public GitHub projects](https://github.com/loaderxxx?tab=repositories&type=public).
