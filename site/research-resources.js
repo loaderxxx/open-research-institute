@@ -8,6 +8,7 @@ const ROOT = path.resolve(__dirname, '..');
 const MAP_ROOT = path.join(ROOT, 'programs');
 const md = new MarkdownIt();
 const resourceCache = new Map();
+const { getSourceAnalyses } = require('./source-analyses');
 
 // The catalogue is the allowlist: callers can never turn a slug into an
 // arbitrary filesystem path.
@@ -241,6 +242,19 @@ function getResearchResources(slug, lang) {
   try {
     const contents = fs.readFileSync(filepath, 'utf8');
     const parsed = parseResearchMap(contents);
+    const analyses = getSourceAnalyses(slug);
+    for (const kind of ['books', 'studies', 'researchers']) {
+      parsed[kind] = parsed[kind].map((entry, i) => {
+        const analysis = analyses.find(a => a.kind === kind && a.ordinal === i + 1);
+        return analysis ? { ...entry, analysis: {
+          url: '/' + analysis[lang === 'en' ? 'markdown_en' : 'markdown'],
+          deepUrl: analysis.deep_markdown ? '/' + analysis[lang === 'en' ? 'deep_markdown_en' : 'deep_markdown'] : null,
+          summary: analysis.summary[lang],
+          status: analysis.status,
+          longFormStatus: analysis.long_form_status,
+        } } : entry;
+      });
+    }
     const resources = {
       mapUrl: `/programs/${slug}/RESEARCH_MAP${lang === 'en' ? '.en' : ''}.md`,
       ...parsed,

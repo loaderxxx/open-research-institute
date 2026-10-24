@@ -1,0 +1,311 @@
+[
+  {
+    "id": "book-01",
+    "kind": "books",
+    "ordinal": 1,
+    "title": {
+      "ru": "Bruce Alberts et al. — Molecular Biology of the Cell, 7-е издание (2022)",
+      "en": "Bruce Alberts et al. — Molecular Biology of the Cell, 7th edition (2022)"
+    },
+    "summary": {
+      "ru": "Книга рассматривается как основа для различения последовательности, хроматина, экспрессии и клеточной функции. Предлагаемый разбор строит цепочку доказательств между этими уровнями.",
+      "en": "The book supplies a framework for distinguishing sequence, chromatin, expression and cellular function. The assessment develops an evidence chain between these levels."
+    },
+    "markdown": "programs/genomics/analysis/book-01.md",
+    "markdown_en": "programs/genomics/analysis/book-01.en.md",
+    "source_url": "https://seagull.wwnorton.com/molecularbiologycell",
+    "access": "publisher_description",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://seagull.wwnorton.com/molecularbiologycell",
+      "https://digital.wwnorton.com/179437?demo="
+    ],
+    "access_note": {
+      "ru": "Описание Norton; демоинтерфейс не выдал текст глав.",
+      "en": "Norton description; the demonstration interface did not expose chapter text."
+    }
+  },
+  {
+    "id": "book-02",
+    "kind": "books",
+    "ordinal": 2,
+    "title": {
+      "ru": "James D. Watson et al. — Molecular Biology of the Gene, 7-е издание (2014)",
+      "en": "James D. Watson et al. — Molecular Biology of the Gene, 7th edition (2014)"
+    },
+    "summary": {
+      "ru": "Структура, сохранение, экспрессия и регуляция генома; проверено издательское оглавление седьмого издания.",
+      "en": "Genome structure, maintenance, expression and regulation; the publisher contents for the seventh edition were checked."
+    },
+    "markdown": "programs/genomics/analysis/book-02.md",
+    "markdown_en": "programs/genomics/analysis/book-02.en.md",
+    "source_url": "https://www.pearson.com/en-us/subject-catalog/p/molecular-biology-of-the-gene/P200000003297/9780321762436",
+    "access": "publisher_description",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://www.pearson.com/en-us/subject-catalog/p/molecular-biology-of-the-gene/P200000003297/9780321762436",
+      "https://www.cshlpress.com/link/mbog7.htm",
+      "https://in.pearson.com/content/dam/region-growth/india/pearson-india/Support/pdf/Catalog-BIOSCIENCE-2019-FINAL.pdf"
+    ],
+    "access_note": {
+      "ru": "Проверено 24 октября 2026 года: основной адрес Pearson недоступен; в официальном каталоге Pearson India 2019 прочитаны описание и оглавление седьмого издания (региональная запись 2017, печатная страница каталога 49). Главы книги не прочитаны; полная сверка региональных изданий не выполнялась.",
+      "en": "Checked 24 October 2026: the original Pearson URL was inaccessible; the official 2019 Pearson India catalogue supplied a description and contents for the seventh edition (regional listing dated 2017, printed catalogue page 49). Book chapters were not read; regional editions were not fully collated."
+    }
+  },
+  {
+    "id": "book-03",
+    "kind": "books",
+    "ordinal": 3,
+    "title": {
+      "ru": "Maxine Singer и Paul Berg — Genes & Genomes (1991)",
+      "en": "Maxine Singer and Paul Berg — Genes & Genomes (1991)"
+    },
+    "summary": {
+      "ru": "Исторический учебник полезен для сравнения экспериментальной логики молекулярной генетики с современными геномными картами. Разбор отделяет масштаб данных от силы причинного вывода.",
+      "en": "The historical textbook supports comparison of molecular-genetics reasoning with modern genomic maps. The assessment separates data scale from strength of causal inference."
+    },
+    "markdown": "programs/genomics/analysis/book-03.md",
+    "markdown_en": "programs/genomics/analysis/book-03.en.md",
+    "source_url": "https://mitpress.mit.edu/9780935702170/genes-and-genomes/",
+    "access": "publisher_description",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://mitpress.mit.edu/9780935702170/genes-and-genomes/"
+    ],
+    "access_note": {
+      "ru": "Библиографическая запись и краткое описание MIT Press; главы недоступны в проверенном материале.",
+      "en": "MIT Press bibliographic record and short description; no chapter content in inspected material."
+    }
+  },
+  {
+    "id": "study-01",
+    "kind": "studies",
+    "ordinal": 1,
+    "title": {
+      "ru": "Kagda et al. (2025) — Data navigation on the ENCODE portal",
+      "en": "Kagda et al. (2025) — Data navigation on the ENCODE portal"
+    },
+    "summary": {
+      "ru": "Описание ENCODE помогает отличать экспериментальные данные, функциональные проверки и вычислительные аннотации. Для ORI важны точное происхождение файлов и воспроизводимый отбор поднабора.",
+      "en": "The ENCODE description distinguishes experimental data, functional tests and computational annotations. ORI needs precise file provenance and reproducible subset selection."
+    },
+    "markdown": "programs/genomics/analysis/study-01.md",
+    "markdown_en": "programs/genomics/analysis/study-01.en.md",
+    "source_url": "https://www.nature.com/articles/s41467-025-64343-9",
+    "access": "selected_sections",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.nature.com/articles/s41467-025-64343-9"
+    ],
+    "access_note": {
+      "ru": "Аннотация, введение и разделы о данных, обработке и поиске; файлы экспериментов не скачивались.",
+      "en": "Abstract, introduction and sections on data, processing and search; experiment files were not downloaded."
+    }
+  },
+  {
+    "id": "study-02",
+    "kind": "studies",
+    "ordinal": 2,
+    "title": {
+      "ru": "Xie et al. (2025) — DNA-guided transcription factor interactions extend human gene regulatory code",
+      "en": "Xie et al. (2025) — DNA-guided transcription factor interactions extend human gene regulatory code"
+    },
+    "summary": {
+      "ru": "CAP-SELEX показывает контекстность совместного распознавания ДНК транскрипционными факторами. Разбор отделяет биохимическое предпочтение от функции в конкретной клетке.",
+      "en": "CAP-SELEX reveals contextual joint DNA recognition by transcription factors. The analysis separates biochemical preference from function in a particular cell."
+    },
+    "markdown": "programs/genomics/analysis/study-02.md",
+    "markdown_en": "programs/genomics/analysis/study-02.en.md",
+    "source_url": "https://www.nature.com/articles/s41586-025-08844-z",
+    "access": "selected_sections",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://doi.org/10.1038/s41586-025-08844-z"
+    ],
+    "access_note": {
+      "ru": "Индексированные аннотация и отдельные разделы; наличие исправления отмечено, его содержание и дополнения отдельно не проверены.",
+      "en": "Indexed abstract and selected sections; a correction is noted but its contents and supplements were not separately assessed."
+    }
+  },
+  {
+    "id": "study-03",
+    "kind": "studies",
+    "ordinal": 3,
+    "title": {
+      "ru": "Dorans et al. (2025) — Linking regulatory variants to target genes by integrating single-cell multiome methods and genomic distance",
+      "en": "Dorans et al. (2025) — Linking regulatory variants to target genes by integrating single-cell multiome methods and genomic distance"
+    },
+    "summary": {
+      "ru": "pgBoost объединяет регуляторные оценки и расстояние для ранжирования связей варианта и гена. Разбор рассматривает простые ориентиры, калибровку и независимость проверки.",
+      "en": "pgBoost combines regulatory scores and distance to rank variant–gene links. The analysis considers simple baselines, calibration and independent evaluation."
+    },
+    "markdown": "programs/genomics/analysis/study-03.md",
+    "markdown_en": "programs/genomics/analysis/study-03.en.md",
+    "source_url": "https://doi.org/10.1038/s41588-025-02220-3",
+    "access": "abstract",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.nature.com/articles/s41588-025-02220-3",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12704523/"
+    ],
+    "access_note": {
+      "ru": "Подписной preview: аннотация и открытые подписи extended data; основной текст не прочитан. PMC-рукопись найдена, прямой доступ показал CAPTCHA.",
+      "en": "Subscription preview: abstract and public extended-data captions; main text not read. PMC manuscript located, direct retrieval displayed CAPTCHA."
+    }
+  },
+  {
+    "id": "study-04",
+    "kind": "studies",
+    "ordinal": 4,
+    "title": {
+      "ru": "Sheth et al. (2026) — Mapping enhancer–gene regulatory interactions from single-cell data",
+      "en": "Sheth et al. (2026) — Mapping enhancer–gene regulatory interactions from single-cell data"
+    },
+    "summary": {
+      "ru": "scE2G связывает single-cell признаки с обучением на CRISPR-проверках элемент–ген. Разбор подчёркивает смысл отрицательных меток и пределы переноса между клеточными контекстами.",
+      "en": "scE2G connects single-cell features with training on CRISPR element–gene tests. The assessment emphasises negative-label meaning and limits of cellular-context transfer."
+    },
+    "markdown": "programs/genomics/analysis/study-04.md",
+    "markdown_en": "programs/genomics/analysis/study-04.en.md",
+    "source_url": "https://www.nature.com/articles/s41588-026-02695-8",
+    "access": "selected_sections",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.nature.com/articles/s41588-026-02695-8",
+      "https://pubmed.ncbi.nlm.nih.gov/42547575/"
+    ],
+    "access_note": {
+      "ru": "Аннотация, введение и начальные результаты опубликованной версии 3 августа 2026; код и дополнения не проверены.",
+      "en": "Abstract, introduction and initial results of the published 3 August 2026 version; code and supplements not assessed."
+    }
+  },
+  {
+    "id": "study-05",
+    "kind": "studies",
+    "ordinal": 5,
+    "title": {
+      "ru": "Fu et al. (2025) — A foundation model of transcription across human cell types",
+      "en": "Fu et al. (2025) — A foundation model of transcription across human cell types"
+    },
+    "summary": {
+      "ru": "GET предсказывает экспрессию из последовательности и доступности хроматина. Разбор различает этапы обучения, перенос на новые типы и причинную интерпретацию прогнозов.",
+      "en": "GET predicts expression from sequence and chromatin accessibility. The analysis distinguishes training stages, transfer to new types and causal interpretation."
+    },
+    "markdown": "programs/genomics/analysis/study-05.md",
+    "markdown_en": "programs/genomics/analysis/study-05.en.md",
+    "source_url": "https://www.nature.com/articles/s41586-024-08391-z",
+    "access": "selected_sections",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.nature.com/articles/s41586-024-08391-z",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11754112/"
+    ],
+    "access_note": {
+      "ru": "Индексированные аннотация, введение и выбранные разделы обучения и обсуждения; код и веса не проверялись.",
+      "en": "Indexed abstract, introduction and selected training and discussion sections; code and weights not assessed."
+    }
+  },
+  {
+    "id": "researcher-01",
+    "kind": "researchers",
+    "ordinal": 1,
+    "title": {
+      "ru": "Robin H. van der Weide — многослойная регуляция генома и клеточная идентичность",
+      "en": "Robin H. van der Weide — multilayer genome regulation and cell identity"
+    },
+    "summary": {
+      "ru": "Van der Weide соединяет регуляторные слои генома и клеточную идентичность. Разбор совместной работы о гаплотипах различает аллельную ассоциацию, предсказание и функциональную проверку.",
+      "en": "Van der Weide connects regulatory genome layers with cell identity. The collaborative haplotyping example distinguishes allelic association, prediction and functional testing."
+    },
+    "markdown": "programs/genomics/analysis/researcher-01.md",
+    "markdown_en": "programs/genomics/analysis/researcher-01.en.md",
+    "source_url": "https://research.umcutrecht.nl/researchers/robin-h-van-der-weide/",
+    "access": "institutional_profile",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://research.umcutrecht.nl/researchers/robin-h-van-der-weide/",
+      "https://doi.org/10.1038/s41467-026-72392-x",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13333882/"
+    ],
+    "access_note": {
+      "ru": "Профиль и выбранные разделы Magnitov et al.; полный корпус и дополнения не изучались.",
+      "en": "Profile and selected Magnitov et al. sections; the full corpus and supplements were not examined."
+    }
+  },
+  {
+    "id": "researcher-02",
+    "kind": "researchers",
+    "ordinal": 2,
+    "title": {
+      "ru": "Jesse M. Engreitz — функциональные карты регуляторных элементов и генов",
+      "en": "Jesse M. Engreitz — functional maps linking regulatory elements and genes"
+    },
+    "summary": {
+      "ru": "Лаборатория Engreitz строит функциональные регуляторные карты. Разбор сравнивает типы вмешательств и требует сохранять клеточный контекст каждого подтверждения.",
+      "en": "The Engreitz laboratory develops functional regulatory maps. The analysis compares intervention types and preserves the cellular context of each validation."
+    },
+    "markdown": "programs/genomics/analysis/researcher-02.md",
+    "markdown_en": "programs/genomics/analysis/researcher-02.en.md",
+    "source_url": "https://engreitzlab.org/",
+    "access": "institutional_profile",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.engreitzlab.org/",
+      "https://www.engreitzlab.org/publications",
+      "https://www.nature.com/articles/s41588-026-02695-8"
+    ],
+    "access_note": {
+      "ru": "Официальный сайт с www, список публикаций и выбранные разделы scE2G; код не проверялся.",
+      "en": "Official www site, publication list and selected scE2G sections; code not assessed."
+    }
+  },
+  {
+    "id": "researcher-03",
+    "kind": "researchers",
+    "ordinal": 3,
+    "title": {
+      "ru": "Evgeny Z. Kvon — дальняя регуляция генов и Range Extender",
+      "en": "Evgeny Z. Kvon — distal gene regulation and Range Extender"
+    },
+    "summary": {
+      "ru": "Работа группы Kvon о REX разделяет тканевую активность энхансера и дальность его действия. Разбор рассматривает экспериментальный контекст и пределы обобщения.",
+      "en": "The Kvon group’s REX work separates enhancer tissue activity from its range of action. The analysis considers experimental context and limits of generalisation."
+    },
+    "markdown": "programs/genomics/analysis/researcher-03.md",
+    "markdown_en": "programs/genomics/analysis/researcher-03.en.md",
+    "source_url": "https://devcell.bio.uci.edu/new-discovery-reveals-hidden-dna-element-that-helps-switch-on-genes-from-afar/",
+    "access": "institutional_profile",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://devcell.bio.uci.edu/new-discovery-reveals-hidden-dna-element-that-helps-switch-on-genes-from-afar/",
+      "https://www.nature.com/articles/s41586-025-09221-6",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12267059/"
+    ],
+    "access_note": {
+      "ru": "Институциональная новость и индексированные аннотация и результаты Bower et al.; дополнения не изучались.",
+      "en": "Institutional news and indexed Bower et al. abstract and results; supplements were not examined."
+    }
+  }
+]

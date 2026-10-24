@@ -39,8 +39,8 @@
 ## Researchers and teams active in the field
 
 - **Erik Brynjolfsson — Stanford Graduate School of Business / Digital Economy Lab.** Studies productivity and digital technologies; a concrete recent contribution is [“Generative AI at Work”](https://www.gsb.stanford.edu/faculty-research/publications/generative-ai-work), published in *QJE* in 2025. [Institutional profile](https://www.gsb.stanford.edu/faculty-research/faculty/erik-brynjolfsson).
-- **Danielle Li — MIT Sloan, NBER.** Studies innovation economics, labour markets and AI; a concrete recent contribution is co-authorship of the [randomised Copilot study across 66 firms](https://www.nber.org/papers/w33795) (2025). [MIT Sloan profile](https://mitsloan.mit.edu/faculty/directory/danielle-li).
-- **Christopher T. Stanton — Harvard Business School.** Studies organisational economics and technology at work; a concrete recent contribution is co-authorship of [“Shifting Work Patterns with Generative AI”](https://www.nber.org/papers/w33795) (2025). [HBS profile](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=489797).
+- **Danielle Li — MIT Sloan, NBER.** Studies innovation economics, labour markets and AI; a concrete recent contribution is [“Generative AI at Work”](https://doi.org/10.1093/qje/qjae044) with Erik Brynjolfsson and Lindsey Raymond (2025). Danielle Li is not an author of NBER w33795. [MIT Sloan profile](https://mitsloan.mit.edu/faculty/directory/danielle-li).
+- **Christopher T. Stanton — Harvard Business School.** Studies organisational economics and technology at work; a concrete recent contribution is co-authorship of [“Shifting Work Patterns with Generative AI”](https://www.nber.org/papers/w33795) (2025). [HBS profile](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452).
 
 ## Current questions and next reading
 

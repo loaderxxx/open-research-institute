@@ -1,0 +1,308 @@
+[
+  {
+    "id": "book-01",
+    "kind": "books",
+    "ordinal": 1,
+    "title": {
+      "ru": "Bruce Alberts et al. — Molecular Biology of the Cell, 7-е издание (2022)",
+      "en": "Bruce Alberts et al. — Molecular Biology of the Cell, 7th edition (2022)"
+    },
+    "summary": {
+      "ru": "Учебник задаёт понятийную основу для связи клеточной организации, формы и взаимодействий. Разбор отделяет измеряемые признаки от причинных объяснений ткани.",
+      "en": "A conceptual foundation for relating cellular organisation, morphology and interactions. The analysis separates measured features from causal explanations of tissue behaviour."
+    },
+    "markdown": "programs/biology/analysis/book-01.md",
+    "markdown_en": "programs/biology/analysis/book-01.en.md",
+    "source_url": "https://seagull.wwnorton.com/molecularbiologycell",
+    "access": "publisher_description",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://seagull.wwnorton.com/molecularbiologycell",
+      "https://digital.wwnorton.com/179437?demo="
+    ],
+    "access_note": {
+      "ru": "Описание Norton; демоинтерфейс не выдал текст глав.",
+      "en": "Norton description; the demonstration interface did not expose chapter text."
+    }
+  },
+  {
+    "id": "book-02",
+    "kind": "books",
+    "ordinal": 2,
+    "title": {
+      "ru": "Tickle, Martinez Arias, Placzek и Wolpert — Wolpert’s Principles of Development, 7-е издание (2025)",
+      "en": "Tickle, Martinez Arias, Placzek and Wolpert — Wolpert’s Principles of Development, 7th edition (2025)"
+    },
+    "summary": {
+      "ru": "Оглавление связывает морфогенез, дифференцировку и органогенез. Критический разбор предлагает различать описание формы, механизм её возникновения и результат вмешательства.",
+      "en": "The contents connect morphogenesis, differentiation and organogenesis. The assessment distinguishes description of form, its proposed mechanism and intervention outcomes."
+    },
+    "markdown": "programs/biology/analysis/book-02.md",
+    "markdown_en": "programs/biology/analysis/book-02.en.md",
+    "source_url": "https://www.oupjapan.co.jp/en/products/detail/65084",
+    "access": "publisher_description",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://www.oupjapan.co.jp/en/products/detail/65084"
+    ],
+    "access_note": {
+      "ru": "Индексированные описание и оглавление OUP; прямое открытие прерывалось, главы не прочитаны.",
+      "en": "Indexed OUP description and contents; direct retrieval failed, chapters were not read."
+    }
+  },
+  {
+    "id": "book-03",
+    "kind": "books",
+    "ordinal": 3,
+    "title": {
+      "ru": "Geoffrey M. Cooper — The Cell: A Molecular Approach, 8-е издание (2019)",
+      "en": "Geoffrey M. Cooper — The Cell: A Molecular Approach, 8th edition (2019)"
+    },
+    "summary": {
+      "ru": "Компактный учебник полезен для перехода от молекулярного механизма к измерению состояния клетки. Разбор различает индивидуальный ответ и изменение состава клеточной популяции.",
+      "en": "The concise textbook can support the transition from molecular mechanism to cell-state measurement. The assessment distinguishes individual responses from shifts in population composition."
+    },
+    "markdown": "programs/biology/analysis/book-03.md",
+    "markdown_en": "programs/biology/analysis/book-03.en.md",
+    "source_url": "https://learninglink.oup.com/protected/files/content/file/1561083639416-TheCell8e-Instructor-Manual-%26-Active-Learning-Guide.pdf",
+    "access": "publisher_description",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://learninglink.oup.com/access/cooper8e",
+      "https://learninglink.oup.com/protected/files/content/file/1561083639416-TheCell8e-Instructor-Manual-%26-Active-Learning-Guide.pdf"
+    ],
+    "access_note": {
+      "ru": "Открытое описание 8e; PDF преподавателя требует входа, главы не прочитаны. Издатель сообщает о замене 8e на 9e.",
+      "en": "Open 8e overview; the instructor PDF requires login and chapters were not read. The publisher marks 8e as replaced by 9e."
+    }
+  },
+  {
+    "id": "study-01",
+    "kind": "studies",
+    "ordinal": 1,
+    "title": {
+      "ru": "Chandrasekaran et al. (2024) — JUMP Cell Painting pilot",
+      "en": "Chandrasekaran et al. (2024) — JUMP Cell Painting pilot"
+    },
+    "summary": {
+      "ru": "JUMP pilot предоставляет изображения и профили после химических и генетических вмешательств. Разбор объясняет выбор независимой единицы наблюдения, проверку партий и границы морфологической интерпретации.",
+      "en": "JUMP pilot provides images and profiles after chemical and genetic perturbations. The analysis addresses independent observation units, batch checks and limits of morphological interpretation."
+    },
+    "markdown": "programs/biology/analysis/study-01.md",
+    "markdown_en": "programs/biology/analysis/study-01.en.md",
+    "source_url": "https://broadinstitute.github.io/cellpainting-gallery/complete_datasets.html",
+    "access": "selected_sections",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://broadinstitute.github.io/cellpainting-gallery/complete_datasets.html"
+    ],
+    "access_note": {
+      "ru": "Прочитано описание cpg0000-jump-pilot в каталоге; файлы данных не скачивались.",
+      "en": "Read the cpg0000-jump-pilot catalogue description; data files were not downloaded."
+    }
+  },
+  {
+    "id": "study-02",
+    "kind": "studies",
+    "ordinal": 2,
+    "title": {
+      "ru": "Cimini et al. (2023) — Optimizing the Cell Painting assay for image-based profiling",
+      "en": "Cimini et al. (2023) — Optimizing the Cell Painting assay for image-based profiling"
+    },
+    "summary": {
+      "ru": "Методическая статья оптимизирует Cell Painting по воспроизводимости и полезности морфологических профилей. Разбор отделяет качество измерения от доказательства биологического механизма.",
+      "en": "The methods paper optimises Cell Painting through reproducibility and utility of morphological profiles. The analysis separates measurement quality from evidence of biological mechanism."
+    },
+    "markdown": "programs/biology/analysis/study-02.md",
+    "markdown_en": "programs/biology/analysis/study-02.en.md",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10536784/",
+    "access": "selected_sections",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10536784/",
+      "https://www.nature.com/articles/s41596-023-00840-9"
+    ],
+    "access_note": {
+      "ru": "Индексированные аннотация, введение и оптимизация в PMC; прямой доступ показал CAPTCHA, дополнения не изучались.",
+      "en": "Indexed PMC abstract, introduction and optimisation sections; direct retrieval displayed CAPTCHA, supplements were not examined."
+    }
+  },
+  {
+    "id": "study-03",
+    "kind": "studies",
+    "ordinal": 3,
+    "title": {
+      "ru": "Piernitzki et al. (2025) — Self-assembly of hybrid 3D cultures by integrating living and synthetic cells",
+      "en": "Piernitzki et al. (2025) — Self-assembly of hybrid 3D cultures by integrating living and synthetic cells"
+    },
+    "summary": {
+      "ru": "Гибридные опухолевые культуры позволяют изучать совместную сборку живых и синтетических компонентов. Разбор различает включение, удержание и функциональное взаимодействие.",
+      "en": "Hybrid cancer cultures support investigation of living–synthetic co-assembly. The analysis distinguishes incorporation, retention and functional interaction."
+    },
+    "markdown": "programs/biology/analysis/study-03.md",
+    "markdown_en": "programs/biology/analysis/study-03.en.md",
+    "source_url": "https://doi.org/10.1038/s41467-025-66789-3",
+    "access": "selected_sections",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://doi.org/10.1038/s41467-025-66789-3"
+    ],
+    "access_note": {
+      "ru": "Прочитаны аннотация, введение и начальные результаты; дополнения и фильмы не изучались.",
+      "en": "Read the abstract, introduction and initial results; supplements and movies were not examined."
+    }
+  },
+  {
+    "id": "study-04",
+    "kind": "studies",
+    "ordinal": 4,
+    "title": {
+      "ru": "Eckert et al. (2025) — Capturing nematic order on tissue surfaces of arbitrary geometry",
+      "en": "Eckert et al. (2025) — Capturing nematic order on tissue surfaces of arbitrary geometry"
+    },
+    "summary": {
+      "ru": "Метод измеряет ориентационный порядок на криволинейных тканевых поверхностях. Разбор рассматривает геометрические ошибки и отделяет порядок от причинного механизма.",
+      "en": "The method measures orientational order on curved tissue surfaces. The assessment considers geometric errors and separates order from causal mechanism."
+    },
+    "markdown": "programs/biology/analysis/study-04.md",
+    "markdown_en": "programs/biology/analysis/study-04.en.md",
+    "source_url": "https://doi.org/10.1038/s41467-025-62694-x",
+    "access": "selected_sections",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.nature.com/articles/s41467-025-62694-x",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12356910/"
+    ],
+    "access_note": {
+      "ru": "Индексированные аннотация, подход, обсуждение и доступность данных; код не запускался.",
+      "en": "Indexed abstract, approach, discussion and availability sections; code was not run."
+    }
+  },
+  {
+    "id": "study-05",
+    "kind": "studies",
+    "ordinal": 5,
+    "title": {
+      "ru": "Al-Hilal et al. (2025) — Durotaxis is a driver and potential therapeutic target in lung fibrosis and metastatic pancreatic cancer",
+      "en": "Al-Hilal et al. (2025) — Durotaxis is a driver and potential therapeutic target in lung fibrosis and metastatic pancreatic cancer"
+    },
+    "summary": {
+      "ru": "Авторы связывают durotaxis с патологией в мышиных моделях. Разбор различает направленную миграцию, скорость, накопление клеток и пределы терапевтического вывода.",
+      "en": "The authors connect durotaxis to disease in mouse models. The analysis distinguishes directed migration, speed, cell accumulation and limits of therapeutic inference."
+    },
+    "markdown": "programs/biology/analysis/study-05.md",
+    "markdown_en": "programs/biology/analysis/study-05.en.md",
+    "source_url": "https://doi.org/10.1038/s41556-025-01697-8",
+    "access": "abstract",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.nature.com/articles/s41556-025-01697-8",
+      "https://pubmed.ncbi.nlm.nih.gov/40925952/"
+    ],
+    "access_note": {
+      "ru": "Аннотация и метаданные через индексированную страницу; методы и дополнения не проверены.",
+      "en": "Abstract and metadata through an indexed page; methods and supplements were not assessed."
+    }
+  },
+  {
+    "id": "researcher-01",
+    "kind": "researchers",
+    "ordinal": 1,
+    "title": {
+      "ru": "Alpha Yap — клеточная адгезия и механика эпителия",
+      "en": "Alpha Yap — cell adhesion and epithelial mechanics"
+    },
+    "summary": {
+      "ru": "Группа Yap связывает клеточную адгезию, механическую коммуникацию и целостность эпителия. Разбор предлагает оценивать локальное вмешательство, ответ соседей и функцию тканевого барьера отдельно.",
+      "en": "Yap’s group relates adhesion, mechanical communication and epithelial integrity. The analysis evaluates local perturbation, neighbouring responses and barrier function separately."
+    },
+    "markdown": "programs/biology/analysis/researcher-01.md",
+    "markdown_en": "programs/biology/analysis/researcher-01.en.md",
+    "source_url": "https://imb.uq.edu.au/research-groups/yap",
+    "access": "institutional_profile",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://imb.uq.edu.au/research-groups/yap",
+      "https://about.uq.edu.au/experts/150?page=0",
+      "https://www.nature.com/articles/s41467-025-62694-x"
+    ],
+    "access_note": {
+      "ru": "Профиль и список публикаций плюс выбранные разделы Eckert et al.; не полный обзор группы.",
+      "en": "Profile and publication list plus selected Eckert et al. sections; not a comprehensive group review."
+    }
+  },
+  {
+    "id": "researcher-02",
+    "kind": "researchers",
+    "ordinal": 2,
+    "title": {
+      "ru": "Oskar Staufer и коллеги — синтетические клетки и гибридные ткани",
+      "en": "Oskar Staufer and colleagues — synthetic cells and hybrid tissues"
+    },
+    "summary": {
+      "ru": "Staufer и коллеги используют синтетические компоненты для управляемых моделей клеточного окружения. Разбор оценивает минимально необходимые свойства интерфейса и границы функциональной эквивалентности.",
+      "en": "Staufer and colleagues use synthetic components in controlled models of cellular environments. The analysis examines minimal interface properties and limits of functional equivalence."
+    },
+    "markdown": "programs/biology/analysis/researcher-02.md",
+    "markdown_en": "programs/biology/analysis/researcher-02.en.md",
+    "source_url": "https://www.leibniz-inm.de/mitarbeiter/dr-staufer-oskar/",
+    "access": "institutional_profile",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.leibniz-inm.de/mitarbeiter/dr-staufer-oskar/",
+      "https://doi.org/10.1038/s41467-025-66789-3"
+    ],
+    "access_note": {
+      "ru": "Профиль INM и отдельные разделы Piernitzki et al.; полный корпус не оценивался.",
+      "en": "INM profile and selected Piernitzki et al. sections; the full corpus was not assessed."
+    }
+  },
+  {
+    "id": "researcher-03",
+    "kind": "researchers",
+    "ordinal": 3,
+    "title": {
+      "ru": "Steven (Shaogeng) Tang — клеточная поверхность и мембранное слияние",
+      "en": "Steven (Shaogeng) Tang — cell surfaces and membrane fusion"
+    },
+    "summary": {
+      "ru": "Tang изучает клеточное распознавание и мембранное слияние. Пример OBF13 помогает различать молекулярное связывание, адгезию и слияние мембран.",
+      "en": "Tang studies cell recognition and membrane fusion. The OBF13 example helps distinguish molecular binding, adhesion and membrane merger."
+    },
+    "markdown": "programs/biology/analysis/researcher-03.md",
+    "markdown_en": "programs/biology/analysis/researcher-03.en.md",
+    "source_url": "https://medicine.yale.edu/profile/shaogeng-tang/",
+    "access": "institutional_profile",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://medicine.yale.edu/profile/shaogeng-tang/",
+      "https://doi.org/10.1073/pnas.2425952122"
+    ],
+    "access_note": {
+      "ru": "Профиль Yale и индексированные аннотация, результаты и обсуждение PNAS; дополнения не изучались.",
+      "en": "Yale profile and indexed PNAS abstract, results and discussion; supplements were not examined."
+    }
+  }
+]

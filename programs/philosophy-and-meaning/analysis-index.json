@@ -1,0 +1,305 @@
+[
+  {
+    "id": "book-01",
+    "kind": "books",
+    "ordinal": 1,
+    "title": {
+      "ru": "Таддеус Мец — Meaning in Life: An Analytic Study",
+      "en": "Thaddeus Metz — Meaning in Life: An Analytic Study"
+    },
+    "summary": {
+      "ru": "Мец ищет общую основу осмысленной жизни через критическое сравнение философских теорий; его объективистская позиция требует отдельной оценки предпосылок.",
+      "en": "Metz seeks a common basis of meaningful lives through critical comparison of philosophical theories; his objectivist account requires scrutiny of its premises."
+    },
+    "source_url": "https://academic.oup.com/book/10038",
+    "access": "publisher_description",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://academic.oup.com/book/10038"
+    ],
+    "access_note": {
+      "ru": "Прочитаны издательская аннотация и метаданные. Полные главы не получены; конкретные ответы автора на возражения здесь не реконструируются.",
+      "en": "The publisher abstract and metadata were inspected. Complete chapters were not obtained; the author’s detailed replies to objections are not reconstructed here."
+    },
+    "markdown": "programs/philosophy-and-meaning/analysis/book-01.md",
+    "markdown_en": "programs/philosophy-and-meaning/analysis/book-01.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "book-02",
+    "kind": "books",
+    "ordinal": 2,
+    "title": {
+      "ru": "Сьюзен Вулф — Meaning in Life and Why It Matters",
+      "en": "Susan Wolf — Meaning in Life and Why It Matters"
+    },
+    "summary": {
+      "ru": "Смешанная теория Вулф соединяет личную вовлечённость с ценностью деятельности; ответ критикам уточняет, почему смысл нельзя свести к приятному переживанию.",
+      "en": "Wolf’s hybrid account joins personal engagement with valuable activity; her response to critics clarifies why meaning cannot be reduced to pleasant experience."
+    },
+    "source_url": "https://press.princeton.edu/books/paperback/9780691154466/meaning-in-life-and-why-it-matters",
+    "access": "selected_sections",
+    "long_form_status": "pending_close_reading",
+    "evidence_urls": [
+      "https://personal.lse.ac.uk/ROBERT49/teaching/ph103/pdf/WolfSusanne_2010_Meaning-in-Life-and-Why-It-Matters.pdf"
+    ],
+    "access_note": {
+      "ru": "Доступен полный PDF на институциональном сайте LSE. Прочитаны оглавление, фрагмент первой лекции (печатные с. 7–9) и ответ Вулф об эмоциональной составляющей и оценках жизни (с. 108–115). Весь сборник и комментарии не прочитаны.",
+      "en": "A complete PDF is available on LSE’s institutional site. The contents, a first-lecture passage (printed pp. 7–9) and Wolf’s response on subjective engagement and life assessments (pp. 108–115) were inspected. The entire volume and commentaries were not read."
+    },
+    "markdown": "programs/philosophy-and-meaning/analysis/book-02.md",
+    "markdown_en": "programs/philosophy-and-meaning/analysis/book-02.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "book-03",
+    "kind": "books",
+    "ordinal": 3,
+    "title": {
+      "ru": "Таддеус Мец и Джошуа Сикрис — What Makes Life Meaningful? A Debate",
+      "en": "Thaddeus Metz and Joshua Seachris — What Makes Life Meaningful? A Debate"
+    },
+    "summary": {
+      "ru": "Диалог сопоставляет роль Бога, структуру смысла и натуралистические основания; формат ответов помогает выявлять действительные точки разногласия.",
+      "en": "The dialogue compares God’s role, the structure of meaning and naturalistic foundations; its reply format helps identify genuine points of disagreement."
+    },
+    "source_url": "https://www.routledge.com/What-Makes-Life-Meaningful-A-Debate/Metz-Seachris/p/book/9781032566061",
+    "access": "publisher_description",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://www.routledge.com/What-Makes-Life-Meaningful-A-Debate/Metz-Seachris/p/book/9781032566061"
+    ],
+    "access_note": {
+      "ru": "Прочитаны индексируемые описание и оглавление издателя. Полный диалог и ответы не получены. Карточка указывает copyright 2024; исходная карта различает выпуск 2023 года и этот год авторского права.",
+      "en": "The indexed publisher description and contents were inspected. The complete dialogue and replies were not obtained. The record gives copyright 2024; the original map distinguishes a 2023 release from that copyright year."
+    },
+    "markdown": "programs/philosophy-and-meaning/analysis/book-03.md",
+    "markdown_en": "programs/philosophy-and-meaning/analysis/book-03.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-01",
+    "kind": "studies",
+    "ordinal": 1,
+    "title": {
+      "ru": "Таддеус Мец — The Meaning of Life, SEP, Winter 2025",
+      "en": "Thaddeus Metz — The Meaning of Life, SEP, Winter 2025"
+    },
+    "summary": {
+      "ru": "Энциклопедический обзор классифицирует аналитические теории смысла; архивная дата 2025 года не означает новую содержательную редакцию.",
+      "en": "The reference survey classifies analytic theories of meaning; its 2025 archive date does not signify a new substantive revision."
+    },
+    "source_url": "https://plato.stanford.edu/archives/win2025/entries/life-meaning/",
+    "access": "selected_sections",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://plato.stanford.edu/archives/win2025/entries/life-meaning/"
+    ],
+    "access_note": {
+      "ru": "Прочитаны введение, описание границ и выбранные разделы о сверхнатурализме, натурализме и субъективизме. Версия архивирована зимой 2025 года; указанная содержательная редакция — 9 февраля 2021 года. Библиография полностью не проверялась.",
+      "en": "The introduction, scope statement and selected sections on supernaturalism, naturalism and subjectivism were inspected. This is the Winter 2025 archive; the stated substantive revision is 9 February 2021. The bibliography was not fully checked."
+    },
+    "markdown": "programs/philosophy-and-meaning/analysis/study-01.md",
+    "markdown_en": "programs/philosophy-and-meaning/analysis/study-01.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-02",
+    "kind": "studies",
+    "ordinal": 2,
+    "title": {
+      "ru": "Roland Kipke — The Individuality of Meaning in Life",
+      "en": "Roland Kipke — The Individuality of Meaning in Life"
+    },
+    "summary": {
+      "ru": "Кипке уточняет объективизм через индивидуальные возможности и соответствие занятий человеку, не отождествляя индивидуальность с большей осмысленностью.",
+      "en": "Kipke refines objectivism through individual capacities and personal suitability without equating individuality with greater meaningfulness."
+    },
+    "source_url": "https://doi.org/10.1111/ejop.13050",
+    "access": "selected_sections",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://onlinelibrary.wiley.com/doi/10.1111/ejop.13050"
+    ],
+    "access_note": {
+      "ru": "Прочитаны аннотация, постановка проблемы и основные фрагменты разделов 2–3 об индивидуальности и пропорциональности. Полная последовательность ответов на возражения не разобрана.",
+      "en": "The abstract, problem statement and central passages of sections 2–3 on individuality and proportionality were inspected. The full sequence of replies to objections was not analysed."
+    },
+    "markdown": "programs/philosophy-and-meaning/analysis/study-02.md",
+    "markdown_en": "programs/philosophy-and-meaning/analysis/study-02.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-03",
+    "kind": "studies",
+    "ordinal": 3,
+    "title": {
+      "ru": "Koji Ota — The Dual Impact of Determinism on Meaning in Life",
+      "en": "Koji Ota — The Dual Impact of Determinism on Meaning in Life"
+    },
+    "summary": {
+      "ru": "Условный аргумент Оты связывает отсутствие свободы с ослаблением как положительного смысла, так и антисмысла; он не доказывает истинность детерминизма.",
+      "en": "Ota’s conditional argument links absence of freedom with diminished positive meaning and anti-meaning; it does not establish determinism’s truth."
+    },
+    "source_url": "https://doi.org/10.1007/s11406-025-00877-y",
+    "access": "selected_sections",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://link.springer.com/article/10.1007/s11406-025-00877-y"
+    ],
+    "access_note": {
+      "ru": "Прочитаны аннотация, введение и фрагменты основного аргумента и заключения о симметрии смысла и антисмысла. Все примечания и цитируемая дискуссия не изучены.",
+      "en": "The abstract, introduction and passages of the central argument and conclusion on meaning/anti-meaning symmetry were inspected. All notes and the cited debate were not examined."
+    },
+    "markdown": "programs/philosophy-and-meaning/analysis/study-03.md",
+    "markdown_en": "programs/philosophy-and-meaning/analysis/study-03.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-04",
+    "kind": "studies",
+    "ordinal": 4,
+    "title": {
+      "ru": "Steger, Frazier, Oishi и Kaler — The Meaning in Life Questionnaire",
+      "en": "Steger, Frazier, Oishi and Kaler — The Meaning in Life Questionnaire"
+    },
+    "summary": {
+      "ru": "MLQ различает переживаемое наличие смысла и его поиск; валидность самоотчёта не устанавливает объективную ценность жизни.",
+      "en": "The MLQ distinguishes experienced presence of meaning from searching for it; self-report validity does not establish a life’s objective value."
+    },
+    "source_url": "https://doi.org/10.1037/0022-0167.53.1.80",
+    "access": "abstract",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://experts.umn.edu/en/publications/the-meaning-in-life-questionnaire-assessing-the-presence-of-and-s/",
+      "https://eric.ed.gov/?id=EJ734394",
+      "https://singteach.nie.edu.sg/wp-content/uploads/2021/12/Steger-et-al-2006_The-meaning-in-life-questionnaire.pdf"
+    ],
+    "access_note": {
+      "ru": "Прочитана авторская аннотация в университетской записи и ERIC; индексируемая первая страница оригинального PDF подтверждает порядок авторов. Полные методы трёх исследований не изучены; файл с сайта автора не загрузился.",
+      "en": "The author abstract in the university record and ERIC was inspected; the indexed first page of the original PDF confirms author order. Complete methods of the three studies were not examined; the author-site file did not load."
+    },
+    "markdown": "programs/philosophy-and-meaning/analysis/study-04.md",
+    "markdown_en": "programs/philosophy-and-meaning/analysis/study-04.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-05",
+    "kind": "studies",
+    "ordinal": 5,
+    "title": {
+      "ru": "Guevara-Tantalean и соавторы — Development and Psychometric Properties of a Scale to Measure the Meaning of Life",
+      "en": "Guevara-Tantalean and colleagues — Development and Psychometric Properties of a Scale to Measure the Meaning of Life"
+    },
+    "summary": {
+      "ru": "Перуанское исследование предлагает четырёхпунктовую шкалу переживаемого смысла; удобная выборка и последующая доработка модели ограничивают перенос результатов.",
+      "en": "The Peruvian study proposes a four-item experienced-meaning scale; convenience sampling and model refinement limit transfer of the findings."
+    },
+    "source_url": "https://doi.org/10.3390/ejihpe15090174",
+    "access": "selected_sections",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12468523/",
+      "https://www.mdpi.com/2254-9625/15/9/174"
+    ],
+    "access_note": {
+      "ru": "Прочитаны индексируемые текст PMC: аннотация, методы и выбранные результаты. Прямые страницы выдавали технические ограничения. Дополнительные материалы и исходные данные не получены; расчёты не воспроизводились.",
+      "en": "The indexed PMC abstract, methods and selected results were inspected. Direct pages returned technical access restrictions. Supplementary materials and raw data were not obtained; calculations were not reproduced."
+    },
+    "markdown": "programs/philosophy-and-meaning/analysis/study-05.md",
+    "markdown_en": "programs/philosophy-and-meaning/analysis/study-05.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "researcher-01",
+    "kind": "researchers",
+    "ordinal": 1,
+    "title": {
+      "ru": "Таддеус Мец — философия смысла и нормативная этика",
+      "en": "Thaddeus Metz — Philosophy of meaning and normative ethics"
+    },
+    "summary": {
+      "ru": "Мец исследует смысл жизни и нормативные основания практики; глава 2025 года предлагает учитывать смысл в философии медицины, не выдавая клинических рекомендаций.",
+      "en": "Metz studies meaning and normative foundations of practice; his 2025 chapter argues for considering meaning in philosophy of medicine without issuing clinical recommendations."
+    },
+    "source_url": "https://academic.oup.com/edited-volume/61380/chapter-abstract/533151538",
+    "access": "institutional_profile",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.up.ac.za/philosophy/prof-thaddeus-metz",
+      "https://academic.oup.com/edited-volume/61380/chapter/533151538"
+    ],
+    "access_note": {
+      "ru": "Прочитаны профиль University of Pretoria и аннотация главы Oxford. Полная глава недоступна. Строка старой аффилиации в карточке Oxford расходится с биографией; текущая Pretoria подтверждается университетским профилем.",
+      "en": "The University of Pretoria profile and Oxford chapter abstract were inspected. The complete chapter is unavailable. An older affiliation line in Oxford’s record differs from its biography; Pretoria is supported by the university profile."
+    },
+    "markdown": "programs/philosophy-and-meaning/analysis/researcher-01.md",
+    "markdown_en": "programs/philosophy-and-meaning/analysis/researcher-01.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "researcher-02",
+    "kind": "researchers",
+    "ordinal": 2,
+    "title": {
+      "ru": "Роланд Кипке — индивидуальность смысла и практическая философия",
+      "en": "Roland Kipke — Individual meaning and practical philosophy"
+    },
+    "summary": {
+      "ru": "Кипке исследует смысл, достоинство и прикладную этику; его работы полезны для проверки того, насколько теория учитывает реальные возможности человека.",
+      "en": "Kipke studies meaning, dignity and applied ethics; his work helps test whether a theory acknowledges a person’s actual opportunities."
+    },
+    "source_url": "https://www.uni-bielefeld.de/fakultaeten/philosophie/abteilung/personen/kipke/",
+    "access": "institutional_profile",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.uni-bielefeld.de/fakultaeten/philosophie/abteilung/personen/kipke/",
+      "https://onlinelibrary.wiley.com/doi/10.1111/ejop.13050"
+    ],
+    "access_note": {
+      "ru": "Прочитаны университетский профиль, исследовательские направления и выбранные разделы статьи 2025 года. Другие перечисленные публикации не считались прочитанными.",
+      "en": "The university profile, research areas and selected sections of the 2025 article were inspected. Other listed publications were not treated as read."
+    },
+    "markdown": "programs/philosophy-and-meaning/analysis/researcher-02.md",
+    "markdown_en": "programs/philosophy-and-meaning/analysis/researcher-02.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "researcher-03",
+    "kind": "researchers",
+    "ordinal": 3,
+    "title": {
+      "ru": "Кодзи Ота — сознание, свобода воли и смысл",
+      "en": "Koji Ota — Consciousness, free will and meaning"
+    },
+    "summary": {
+      "ru": "Ота связывает философию сознания и агентности с вопросами ценности; статья о детерминизме требует отделять условный аргумент от эмпирических утверждений.",
+      "en": "Ota connects philosophy of mind and agency with value questions; the determinism article requires separating conditional argument from empirical claims."
+    },
+    "source_url": "https://www.kansai-u.ac.jp/Fc_inf/fm/staff/ota.html",
+    "access": "institutional_profile",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.kansai-u.ac.jp/Fc_inf/fm/staff/ota.html",
+      "https://link.springer.com/article/10.1007/s11406-025-00877-y"
+    ],
+    "access_note": {
+      "ru": "Прочитаны текущая официальная страница Kansai University и выбранные разделы статьи 2025 года. Текущая аффилиация не выводится из более ранних публикаций.",
+      "en": "The current official Kansai University page and selected sections of the 2025 article were inspected. Current affiliation is not inferred from earlier publications."
+    },
+    "markdown": "programs/philosophy-and-meaning/analysis/researcher-03.md",
+    "markdown_en": "programs/philosophy-and-meaning/analysis/researcher-03.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  }
+]

@@ -54,6 +54,8 @@ The [library](LIBRARY.en.md) retains **21 standalone reviews** across seven prog
 
 All 13 programmes now have [initial literature maps](RESEARCH_MAPS.en.md): linked books, historical milestones, public research, researchers and teams, current questions and further reading. Collection date: 24 October 2026. Source access and verification limits are stated. The maps supplement existing reviews; for the six new programmes they are a first collection of materials, to be followed by detailed reading and analysis.
 
+The [source-analysis catalogue](SOURCE_ANALYSES.en.md) adds a separate bilingual analysis for each book, study/resource and researcher/team entry in the current maps. Each entry states its main ideas, evidential limits and relevance to the programme, with the actual reading depth. Extended book analyses and full-text needs are tracked separately.
+
 ## Methodology
 
 Question formulation, source work, evidence assessment, reproducibility, future protocols and editorial review are described in the [research methodology](METHODOLOGY.en.md).

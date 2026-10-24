@@ -1,0 +1,312 @@
+[
+  {
+    "id": "book-01",
+    "kind": "books",
+    "ordinal": 1,
+    "title": {
+      "ru": "Locke — Of Identity and Diversity (1694)",
+      "en": "Locke — Of Identity and Diversity (1694)"
+    },
+    "summary": {
+      "ru": "Различает тождество вещества, живого организма и личности. Прочитана указанная глава; это не разбор всего «Опыта».",
+      "en": "Distinguishes identity of substance, living organism and person. The designated chapter was read, not the whole Essay."
+    },
+    "markdown": "programs/digital-continuity/analysis/book-01.md",
+    "markdown_en": "programs/digital-continuity/analysis/book-01.en.md",
+    "source_url": "https://www.gutenberg.org/files/10615/10615-h/10615-h.htm",
+    "access": "selected_sections",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "extended_analysis",
+    "evidence_urls": [
+      "https://www.gutenberg.org/files/10615/10615-h/10615-h.htm",
+      "https://plato.stanford.edu/entries/locke-personal-identity/"
+    ],
+    "access_note": {
+      "ru": "Полностью прочитана выбранная глава II.27 в транскрипции Project Gutenberg; подготовлен расширенный двуязычный разбор именно главы. Остальная книга не анализировалась. Нумерация подразделов транскрипции отличается от распространённых научных изданий.",
+      "en": "The complete selected chapter II.27 was read in the Project Gutenberg transcription; an extended bilingual analysis of that chapter was prepared. The rest of the book was not analysed. The transcription’s subsection numbers differ from common scholarly editions."
+    },
+    "deep_markdown": "programs/digital-continuity/analysis/book-01-deep.md",
+    "deep_markdown_en": "programs/digital-continuity/analysis/book-01-deep.en.md"
+  },
+  {
+    "id": "book-02",
+    "kind": "books",
+    "ordinal": 2,
+    "title": {
+      "ru": "Parfit — Reasons and Persons (1984/1986)",
+      "en": "Parfit — Reasons and Persons (1984/1986)"
+    },
+    "summary": {
+      "ru": "Связывает личную идентичность с рациональностью, временем и этикой будущих поколений. Первичный разбор по авторской аннотации.",
+      "en": "Connects personal identity with rationality, time and future-generation ethics. Initial analysis based on the book abstract."
+    },
+    "markdown": "programs/digital-continuity/analysis/book-02.md",
+    "markdown_en": "programs/digital-continuity/analysis/book-02.en.md",
+    "source_url": "https://academic.oup.com/book/12484",
+    "access": "publisher_description",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://academic.oup.com/book/12484"
+    ],
+    "access_note": {
+      "ru": "прочитаны издательская запись и аннотация; полный текст не прочитан.",
+      "en": "the publisher record and book abstract were read; the full text was not read."
+    }
+  },
+  {
+    "id": "book-03",
+    "kind": "books",
+    "ordinal": 3,
+    "title": {
+      "ru": "Seung — Connectome (2012/2013)",
+      "en": "Seung — Connectome (2012/2013)"
+    },
+    "summary": {
+      "ru": "Введение в идею связи индивидуальности с устройством нейронных соединений; сильные обещания требуют отдельной проверки.",
+      "en": "Introduces the relation between individuality and neural wiring; stronger promises require independent testing."
+    },
+    "markdown": "programs/digital-continuity/analysis/book-03.md",
+    "markdown_en": "programs/digital-continuity/analysis/book-03.en.md",
+    "source_url": "https://www.penguin.co.uk/books/180235/connectome-by-seung-sebastian/9780241951873",
+    "access": "publisher_description",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://www.penguin.co.uk/books/180235/connectome-by-seung-sebastian/9780241951873"
+    ],
+    "access_note": {
+      "ru": "прочитана издательская карточка; главы книги не прочитаны.",
+      "en": "the publisher description was read; the book chapters were not read."
+    }
+  },
+  {
+    "id": "study-01",
+    "kind": "studies",
+    "ordinal": 1,
+    "title": {
+      "ru": "Dorkenwald et al. — Neuronal wiring diagram of an adult brain (2024)",
+      "en": "Dorkenwald et al. — Neuronal wiring diagram of an adult brain (2024)"
+    },
+    "summary": {
+      "ru": "Полная анатомическая карта мозга взрослой дрозофилы создаёт основу для проверки моделей нейронных цепей.",
+      "en": "A whole adult fly wiring map provides a basis for testing circuit models."
+    },
+    "markdown": "programs/digital-continuity/analysis/study-01.md",
+    "markdown_en": "programs/digital-continuity/analysis/study-01.en.md",
+    "source_url": "https://www.nature.com/articles/s41586-024-07558-y",
+    "access": "abstract",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.nature.com/articles/s41586-024-07558-y",
+      "https://collaborate.princeton.edu/en/publications/neuronal-wiring-diagram-of-an-adult-brain"
+    ],
+    "access_note": {
+      "ru": "прочитана авторская аннотация в университетской записи; прямой доступ к издательской странице не сработал.",
+      "en": "the author abstract in the university record was read; direct publisher retrieval failed."
+    }
+  },
+  {
+    "id": "study-02",
+    "kind": "studies",
+    "ordinal": 2,
+    "title": {
+      "ru": "Shapson-Coe et al. — A petavoxel fragment of human cerebral cortex (2024)",
+      "en": "Shapson-Coe et al. — A petavoxel fragment of human cerebral cortex (2024)"
+    },
+    "summary": {
+      "ru": "Наноскопическая реконструкция примерно одного кубического миллиметра человеческой коры показывает возможности и стоимость структурного картирования.",
+      "en": "A nanoscale reconstruction of about one cubic millimetre of human cortex demonstrates the scale of structural mapping."
+    },
+    "markdown": "programs/digital-continuity/analysis/study-02.md",
+    "markdown_en": "programs/digital-continuity/analysis/study-02.en.md",
+    "source_url": "https://www.science.org/doi/10.1126/science.adk4858",
+    "access": "selected_sections",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.science.org/doi/10.1126/science.adk4858",
+      "https://pubmed.ncbi.nlm.nih.gov/38723085/"
+    ],
+    "access_note": {
+      "ru": "прочитаны аннотация и подписи к рисункам в PubMed; основной текст целиком не прочитан.",
+      "en": "the PubMed abstract and figure captions were read; the complete main text was not read."
+    }
+  },
+  {
+    "id": "study-03",
+    "kind": "studies",
+    "ordinal": 3,
+    "title": {
+      "ru": "MICrONS Consortium — Functional connectomics (2025)",
+      "en": "MICrONS Consortium — Functional connectomics (2025)"
+    },
+    "summary": {
+      "ru": "Совмещает функциональные записи и микроскопическую карту одной области мышиного мозга; позволяет проверять связь структуры и функции.",
+      "en": "Combines functional recordings with microscopic anatomy in mouse cortex to test structure–function relations."
+    },
+    "markdown": "programs/digital-continuity/analysis/study-03.md",
+    "markdown_en": "programs/digital-continuity/analysis/study-03.en.md",
+    "source_url": "https://www.nature.com/articles/s41586-025-08790-w",
+    "access": "institutional_profile",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.nature.com/articles/s41586-025-08790-w",
+      "https://www.microns-explorer.org/"
+    ],
+    "access_note": {
+      "ru": "прочитано официальное описание ресурса; журнальный полный текст и сами данные не проверены.",
+      "en": "the official resource description was read; the complete journal text and underlying data were not checked."
+    }
+  },
+  {
+    "id": "study-04",
+    "kind": "studies",
+    "ordinal": 4,
+    "title": {
+      "ru": "Hashemi et al. — Principles and Operation of Virtual Brain Twins (2025/2026)",
+      "en": "Hashemi et al. — Principles and Operation of Virtual Brain Twins (2025/2026)"
+    },
+    "summary": {
+      "ru": "Обзор персонализированных сетевых моделей мозга: измерения, динамика, статистическая настройка и проверяемые прогнозы.",
+      "en": "A review of personalised brain-network models: measurements, dynamics, statistical fitting and testable predictions."
+    },
+    "markdown": "programs/digital-continuity/analysis/study-04.md",
+    "markdown_en": "programs/digital-continuity/analysis/study-04.en.md",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/40257892/",
+    "access": "abstract",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/40257892/",
+      "https://ebrains.eu/news-and-events/2025/personalised-virtual-brain-twins-the-future-of-neuroscience-and-medicine"
+    ],
+    "access_note": {
+      "ru": "прочитаны индексированная авторская аннотация и официальное объяснение EBRAINS; полный обзор не прочитан.",
+      "en": "the indexed author abstract and official EBRAINS explanation were read; the complete review was not read."
+    }
+  },
+  {
+    "id": "study-05",
+    "kind": "studies",
+    "ordinal": 5,
+    "title": {
+      "ru": "Spens & Burgess — Compressive retrieval-augmented generation (2026)",
+      "en": "Spens & Burgess — Compressive retrieval-augmented generation (2026)"
+    },
+    "summary": {
+      "ru": "Модель связывает эпизодическую память, сжатие и генеративное восстановление; это гипотеза механизма, а не извлечение личности.",
+      "en": "A model connects episodic memory, compression and generative reconstruction; it is a mechanistic hypothesis, not extraction of a person."
+    },
+    "markdown": "programs/digital-continuity/analysis/study-05.md",
+    "markdown_en": "programs/digital-continuity/analysis/study-05.en.md",
+    "source_url": "https://www.nature.com/articles/s41467-026-74357-6",
+    "access": "selected_sections",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.nature.com/articles/s41467-026-74357-6",
+      "https://pubmed.ncbi.nlm.nih.gov/42350398/"
+    ],
+    "access_note": {
+      "ru": "прочитаны аннотация, описание модели и обсуждение через индексированные первичные страницы; код не запускался.",
+      "en": "the abstract, model description and discussion were inspected through indexed primary pages; code was not run."
+    }
+  },
+  {
+    "id": "researcher-01",
+    "kind": "researchers",
+    "ordinal": 1,
+    "title": {
+      "ru": "Jeff W. Lichtman — Harvard connectomics",
+      "en": "Jeff W. Lichtman — Harvard connectomics"
+    },
+    "summary": {
+      "ru": "Группа изучает развитие нейронных связей и создаёт методы их масштабного картирования.",
+      "en": "The group studies circuit development and builds methods for large-scale connectivity mapping."
+    },
+    "markdown": "programs/digital-continuity/analysis/researcher-01.md",
+    "markdown_en": "programs/digital-continuity/analysis/researcher-01.en.md",
+    "source_url": "https://lichtmanlab.fas.harvard.edu/people/jeff-lichtman",
+    "access": "institutional_profile",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://lichtmanlab.fas.harvard.edu/people/jeff-lichtman",
+      "https://lichtmanlab.fas.harvard.edu/papers"
+    ],
+    "access_note": {
+      "ru": "прочитаны официальный профиль и список публикаций; методы перечисленных работ здесь не воспроизведены.",
+      "en": "the official profile and publication list were read; the listed methods were not reproduced."
+    }
+  },
+  {
+    "id": "researcher-02",
+    "kind": "researchers",
+    "ordinal": 2,
+    "title": {
+      "ru": "Marcel Binz — Human-Centered AI and cognitive modelling",
+      "en": "Marcel Binz — Human-Centered AI and cognitive modelling"
+    },
+    "summary": {
+      "ru": "Моделирует человеческое обучение и решения; Centaur проверяет перенос прогнозов поведения между экспериментами.",
+      "en": "Models human learning and decisions; Centaur examines behavioural prediction across experiments."
+    },
+    "markdown": "programs/digital-continuity/analysis/researcher-02.md",
+    "markdown_en": "programs/digital-continuity/analysis/researcher-02.en.md",
+    "source_url": "https://hcai-munich.com/marcel.html",
+    "access": "institutional_profile",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://hcai-munich.com/marcel.html",
+      "https://www.nature.com/articles/s41586-025-09215-4",
+      "https://collaborate.princeton.edu/en/publications/a-foundation-model-to-predict-and-capture-human-cognition/"
+    ],
+    "access_note": {
+      "ru": "прочитаны профиль и авторская аннотация статьи; данные и обучение модели не воспроизведены.",
+      "en": "the profile and author abstract were read; the data and model training were not reproduced."
+    }
+  },
+  {
+    "id": "researcher-03",
+    "kind": "researchers",
+    "ordinal": 3,
+    "title": {
+      "ru": "Viktor Jirsa — The Virtual Brain / Virtual Brain Twin",
+      "en": "Viktor Jirsa — The Virtual Brain / Virtual Brain Twin"
+    },
+    "summary": {
+      "ru": "Персонализирует модели мозговой динамики для ограниченных исследовательских и клинических задач.",
+      "en": "Personalises brain-dynamics models for bounded research and clinical questions."
+    },
+    "markdown": "programs/digital-continuity/analysis/researcher-03.md",
+    "markdown_en": "programs/digital-continuity/analysis/researcher-03.en.md",
+    "source_url": "https://thevirtualbrain.com/tvb/zwei/teamwork-leaders",
+    "access": "institutional_profile",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://thevirtualbrain.com/tvb/zwei/teamwork-leaders",
+      "https://www.virtualbraintwin.eu/project/team.html",
+      "https://ebrains.eu/news-and-events/2025/personalised-virtual-brain-twins-the-future-of-neuroscience-and-medicine"
+    ],
+    "access_note": {
+      "ru": "прочитаны официальные материалы проекта и EBRAINS; первоначальная ссылка TVB была недоступна.",
+      "en": "official project and EBRAINS materials were read; the original TVB link was unavailable."
+    }
+  }
+]

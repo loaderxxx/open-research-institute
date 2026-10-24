@@ -54,3 +54,5 @@ A [starter literature map](RESEARCH_MAP.en.md) is available; the review and simu
 For additional reading, the separate [Reliable AI research](../reliable-ai-research/README.en.md) programme discusses how to check research conclusions.
 
 [All programmes](../../README.en.md) · [Library](../../LIBRARY.en.md)
+
+[Source analyses: ideas, evidence and limitations](../../SOURCE_ANALYSES.en.md). Reading depth and extended-book status are stated separately.

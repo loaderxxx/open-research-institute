@@ -50,3 +50,5 @@ These materials are yet to be prepared. Existing reviews address individual ques
 - [Pluralism and Measurement](../philosophy-and-meaning/reading/pluralism-and-measurement.en.md) — public justification of decisions, disagreement over values and the limits of measurement.
 
 [All programmes](../../README.en.md)
+
+[Source analyses: ideas, evidence and limitations](../../SOURCE_ANALYSES.en.md). Reading depth and extended-book status are stated separately.

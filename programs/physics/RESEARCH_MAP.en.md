@@ -12,6 +12,7 @@
 - [Historical landmarks](#historical-landmarks)
 - [Researchers and groups with recent work](#researchers-and-groups-with-recent-work)
 - [Current directions and open questions](#current-directions-and-open-questions)
+- [Access clarification — 25 October 2026](#access-clarification--25-october-2026)
 <!-- ori-toc:end -->
 
 ## Books to begin with
@@ -49,3 +50,7 @@ Open questions include how to compare different definitions of “structure” a
 **Suggested next reading:** start with Sethna on entropy and statistical mechanics, then read Landauer → Bérut et al. for the erasure-cost argument and test, followed by the Rupe–Crutchfield review and a comparison with Minagawa et al. and the logical-qubit experiment.
 
 **Verified primary links:** [Sethna/OUP](https://academic.oup.com/book/44296), [Nielsen–Chuang/Cambridge](https://www.cambridge.org/highereducation/books/quantum-computation-and-quantum-information/01E10196D0A682A6AEFFEA52D53BE9AE), [Landauer original/IBM](https://doi.org/10.1147/rd.53.0183), [Bérut et al./Nature](https://www.nature.com/articles/nature10872), [Rupe–Crutchfield/Physics Reports](https://doi.org/10.1016/j.physrep.2024.04.001), [Minagawa et al./npj QI](https://www.nature.com/articles/s41534-024-00922-w), [Zhang et al./Nature Communications](https://www.nature.com/articles/s41467-025-67768-4), [Huang–Preskill–Soleimanifar/Nature Physics](https://www.nature.com/articles/s41567-025-03025-1).
+
+## Access clarification — 25 October 2026
+
+An [open author version on arXiv](https://arxiv.org/abs/1907.01596) was found for Deffner and Campbell. It is a prepublication version of the teaching text; a full comparison with the published edition has not been completed. Close reading remains pending.

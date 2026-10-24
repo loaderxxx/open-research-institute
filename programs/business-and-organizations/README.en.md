@@ -53,3 +53,5 @@ The library already contains adjacent material. It can help frame the programme'
 - [Evidence and Citation](../reliable-ai-research/reading/evidence-and-citations.en.md) — checking sources and support for AI answers.
 
 [All programmes](../../README.en.md)
+
+[Source analyses: ideas, evidence and limitations](../../SOURCE_ANALYSES.en.md). Reading depth and extended-book status are stated separately.

@@ -12,6 +12,7 @@
 - [Исторические ориентиры](#исторические-ориентиры)
 - [Исследователи и группы с недавней работой](#исследователи-и-группы-с-недавней-работой)
 - [Что происходит сейчас и что остаётся открытым](#что-происходит-сейчас-и-что-остаётся-открытым)
+- [Уточнение доступа — 25 октября 2026](#уточнение-доступа--25-октября-2026)
 <!-- ori-toc:end -->
 
 ## Книги для входа
@@ -49,3 +50,7 @@
 **Следующий шаг чтения:** начать с Sethna (энтропия и статистическая механика), затем Landauer → Bérut et al. для основания и проверки цены стирания, после чего прочитать обзор Rupe–Crutchfield и сопоставить его с Minagawa et al. и экспериментом над логическими кубитами.
 
 **Проверенные первичные ссылки:** [Sethna/OUP](https://academic.oup.com/book/44296), [Nielsen–Chuang/Cambridge](https://www.cambridge.org/highereducation/books/quantum-computation-and-quantum-information/01E10196D0A682A6AEFFEA52D53BE9AE), [Landauer original/IBM](https://doi.org/10.1147/rd.53.0183), [Bérut et al./Nature](https://www.nature.com/articles/nature10872), [Rupe–Crutchfield/Physics Reports](https://doi.org/10.1016/j.physrep.2024.04.001), [Minagawa et al./npj QI](https://www.nature.com/articles/s41534-024-00922-w), [Zhang et al./Nature Communications](https://www.nature.com/articles/s41467-025-67768-4), [Huang–Preskill–Soleimanifar/Nature Physics](https://www.nature.com/articles/s41567-025-03025-1).
+
+## Уточнение доступа — 25 октября 2026
+
+Для книги Deffner и Campbell найдена [открытая авторская версия на arXiv](https://arxiv.org/abs/1907.01596). Это версия учебных заметок до издательской публикации; полная сверка изданий не выполнена. Подробное чтение ещё предстоит.

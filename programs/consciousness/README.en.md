@@ -63,3 +63,5 @@ An adversarial test with 256 people found partial support for, and substantial p
 A source's claim does not mean its result has been independently replicated. Philosophical arguments, correlations, and causal experiments have different evidential status. Reading depth and limitations are listed in the [source registry](../../data/sources.json).
 
 Prepared with AI assistance. No external scientific peer review has been conducted.
+
+[Source analyses: ideas, evidence and limitations](../../SOURCE_ANALYSES.en.md). Reading depth and extended-book status are stated separately.

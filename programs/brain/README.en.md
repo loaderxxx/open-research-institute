@@ -54,3 +54,5 @@ A [starter literature map](RESEARCH_MAP.en.md) is available; the review, data se
 Additional reading is available in the separate [Consciousness and measurement](../consciousness/README.en.md) and [Digital continuity of identity](../digital-continuity/README.en.md) programmes. These introduce related questions.
 
 [All programmes](../../README.en.md) · [Library](../../LIBRARY.en.md)
+
+[Source analyses: ideas, evidence and limitations](../../SOURCE_ANALYSES.en.md). Reading depth and extended-book status are stated separately.

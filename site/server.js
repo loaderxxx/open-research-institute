@@ -4,6 +4,7 @@ const path = require('node:path');
 const { randomUUID, createHash } = require('node:crypto');
 const { markdown } = require('./markdown');
 const { renderPage } = require('./pages');
+const { getSourceAnalyses } = require('./source-analyses');
 const escapeHtml = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 const RECIPIENT = 'im@vladimiruzbek.com';
@@ -34,7 +35,7 @@ function createServer({ env = process.env, fetchImpl = fetch, root = __dirname, 
   let inFlight = 0;
   const repo = path.dirname(root);
   const files = new Map(['/style.css', '/reader.css', '/app.js'].map(p => [p, path.join(root, p)]));
-  for (const doc of ['README', 'LIBRARY', 'EDITORIAL_NOTE', 'RIGHTS', 'METHODOLOGY', 'RESEARCH_MAPS']) {
+  for (const doc of ['README', 'LIBRARY', 'EDITORIAL_NOTE', 'RIGHTS', 'METHODOLOGY', 'RESEARCH_MAPS', 'SOURCE_ANALYSES']) {
     for (const suffix of ['.md', '.en.md']) files.set('/' + doc + suffix, path.join(repo, doc + suffix));
   }
   files.set('/data/reading-library.json', path.join(repo, 'data/reading-library.json'));
@@ -53,6 +54,11 @@ function createServer({ env = process.env, fetchImpl = fetch, root = __dirname, 
       for (const doc of ['README.md', 'README.en.md', 'RESEARCH_MAP.md', 'RESEARCH_MAP.en.md']) {
         const name = '/programs/' + item.slug + '/' + doc;
         files.set(name, path.join(repo, name));
+      }
+      for (const analysis of getSourceAnalyses(item.slug)) {
+        for (const field of ['markdown', 'markdown_en', 'deep_markdown', 'deep_markdown_en']) {
+          if (analysis[field]) files.set('/' + analysis[field], path.join(repo, analysis[field]));
+        }
       }
     }
   }).catch(() => {});

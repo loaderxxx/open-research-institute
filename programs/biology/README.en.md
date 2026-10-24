@@ -49,3 +49,5 @@ The next step is to gather and organise information. The proposed sequence is:
 A [starter literature map](RESEARCH_MAP.en.md) is available; the review, data selection and analysis still lie ahead. The map is a starting point, not a systematic assessment of the sources.
 
 [All programmes](../../README.en.md) · [Library](../../LIBRARY.en.md)
+
+[Source analyses: ideas, evidence and limitations](../../SOURCE_ANALYSES.en.md). Reading depth and extended-book status are stated separately.

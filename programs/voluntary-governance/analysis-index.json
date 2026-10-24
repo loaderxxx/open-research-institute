@@ -1,0 +1,332 @@
+[
+  {
+    "id": "book-01",
+    "kind": "books",
+    "ordinal": 1,
+    "title": {
+      "ru": "Элинор Остром — Governing the Commons",
+      "en": "Elinor Ostrom — Governing the Commons"
+    },
+    "summary": {
+      "ru": "Сравнительное исследование институтов общих ресурсов помогает анализировать совместные правила, а не объявлять самоуправление универсальным решением.",
+      "en": "Comparative research on commons institutions supports analysis of shared rules rather than a universal prescription for self-governance."
+    },
+    "source_url": "https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79",
+    "access": "publisher_description",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79"
+    ],
+    "access_note": {
+      "ru": "Прочитаны описание и оглавление издателя. Полный текст не получен; подробные аргументы и случаи требуют дальнейшего чтения.",
+      "en": "The publisher description and contents were inspected. The full text was not obtained; detailed arguments and cases require further reading."
+    },
+    "markdown": "programs/voluntary-governance/analysis/book-01.md",
+    "markdown_en": "programs/voluntary-governance/analysis/book-01.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "book-02",
+    "kind": "books",
+    "ordinal": 2,
+    "title": {
+      "ru": "Грэм Смит — Deliberative Democracy and the Environment",
+      "en": "Graham Smith — Deliberative Democracy and the Environment"
+    },
+    "summary": {
+      "ru": "Книга связывает экологическое многообразие ценностей с устройством публичного обсуждения; наличие форума ещё не означает представительство и влияние.",
+      "en": "The book connects environmental value pluralism with deliberative institutions; creating a forum does not establish representation or influence."
+    },
+    "source_url": "https://www.routledge.com/Deliberative-Democracy-and-the-Environment-1st-Edition/Smith/p/book/9780415309400",
+    "access": "publisher_description",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://www.routledge.com/Citizen-Participation-in-Global-Environmental-Governance/Minna-Rask-Worthington/p/book/9780415309400"
+    ],
+    "access_note": {
+      "ru": "Прочитаны индексируемые описание и оглавление Routledge по ISBN 9780415309400. Прямой исходный адрес возвращал ошибку; другой адрес издателя имеет несогласованный текстовый путь, но карточка описывает книгу Смита. Главы не получены.",
+      "en": "The indexed Routledge description and contents for ISBN 9780415309400 were inspected. The original URL failed; an alternative publisher URL has an inconsistent textual path, but its record describes Smith’s book. Chapters were not obtained."
+    },
+    "markdown": "programs/voluntary-governance/analysis/book-02.md",
+    "markdown_en": "programs/voluntary-governance/analysis/book-02.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "book-03",
+    "kind": "books",
+    "ordinal": 3,
+    "title": {
+      "ru": "Газала Мансури и Виджайендра Рао — Localizing Development: Does Participation Work?",
+      "en": "Ghazala Mansuri and Vijayendra Rao — Localizing Development: Does Participation Work?"
+    },
+    "summary": {
+      "ru": "Обзор участия различает органическую мобилизацию и участие, создаваемое программами; местная инициатива нуждается в подотчётности и институциональной поддержке.",
+      "en": "The review distinguishes organic mobilisation from participation induced by programmes; local initiative requires accountability and institutional support."
+    },
+    "source_url": "https://openknowledge.worldbank.org/handle/10986/11859",
+    "access": "selected_sections",
+    "long_form_status": "pending_close_reading",
+    "evidence_urls": [
+      "https://documents1.worldbank.org/curated/en/461701468150309553/pdf/NonAsciiFileName0.pdf",
+      "https://www.worldbank.org/en/research/publication/localizing-development-does-participation-work"
+    ],
+    "access_note": {
+      "ru": "Официальный полный PDF доступен. Прочитаны фрагменты обзора (печатные с. 1–13), особенно выводы об участии, захвате и подотчётности, а также фрагмент главы 2 о масштабе управления (с. 57–58). Остальные главы не прочитаны полностью; расширенный разбор пока не выполнен.",
+      "en": "An official complete PDF is available. Passages from the overview (printed pp. 1–13), particularly participation, capture and accountability findings, and the chapter 2 discussion of governance scale (pp. 57–58) were inspected. Other chapters were not read in full; an extended analysis remains outstanding."
+    },
+    "markdown": "programs/voluntary-governance/analysis/book-03.md",
+    "markdown_en": "programs/voluntary-governance/analysis/book-03.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-01",
+    "kind": "studies",
+    "ordinal": 1,
+    "title": {
+      "ru": "Elinor Ostrom — A General Framework for Analyzing Sustainability of Social-Ecological Systems",
+      "en": "Elinor Ostrom — A General Framework for Analyzing Sustainability of Social-Ecological Systems"
+    },
+    "summary": {
+      "ru": "Статья предлагает общий язык исследования социально-экологических систем, чтобы результаты разных дисциплин можно было сопоставлять.",
+      "en": "The article proposes a shared language for studying social-ecological systems so findings across disciplines can accumulate."
+    },
+    "source_url": "https://doi.org/10.1126/science.1172133",
+    "access": "abstract",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/19628857/",
+      "https://beijer.kva.se/publication/a-general-framework-for-analyzing-sustainability-of-social-ecological-systems/"
+    ],
+    "access_note": {
+      "ru": "Прочитана аннотация в индексируемой записи PubMed и на странице Beijer Institute. Полный текст и схема переменных непосредственно не изучены.",
+      "en": "The abstract in the indexed PubMed record and Beijer Institute page was inspected. The full text and variable diagram were not directly examined."
+    },
+    "markdown": "programs/voluntary-governance/analysis/study-01.md",
+    "markdown_en": "programs/voluntary-governance/analysis/study-01.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-02",
+    "kind": "studies",
+    "ordinal": 2,
+    "title": {
+      "ru": "Elinor Ostrom — Beyond Markets and States: Polycentric Governance of Complex Economic Systems",
+      "en": "Elinor Ostrom — Beyond Markets and States: Polycentric Governance of Complex Economic Systems"
+    },
+    "summary": {
+      "ru": "Остром обобщает исследования нескольких центров принятия решений, выходя за бинарное противопоставление государства и рынка.",
+      "en": "Ostrom synthesises research on multiple decision centres beyond a state-versus-market binary."
+    },
+    "source_url": "https://www.aeaweb.org/articles?id=10.1257/aer.100.3.641",
+    "access": "abstract",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.aeaweb.org/articles?id=10.1257/aer.100.3.641",
+      "https://dlc.dlib.indiana.edu/dlc/items/484f4147-bdce-4d55-9b8d-fe61f3b2d37b/full"
+    ],
+    "access_note": {
+      "ru": "Проверены карточка AER и аннотация версии Нобелевской лекции в репозитории Indiana University. Полные PDF AEA/Nobel не удалось получить; различия редакций не сопоставлялись.",
+      "en": "The AER record and the Nobel lecture version’s abstract in Indiana University’s repository were inspected. Complete AEA/Nobel PDFs could not be retrieved; versions were not compared."
+    },
+    "markdown": "programs/voluntary-governance/analysis/study-02.md",
+    "markdown_en": "programs/voluntary-governance/analysis/study-02.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-03",
+    "kind": "studies",
+    "ordinal": 3,
+    "title": {
+      "ru": "Benjamin A. Olken — Monitoring Corruption: Evidence from a Field Experiment in Indonesia",
+      "en": "Benjamin A. Olken — Monitoring Corruption: Evidence from a Field Experiment in Indonesia"
+    },
+    "summary": {
+      "ru": "Полевой эксперимент на индонезийских дорожных проектах сопоставляет усиление государственного аудита и гражданского мониторинга.",
+      "en": "The Indonesian road-project field experiment compares stronger government audits with citizen monitoring."
+    },
+    "source_url": "https://doi.org/10.1086/517935",
+    "access": "selected_sections",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://doi.org/10.1086/517935",
+      "https://www.povertyactionlab.org/sites/default/files/research-paper/27_Olken_Monitoring_Corruption.pdf"
+    ],
+    "access_note": {
+      "ru": "Прочитаны аннотация, начало, раздел измерения расходов и отдельные результаты открытого PDF J-PAL. Приложения полностью не разобраны; расчёты не воспроизводились.",
+      "en": "The abstract, opening, expenditure measurement section and selected results in the open J-PAL PDF were inspected. Appendices were not fully examined; estimates were not reproduced."
+    },
+    "markdown": "programs/voluntary-governance/analysis/study-03.md",
+    "markdown_en": "programs/voluntary-governance/analysis/study-03.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-04",
+    "kind": "studies",
+    "ordinal": 4,
+    "title": {
+      "ru": "UNFCCC — первое глобальное подведение итогов, решение 1/CMA.5",
+      "en": "UNFCCC — First global stocktake, decision 1/CMA.5"
+    },
+    "summary": {
+      "ru": "Официальный согласованный текст фиксирует разрыв между климатическими действиями и совокупным продвижением к целям; это не причинная оценка добровольных обязательств.",
+      "en": "The agreed official text documents a gap between climate action and aggregate progress towards goals; it is not a causal evaluation of voluntary commitments."
+    },
+    "source_url": "https://unfccc.int/sites/default/files/resource/cma2023_16a01_adv_.pdf",
+    "access": "selected_sections",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://unfccc.int/sites/default/files/resource/cma2023_16a01_adv_.pdf"
+    ],
+    "access_note": {
+      "ru": "Прочитаны начальные положения и выбранные пункты об общем прогрессе и разрывах в реализации. Полный пакет решений не разобран постатейно. Решение принято в 2023 году; файл опубликован в марте 2024 года.",
+      "en": "Opening provisions and selected paragraphs on aggregate progress and implementation gaps were inspected. The full decision package was not analysed paragraph by paragraph. The decision was adopted in 2023; the file was issued in March 2024."
+    },
+    "markdown": "programs/voluntary-governance/analysis/study-04.md",
+    "markdown_en": "programs/voluntary-governance/analysis/study-04.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-05",
+    "kind": "studies",
+    "ordinal": 5,
+    "title": {
+      "ru": "Stefano Pascucci — Theorizing Polycentric Governance through a Meso-Institutional Perspective",
+      "en": "Stefano Pascucci — Theorizing Polycentric Governance through a Meso-Institutional Perspective"
+    },
+    "summary": {
+      "ru": "Статья строит теорию связующих институтов на сравнении трёх многосторонних партнёрств; это объяснение процессов, а не причинная оценка их эффективности.",
+      "en": "The article builds a theory of connecting institutions through three multistakeholder partnership cases; it explains processes rather than causally estimating effectiveness."
+    },
+    "source_url": "https://doi.org/10.1017/S1744137425100325",
+    "access": "selected_sections",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.cambridge.org/core/journals/journal-of-institutional-economics/article/theorizing-polycentric-governance-of-global-socioecological-challenges-through-a-mesoinstitutional-perspective/3141861FAAC4F0C27820C5021085109E"
+    ],
+    "access_note": {
+      "ru": "Прочитаны аннотация, теоретическая рамка и раздел методологии с отбором случаев. Статья открыта; весь массив документов случаев и выводы не проверены независимо.",
+      "en": "The abstract, theoretical framework and methodology including case selection were inspected. The article is open; the underlying case documents and findings were not independently checked."
+    },
+    "markdown": "programs/voluntary-governance/analysis/study-05.md",
+    "markdown_en": "programs/voluntary-governance/analysis/study-05.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-06",
+    "kind": "studies",
+    "ordinal": 6,
+    "title": {
+      "ru": "Hallie Eakin и Clifford Shearing — Emergent Polycentric Governance in Response to Drought",
+      "en": "Hallie Eakin and Clifford Shearing — Emergent Polycentric Governance in Response to Drought"
+    },
+    "summary": {
+      "ru": "Интервью о водоснабжении Кейптауна показывают возникновение и ограничения координации города и бизнеса в условиях засухи.",
+      "en": "Interviews on Cape Town water provision trace the emergence and limits of city-business coordination during drought."
+    },
+    "source_url": "https://doi.org/10.1002/eet.2141",
+    "access": "abstract",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://onlinelibrary.wiley.com/doi/10.1002/eet.2141"
+    ],
+    "access_note": {
+      "ru": "Прочитаны аннотация и издательские метаданные. Полная методология интервью и анализ не получены. Онлайн-публикация — ноябрь 2024 года, журнальный выпуск — 2025 год.",
+      "en": "The abstract and publisher metadata were inspected. The complete interview methodology and analysis were not obtained. Online publication was November 2024; the journal issue is dated 2025."
+    },
+    "markdown": "programs/voluntary-governance/analysis/study-06.md",
+    "markdown_en": "programs/voluntary-governance/analysis/study-06.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "researcher-01",
+    "kind": "researchers",
+    "ordinal": 1,
+    "title": {
+      "ru": "Стефано Паскуччи — мезоинституты и многосторонние партнёрства",
+      "en": "Stefano Pascucci — Meso-institutions and multistakeholder partnerships"
+    },
+    "summary": {
+      "ru": "Исследования Паскуччи помогают рассматривать организации, которые переводят общие обязательства в операционные правила и связывают уровни управления.",
+      "en": "Pascucci’s research helps examine organisations that translate broad commitments into operational rules and connect governance levels."
+    },
+    "source_url": "https://www.cambridge.org/core/journals/journal-of-institutional-economics/article/theorizing-polycentric-governance-of-global-socioecological-challenges-through-a-mesoinstitutional-perspective/3141861FAAC4F0C27820C5021085109E",
+    "access": "institutional_profile",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.cambridge.org/core/journals/journal-of-institutional-economics/article/theorizing-polycentric-governance-of-global-socioecological-challenges-through-a-mesoinstitutional-perspective/3141861FAAC4F0C27820C5021085109E"
+    ],
+    "access_note": {
+      "ru": "Проверены авторские сведения и выбранные разделы статьи Cambridge 2025 года. Три аффилиации указаны издателем для этой публикации; отдельная проверка текущих трудовых назначений не выполнена.",
+      "en": "Author details and selected sections of the 2025 Cambridge article were inspected. The publisher lists three affiliations for that publication; current employment appointments were not separately verified."
+    },
+    "markdown": "programs/voluntary-governance/analysis/researcher-01.md",
+    "markdown_en": "programs/voluntary-governance/analysis/researcher-01.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "researcher-02",
+    "kind": "researchers",
+    "ordinal": 2,
+    "title": {
+      "ru": "Халли Икин — климатическая устойчивость и городское управление",
+      "en": "Hallie Eakin — Climate resilience and urban governance"
+    },
+    "summary": {
+      "ru": "Исследования Икин связывают климатическую адаптацию с институтами и неравенством; кейс Кейптауна позволяет изучать изменение обязанностей в кризис.",
+      "en": "Eakin’s research connects climate adaptation with institutions and inequality; the Cape Town case supports analysis of changing responsibilities during crisis."
+    },
+    "source_url": "https://search.asu.edu/profile/1288750",
+    "access": "institutional_profile",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://search.asu.edu/profile/1288750",
+      "https://onlinelibrary.wiley.com/doi/10.1002/eet.2141"
+    ],
+    "access_note": {
+      "ru": "Прочитаны профиль ASU и аннотация статьи Икин и Ширинга. Полные материалы интервью и других проектов не изучены.",
+      "en": "The ASU profile and abstract of Eakin and Shearing’s article were inspected. Full interview materials and other projects were not examined."
+    },
+    "markdown": "programs/voluntary-governance/analysis/researcher-02.md",
+    "markdown_en": "programs/voluntary-governance/analysis/researcher-02.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "researcher-03",
+    "kind": "researchers",
+    "ordinal": 3,
+    "title": {
+      "ru": "Джем Денер и команда GovTech — цифровое участие",
+      "en": "Cem Dener and the GovTech team — Digital participation"
+    },
+    "summary": {
+      "ru": "Ресурсы GovTech позволяют описывать цифровую инфраструктуру участия, сохраняя различие между доступной функцией и реальным влиянием граждан.",
+      "en": "GovTech resources describe digital participation infrastructure while preserving the distinction between available functions and citizens’ actual influence."
+    },
+    "source_url": "https://www.worldbank.org/en/programs/govtech/gtmi-2025-update",
+    "access": "institutional_profile",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.worldbank.org/en/programs/govtech/gtmi-2025-update",
+      "https://blogs.worldbank.org/en/team/c/cem-dener"
+    ],
+    "access_note": {
+      "ru": "Проверены официальная страница GTMI 2025 и профиль Денера. Его роль в GovTech подтверждается профилем; персональное соавторство конкретного отчёта 2025 года не установлено. Микроданные не пересчитывались.",
+      "en": "The official GTMI 2025 page and Dener’s profile were inspected. His GovTech role is supported by the profile; personal coauthorship of the specific 2025 report was not established. Microdata were not reanalysed."
+    },
+    "markdown": "programs/voluntary-governance/analysis/researcher-03.md",
+    "markdown_en": "programs/voluntary-governance/analysis/researcher-03.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  }
+]

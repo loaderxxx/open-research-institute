@@ -1,0 +1,367 @@
+[
+  {
+    "id": "book-01",
+    "kind": "books",
+    "ordinal": 1,
+    "title": {
+      "ru": "Oliver E. Williamson — The Economic Institutions of Capitalism",
+      "en": "Oliver E. Williamson — The Economic Institutions of Capitalism"
+    },
+    "summary": {
+      "ru": "Контрактная перспектива помогает сравнивать рынок, внутреннее управление и долгосрочные отношения через издержки координации. Первичный разбор отделяет эту рамку от доказательства эффективности конкретной структуры.",
+      "en": "The contractual perspective helps compare markets, internal governance and durable relationships through coordination costs. This initial analysis separates that framework from evidence of any particular structure’s efficiency."
+    },
+    "markdown": "programs/business-and-organizations/analysis/book-01.md",
+    "markdown_en": "programs/business-and-organizations/analysis/book-01.en.md",
+    "source_url": "https://www.simonandschuster.com/books/The-Economic-Intstitutions-of-Capitalism/Oliver-E-Williamson/9780684863740",
+    "access": "publisher_description",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://www.simonandschuster.com/books/The-Economic-Intstitutions-of-Capitalism/Oliver-E-Williamson/9780684863740",
+      "https://www.nobelprize.org/uploads/2018/06/williamson_lecture.pdf"
+    ],
+    "access_note": {
+      "ru": "Проверены карточка Free Press и индексированный фрагмент авторской Нобелевской лекции. Полный текст книги не получен; подробный разбор требует законного доступа.",
+      "en": "The Free Press record and an indexed passage from the author’s Nobel lecture were checked. The book’s full text was not obtained; detailed analysis requires lawful access."
+    }
+  },
+  {
+    "id": "book-02",
+    "kind": "books",
+    "ordinal": 2,
+    "title": {
+      "ru": "James G. March и Herbert A. Simon — Organizations",
+      "en": "James G. March and Herbert A. Simon — Organizations"
+    },
+    "summary": {
+      "ru": "Ограниченная рациональность связывает решения с вниманием, правилами поиска и устройством организации. Для ORI это основа проверки того, как ИИ меняет обработку информации, а не гарантирует рациональность.",
+      "en": "Bounded rationality connects decisions to attention, search rules and organisational design. For ORI it frames how AI changes information processing without guaranteeing rationality."
+    },
+    "markdown": "programs/business-and-organizations/analysis/book-02.md",
+    "markdown_en": "programs/business-and-organizations/analysis/book-02.en.md",
+    "source_url": "https://www.wiley.com/en-us/Organizations%2C+2nd+Edition-p-9780631227400",
+    "access": "publisher_description",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://www.wiley.com/en-us/Organizations%2C+2nd+Edition-p-9780631227400",
+      "https://www.wiley.com/en-us/Organizations%2C%2B2nd%2BEdition-p-9780631186311",
+      "https://www.gsb.stanford.edu/faculty-research/books/organizations-2nd-edition"
+    ],
+    "access_note": {
+      "ru": "Прочитаны индексированные описания Wiley и Stanford GSB; прямое открытие карточек было ограничено. Полный текст и главы не прочитаны.",
+      "en": "Indexed descriptions from Wiley and Stanford GSB were inspected; direct record access was blocked. The full text and chapters were not read."
+    }
+  },
+  {
+    "id": "book-03",
+    "kind": "books",
+    "ordinal": 3,
+    "title": {
+      "ru": "Amy C. Edmondson — Right Kind of Wrong",
+      "en": "Amy C. Edmondson — Right Kind of Wrong"
+    },
+    "summary": {
+      "ru": "Различение базовых, сложных и интеллектуальных неудач помогает обсуждать обучение без оправдания предотвратимых ошибок. Для программы важна проверка качества эксперимента и последующего изменения процесса.",
+      "en": "Distinguishing basic, complex and intelligent failures helps discuss learning without excusing preventable errors. The programme should examine experiment quality and subsequent process change."
+    },
+    "markdown": "programs/business-and-organizations/analysis/book-03.md",
+    "markdown_en": "programs/business-and-organizations/analysis/book-03.en.md",
+    "source_url": "https://www.simonandschuster.com/books/Right-Kind-of-Wrong/Amy-C-Edmondson/9781982195069",
+    "access": "publisher_description",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://www.simonandschuster.com/books/Right-Kind-of-Wrong/Amy-C-Edmondson/9781982195069"
+    ],
+    "access_note": {
+      "ru": "Проверены описание и библиографические сведения издателя; полный текст недоступен в этом чтении. Для подробного досье требуется полный текст.",
+      "en": "The publisher’s description and bibliographic details were inspected; the full text was not accessed in this reading. A detailed dossier requires the full text."
+    }
+  },
+  {
+    "id": "study-01",
+    "kind": "studies",
+    "ordinal": 1,
+    "title": {
+      "ru": "Dillon и соавторы — Shifting Work Patterns with Generative AI",
+      "en": "Dillon et al. — Shifting Work Patterns with Generative AI"
+    },
+    "summary": {
+      "ru": "Рандомизация индивидуального доступа к ИИ выявляет экономию времени, но не доказывает перестройку организации. Разбор различает эффект назначения доступа, использование инструмента и версии рабочей статьи.",
+      "en": "Randomising individual AI access identifies time savings without establishing organisational redesign. The analysis distinguishes assignment effects, tool use and working-paper versions."
+    },
+    "markdown": "programs/business-and-organizations/analysis/study-01.md",
+    "markdown_en": "programs/business-and-organizations/analysis/study-01.en.md",
+    "source_url": "https://doi.org/10.3386/w33795",
+    "access": "selected_sections",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://doi.org/10.3386/w33795",
+      "https://arxiv.org/abs/2504.11436",
+      "https://www.hbs.edu/ris/Publication%20Files/w33795_dd1e2857-d195-4333-86ba-6a8953119ed4.pdf"
+    ],
+    "access_note": {
+      "ru": "Сверены аннотация версии arXiv v4 от 13 ноября 2025 года и начало более раннего PDF HBS от 6 мая 2025 года. Численные оценки разных версий не объединяются; полная перепроверка таблиц не выполнена.",
+      "en": "The arXiv v4 abstract dated 13 November 2025 and the opening of the earlier HBS PDF dated 6 May 2025 were checked. Estimates from different versions are not combined; tables were not fully rechecked."
+    }
+  },
+  {
+    "id": "study-02",
+    "kind": "studies",
+    "ordinal": 2,
+    "title": {
+      "ru": "Brynjolfsson, Li и Raymond — Generative AI at Work",
+      "en": "Brynjolfsson, Li and Raymond — Generative AI at Work"
+    },
+    "summary": {
+      "ru": "Поэтапное внедрение помощника у операторов поддержки связано с неодинаковыми выигрышами по опыту. Разбор отделяет производительность обслуживания от прибыли фирмы и долгосрочного развития навыков.",
+      "en": "Staggered assistant deployment among support agents produces gains that vary by experience. The analysis separates service productivity from firm profits and long-run skill development."
+    },
+    "markdown": "programs/business-and-organizations/analysis/study-02.md",
+    "markdown_en": "programs/business-and-organizations/analysis/study-02.en.md",
+    "source_url": "https://doi.org/10.1093/qje/qjae044",
+    "access": "selected_sections",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://doi.org/10.1093/qje/qjae044"
+    ],
+    "access_note": {
+      "ru": "Открытый журнальный текст: прочитаны аннотация, начало введения и раздел IV.C о стратегии оценивания. Это не полное чтение всех результатов и приложений.",
+      "en": "Open journal text: the abstract, opening introduction and Section IV.C on estimation were inspected. This is not a complete reading of all results and appendices."
+    }
+  },
+  {
+    "id": "study-03",
+    "kind": "studies",
+    "ordinal": 3,
+    "title": {
+      "ru": "Hoffmann и соавторы — Generative AI and the Nature of Work",
+      "en": "Hoffmann et al. — Generative AI and the Nature of Work"
+    },
+    "summary": {
+      "ru": "Порог доступа к GitHub Copilot позволяет изучать распределение деятельности разработчиков. Изменение цифровых следов нельзя автоматически считать улучшением продукта или доказательством исчезновения иерархий.",
+      "en": "A GitHub Copilot eligibility threshold supports analysis of developers’ activity allocation. Changes in digital traces do not automatically establish product improvement or the disappearance of hierarchies."
+    },
+    "markdown": "programs/business-and-organizations/analysis/study-03.md",
+    "markdown_en": "programs/business-and-organizations/analysis/study-03.en.md",
+    "source_url": "https://www.hbs.edu/ris/Publication%20Files/25-021_491efe26-e444-4e02-b58e-f27300cde12f.pdf",
+    "access": "selected_sections",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.hbs.edu/ris/Publication%20Files/25-021_491efe26-e444-4e02-b58e-f27300cde12f.pdf"
+    ],
+    "access_note": {
+      "ru": "Открыт PDF версии 18 апреля 2025 года; прочитаны аннотация, сведения об авторах и начало введения. Таблицы, приложения и код не перепроверены.",
+      "en": "The PDF dated 18 April 2025 was opened; the abstract, authorship information and opening introduction were inspected. Tables, appendices and code were not rechecked."
+    }
+  },
+  {
+    "id": "study-04",
+    "kind": "studies",
+    "ordinal": 4,
+    "title": {
+      "ru": "Tania Babina — Understanding Firms’ AI Efforts and Their Economic Impact",
+      "en": "Tania Babina — Understanding Firms’ AI Efforts and Their Economic Impact"
+    },
+    "summary": {
+      "ru": "Обзор различает разработку, применение, внутренние компетенции и ожидания относительно ИИ. Его главное значение — дисциплина выбора показателя до оценки экономического эффекта.",
+      "en": "The review distinguishes AI invention, use, internal capability and expectations. Its principal contribution here is disciplined measurement before estimating economic effects."
+    },
+    "markdown": "programs/business-and-organizations/analysis/study-04.md",
+    "markdown_en": "programs/business-and-organizations/analysis/study-04.en.md",
+    "source_url": "https://academic.oup.com/rcfs/article/15/4/967/8742315",
+    "access": "abstract",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://academic.oup.com/rcfs/article/15/4/967/8742315",
+      "https://academic.oup.com/rcfs/advance-article/doi/10.1093/rcfs/cfag027/8742315"
+    ],
+    "access_note": {
+      "ru": "Прочитаны аннотация и журнальная запись через адрес advance-article. Онлайн-публикация датирована 27 июля 2026 года; выпуск указан как ноябрь 2026 года. Полный текст обзора не прочитан.",
+      "en": "The abstract and journal record were inspected through the advance-article address. Online publication is dated 27 July 2026; the issue is labelled November 2026. The full review was not read."
+    }
+  },
+  {
+    "id": "study-05",
+    "kind": "studies",
+    "ordinal": 5,
+    "title": {
+      "ru": "Kaul, Anderson и McKenzie — Business Development Services and New Market Expansion",
+      "en": "Kaul, Anderson and McKenzie — Business Development Services and New Market Expansion"
+    },
+    "summary": {
+      "ru": "Эксперимент с нигерийскими предпринимателями исследует расширение клиентских и географических рынков. Важны различия между ростом отдельной фирмы, общественным эффектом и окупаемостью консультаций.",
+      "en": "An experiment with Nigerian entrepreneurs examines expansion into customer and geographic markets. Firm growth, social effects and returns to consulting must be distinguished."
+    },
+    "markdown": "programs/business-and-organizations/analysis/study-05.md",
+    "markdown_en": "programs/business-and-organizations/analysis/study-05.en.md",
+    "source_url": "https://doi.org/10.2139/ssrn.5610873",
+    "access": "abstract",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://doi.org/10.2139/ssrn.5610873",
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5610873"
+    ],
+    "access_note": {
+      "ru": "Прочитана индексированная аннотация SSRN и сведения о пересмотре 25 июня 2026 года; прямой доступ к карточке ограничен. Рукопись и таблицы не прочитаны.",
+      "en": "The indexed SSRN abstract and revision date of 25 June 2026 were inspected; direct record access was restricted. The manuscript and tables were not read."
+    }
+  },
+  {
+    "id": "study-06",
+    "kind": "studies",
+    "ordinal": 6,
+    "title": {
+      "ru": "Asghar и Obloj — Delegation of Decision Rights and Capital Reallocation",
+      "en": "Asghar and Obloj — Delegation of Decision Rights and Capital Reallocation"
+    },
+    "summary": {
+      "ru": "Исследование муниципалитетов связывает распределение прав решения с перераспределением капитала. Частота перераспределения не является самостоятельным доказательством качества решений.",
+      "en": "Municipal evidence links decision rights with capital reallocation. Reallocation frequency does not independently establish decision quality."
+    },
+    "markdown": "programs/business-and-organizations/analysis/study-06.md",
+    "markdown_en": "programs/business-and-organizations/analysis/study-06.en.md",
+    "source_url": "https://doi.org/10.1002/smj.3708",
+    "access": "abstract",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://doi.org/10.1002/smj.3708",
+      "https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3708?af=R"
+    ],
+    "access_note": {
+      "ru": "Прочитаны исследовательская и управленческая аннотации Wiley и журнальные сведения. Полный текст, источник экзогенного изменения и дополнительные проверки отдельно не изучены.",
+      "en": "Wiley’s research and managerial abstracts and journal metadata were inspected. The full text, source of exogenous variation and additional checks were not separately examined."
+    }
+  },
+  {
+    "id": "study-07",
+    "kind": "studies",
+    "ordinal": 7,
+    "title": {
+      "ru": "Legros и Newman — The “Value Principle” in Management Practices, Organizational Design and Industrial Organization",
+      "en": "Legros and Newman — The “Value Principle” in Management Practices, Organizational Design and Industrial Organization"
+    },
+    "summary": {
+      "ru": "Теоретический обзор связывает организационные решения с ценностью продукции на рынке. Его следует использовать для вывода проверяемых предсказаний, а не как эмпирическую оценку менеджмента.",
+      "en": "The theoretical survey connects organisational choices to product-market value. It should generate testable predictions rather than be treated as an empirical estimate of management effects."
+    },
+    "markdown": "programs/business-and-organizations/analysis/study-07.md",
+    "markdown_en": "programs/business-and-organizations/analysis/study-07.en.md",
+    "source_url": "https://cepr.org/publications/dp20627",
+    "access": "abstract",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://cepr.org/publications/dp20627"
+    ],
+    "access_note": {
+      "ru": "Прочитана аннотация CEPR DP20627 от 8 сентября 2025 года. Полный текст моделей и доказательств не получен.",
+      "en": "The CEPR DP20627 abstract dated 8 September 2025 was inspected. The full models and proofs were not obtained."
+    }
+  },
+  {
+    "id": "researcher-01",
+    "kind": "researchers",
+    "ordinal": 1,
+    "title": {
+      "ru": "Erik Brynjolfsson — Stanford Digital Economy Lab",
+      "en": "Erik Brynjolfsson — Stanford Digital Economy Lab"
+    },
+    "summary": {
+      "ru": "Исследовательская линия связывает цифровые технологии с производительностью и организационными дополнениями. Для ORI особенно важен переход от возможностей инструмента к измерению рабочего процесса.",
+      "en": "This research line connects digital technology with productivity and organisational complements. ORI’s key interest is moving from tool capability to workflow measurement."
+    },
+    "markdown": "programs/business-and-organizations/analysis/researcher-01.md",
+    "markdown_en": "programs/business-and-organizations/analysis/researcher-01.en.md",
+    "source_url": "https://www.gsb.stanford.edu/faculty-research/faculty/erik-brynjolfsson",
+    "access": "institutional_profile",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.gsb.stanford.edu/faculty-research/faculty/erik-brynjolfsson",
+      "https://economics.stanford.edu/people/erik-brynjolfsson",
+      "https://doi.org/10.1093/qje/qjae044"
+    ],
+    "access_note": {
+      "ru": "Проверен профиль Stanford Economics; карточка GSB напрямую не открылась. Для примера изучены отдельные разделы Generative AI at Work, а не весь массив работ исследователя.",
+      "en": "The Stanford Economics profile was checked; the GSB record did not open directly. Selected sections of Generative AI at Work supplied the exemplar, not the researcher’s complete body of work."
+    }
+  },
+  {
+    "id": "researcher-02",
+    "kind": "researchers",
+    "ordinal": 2,
+    "title": {
+      "ru": "Danielle Li — MIT Sloan",
+      "en": "Danielle Li — MIT Sloan"
+    },
+    "summary": {
+      "ru": "Работы Li связывают инновации и труд с тем, как организации оценивают людей, идеи и проекты. В исходной карте ошибочно указано её соавторство NBER w33795; проверенный пример — Generative AI at Work.",
+      "en": "Li’s work connects innovation and labour to organisational evaluation of people, ideas and projects. The map incorrectly credits her on NBER w33795; the verified exemplar is Generative AI at Work."
+    },
+    "markdown": "programs/business-and-organizations/analysis/researcher-02.md",
+    "markdown_en": "programs/business-and-organizations/analysis/researcher-02.en.md",
+    "source_url": "https://mitsloan.mit.edu/faculty/directory/danielle-li",
+    "access": "institutional_profile",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://mitsloan.mit.edu/faculty/directory/danielle-li",
+      "https://doi.org/10.1093/qje/qjae044",
+      "https://arxiv.org/abs/2504.11436"
+    ],
+    "access_note": {
+      "ru": "Прочитаны профиль MIT Sloan, авторская строка QJE и авторская строка NBER/arXiv. В анализе исправлена атрибуция примера; исходная карта не изменялась.",
+      "en": "The MIT Sloan profile and QJE and NBER/arXiv author lists were inspected. The exemplar attribution is corrected here; the original map was not edited."
+    }
+  },
+  {
+    "id": "researcher-03",
+    "kind": "researchers",
+    "ordinal": 3,
+    "title": {
+      "ru": "Christopher T. Stanton — Harvard Business School",
+      "en": "Christopher T. Stanton — Harvard Business School"
+    },
+    "summary": {
+      "ru": "Организационная экономика Stanton помогает различать индивидуальную экономию времени и изменения совместной работы. Проверенный пример — соавторство Shifting Work Patterns with Generative AI.",
+      "en": "Stanton’s organisational economics helps distinguish individual time savings from changes in joint work. His coauthorship of Shifting Work Patterns with Generative AI is the verified exemplar."
+    },
+    "markdown": "programs/business-and-organizations/analysis/researcher-03.md",
+    "markdown_en": "programs/business-and-organizations/analysis/researcher-03.en.md",
+    "source_url": "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452",
+    "access": "institutional_profile",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452",
+      "https://cepr.org/about/people/christopher-stanton",
+      "https://arxiv.org/abs/2504.11436"
+    ],
+    "access_note": {
+      "ru": "Проверены профиль CEPR, индексированная запись HBS и рабочая статья. В карте неверный facId; подтверждённый профиль HBS использует 602452. Точное звание не переносится из расходящихся карточек.",
+      "en": "The CEPR profile, indexed HBS record and working paper were checked. The map’s facId is incorrect; the verified HBS profile uses 602452. An exact rank is not inferred from inconsistent records."
+    }
+  }
+]

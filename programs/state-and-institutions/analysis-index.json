@@ -1,0 +1,314 @@
+[
+  {
+    "id": "book-01",
+    "kind": "books",
+    "ordinal": 1,
+    "title": {
+      "ru": "Elinor Ostrom — Governing the Commons",
+      "en": "Elinor Ostrom — Governing the Commons"
+    },
+    "summary": {
+      "ru": "Сравнение удачных и неудачных режимов общего ресурса показывает необходимость анализа конкретных правил. Для государства ключевой вопрос — взаимодействие локального управления с правами, ресурсами и внешней властью.",
+      "en": "Comparing successful and unsuccessful commons arrangements motivates analysis of specific rules. For state institutions, the key question is how local governance interacts with rights, resources and outside authority."
+    },
+    "markdown": "programs/state-and-institutions/analysis/book-01.md",
+    "markdown_en": "programs/state-and-institutions/analysis/book-01.en.md",
+    "source_url": "https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79",
+    "access": "publisher_description",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79"
+    ],
+    "access_note": {
+      "ru": "Прочитаны описание и оглавление Cambridge. Содержание глав и полный текст не получены; заключения о конкретных кейсах здесь не воспроизводятся.",
+      "en": "The Cambridge description and contents were inspected. Chapters and the full text were not obtained; detailed case findings are not reconstructed here."
+    }
+  },
+  {
+    "id": "book-02",
+    "kind": "books",
+    "ordinal": 2,
+    "title": {
+      "ru": "Daron Acemoglu и James A. Robinson — Why Nations Fail",
+      "en": "Daron Acemoglu and James A. Robinson — Why Nations Fail"
+    },
+    "summary": {
+      "ru": "Исторический тезис об институтах и развитии задаёт вопросы о власти и стимулах. Его широкие категории требуют самостоятельной операционализации перед оценкой конкретной государственной реформы.",
+      "en": "The historical thesis linking institutions and development frames questions about power and incentives. Its broad categories require independent operationalisation before evaluating a particular state reform."
+    },
+    "markdown": "programs/state-and-institutions/analysis/book-02.md",
+    "markdown_en": "programs/state-and-institutions/analysis/book-02.en.md",
+    "source_url": "https://www.penguinrandomhouse.com/books/205014/why-nations-fail-by-daron-acemoglu-and-james-a-robinson/?facet=app&mode=light",
+    "access": "publisher_description",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://www.penguinrandomhouse.com/books/205014/why-nations-fail-by-daron-acemoglu-and-james-a-robinson/?facet=app&mode=light"
+    ],
+    "access_note": {
+      "ru": "Прочитана официальная издательская карточка и описание; подтверждены издания 2012 и 2013 годов. Полный текст и исторические главы не прочитаны.",
+      "en": "The official publisher record and description were inspected, confirming the 2012 and 2013 editions. The full text and historical chapters were not read."
+    }
+  },
+  {
+    "id": "book-03",
+    "kind": "books",
+    "ordinal": 3,
+    "title": {
+      "ru": "Francis Fukuyama — Political Order and Political Decay",
+      "en": "Francis Fukuyama — Political Order and Political Decay"
+    },
+    "summary": {
+      "ru": "Книга разделяет государственную способность, верховенство права и подотчётность. Это позволяет не путать административную результативность с ограничением власти и оценивать их сочетание.",
+      "en": "The book distinguishes state capacity, rule of law and accountability. This prevents conflating administrative performance with constraints on power and directs attention to their combination."
+    },
+    "markdown": "programs/state-and-institutions/analysis/book-03.md",
+    "markdown_en": "programs/state-and-institutions/analysis/book-03.en.md",
+    "source_url": "https://us.macmillan.com/books/9781429944328/politicalorderandpoliticaldecay/",
+    "access": "selected_sections",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://us.macmillan.com/books/9781429944328/politicalorderandpoliticaldecay/"
+    ],
+    "access_note": {
+      "ru": "Прочитано начало главы 1 в разрешённом издательском отрывке и карточка книги. Остальная книга не прочитана; подробное досье требует полного текста.",
+      "en": "The opening of Chapter 1 in the authorised publisher excerpt and the book record were inspected. The rest of the book was not read; a detailed dossier requires the full text."
+    }
+  },
+  {
+    "id": "study-01",
+    "kind": "studies",
+    "ordinal": 1,
+    "title": {
+      "ru": "World Bank — Worldwide Governance Indicators, 2026 update",
+      "en": "World Bank — Worldwide Governance Indicators, 2026 update"
+    },
+    "summary": {
+      "ru": "WGI объединяет восприятия управления в шесть измерений с неопределённостью. Индекс полезен для постановки сравнительных вопросов, но не заменяет оценку конкретной услуги или реформы.",
+      "en": "WGI combines governance perceptions into six dimensions with uncertainty. It helps frame comparative questions but cannot replace evaluation of a particular service or reform."
+    },
+    "markdown": "programs/state-and-institutions/analysis/study-01.md",
+    "markdown_en": "programs/state-and-institutions/analysis/study-01.en.md",
+    "source_url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+    "access": "selected_sections",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+      "https://www.worldbank.org/en/publication/worldwide-governance-indicators/documentation"
+    ],
+    "access_note": {
+      "ru": "Прочитаны официальная страница выпуска и методическое описание агрегирования и использования. Файлы данных и пакет воспроизводимости не загружались; расчёты не повторялись.",
+      "en": "The official release page and documentation on aggregation and use were inspected. Data files and the reproducibility package were not downloaded; calculations were not reproduced."
+    }
+  },
+  {
+    "id": "study-02",
+    "kind": "studies",
+    "ordinal": 2,
+    "title": {
+      "ru": "World Bank — GovTech Maturity Index 2025",
+      "en": "World Bank — GovTech Maturity Index 2025"
+    },
+    "summary": {
+      "ru": "GTMI описывает цифровые системы и организационные условия, а не результативность государства. Для ORI наличие канала услуги нужно отделять от возможности гражданина успешно им воспользоваться.",
+      "en": "GTMI describes digital systems and organisational conditions rather than state performance. ORI must distinguish service-channel existence from citizens’ ability to use it successfully."
+    },
+    "markdown": "programs/state-and-institutions/analysis/study-02.md",
+    "markdown_en": "programs/state-and-institutions/analysis/study-02.en.md",
+    "source_url": "https://www.worldbank.org/en/programs/govtech/gtmi-2025-update",
+    "access": "selected_sections",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.worldbank.org/en/programs/govtech/gtmi-2025-update",
+      "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099121725193511608"
+    ],
+    "access_note": {
+      "ru": "Прочитаны описание выпуска, состав индикаторов и оговорки Всемирного банка. Дашборд и микроданные не анализировались; повторного расчёта индекса нет.",
+      "en": "The release description, indicator scope and World Bank cautions were inspected. The dashboard and underlying data were not analysed, and the index was not recalculated."
+    }
+  },
+  {
+    "id": "study-03",
+    "kind": "studies",
+    "ordinal": 3,
+    "title": {
+      "ru": "Benjamin A. Olken — Monitoring Corruption: Evidence from a Field Experiment in Indonesia",
+      "en": "Benjamin A. Olken — Monitoring Corruption: Evidence from a Field Experiment in Indonesia"
+    },
+    "summary": {
+      "ru": "Эксперимент с аудитами показывает, как проверять подотчётность через независимое измерение расходов. Эффект конкретного контроля нельзя превращать в общий вывод против гражданского участия.",
+      "en": "The audit experiment shows how to evaluate accountability using independently measured expenditure. A specific oversight effect cannot become a general argument against citizen participation."
+    },
+    "markdown": "programs/state-and-institutions/analysis/study-03.md",
+    "markdown_en": "programs/state-and-institutions/analysis/study-03.en.md",
+    "source_url": "https://doi.org/10.1086/517935",
+    "access": "selected_sections",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://doi.org/10.1086/517935",
+      "https://www.povertyactionlab.org/sites/default/files/research-paper/27_Olken_Monitoring_Corruption.pdf"
+    ],
+    "access_note": {
+      "ru": "В открытом PDF J-PAL прочитаны аннотация, начало статьи, раздел измерения расходов и фрагменты результатов. Полное чтение приложений и воспроизведение оценок не выполнены.",
+      "en": "The open J-PAL PDF was inspected for the abstract, opening, expenditure-measurement section and selected results. Appendices were not fully read and estimates were not reproduced."
+    }
+  },
+  {
+    "id": "study-04",
+    "kind": "studies",
+    "ordinal": 4,
+    "title": {
+      "ru": "Ghazala Mansuri и Vijayendra Rao — Localizing Development: Does Participation Work?",
+      "en": "Ghazala Mansuri and Vijayendra Rao — Localizing Development: Does Participation Work?"
+    },
+    "summary": {
+      "ru": "Синтез различает локальное участие как желаемый принцип и условия его практической организации. Для программы важны представительство, захват решений, мониторинг и взаимодействие с государством.",
+      "en": "The synthesis distinguishes local participation as an aspiration from the conditions of organising it. Representation, capture, monitoring and interaction with the state matter for the programme."
+    },
+    "markdown": "programs/state-and-institutions/analysis/study-04.md",
+    "markdown_en": "programs/state-and-institutions/analysis/study-04.en.md",
+    "source_url": "https://openknowledge.worldbank.org/handle/10986/11859",
+    "access": "publisher_description",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://openknowledge.worldbank.org/handle/10986/11859",
+      "https://www.worldbank.org/en/research/publication/localizing-development-does-participation-work",
+      "https://blogs.worldbank.org/en/developmenttalk/ghazala-mansuri-and-vijayendra-rao"
+    ],
+    "access_note": {
+      "ru": "Основная карточка и открытый PDF не загрузились. Прочитаны официальная страница отчёта и авторское объяснение его подготовки; полный доклад не прочитан.",
+      "en": "The main record and open PDF did not load. The official report page and authors’ account of its preparation were inspected; the full report was not read."
+    }
+  },
+  {
+    "id": "study-05",
+    "kind": "studies",
+    "ordinal": 5,
+    "title": {
+      "ru": "World Bank — World Development Report 2025: Standards for Development",
+      "en": "World Bank — World Development Report 2025: Standards for Development"
+    },
+    "summary": {
+      "ru": "Доклад связывает стандарты с совместимостью, доверием и организационной способностью исполнения. Программа должна проверять не только принятие правила, но его доступность и реальные последствия.",
+      "en": "The report connects standards to compatibility, trust and implementation capacity. The programme should examine not only rule adoption but accessibility and practical consequences."
+    },
+    "markdown": "programs/state-and-institutions/analysis/study-05.md",
+    "markdown_en": "programs/state-and-institutions/analysis/study-05.en.md",
+    "source_url": "https://www.worldbank.org/en/publication/wdr2025",
+    "access": "publisher_description",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.worldbank.org/en/publication/wdr2025",
+      "https://openknowledge.worldbank.org/bitstreams/d5d445ac-35f1-41a8-ab6b-debfd4eeb47c/download"
+    ],
+    "access_note": {
+      "ru": "Прочитаны официальное описание и основные положения на странице доклада. Ссылка на обзор PDF вернула ограничение доступа; полный отчёт не прочитан.",
+      "en": "The official description and main messages on the report page were inspected. The overview PDF link returned an access restriction; the full report was not read."
+    }
+  },
+  {
+    "id": "researcher-01",
+    "kind": "researchers",
+    "ordinal": 1,
+    "title": {
+      "ru": "Cem Dener — World Bank / GovTech",
+      "en": "Cem Dener — World Bank / GovTech"
+    },
+    "summary": {
+      "ru": "Работа Dener связывает цифровые государственные системы с организацией публичных финансов. GTMI полезен для постановки вопросов о реализации, но не доказывает улучшение услуг.",
+      "en": "Dener’s work connects digital public systems with public financial management. GTMI supports implementation questions without establishing service improvement."
+    },
+    "markdown": "programs/state-and-institutions/analysis/researcher-01.md",
+    "markdown_en": "programs/state-and-institutions/analysis/researcher-01.en.md",
+    "source_url": "https://blogs.worldbank.org/en/team/c/cem-dener",
+    "access": "institutional_profile",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://blogs.worldbank.org/en/team/c/cem-dener",
+      "https://www.worldbank.org/en/programs/govtech/gtmi-2025-update",
+      "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099121725193511608"
+    ],
+    "access_note": {
+      "ru": "Прочитаны институциональный профиль и страница GTMI 2025. Карточка краткого доклада открылась без текста; личная доля авторства в выпуске здесь не устанавливается.",
+      "en": "The institutional profile and GTMI 2025 page were inspected. The brief’s record opened without text; this entry does not establish his individual authorship share in the release."
+    }
+  },
+  {
+    "id": "researcher-02",
+    "kind": "researchers",
+    "ordinal": 2,
+    "title": {
+      "ru": "Aart Kraay — World Bank",
+      "en": "Aart Kraay — World Bank"
+    },
+    "summary": {
+      "ru": "Исследовательская линия Kraay связывает институты, рост и измерение управления. Проверенная связь с WGI относится к исходной методологии и работе 2024 года; выпуск 2026 года имеет институциональную атрибуцию.",
+      "en": "Kraay’s research connects institutions, growth and governance measurement. The verified WGI connection concerns the original methodology and 2024 paper; the 2026 release is institutionally attributed."
+    },
+    "markdown": "programs/state-and-institutions/analysis/researcher-02.md",
+    "markdown_en": "programs/state-and-institutions/analysis/researcher-02.en.md",
+    "source_url": "https://www.worldbank.org/en/about/people/a/aart-kraay",
+    "access": "institutional_profile",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.worldbank.org/en/about/people/a/aart-kraay",
+      "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+      "https://www.worldbank.org/en/publication/worldwide-governance-indicators/documentation",
+      "https://openknowledge.worldbank.org/entities/publication/4649907e-8902-4e74-a7ed-0e205e5e7919"
+    ],
+    "access_note": {
+      "ru": "Прочитаны профиль Всемирного банка, страница WGI 2026 и документация. Персональное авторство методологии выпуска 2026 года не подтверждено; указана подтверждённая работа Kaufmann–Kraay 2024 года.",
+      "en": "The World Bank profile, WGI 2026 page and documentation were inspected. Personal authorship of the 2026 release methodology was not verified; the confirmed Kaufmann–Kraay 2024 paper is identified."
+    }
+  },
+  {
+    "id": "researcher-03",
+    "kind": "researchers",
+    "ordinal": 3,
+    "title": {
+      "ru": "Carmela Barbera, Laurence Ferry и Noel Hyndman — публичная подотчётность",
+      "en": "Carmela Barbera, Laurence Ferry and Noel Hyndman — public accountability"
+    },
+    "summary": {
+      "ru": "Их работы позволяют различать отчётность, власть требовать объяснение и возможность исправления. Вводная статья 2025 года — концептуальная карта, а не эмпирическая проверка всех обсуждаемых механизмов.",
+      "en": "Their work helps distinguish reporting, authority to demand explanations and opportunities for correction. The 2025 introduction is a conceptual map, not empirical validation of every mechanism discussed."
+    },
+    "markdown": "programs/state-and-institutions/analysis/researcher-03.md",
+    "markdown_en": "programs/state-and-institutions/analysis/researcher-03.en.md",
+    "source_url": "https://unibg.unifind.cineca.it/resource/person/53029?language=en-US",
+    "access": "institutional_profile",
+    "status": "initial_analysis",
+    "checked": "2026-10-24",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://unibg.unifind.cineca.it/resource/person/53029?language=en-US",
+      "https://dur.ac.uk/business/our-people/laurence-ferry/",
+      "https://www.qub.ac.uk/schools/queens-business-school/people/academic-staff/AllAcademicStaffProfiles/Hyndman.html",
+      "https://doi.org/10.1111/padm.70012",
+      "https://onlinelibrary.wiley.com/doi/10.1111/padm.70012"
+    ],
+    "access_note": {
+      "ru": "Прочитаны профили Barbera и Ferry, индексированная запись Queen’s о Hyndman и аннотация вводной статьи. Полные 14 работ специального выпуска не прочитаны.",
+      "en": "Barbera’s and Ferry’s profiles, Queen’s indexed Hyndman record and the introductory article’s abstract were inspected. The special issue’s 14 papers were not fully read."
+    }
+  }
+]

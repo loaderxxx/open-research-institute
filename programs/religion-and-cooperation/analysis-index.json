@@ -1,0 +1,310 @@
+[
+  {
+    "id": "book-01",
+    "kind": "books",
+    "ordinal": 1,
+    "title": {
+      "ru": "Ara Norenzayan — Big Gods",
+      "en": "Ara Norenzayan — Big Gods"
+    },
+    "summary": {
+      "ru": "Гипотеза связывает представления о наблюдающих богах с сотрудничеством за пределами близкого круга. Ключевые вопросы — направление причинности и границы группы.",
+      "en": "The hypothesis connects beliefs in watchful gods with cooperation beyond close networks. Causal direction and group boundaries are central questions."
+    },
+    "source_url": "https://press.princeton.edu/books/paperback/9780691169743/big-gods",
+    "access": "publisher_description",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://press.princeton.edu/books/paperback/9780691169743/big-gods",
+      "https://www.jstor.org/stable/j.ctt32bbp0"
+    ],
+    "access_note": {
+      "ru": "Прочитаны издательское описание на JSTOR, оглавление и краткие начала отдельных глав. Полная книга недоступна; начальные фрагменты не считаются чтением глав.",
+      "en": "The publisher description on JSTOR, contents and brief chapter openings were inspected. The full book was unavailable; opening snippets are not treated as chapter reading."
+    },
+    "markdown": "programs/religion-and-cooperation/analysis/book-01.md",
+    "markdown_en": "programs/religion-and-cooperation/analysis/book-01.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "book-02",
+    "kind": "books",
+    "ordinal": 2,
+    "title": {
+      "ru": "Joseph Henrich — The WEIRDest People in the World",
+      "en": "Joseph Henrich — The WEIRDest People in the World"
+    },
+    "summary": {
+      "ru": "Книга связывает исторические изменения родства с психологией и институтами. Полезность рамки зависит от раздельной проверки каждого звена этой длинной причинной цепи.",
+      "en": "The book connects historical kinship changes with psychology and institutions. Its usefulness depends on testing each link in this extended causal chain separately."
+    },
+    "source_url": "https://us.macmillan.com/books/9780374710453/theweirdestpeopleintheworld/",
+    "access": "selected_sections",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://us.macmillan.com/books/9780374710453/theweirdestpeopleintheworld/"
+    ],
+    "access_note": {
+      "ru": "Прочитаны начало главы 1 в разрешённом отрывке Macmillan и издательское описание. Исторические главы и полный аппарат свидетельств не прочитаны.",
+      "en": "The opening of Chapter 1 in Macmillan’s authorised excerpt and publisher description were inspected. Historical chapters and the complete evidential apparatus were not read."
+    },
+    "markdown": "programs/religion-and-cooperation/analysis/book-02.md",
+    "markdown_en": "programs/religion-and-cooperation/analysis/book-02.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "book-03",
+    "kind": "books",
+    "ordinal": 3,
+    "title": {
+      "ru": "Scott Atran — In Gods We Trust",
+      "en": "Scott Atran — In Gods We Trust"
+    },
+    "summary": {
+      "ru": "Когнитивное объяснение рассматривает религию через эволюцию познания и культурное сохранение. Оно помогает отделить происхождение представлений от их современных социальных последствий.",
+      "en": "The cognitive account approaches religion through cognitive evolution and cultural persistence. It separates the origins of representations from their current social consequences."
+    },
+    "source_url": "https://global.oup.com/academic/product/in-gods-we-trust-9780195178037",
+    "access": "publisher_description",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://global.oup.com/academic/product/in-gods-we-trust-9780195178037",
+      "https://academic.oup.com/book/10966"
+    ],
+    "access_note": {
+      "ru": "Прочитана издательская аннотация Oxford Academic; первоначальная товарная карточка не открылась. Полный текст книги не получен.",
+      "en": "The Oxford Academic publisher abstract was inspected; the original product page did not open. The book’s full text was not obtained."
+    },
+    "markdown": "programs/religion-and-cooperation/analysis/book-03.md",
+    "markdown_en": "programs/religion-and-cooperation/analysis/book-03.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-01",
+    "kind": "studies",
+    "ordinal": 1,
+    "title": {
+      "ru": "Goldner и соавторы — The Intergroup and Contextual Determinants of Real-World Religious Donations",
+      "en": "Goldner et al. — The Intergroup and Contextual Determinants of Real-World Religious Donations"
+    },
+    "summary": {
+      "ru": "Полевое пожертвование позволяет разделить готовность помогать и предпочтение религиозного сборщика. Экспериментальное изменение одежды не рандомизирует религиозность жертвователя.",
+      "en": "Field donations distinguish willingness to help from preference for a religious fundraiser. Manipulating attire does not randomise donors’ religiosity."
+    },
+    "source_url": "https://doi.org/10.1111/jssr.12961",
+    "access": "selected_sections",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://doi.org/10.1111/jssr.12961"
+    ],
+    "access_note": {
+      "ru": "Прочитаны аннотация и фрагменты введения, процедуры и обсуждения открытой статьи. Все таблицы и дополнительные материалы не проверены.",
+      "en": "The abstract and portions of introduction, procedure and discussion of the open article were inspected. Not all tables or supplements were checked."
+    },
+    "markdown": "programs/religion-and-cooperation/analysis/study-01.md",
+    "markdown_en": "programs/religion-and-cooperation/analysis/study-01.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-02",
+    "kind": "studies",
+    "ordinal": 2,
+    "title": {
+      "ru": "Pasek и соавторы — In Their God We Trust",
+      "en": "Pasek et al. — In Their God We Trust"
+    },
+    "summary": {
+      "ru": "Пререгистрированные игры различают доверие к верующим и их взаимность при напоминании о Боге. Результат касается конкретного воздействия и не измеряет историческое влияние религии.",
+      "en": "Preregistered games distinguish trust in believers from their reciprocity after a reminder of God. The result concerns a specific intervention, not religion’s historical influence."
+    },
+    "source_url": "https://doi.org/10.1037/pspi0000499",
+    "access": "abstract",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://doi.org/10.1037/pspi0000499",
+      "https://pubmed.ncbi.nlm.nih.gov/40674036/"
+    ],
+    "access_note": {
+      "ru": "Прочитаны авторская аннотация и библиографические сведения PubMed. Протоколы, полный текст и индивидуальные данные не прочитаны.",
+      "en": "The author abstract and bibliographic details on PubMed were inspected. Protocols, full text and individual-level data were not read."
+    },
+    "markdown": "programs/religion-and-cooperation/analysis/study-02.md",
+    "markdown_en": "programs/religion-and-cooperation/analysis/study-02.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-03",
+    "kind": "studies",
+    "ordinal": 3,
+    "title": {
+      "ru": "Kelly, Kramer и Shariff — Religiosity Predicts Prosociality, Especially When Measured by Self-Report",
+      "en": "Kelly, Kramer and Shariff — Religiosity Predicts Prosociality, Especially When Measured by Self-Report"
+    },
+    "summary": {
+      "ru": "Мета-анализ обнаруживает зависимость связи религиозности и просоциальности от способа измерения. Расхождение самоотчётов и поведения требует объяснения, а не автоматического выбора одной меры.",
+      "en": "The meta-analysis finds that associations between religiosity and prosociality depend on measurement. Self-report–behaviour differences need explanation rather than automatic preference for one measure."
+    },
+    "source_url": "https://doi.org/10.1037/bul0000413",
+    "access": "abstract",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://doi.org/10.1037/bul0000413",
+      "https://pubmed.ncbi.nlm.nih.gov/38407059/"
+    ],
+    "access_note": {
+      "ru": "Прочитана аннотация PubMed; прямой адрес APA заблокирован. Доступность полного текста в карте не означает его чтения здесь.",
+      "en": "The PubMed abstract was inspected; direct APA access was blocked. Full-text availability in the map does not imply it was read here."
+    },
+    "markdown": "programs/religion-and-cooperation/analysis/study-03.md",
+    "markdown_en": "programs/religion-and-cooperation/analysis/study-03.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-04",
+    "kind": "studies",
+    "ordinal": 4,
+    "title": {
+      "ru": "Valencia Caicedo, Dohmen и Pondorfer — Religion and Cooperation across the Globe",
+      "en": "Valencia Caicedo, Dohmen and Pondorfer — Religion and Cooperation across the Globe"
+    },
+    "summary": {
+      "ru": "Глобальные опросные данные показывают ассоциации религиозной веры и социальных предпочтений. Валидированные показатели не устраняют отбор и не дают причинной оценки веры.",
+      "en": "Global survey data show associations between religious belief and social preferences. Validated measures do not eliminate selection or identify belief’s causal effects."
+    },
+    "source_url": "https://doi.org/10.1016/j.jebo.2023.09.025",
+    "access": "abstract",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://doi.org/10.1016/j.jebo.2023.09.025",
+      "https://cris.maastrichtuniversity.nl/en/publications/religion-and-cooperation-across-the-globe/"
+    ],
+    "access_note": {
+      "ru": "Прочитаны аннотация и метаданные институционального репозитория Maastricht. Полный текст не прочитан; репозиторий указывает CC BY-NC, в отличие от CC BY в карте.",
+      "en": "The Maastricht institutional abstract and metadata were inspected. The full text was not read; the repository lists CC BY-NC rather than the map’s CC BY."
+    },
+    "markdown": "programs/religion-and-cooperation/analysis/study-04.md",
+    "markdown_en": "programs/religion-and-cooperation/analysis/study-04.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-05",
+    "kind": "studies",
+    "ordinal": 5,
+    "title": {
+      "ru": "Pasek и соавторы — Thinking about God Encourages Intergroup Prosociality Even When Conflict Is Salient",
+      "en": "Pasek et al. — Thinking about God Encourages Intergroup Prosociality Even When Conflict Is Salient"
+    },
+    "summary": {
+      "ru": "Фиджийские эксперименты совместно рассматривают напоминания о конфликте и о Божьих предпочтениях. Денежные распределения проверяют ограниченное поведение, а не прекращение реального конфликта.",
+      "en": "Fiji experiments jointly examine reminders of conflict and God’s preferences. Monetary allocations test bounded behaviour, not resolution of real-world conflict."
+    },
+    "source_url": "https://doi.org/10.1177/13684302241307011",
+    "access": "abstract",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://doi.org/10.1177/13684302241307011",
+      "https://journals.sagepub.com/doi/10.1177/13684302241307011"
+    ],
+    "access_note": {
+      "ru": "Прочитана аннотация SAGE и библиографические сведения: онлайн 25 января 2025 года, выпуск 29(5) относится к 2026 году. Полный текст ограничен.",
+      "en": "The SAGE abstract and metadata were inspected: online 25 January 2025, with Volume 29(5) belonging to 2026. Full text is restricted."
+    },
+    "markdown": "programs/religion-and-cooperation/analysis/study-05.md",
+    "markdown_en": "programs/religion-and-cooperation/analysis/study-05.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "researcher-01",
+    "kind": "researchers",
+    "ordinal": 1,
+    "title": {
+      "ru": "Michael H. Pasek — UIC / Belief, Identity, and Group Relations Lab",
+      "en": "Michael H. Pasek — UIC / Belief, Identity, and Group Relations Lab"
+    },
+    "summary": {
+      "ru": "Pasek исследует религию как убеждение и как групповую принадлежность. Для ORI важно различать эти механизмы в межгрупповом поведении.",
+      "en": "Pasek examines religion as belief and as group membership. ORI should distinguish these mechanisms in intergroup behaviour."
+    },
+    "source_url": "https://psch.uic.edu/profiles/pasek-michael/",
+    "access": "institutional_profile",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://psch.uic.edu/profiles/pasek-michael/",
+      "https://pubmed.ncbi.nlm.nih.gov/40674036/",
+      "https://journals.sagepub.com/doi/10.1177/13684302241307011"
+    ],
+    "access_note": {
+      "ru": "Прочитаны профиль UIC и аннотации двух совместных экспериментальных работ. Полный корпус публикаций лаборатории не изучен.",
+      "en": "The UIC profile and abstracts of two coauthored experimental papers were inspected. The laboratory’s complete publication record was not reviewed."
+    },
+    "markdown": "programs/religion-and-cooperation/analysis/researcher-01.md",
+    "markdown_en": "programs/religion-and-cooperation/analysis/researcher-01.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "researcher-02",
+    "kind": "researchers",
+    "ordinal": 2,
+    "title": {
+      "ru": "Jeremy Ginges — London School of Economics",
+      "en": "Jeremy Ginges — London School of Economics"
+    },
+    "summary": {
+      "ru": "Ginges соединяет исследования межгруппового сотрудничества и сильных обязательств перед коллективными идеями. Полевой контекст помогает ставить вопросы, но не снимает границ экспериментального вывода.",
+      "en": "Ginges connects intergroup cooperation with strong commitments to collective ideas. Field context informs questions without removing limits on experimental inference."
+    },
+    "source_url": "https://www.lse.ac.uk/people/jeremy-ginges",
+    "access": "institutional_profile",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.lse.ac.uk/people/jeremy-ginges",
+      "https://pubmed.ncbi.nlm.nih.gov/40674036/",
+      "https://journals.sagepub.com/doi/10.1177/13684302241307011"
+    ],
+    "access_note": {
+      "ru": "Прочитаны описание исследовательских вопросов и методов LSE, авторские строки и аннотации двух совместных статей. Полные тексты не изучены.",
+      "en": "LSE’s description of research questions and methods, author lists and abstracts of two joint papers were inspected. Full texts were not examined."
+    },
+    "markdown": "programs/religion-and-cooperation/analysis/researcher-02.md",
+    "markdown_en": "programs/religion-and-cooperation/analysis/researcher-02.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "researcher-03",
+    "kind": "researchers",
+    "ordinal": 3,
+    "title": {
+      "ru": "Azim F. Shariff — University of British Columbia",
+      "en": "Azim F. Shariff — University of British Columbia"
+    },
+    "summary": {
+      "ru": "Shariff исследует пересечения морали, религии и культурных установок. Мета-анализ 2024 года полезен для проверки того, как измерение меняет вывод о просоциальности.",
+      "en": "Shariff studies intersections of morality, religion and cultural attitudes. The 2024 meta-analysis helps examine how measurement changes conclusions about prosociality."
+    },
+    "source_url": "https://psych.ubc.ca/profile/azim-shariff/",
+    "access": "institutional_profile",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://psych.ubc.ca/profile/azim-shariff/",
+      "https://pubmed.ncbi.nlm.nih.gov/38407059/"
+    ],
+    "access_note": {
+      "ru": "Прочитаны профиль UBC и аннотация совместного мета-анализа Kelly–Kramer–Shariff. Полный обзор публикаций или проверка метааналитических вычислений не выполнены.",
+      "en": "The UBC profile and abstract of the Kelly–Kramer–Shariff meta-analysis were inspected. Neither a complete publication review nor verification of the meta-analytic calculations was performed."
+    },
+    "markdown": "programs/religion-and-cooperation/analysis/researcher-03.md",
+    "markdown_en": "programs/religion-and-cooperation/analysis/researcher-03.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  }
+]

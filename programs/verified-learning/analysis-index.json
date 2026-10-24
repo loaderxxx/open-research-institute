@@ -1,0 +1,307 @@
+[
+  {
+    "id": "book-01",
+    "title": {
+      "ru": "Саттон и Барто — Reinforcement Learning: An Introduction",
+      "en": "Sutton and Barto — Reinforcement Learning: An Introduction"
+    },
+    "summary": {
+      "ru": "Общая рамка RL помогает явно определить награду, действие и горизонт. Правильный конечный ответ и корректное рассуждение остаются разными целями проверки.",
+      "en": "The RL framework makes reward, action and horizon explicit. Correct final answers and correct reasoning remain different verification targets."
+    },
+    "source_url": "https://mitpress.mit.edu/9780262039246/reinforcement-learning/",
+    "access": "publisher_description",
+    "long_form_status": "pending_close_reading",
+    "evidence_urls": [
+      "https://mitpress.mit.edu/9780262039246/reinforcement-learning/",
+      "https://incompleteideas.net/book/the-book-2nd.html"
+    ],
+    "access_note": {
+      "ru": "Проверены описание второго издания и ссылка MIT Press на авторскую открытую версию. Авторский сервер возвращал тайм-аут; полный текст издания 2018 года не прочитан.",
+      "en": "Checked the second-edition description and MIT Press’s link to the authors’ open edition. The author server timed out; the full 2018 edition was not read."
+    },
+    "kind": "books",
+    "ordinal": 1,
+    "markdown": "programs/verified-learning/analysis/book-01.md",
+    "markdown_en": "programs/verified-learning/analysis/book-01.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "book-02",
+    "title": {
+      "ru": "Сугияма и соавторы — Machine Learning from Weak Supervision",
+      "en": "Sugiyama and colleagues — Machine Learning from Weak Supervision"
+    },
+    "summary": {
+      "ru": "Слабая супервизия помогает описывать неполные и шумные метки. Для верификаторов критичны механизм ошибки и зависимость от генератора данных.",
+      "en": "Weak supervision helps describe incomplete and noisy labels. For verifiers, the error mechanism and dependence on the data generator are critical."
+    },
+    "source_url": "https://mitpress.mit.edu/9780262370561/machine-learning-from-weak-supervision/",
+    "access": "publisher_description",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://mitpress.mit.edu/9780262370561/machine-learning-from-weak-supervision/"
+    ],
+    "access_note": {
+      "ru": "Проверено описание MIT Press и перечисление рассматриваемых классов задач. Полный текст книги не прочитан.",
+      "en": "Checked the MIT Press description and listed problem classes. The complete book was not read."
+    },
+    "kind": "books",
+    "ordinal": 2,
+    "markdown": "programs/verified-learning/analysis/book-02.md",
+    "markdown_en": "programs/verified-learning/analysis/book-02.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "book-03",
+    "title": {
+      "ru": "Bellemare, Dabney, Rowland — Distributional Reinforcement Learning",
+      "en": "Bellemare, Dabney and Rowland — Distributional Reinforcement Learning"
+    },
+    "summary": {
+      "ru": "Распределение суммарной награды содержит больше сведений, чем среднее. Но оно не исправляет ошибочную награду и не тождественно неопределённости научного вывода.",
+      "en": "The return distribution contains more information than its mean. It does not repair a faulty reward or equal uncertainty about a scientific conclusion."
+    },
+    "source_url": "https://mitpress.mit.edu/9780262048019/distributional-reinforcement-learning/",
+    "access": "selected_sections",
+    "long_form_status": "pending_close_reading",
+    "evidence_urls": [
+      "https://mitpress.mit.edu/9780262048019/distributional-reinforcement-learning/",
+      "https://www.distributional-rl.org/",
+      "https://www.distributional-rl.org/contents/chapter1"
+    ],
+    "access_note": {
+      "ru": "MIT Press подтверждает открытое издание. Прочитано начало главы 1 полного авторского веб-черновика, опубликованного по соглашению с издателем; финальное издание целиком не прочитано.",
+      "en": "MIT Press confirms an open edition. The opening of chapter 1 in the complete author web draft, supplied by agreement with the publisher, was inspected; the final edition was not read in full."
+    },
+    "kind": "books",
+    "ordinal": 3,
+    "markdown": "programs/verified-learning/analysis/book-03.md",
+    "markdown_en": "programs/verified-learning/analysis/book-03.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-01",
+    "title": {
+      "ru": "Setlur et al. — Rewarding Progress",
+      "en": "Setlur et al. — Rewarding Progress"
+    },
+    "summary": {
+      "ru": "Награда за прогресс измеряет улучшение шанса решить задачу под отдельной политикой. Полезность поискового шага отличается от корректности финального доказательства.",
+      "en": "Progress rewards measure improved solution probability under a separate policy. A useful search step differs from a correct final proof step."
+    },
+    "source_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/98711dea460bdefe0e651ca23ec98ba2-Abstract-Conference.html",
+    "access": "selected_sections",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://proceedings.iclr.cc/paper_files/paper/2025/hash/98711dea460bdefe0e651ca23ec98ba2-Abstract-Conference.html",
+      "https://proceedings.iclr.cc/paper_files/paper/2025/file/98711dea460bdefe0e651ca23ec98ba2-Paper-Conference.pdf"
+    ],
+    "access_note": {
+      "ru": "Проверены аннотация, начало введения и пояснение первой схемы в PDF ICLR 2025. Все эксперименты и доказательства подробно не прочитаны.",
+      "en": "Inspected the abstract, opening introduction and first figure explanation in the ICLR 2025 PDF. Not all experiments and proofs were closely read."
+    },
+    "kind": "studies",
+    "ordinal": 1,
+    "markdown": "programs/verified-learning/analysis/study-01.md",
+    "markdown_en": "programs/verified-learning/analysis/study-01.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-02",
+    "title": {
+      "ru": "Feng et al. — Beyond Model Collapse",
+      "en": "Feng et al. — Beyond Model Collapse"
+    },
+    "summary": {
+      "ru": "Проверка синтетики предотвращала спад в двух изученных задачах. Качество отбора нужно оценивать вместе с покрытием, редкими случаями и независимостью итогового теста.",
+      "en": "Verification prevented deterioration in two studied tasks. Selection quality must be assessed alongside coverage, rare cases and final-test independence."
+    },
+    "source_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/df2d62b96a4003203450cf89cd338bb7-Abstract-Conference.html",
+    "access": "abstract",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://proceedings.iclr.cc/paper_files/paper/2025/hash/df2d62b96a4003203450cf89cd338bb7-Abstract-Conference.html"
+    ],
+    "access_note": {
+      "ru": "Проверена аннотация ICLR 2025. Теоремы, экспериментальные настройки и код подробно не исследованы.",
+      "en": "Checked the ICLR 2025 abstract. Theorems, experimental settings and code were not examined in detail."
+    },
+    "kind": "studies",
+    "ordinal": 2,
+    "markdown": "programs/verified-learning/analysis/study-02.md",
+    "markdown_en": "programs/verified-learning/analysis/study-02.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-03",
+    "title": {
+      "ru": "Wen et al. — RLVR и корректность рассуждения",
+      "en": "Wen et al. — RLVR and correct reasoning"
+    },
+    "summary": {
+      "ru": "CoT-Pass@K учитывает шаги вместе с ответом. Вывод об улучшении рассуждения зависит от валидности этой оценки и сопоставимости вычислительных бюджетов.",
+      "en": "CoT-Pass@K includes steps as well as answers. Claims of improved reasoning depend on metric validity and comparable computational budgets."
+    },
+    "source_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/517f9b9c227b9dd51dba4560f37165ed-Abstract-Conference.html",
+    "access": "abstract",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/517f9b9c227b9dd51dba4560f37165ed-Abstract-Conference.html",
+      "https://www.microsoft.com/en-us/research/publication/reinforcement-learning-with-verifiable-rewards-implicitly-incentivizes-correct-reasoning-in-base-llms/"
+    ],
+    "access_note": {
+      "ru": "Проверены аннотация ICLR 2026 и институциональная запись Microsoft. PDF OpenReview потребовал проверку браузера; полный текст не прочитан.",
+      "en": "Checked the ICLR 2026 abstract and Microsoft’s institutional record. The OpenReview PDF required a browser check; the complete text was not read."
+    },
+    "kind": "studies",
+    "ordinal": 3,
+    "markdown": "programs/verified-learning/analysis/study-03.md",
+    "markdown_en": "programs/verified-learning/analysis/study-03.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-04",
+    "title": {
+      "ru": "Yuan et al. — Verifiable Process Rewards",
+      "en": "Yuan et al. — Verifiable Process Rewards"
+    },
+    "summary": {
+      "ru": "VPR использует разные оракулы для промежуточных наград. Алгоритмическую проверку игр и экспертную LLM в переносе необходимо оценивать отдельно.",
+      "en": "VPR uses different oracles for intermediate rewards. Algorithmic game verification and an expert LLM in transfer should be evaluated separately."
+    },
+    "source_url": "https://arxiv.org/abs/2605.10325",
+    "access": "abstract",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://arxiv.org/abs/2605.10325v3"
+    ],
+    "access_note": {
+      "ru": "Проверена аннотация версии v3 от 12 октября 2026 года и история препринта. Полные эксперименты и независимое рецензирование не проверены.",
+      "en": "Checked the abstract of v3 dated 12 October 2026 and the preprint history. Complete experiments and independent peer review were not examined."
+    },
+    "kind": "studies",
+    "ordinal": 4,
+    "markdown": "programs/verified-learning/analysis/study-04.md",
+    "markdown_en": "programs/verified-learning/analysis/study-04.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-05",
+    "title": {
+      "ru": "Zeng et al. — RLVE",
+      "en": "Zeng et al. — RLVE"
+    },
+    "summary": {
+      "ru": "RLVE адаптирует сложность 400 проверяемых сред. Рост числа сред следует отличать от разнообразия навыков и переноса за пределы реализованных правил.",
+      "en": "RLVE adapts difficulty across 400 verifiable environments. Environment count should be distinguished from skill diversity and transfer beyond implemented rules."
+    },
+    "source_url": "https://proceedings.mlr.press/v306/zeng26j.html",
+    "access": "abstract",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://proceedings.mlr.press/v306/zeng26j.html"
+    ],
+    "access_note": {
+      "ru": "Проверены аннотация и запись ICML/PMLR 2026. Код, генераторы задач и полный экспериментальный протокол не запускались и подробно не изучены.",
+      "en": "Checked the ICML/PMLR 2026 abstract and record. Code, task generators and the complete experimental protocol were not run or closely examined."
+    },
+    "kind": "studies",
+    "ordinal": 5,
+    "markdown": "programs/verified-learning/analysis/study-05.md",
+    "markdown_en": "programs/verified-learning/analysis/study-05.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "researcher-01",
+    "title": {
+      "ru": "Сюмэн Вэнь и Microsoft Research — проверяемая награда",
+      "en": "Xumeng Wen and Microsoft Research — verifiable rewards"
+    },
+    "summary": {
+      "ru": "Команда исследует различие между выбором ответа и улучшением промежуточного рассуждения. Ключевой критерий — независимая воспроизводимость метрики и динамики обучения.",
+      "en": "The team investigates answer selection versus improved intermediate reasoning. Independent reproducibility of metrics and training dynamics is the key criterion."
+    },
+    "source_url": "https://www.microsoft.com/en-us/research/publication/reinforcement-learning-with-verifiable-rewards-implicitly-incentivizes-correct-reasoning-in-base-llms/",
+    "access": "institutional_profile",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.microsoft.com/en-us/research/publication/reinforcement-learning-with-verifiable-rewards-implicitly-incentivizes-correct-reasoning-in-base-llms/",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/517f9b9c227b9dd51dba4560f37165ed-Abstract-Conference.html"
+    ],
+    "access_note": {
+      "ru": "Проверена институциональная публикационная запись Microsoft и аннотация ICLR 2026. Индивидуальная биография Вэня и полный текст работы не проверялись.",
+      "en": "Checked Microsoft’s institutional publication record and the ICLR 2026 abstract. Wen’s individual biography and the complete paper were not examined."
+    },
+    "kind": "researchers",
+    "ordinal": 1,
+    "markdown": "programs/verified-learning/analysis/researcher-01.md",
+    "markdown_en": "programs/verified-learning/analysis/researcher-01.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "researcher-02",
+    "title": {
+      "ru": "Амрит Сетлур, Авирал Кумар и соавторы — процессные верификаторы",
+      "en": "Amrith Setlur, Aviral Kumar and colleagues — process verifiers"
+    },
+    "summary": {
+      "ru": "Процессные верификаторы полезны благодаря дополнительности исполнителю. Эффект необходимо отделять от увеличения вычислений и от корректности окончательного отчёта.",
+      "en": "Process verifiers can help through complementarity with the performer. Their effect must be separated from extra computation and final-report correctness."
+    },
+    "source_url": "https://openreview.net/pdf?id=A6Y7AqlzLW",
+    "access": "institutional_profile",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://ars22.github.io/",
+      "https://proceedings.iclr.cc/paper_files/paper/2025/file/98711dea460bdefe0e651ca23ec98ba2-Paper-Conference.pdf"
+    ],
+    "access_note": {
+      "ru": "Проверены авторский профиль Сетлура, аффилиации и начало Rewarding Progress в конференционном PDF. Подробные доказательства и все эксперименты не прочитаны.",
+      "en": "Checked Setlur’s author profile, affiliations and the opening of Rewarding Progress in the conference PDF. Detailed proofs and all experiments were not read."
+    },
+    "kind": "researchers",
+    "ordinal": 2,
+    "markdown": "programs/verified-learning/analysis/researcher-02.md",
+    "markdown_en": "programs/verified-learning/analysis/researcher-02.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "researcher-03",
+    "title": {
+      "ru": "Чжиюань Цзэн, Саймон Ду, Ханнане Хаджиширзи и RLVE",
+      "en": "Zhiyuan Zeng, Simon Du, Hannaneh Hajishirzi and RLVE"
+    },
+    "summary": {
+      "ru": "RLVE делает устройство среды частью исследовательского вопроса. Для ORI важны проверка оракулов, журналы сложности и перенос на новые семейства задач.",
+      "en": "RLVE makes environment design part of the research question. Oracle validation, difficulty logs and transfer to new task families matter for ORI."
+    },
+    "source_url": "https://proceedings.mlr.press/v306/zeng26j.html",
+    "access": "institutional_profile",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://proceedings.mlr.press/v306/zeng26j.html",
+      "https://www.cs.washington.edu/people/faculty/hannaneh-hajishirzi/"
+    ],
+    "access_note": {
+      "ru": "Проверены список авторов и аннотация RLVE, а также профиль Hajishirzi в University of Washington. Все индивидуальные биографии и код сред не изучены.",
+      "en": "Checked the RLVE author list and abstract, and Hajishirzi’s University of Washington profile. Not all individual biographies or environment code were examined."
+    },
+    "kind": "researchers",
+    "ordinal": 3,
+    "markdown": "programs/verified-learning/analysis/researcher-03.md",
+    "markdown_en": "programs/verified-learning/analysis/researcher-03.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  }
+]

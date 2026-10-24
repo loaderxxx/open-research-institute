@@ -6,6 +6,8 @@
 
 Books, field histories, recent publications and researchers across all 13 programmes are collected separately in the [literature maps](RESEARCH_MAPS.en.md).
 
+For source-by-source reading, use the [bilingual analysis catalogue](SOURCE_ANALYSES.en.md). These analyses are distinct from the 21 thematic reviews below; their access notes distinguish descriptions, abstracts, selected sections and complete reading.
+
 <!-- ori-toc:start -->
 ## Contents
 

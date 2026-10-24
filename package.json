@@ -8,7 +8,9 @@
     "translations": "node scripts/translation-status.js",
     "format:docs": "node scripts/format-markdown.js",
     "check:docs": "node scripts/check-markdown.js",
-    "check:translations": "node scripts/check-translations.js"
+    "check:translations": "node scripts/check-translations.js",
+    "analyses": "node scripts/source-analysis-catalogue.js",
+    "check:analyses": "node scripts/check-source-analyses.js"
   },
   "engines": {
     "node": ">=20"

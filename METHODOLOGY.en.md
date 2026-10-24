@@ -13,6 +13,7 @@ Open Research Institute develops programmes by defining questions, studying publ
 - [4. Data and reproducibility](#4-data-and-reproducibility)
 - [5. Protocols for future studies](#5-protocols-for-future-studies)
 - [6. Review and corrections](#6-review-and-corrections)
+- [7. Source-level analyses](#7-source-level-analyses)
 <!-- ori-toc:end -->
 
 ## 1. Questions and scope
@@ -50,3 +51,7 @@ The plan should explain which observations would support an explanation, challen
 Published materials were prepared with AI assistance for searching, extraction, comparison and editing, followed by internal editorial review. They have not undergone external scientific peer review. AI assistance does not replace checking claims against sources; the [editorial note](EDITORIAL_NOTE.en.md) explains the current corpus and its limitations.
 
 Corrections can be proposed through [Issues](https://github.com/loaderxxx/open-research-institute/issues): identify the file and section, disputed claim, primary source and suggested change. Repository history records revisions. Do not include personal data or confidential material in public discussions. A revised conclusion should explain which new evidence or identified error changed its meaning.
+
+## 7. Source-level analyses
+
+Book, paper, data-resource and researcher analyses form a separate layer from thematic reviews. Each records its main ideas, evidence, limitations, programme relevance and actual reading depth. Initial descriptions based on abstracts or publisher records do not count as complete book analysis. Extended book analyses target approximately 20–30 conventional pages only where sufficient primary text is available and inspected. Access requirements and close-reading work are tracked in the [source analysis catalogue](SOURCE_ANALYSES.en.md). Russian and English versions preserve the same qualifications; the presence of both files alone does not certify semantic equivalence.

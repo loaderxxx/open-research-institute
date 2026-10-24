@@ -39,8 +39,8 @@
 ## Кто работает над темой сейчас
 
 - **Erik Brynjolfsson — Stanford Graduate School of Business / Digital Economy Lab.** Изучает производительность и цифровые технологии; конкретная недавняя работа — [“Generative AI at Work”](https://www.gsb.stanford.edu/faculty-research/publications/generative-ai-work), опубликованная в *QJE* в 2025 году. [Институциональный профиль](https://www.gsb.stanford.edu/faculty-research/faculty/erik-brynjolfsson).
-- **Danielle Li — MIT Sloan, NBER.** Исследует экономику инноваций, рынок труда и ИИ; конкретная недавняя работа — соавторство [рандомизированного исследования Copilot в 66 фирмах](https://www.nber.org/papers/w33795) (2025). [Профиль MIT Sloan](https://mitsloan.mit.edu/faculty/directory/danielle-li).
-- **Christopher T. Stanton — Harvard Business School.** Исследует организационную экономику и технологии труда; конкретная недавняя работа — соавторство [“Shifting Work Patterns with Generative AI”](https://www.nber.org/papers/w33795) (2025). [Профиль HBS](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=489797).
+- **Danielle Li — MIT Sloan, NBER.** Исследует экономику инноваций, рынок труда и ИИ; конкретная недавняя работа — [“Generative AI at Work”](https://doi.org/10.1093/qje/qjae044) с Erik Brynjolfsson и Lindsey Raymond (2025). Danielle Li не является соавтором NBER w33795. [Профиль MIT Sloan](https://mitsloan.mit.edu/faculty/directory/danielle-li).
+- **Christopher T. Stanton — Harvard Business School.** Исследует организационную экономику и технологии труда; конкретная недавняя работа — соавторство [“Shifting Work Patterns with Generative AI”](https://www.nber.org/papers/w33795) (2025). [Профиль HBS](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452).
 
 ## Что происходит сейчас и что остаётся открытым
 
