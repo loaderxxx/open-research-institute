@@ -1,8 +1,8 @@
-# ORI bilingual website — local implementation
+# ORI bilingual website
 
 [Русский](README.md)
 
-Release candidate for the owner-authorized 24 October publication. Deployment results are recorded separately after verification; the historical production record in DEPLOYMENT.md describes 7 October only.
+Published on 24 October with the owner’s authorization. See [the deployment record](DEPLOYMENT.en.md) for the verified commit, checks and current email-delivery mode.
 
 <!-- ori-toc:start -->
 ## Contents

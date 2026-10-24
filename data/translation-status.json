@@ -277,17 +277,17 @@
     },
     {
       "source": "site/DEPLOYMENT.md",
-      "source_sha256": "9079658ddbeaa8c4c4151b9966ddacdafe5d21e55287c4de6c7e3256f00accd9",
+      "source_sha256": "6a7914a2abec8f34ec937e5ac6cf953b086acb7836c050aee8eaf67594ce43fd",
       "english": "site/DEPLOYMENT.en.md",
       "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
-      "english_sha256": "0d08b58271b7f2036e0633990d2b289ad6a0f44f6042875a804e99582cf22bc1"
+      "english_sha256": "b5653cae3e3d608db5dc05bcab806b4d96f43bdd0311e2397100dc4181ec2adb"
     },
     {
       "source": "site/README.md",
-      "source_sha256": "5fd3c5a9b737b5368bb96676d887188720e9303971a82731fe2f5afbbb8c5582",
+      "source_sha256": "86b95886cf0cb3c8c3d18934ddd00a741b9b1d8bbc78b201244509d640cef4c3",
       "english": "site/README.en.md",
       "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
-      "english_sha256": "e8f3fded2c17fb941e521ffad2f8744b9ae7e63617717c1313914a2d61263847"
+      "english_sha256": "25c94be06f7ea8ff2a136ae7c100fc6b935101af77fc86f042442ce5b28da4ce"
     }
   ]
 }
