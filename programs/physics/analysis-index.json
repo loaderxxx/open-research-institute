@@ -1,0 +1,310 @@
+[
+  {
+    "id": "book-01",
+    "kind": "books",
+    "ordinal": 1,
+    "title": {
+      "ru": "Deffner & Campbell — Quantum Thermodynamics (2019)",
+      "en": "Deffner & Campbell — Quantum Thermodynamics (2019)"
+    },
+    "summary": {
+      "ru": "Связывает квантовые тепловые процессы с обработкой информации. Найдена открытая авторская версия; подробное чтение ещё предстоит.",
+      "en": "Connects quantum thermal processes with information processing. An open author version was found; close reading remains pending."
+    },
+    "markdown": "programs/physics/analysis/book-01.md",
+    "markdown_en": "programs/physics/analysis/book-01.en.md",
+    "source_url": "https://quthermo.umbc.edu/publications/books/",
+    "access": "abstract",
+    "status": "initial_analysis",
+    "checked": "2026-10-25",
+    "long_form_status": "pending_close_reading",
+    "evidence_urls": [
+      "https://quthermo.umbc.edu/publications/books/",
+      "https://arxiv.org/abs/1907.01596"
+    ],
+    "access_note": {
+      "ru": "прочитаны авторская аннотация и библиографическая запись; полный текст найден, но не прочитан целиком.",
+      "en": "the author abstract and bibliographic record were read; full text was located but not read in full."
+    }
+  },
+  {
+    "id": "book-02",
+    "kind": "books",
+    "ordinal": 2,
+    "title": {
+      "ru": "Nielsen & Chuang — Quantum Computation and Quantum Information (2010)",
+      "en": "Nielsen & Chuang — Quantum Computation and Quantum Information (2010)"
+    },
+    "summary": {
+      "ru": "Основа для понимания квантовых алгоритмов, передачи информации и коррекции ошибок. Издательское описание проверено; полный текст не прочитан.",
+      "en": "A foundation for quantum algorithms, information transfer and error correction. The publisher description was checked; the full book was not read."
+    },
+    "markdown": "programs/physics/analysis/book-02.md",
+    "markdown_en": "programs/physics/analysis/book-02.en.md",
+    "source_url": "https://www.cambridge.org/highereducation/books/quantum-computation-and-quantum-information/01E10196D0A682A6AEFFEA52D53BE9AE",
+    "access": "publisher_description",
+    "status": "initial_analysis",
+    "checked": "2026-10-25",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://www.cambridge.org/highereducation/books/quantum-computation-and-quantum-information/01E10196D0A682A6AEFFEA52D53BE9AE"
+    ],
+    "access_note": {
+      "ru": "проверена карточка Cambridge; доступ к полному тексту не получен.",
+      "en": "the Cambridge record was inspected; full-text access was not obtained."
+    }
+  },
+  {
+    "id": "book-03",
+    "kind": "books",
+    "ordinal": 3,
+    "title": {
+      "ru": "Sethna — Statistical Mechanics: Entropy, Order Parameters, and Complexity (2nd ed., 2021)",
+      "en": "Sethna — Statistical Mechanics: Entropy, Order Parameters, and Complexity (2nd ed., 2021)"
+    },
+    "summary": {
+      "ru": "Связывает энтропию, коллективный порядок и вычислительные модели. Автор размещает второе издание открыто; содержание книги ещё требует углублённого чтения.",
+      "en": "Connects entropy, collective order and computational models. The author hosts the second edition openly; close reading is still pending."
+    },
+    "markdown": "programs/physics/analysis/book-03.md",
+    "markdown_en": "programs/physics/analysis/book-03.en.md",
+    "source_url": "https://sethna.lassp.cornell.edu/StatMech/",
+    "access": "publisher_description",
+    "status": "initial_analysis",
+    "checked": "2026-10-25",
+    "long_form_status": "pending_close_reading",
+    "evidence_urls": [
+      "https://sethna.lassp.cornell.edu/StatMech/",
+      "https://academic.oup.com/book/44296"
+    ],
+    "access_note": {
+      "ru": "проверено авторское оглавление; открытый PDF указан автором, извлечение в этой проверке не удалось.",
+      "en": "the author contents page was inspected; an open PDF is advertised, but extraction failed in this check."
+    }
+  },
+  {
+    "id": "study-01",
+    "kind": "studies",
+    "ordinal": 1,
+    "title": {
+      "ru": "Landauer — Irreversibility and Heat Generation in the Computing Process (1961)",
+      "en": "Landauer — Irreversibility and Heat Generation in the Computing Process (1961)"
+    },
+    "summary": {
+      "ru": "Связывает логическую необратимость с физической ценой вычисления. Теоретическое основание следует отличать от измеренной мощности реального компьютера.",
+      "en": "Connects logical irreversibility to physical computing costs. The theoretical foundation is distinct from a real computer’s measured power use."
+    },
+    "markdown": "programs/physics/analysis/study-01.md",
+    "markdown_en": "programs/physics/analysis/study-01.en.md",
+    "source_url": "https://doi.org/10.1147/rd.53.0183",
+    "access": "abstract",
+    "status": "initial_analysis",
+    "checked": "2026-10-25",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://doi.org/10.1147/rd.53.0183"
+    ],
+    "access_note": {
+      "ru": "проверена индексированная аннотация IBM/IEEE; прямое открытие DOI потребовало проверки браузера.",
+      "en": "the indexed IBM/IEEE abstract was checked; direct DOI access required browser verification."
+    }
+  },
+  {
+    "id": "study-02",
+    "kind": "studies",
+    "ordinal": 2,
+    "title": {
+      "ru": "Bérut et al. — Experimental verification of Landauer’s principle (2012)",
+      "en": "Bérut et al. — Experimental verification of Landauer’s principle (2012)"
+    },
+    "summary": {
+      "ru": "Эксперимент связывает стирание одного бита с выделением тепла в контролируемой модели памяти. Медленный цикл и конкретный носитель ограничивают обобщение.",
+      "en": "An experiment links one-bit erasure to heat in a controlled memory model. Slow cycling and the particular carrier limit generalisation."
+    },
+    "markdown": "programs/physics/analysis/study-02.md",
+    "markdown_en": "programs/physics/analysis/study-02.en.md",
+    "source_url": "https://www.nature.com/articles/nature10872",
+    "access": "abstract",
+    "status": "initial_analysis",
+    "checked": "2026-10-25",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.nature.com/articles/nature10872",
+      "https://pubmed.ncbi.nlm.nih.gov/22398556/"
+    ],
+    "access_note": {
+      "ru": "прочитана авторская аннотация в PubMed; полный издательский текст не проверен.",
+      "en": "the author abstract in PubMed was read; publisher full text was not checked."
+    }
+  },
+  {
+    "id": "study-03",
+    "kind": "studies",
+    "ordinal": 3,
+    "title": {
+      "ru": "Rupe & Crutchfield — On principles of emergent organization (2024)",
+      "en": "Rupe & Crutchfield — On principles of emergent organization (2024)"
+    },
+    "summary": {
+      "ru": "Обзор ищет математический язык для возникающих структур через внутренние вычисления и операторы эволюции. Предложенная рамка не равнозначна универсально подтверждённому закону.",
+      "en": "A review seeks mathematical descriptions of emergent structure through intrinsic computation and evolution operators. The framework is not an established universal law."
+    },
+    "markdown": "programs/physics/analysis/study-03.md",
+    "markdown_en": "programs/physics/analysis/study-03.en.md",
+    "source_url": "https://doi.org/10.1016/j.physrep.2024.04.001",
+    "access": "abstract",
+    "status": "initial_analysis",
+    "checked": "2026-10-25",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://doi.org/10.1016/j.physrep.2024.04.001",
+      "https://arxiv.org/abs/2311.13749",
+      "https://csc.ucdavis.edu/~cmg/compmech/pubs/tsfpoo.htm"
+    ],
+    "access_note": {
+      "ru": "проверены авторская аннотация arXiv и запись UC Davis; полный обзор не прочитан.",
+      "en": "the author arXiv abstract and UC Davis record were checked; the complete review was not read."
+    }
+  },
+  {
+    "id": "study-04",
+    "kind": "studies",
+    "ordinal": 4,
+    "title": {
+      "ru": "Minagawa et al. — Universal validity of the second law of information thermodynamics (2025)",
+      "en": "Minagawa et al. — Universal validity of the second law of information thermodynamics (2025)"
+    },
+    "summary": {
+      "ru": "Уточняет, когда обратная связь и стирание памяти согласуются со вторым законом. Универсальность относится к заданной теоретической постановке.",
+      "en": "Clarifies when feedback and memory erasure are compatible with the second law. Universality is relative to the stated theoretical framework."
+    },
+    "markdown": "programs/physics/analysis/study-04.md",
+    "markdown_en": "programs/physics/analysis/study-04.en.md",
+    "source_url": "https://www.nature.com/articles/s41534-024-00922-w",
+    "access": "selected_sections",
+    "status": "initial_analysis",
+    "checked": "2026-10-25",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.nature.com/articles/s41534-024-00922-w",
+      "https://arxiv.org/html/2308.15558v3"
+    ],
+    "access_note": {
+      "ru": "выборочно прочитана авторская версия arXiv v3; не все доказательства и не полная сверка с журнальной версией.",
+      "en": "selected parts of arXiv v3 were read; not all proofs or a complete comparison with the journal version."
+    }
+  },
+  {
+    "id": "study-05",
+    "kind": "studies",
+    "ordinal": 5,
+    "title": {
+      "ru": "Zhang et al. — Demonstrating quantum error mitigation on logical qubits (2025/2026)",
+      "en": "Zhang et al. — Demonstrating quantum error mitigation on logical qubits (2025/2026)"
+    },
+    "summary": {
+      "ru": "Сочетает коррекцию ошибок с экстраполяцией к нулевому шуму на сверхпроводящих процессорах. Улучшение выбранных оценок не означает устранения всех ошибок.",
+      "en": "Combines error correction with zero-noise extrapolation on superconducting processors. Better estimates do not mean that all errors disappear."
+    },
+    "markdown": "programs/physics/analysis/study-05.md",
+    "markdown_en": "programs/physics/analysis/study-05.en.md",
+    "source_url": "https://www.nature.com/articles/s41467-025-67768-4",
+    "access": "abstract",
+    "status": "initial_analysis",
+    "checked": "2026-10-25",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.nature.com/articles/s41467-025-67768-4",
+      "https://arxiv.org/abs/2501.09079"
+    ],
+    "access_note": {
+      "ru": "проверены авторская аннотация и журнальные метаданные; эксперимент и дополнения не воспроизведены.",
+      "en": "the author abstract and journal metadata were checked; the experiment and supplements were not reproduced."
+    }
+  },
+  {
+    "id": "researcher-01",
+    "kind": "researchers",
+    "ordinal": 1,
+    "title": {
+      "ru": "John Preskill — Caltech / IQIM",
+      "en": "John Preskill — Caltech / IQIM"
+    },
+    "summary": {
+      "ru": "Теория квантовой информации, коррекция ошибок и проверка квантовых состояний. Профиль помогает выбирать работы о границах измерения и надёжности.",
+      "en": "Quantum information theory, error correction and state certification. A starting point for work on measurement costs and reliability."
+    },
+    "markdown": "programs/physics/analysis/researcher-01.md",
+    "markdown_en": "programs/physics/analysis/researcher-01.en.md",
+    "source_url": "https://preskill.caltech.edu/",
+    "access": "institutional_profile",
+    "status": "initial_analysis",
+    "checked": "2026-10-25",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://preskill.caltech.edu/",
+      "https://www.nature.com/articles/s41567-025-03025-1"
+    ],
+    "access_note": {
+      "ru": "проверены профиль Caltech и аннотация публикации; полная оценка доказательства не выполнена.",
+      "en": "the Caltech profile and paper abstract were checked; the complete proof was not evaluated."
+    }
+  },
+  {
+    "id": "researcher-02",
+    "kind": "researchers",
+    "ordinal": 2,
+    "title": {
+      "ru": "Shintaro Minagawa & Francesco Buscemi — information thermodynamics",
+      "en": "Shintaro Minagawa & Francesco Buscemi — information thermodynamics"
+    },
+    "summary": {
+      "ru": "Исследуют измерения, обратную связь и термодинамические ограничения квантовой информации. Совместная статья уточняет границы применимости закона.",
+      "en": "Study measurement, feedback and thermodynamic constraints on quantum information. Their joint paper clarifies the law’s validity conditions."
+    },
+    "markdown": "programs/physics/analysis/researcher-02.md",
+    "markdown_en": "programs/physics/analysis/researcher-02.en.md",
+    "source_url": "https://shintarominagawa.github.io/",
+    "access": "institutional_profile",
+    "status": "initial_analysis",
+    "checked": "2026-10-25",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://shintarominagawa.github.io/",
+      "https://pub.i.nagoya-u.ac.jp/research/Pid%3D325_jhc_data.html",
+      "https://arxiv.org/html/2308.15558v3"
+    ],
+    "access_note": {
+      "ru": "проверены профиль Минагавы и избранные части совместной статьи; страница Nagoya вернула ошибку.",
+      "en": "Minagawa’s profile and selected parts of the joint paper were checked; the Nagoya profile returned an error."
+    }
+  },
+  {
+    "id": "researcher-03",
+    "kind": "researchers",
+    "ordinal": 3,
+    "title": {
+      "ru": "Carlos Gershenson — Binghamton University",
+      "en": "Carlos Gershenson — Binghamton University"
+    },
+    "summary": {
+      "ru": "Изучает самоорганизацию и сложные системы, соединяя концептуальные вопросы с приложениями. Его обзор полезен для уточнения понятий, а не как единый доказанный закон.",
+      "en": "Studies self-organisation and complex systems, connecting concepts with applications. His review helps clarify terms rather than establish one universal law."
+    },
+    "markdown": "programs/physics/analysis/researcher-03.md",
+    "markdown_en": "programs/physics/analysis/researcher-03.en.md",
+    "source_url": "https://www.binghamton.edu/ssie/people/profile.html?id=cgg",
+    "access": "institutional_profile",
+    "status": "initial_analysis",
+    "checked": "2026-10-25",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.binghamton.edu/ssie/people/profile.html?id=cgg",
+      "https://www.nature.com/articles/s44260-025-00031-5"
+    ],
+    "access_note": {
+      "ru": "прочитаны институциональный профиль, аннотация и вводные разделы обзора; все приложения не проверены.",
+      "en": "the institutional profile, abstract and opening review sections were read; all applications were not checked."
+    }
+  }
+]

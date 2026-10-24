@@ -256,8 +256,44 @@ test('society resource links retain book and dataset titles in their rendered an
     for (const item of checks) {
       const html = await (await fetch(`${base}/${lang}/research/${item.slug}/`)).text();
       const block = elementWithId(html, 'resources');
-      assert.ok(linkedText(block, item.url).includes(item.title), `${lang}/${item.slug} anchor shows ${item.title}`);
+      const resources = require('./research-resources').getResearchResources(item.slug, lang);
+      const resource = [...resources.books, ...resources.studies, ...resources.researchers].find(r => r.url === item.url);
+      assert.ok(linkedText(block, resource.analysis?.url || item.url).includes(item.title), `${lang}/${item.slug} anchor shows ${item.title}`);
+      assert.ok(externalHrefs(block).includes(item.url), 'original source remains available');
     }
+  }
+});
+
+test('source-level analyses have bilingual reader routes and complete programme coverage', async t => {
+  const { base } = await withServer(t);
+  const { getSourceAnalyses, validDocument } = require('./source-analyses');
+  const { getResearchResources } = require('./research-resources');
+  let count = 0;
+  for (const p of require('../catalog.json')) {
+    const analyses = getSourceAnalyses(p.slug);
+    const resources = getResearchResources(p.slug, 'en');
+    for (const kind of ['books', 'studies', 'researchers']) {
+      assert.equal(analyses.filter(a => a.kind === kind).length, resources[kind].length, p.slug + ': ' + kind);
+    }
+    count += analyses.length;
+    for (const a of analyses) {
+      for (const lang of ['ru','en']) {
+        const field = lang === 'en' ? 'markdown_en' : 'markdown';
+        const other = lang === 'en' ? 'markdown' : 'markdown_en';
+        const response = await fetch(base + '/' + a[field], {headers:{Accept:'text/html'}});
+        assert.equal(response.status, 200, a[field]);
+        const html = await response.text();
+        assert.ok(html.includes(`<html lang="${lang}">`));
+        assert.ok(html.includes(`href="/${a[other]}"`));
+        assert.match(html, /<h1\b/);
+      }
+    }
+  }
+  assert.equal(count, 144);
+  assert.equal(validDocument('biology', 'programs/biology/analysis/../../../../site/server.js'), false);
+  assert.deepEqual(getSourceAnalyses('../site'), []);
+  for (const route of ['/programs/biology/analysis/notes.md','/programs/biology/analysis-index.json','/site/source-analyses.js']) {
+    assert.equal((await fetch(base + route)).status, 404, route);
   }
 });
 
