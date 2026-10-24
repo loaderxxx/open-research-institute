@@ -2,6 +2,8 @@
 
 **Изучаем известное. Ищем новое.**
 
+[English](README.en.md)
+
 Open Research Institute — независимая исследовательская инициатива об искусственном интеллекте, сознании, личности и человеческом сотрудничестве. Мы создаём открытую библиотеку понятных обзоров опубликованных знаний: объясняем вопросы, сопоставляем результаты, разбираем возражения и показываем, где заканчиваются доступные свидетельства.
 
 Задача репозитория — помочь читателю перейти от широкой темы к конкретной работе и проверяемому утверждению. Здесь можно познакомиться с направлением, прочитать связный обзор, углубиться в отдельную тему и перейти к первоисточникам. Название Institute обозначает исследовательскую инициативу; оно не заявляет государственную аккредитацию, юридический статус научного учреждения или наличие постоянного штата.
@@ -67,8 +69,8 @@ Open Research Institute — независимая исследовательс�
 
 ## Contact / Контакты
 
-For project inquiries and technology collaboration: **[vladimir.uzbek.ai@gmail.com](mailto:vladimir.uzbek.ai@gmail.com)**.
+For project inquiries and technology collaboration: **[im@vladimiruzbek.com](mailto:im@vladimiruzbek.com)**.
 
-По вопросам проектов и сотрудничества: **[vladimir.uzbek.ai@gmail.com](mailto:vladimir.uzbek.ai@gmail.com)**.
+По вопросам проектов и сотрудничества: **[im@vladimiruzbek.com](mailto:im@vladimiruzbek.com)**.
 
 [Personal technology portfolio](https://vladimiruzbek.com/) · [All public GitHub projects](https://github.com/loaderxxx?tab=repositories&type=public).

@@ -1,0 +1,293 @@
+{
+  "scope": "Public repository Markdown pairs only; not private repositories, PDF/PPTX or semantic equivalence certification.",
+  "scope_ru": "Только пары Markdown публичного репозитория; без частных репозиториев, PDF/PPTX и подтверждения смысловой эквивалентности.",
+  "items": [
+    {
+      "source": "EDITORIAL_NOTE.md",
+      "source_sha256": "353234cf455b4e97012bf0cefbac826788edc32ae1fe21898529918ed4ce6282",
+      "english": "EDITORIAL_NOTE.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "7328cbf438891695b1e88550167aaccd0d5830898038619b392d48347aed8d47"
+    },
+    {
+      "source": "LIBRARY.md",
+      "source_sha256": "17546a7800c96daf4bdaebeff348e553d3d4e34ac1b9cb2deabffd79b29e391c",
+      "english": "LIBRARY.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "b4d4ec4e15b5ddf54e2eef1ad31c087ad950e546363f9ec6fa01c7166430ee18"
+    },
+    {
+      "source": "programs/consciousness/reading/indicators-and-measurement.md",
+      "source_sha256": "024069d16b8b6f55bc7f33a84fc93dbe6de5a9903eadaab346b82e6964fbd47e",
+      "english": "programs/consciousness/reading/indicators-and-measurement.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "programs/consciousness/reading/overview.md",
+      "source_sha256": "b58a8e3bd09db226485dd3a2fcc164f07f2b502ce3400ccbe878b778eb727841",
+      "english": "programs/consciousness/reading/overview.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "programs/consciousness/reading/theories-and-evidence.md",
+      "source_sha256": "fbdec1c09d204ebdfdd3a08d77ad2de84644d3860e459fa6ac7ed44a7adefab8",
+      "english": "programs/consciousness/reading/theories-and-evidence.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "programs/consciousness/README.md",
+      "source_sha256": "9c7b21b9d1059aa7dbcfbe4424fc591aca9a7413b87189f5f119ca63341ade2f",
+      "english": "programs/consciousness/README.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "9e333a3d77528ad98c9e2395ca7fb988ba6f5914709f3f0858f76cb33cf4e94b"
+    },
+    {
+      "source": "programs/consciousness/SOURCES.md",
+      "source_sha256": "38cefa6fb2bb16c17d39a4927dd471ce691a6c659043f0b67c15b03218fa529a",
+      "english": "programs/consciousness/SOURCES.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "726c11152422f5ac74ceba5139e16dc7570c3df4a5a2f15837debdbd1fecb0a9"
+    },
+    {
+      "source": "programs/digital-continuity/reading/connectomics-and-memory.md",
+      "source_sha256": "a5a84283c0039d4b37e45592c2878ecd7b5164d3b9a712b4e3e0598ecb91c777",
+      "english": "programs/digital-continuity/reading/connectomics-and-memory.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "programs/digital-continuity/reading/identity-and-models.md",
+      "source_sha256": "2821f800c992c5f675ef70529e3676f9559f53e9d61cd0de03b5960bda40127f",
+      "english": "programs/digital-continuity/reading/identity-and-models.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "programs/digital-continuity/reading/overview.md",
+      "source_sha256": "8b76a63ebecb8765d8f6b4beecad8e979dc760169f1572e7d2ef639a52db498f",
+      "english": "programs/digital-continuity/reading/overview.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "programs/digital-continuity/README.md",
+      "source_sha256": "46b985c18c2eda1292df0916d4d9ed9ecf057200dafc26d642fbd7de01411d50",
+      "english": "programs/digital-continuity/README.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "103387b7c031b9a33020b71c9365ad154ddd44d5934b4bac72281865203e1e8f"
+    },
+    {
+      "source": "programs/digital-continuity/SOURCES.md",
+      "source_sha256": "cb784cba83f291b07d3f356c948e04f7fd88d1deb565e3b31bbfc5677f8b8774",
+      "english": "programs/digital-continuity/SOURCES.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "92d676a090f9c70bd379e92c770856a0f4b01f83db8908174e09c1c2841265fc"
+    },
+    {
+      "source": "programs/philosophy-and-meaning/reading/overview.md",
+      "source_sha256": "2216e60804530ac222be30f8190a19da6dc3ce590313db8b6a645cd1d91d261c",
+      "english": "programs/philosophy-and-meaning/reading/overview.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "programs/philosophy-and-meaning/reading/pluralism-and-measurement.md",
+      "source_sha256": "82297ae2a9e4ef3de584e8c1c5f9cb2b1713de8c82a1062200c8d1e788de868c",
+      "english": "programs/philosophy-and-meaning/reading/pluralism-and-measurement.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "programs/philosophy-and-meaning/reading/theories-of-meaning.md",
+      "source_sha256": "5b1f2163ec11ba2c6d9b22fdbbd3d53a21fa25405822803ca7e7ee33238db4b5",
+      "english": "programs/philosophy-and-meaning/reading/theories-of-meaning.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "programs/philosophy-and-meaning/README.md",
+      "source_sha256": "02aff0da8ff0d2c617a4f9278a45fa7d4f939365b7d009219308d36a7fe3b071",
+      "english": "programs/philosophy-and-meaning/README.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "8938d3907001c3d444b83eb988cfdd20705a7451d60f1b0055c4450ca46b7631"
+    },
+    {
+      "source": "programs/philosophy-and-meaning/SOURCES.md",
+      "source_sha256": "b0da8ea9feaef08755e088a263c983f7371091f4ddc93adfd0620416c34ff256",
+      "english": "programs/philosophy-and-meaning/SOURCES.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "5e424f6de2826301ab89eac76dc5162fe28066c2c979279fa99334f1f6a330b1"
+    },
+    {
+      "source": "programs/reliable-ai-research/reading/agents-and-evaluation.md",
+      "source_sha256": "31085a9bb7bbbcbe09bb1279756c109b64f68190c70c3949236984f64ce5ec2f",
+      "english": "programs/reliable-ai-research/reading/agents-and-evaluation.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "programs/reliable-ai-research/reading/evidence-and-citations.md",
+      "source_sha256": "8e2a50fbfeeb2d62bda33054883abb75802c3cef040520582f357adcc44c22e6",
+      "english": "programs/reliable-ai-research/reading/evidence-and-citations.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "programs/reliable-ai-research/reading/overview.md",
+      "source_sha256": "2241d4040d36f5ebf2d84b81456d6268088f4cb413af495c931d1267affba0b1",
+      "english": "programs/reliable-ai-research/reading/overview.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "programs/reliable-ai-research/README.md",
+      "source_sha256": "36bd775220563a8320a8949ccacd18184ba98cad84dec15bd9fd7a1fa555ab5d",
+      "english": "programs/reliable-ai-research/README.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "16e90ab9e4d3ed0d4cdfaa07cbe7980bab2636074c2338e3b2e1a6980820b530"
+    },
+    {
+      "source": "programs/reliable-ai-research/SOURCES.md",
+      "source_sha256": "7c65dd951c7d1d948ccfe3d12098a36305891c4b6c99654f972d2d7df86f4f17",
+      "english": "programs/reliable-ai-research/SOURCES.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "ebe3258f9855ac6af0ff7260bbf5288dd3c559022ac4316e6416967f7cb18185"
+    },
+    {
+      "source": "programs/religion-and-cooperation/reading/overview.md",
+      "source_sha256": "23f2808c2d7cec14c0cb6b89a8f7d60aca6d4a66403db52ed541057a7b7faaec",
+      "english": "programs/religion-and-cooperation/reading/overview.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "programs/religion-and-cooperation/reading/religion-and-institutions.md",
+      "source_sha256": "f1e49eb38f8c896752af145c670bd55f40a562b909f6611e00ce26814b0c47e7",
+      "english": "programs/religion-and-cooperation/reading/religion-and-institutions.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "programs/religion-and-cooperation/reading/ritual-and-cooperation.md",
+      "source_sha256": "f10e28e53579caa987a37c0070f1a418beb2cf6275a1bc8ce1a82b8650af2cd1",
+      "english": "programs/religion-and-cooperation/reading/ritual-and-cooperation.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "programs/religion-and-cooperation/README.md",
+      "source_sha256": "b43973e6b9e224549560f23dcd8e85f8d4c3afda35f1103d68273ca59f6d7b57",
+      "english": "programs/religion-and-cooperation/README.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "c7048fb84f3e4d06f9824aff845c21ae315f116533a3941a342e06478fb80821"
+    },
+    {
+      "source": "programs/religion-and-cooperation/SOURCES.md",
+      "source_sha256": "d3de6633785ae364e316402b891aa86a2d1d12f5ac90fdb2a9bd7e253bf6d690",
+      "english": "programs/religion-and-cooperation/SOURCES.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "6272044f9ceab3f9f545be1cd8b88fd01f33ddb62312e91577d9fba9814edd97"
+    },
+    {
+      "source": "programs/verified-learning/reading/overview.md",
+      "source_sha256": "4afef6fd03b1fd4c068d62d523bfc08738953b4ce85474e78ae7c1c586ba6ad8",
+      "english": "programs/verified-learning/reading/overview.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "programs/verified-learning/reading/process-verification.md",
+      "source_sha256": "a76ee0001a98dc2b4eedb4daf4d39030857f4a13c5d664b545316236b98f5584",
+      "english": "programs/verified-learning/reading/process-verification.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "programs/verified-learning/reading/synthetic-data.md",
+      "source_sha256": "63328a3253c1b59e4734dd9e8112c7a97e1d021a0bf78b965f5ad02b7e728883",
+      "english": "programs/verified-learning/reading/synthetic-data.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "programs/verified-learning/README.md",
+      "source_sha256": "f5aecde13e923f99b1bcd5f4d03a7719792d380549591077c87cc0de56d0e705",
+      "english": "programs/verified-learning/README.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "206f0aea1f23a96af47cfb1a6419a1f003aa4b00e3b3fe750b234d71753bf58a"
+    },
+    {
+      "source": "programs/verified-learning/SOURCES.md",
+      "source_sha256": "4da591ec46266a3235a835a203d404528fc8e65b163e9260c22b34de1d88d80b",
+      "english": "programs/verified-learning/SOURCES.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "16b5263834bc9d769253222451acfab73d09c733319571a06eea9ad9ae6dc1e8"
+    },
+    {
+      "source": "programs/voluntary-governance/reading/commons-and-polycentricity.md",
+      "source_sha256": "cf9a1fd2808a1aa97f316d67d16e4bd687136c7316cd3826056009a7638e58ea",
+      "english": "programs/voluntary-governance/reading/commons-and-polycentricity.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "programs/voluntary-governance/reading/overview.md",
+      "source_sha256": "31884e91ead79c234dbf7fed30c073ca8870b78dcb19a16a78088d2ceaaaa476",
+      "english": "programs/voluntary-governance/reading/overview.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "programs/voluntary-governance/reading/participation-and-accountability.md",
+      "source_sha256": "16d300f0a8c25aab132690f4b8b966b754f9ca526668307393a1856e5fd27635",
+      "english": "programs/voluntary-governance/reading/participation-and-accountability.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "programs/voluntary-governance/README.md",
+      "source_sha256": "71b53950473cbdf0d7464316e5fcb656314e575af3b9c1efe0299528a0a55551",
+      "english": "programs/voluntary-governance/README.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "07f7eb4c784e28b17e6f45cc31d9c25d4ece3d09c235ad7787a88ed8e4511167"
+    },
+    {
+      "source": "programs/voluntary-governance/SOURCES.md",
+      "source_sha256": "f94eddd983ebb15600b31dd0e7a70bde5e1128d6757ca24df06d1cb515cd613c",
+      "english": "programs/voluntary-governance/SOURCES.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "819e3597292f3cc4e5f4412318b2fa504f9290c166f9727de7d5c2b49cc75350"
+    },
+    {
+      "source": "README.md",
+      "source_sha256": "caebc8895ef61df6932a7839139bc444aa26edc361bb9a51a797ca5f4a7300b8",
+      "english": "README.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "2ee661e64219890d5440e2c28ef81bacefd8933f0b206c1b633d221a2d11c22e"
+    },
+    {
+      "source": "RIGHTS.md",
+      "source_sha256": "f11baa1d10c66e80f02fe80bd9c2d748638971dd3ecbd9a188e1a86f70c90149",
+      "english": "RIGHTS.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "02bcac5ad6bfc0cdfca20eeeca68c54c5a56c9359ec3ef7bb401659fe7d082ff"
+    },
+    {
+      "source": "site/DEPLOYMENT.md",
+      "source_sha256": "e345e29d289ffdec1ec0078541056281c1bc134e43b263482ed686d74bcee613",
+      "english": "site/DEPLOYMENT.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "f790bbc2bacd68519e4ca76f7782af156272a97d5f27bacce57856a53dd39728"
+    },
+    {
+      "source": "site/README.md",
+      "source_sha256": "36357d9383957bfd47a6b40a0e4bc27c01c3a0d367e58c6b4b1d0aa1b83dfe66",
+      "english": "site/README.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "4232165793a67d4587e40a5f5598e7176275ff01e42903bf5c8c368b02ff5eb8"
+    }
+  ]
+}

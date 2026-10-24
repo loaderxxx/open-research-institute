@@ -1,5 +1,7 @@
 # Источники и глубина чтения
 
+[English](SOURCES.en.md)
+
 Реестр относится к развёрнутым обзорам этой программы. Дата проверки: 23 сентября 2026 года. Доступ к аннотации не обозначает чтение полной статьи.
 
 ## G1 — Ostrom 2009, A general framework for analyzing sustainability of social-ecological systems

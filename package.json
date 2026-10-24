@@ -1,0 +1,16 @@
+{
+  "name": "open-research-institute",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node site/server.js",
+    "test": "node --test site/server.test.js",
+    "translations": "node scripts/translation-status.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "markdown-it": "15.0.3"
+  }
+}
