@@ -5,10 +5,24 @@
 <!-- ori-toc:start -->
 ## Contents
 
+- [24 October 2026 — source links for every programme](#24-october-2026--source-links-for-every-programme)
 - [24 October 2026 — thirteen research programmes release](#24-october-2026--thirteen-research-programmes-release)
 - [24 October 2026 — bilingual Markdown release](#24-october-2026--bilingual-markdown-release)
 - [7 October 2026 — historical release](#7-october-2026--historical-release)
 <!-- ori-toc:end -->
+
+## 24 October 2026 — source links for every programme
+
+Verified Railway status: **SUCCESS**. Main address: [ori-lab.org/en/](https://ori-lab.org/en/); [source library](https://ori-lab.org/en/library/).
+
+- Deployed commit: 9b305335f2e727afeac85cbb14cb27fa2473a4db; branch main.
+- Deployment ID: ffbb6b59-c15e-4bfc-8aed-54d2e11d4738.
+- Successful launch: 24 October 2026, 18:44 UTC (21:44 Moscow).
+- The service is pinned to this commit; subsequent documentation records do not trigger another release.
+
+All 13 programmes now have a visible Materials & sources section with direct external links and a full annotated literature map. Homepage and library cards show counts of books, studies and researchers. The maps contain 39 book recommendations, 66 publications and resources, and 39 researcher and team entries (summed across programmes; some sources recur). Each programme immediately shows three books, the first three studies and three researcher entries; the remaining materials are in the full collection. All 21 published reviews remain available.
+
+Checks: all 21 automated tests passed; 124 Markdown documents and 2,013 local links passed validation; 62 language pairs are prepared. An independent live check made 56 requests: 26 programme pages with source sections, two libraries with 13 collections and 21 reviews each, and 28 map routes returned 200. Browser checks covered seven routes at widths of 1440 and 390 pixels, with no horizontal overflow or JavaScript errors; language switching retains the sources anchor, and the full map opens in the selected language. This release check confirms the presence of external links, but does not recheck the availability of every external website.
 
 ## 24 October 2026 — thirteen research programmes release
 
