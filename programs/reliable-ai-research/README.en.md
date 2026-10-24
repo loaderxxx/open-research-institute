@@ -1,4 +1,4 @@
-# Reliable AI Research
+# AI for scientific research
 
 [Русский](README.md)
 

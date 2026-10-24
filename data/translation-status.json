@@ -17,6 +17,34 @@
       "english_sha256": "c2a8a451aac4ed6432fb09aa44e7a00dcc7c3ff51c8430ef1340982a32163a4f"
     },
     {
+      "source": "METHODOLOGY.md",
+      "source_sha256": "4e5d87dce0815e5a5383feff5ab072a33520bd706572c20e566cdc067062297d",
+      "english": "METHODOLOGY.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "298916f942d7879e2c3be98943e25542b73c19e136aad8996051b1bda18713ca"
+    },
+    {
+      "source": "programs/biology/README.md",
+      "source_sha256": "3bbb1e5082c8dcf9a88029dcac32ac901283ede3f58bf441fb0d7f44f87d38cb",
+      "english": "programs/biology/README.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "38d2bdbf84ad3e6a6cde01a433210e39a5ffbabad890cd17e16c84a6e1ad067e"
+    },
+    {
+      "source": "programs/brain/README.md",
+      "source_sha256": "0f676f6b6c53414eb1edde078254b025a475eed1085b6dd65ac8ce46f5073be6",
+      "english": "programs/brain/README.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "8534211031af3c9060af22c0c8de9748a7dc95968086a4b1c1512e858c1af0aa"
+    },
+    {
+      "source": "programs/business-and-organizations/README.md",
+      "source_sha256": "280b45bcc239c516afd962ecce45976eb669d58f3ad664ac57c51a5634bb0334",
+      "english": "programs/business-and-organizations/README.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "5fc58a3d1ae2333231be1ee004188c0dc06e5cdbb3d82b92cdd860455b181553"
+    },
+    {
       "source": "programs/consciousness/reading/indicators-and-measurement.md",
       "source_sha256": "dea0e1d500c91f1b2b53c721d9b3ff9e96b8a83b0717f93daaca6fdf6ba93d97",
       "english": "programs/consciousness/reading/indicators-and-measurement.en.md",
@@ -39,10 +67,10 @@
     },
     {
       "source": "programs/consciousness/README.md",
-      "source_sha256": "b21aa9a51974b9e4a6bd78de653a6d9f06784e32163a07160a68c5323d79f08a",
+      "source_sha256": "00e15cc20ac362911263b6cc35ee1e8dce172aac4583684cecb1a511493f3823",
       "english": "programs/consciousness/README.en.md",
       "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
-      "english_sha256": "7527f040fedfd4e533c9bcabe554b86fccd40ec702b6e072c602261667ab48fb"
+      "english_sha256": "81a263b04594e27f82df77a7966f8d7c64bd6778a45a82ba10a0dd4f718c3553"
     },
     {
       "source": "programs/consciousness/SOURCES.md",
@@ -87,6 +115,13 @@
       "english_sha256": "849115df6558ddc1d212fbfa7e4a450d1e39d7eada68cad7393ef545fd3cdef4"
     },
     {
+      "source": "programs/genomics/README.md",
+      "source_sha256": "a8d3412b6018192f83d68774d6c691276ecda39cd69724d0638d8eb5ecd20436",
+      "english": "programs/genomics/README.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "a9fafbb4f8c22b4cc3c6340d18e5828abbf0ce89d87680b8d63516bf4260f482"
+    },
+    {
       "source": "programs/philosophy-and-meaning/reading/overview.md",
       "source_sha256": "20f82293cec015bb0e4cae2d7c85ccc2e29e3c7d0bd8ec6ce1b0569672d4b261",
       "english": "programs/philosophy-and-meaning/reading/overview.en.md",
@@ -122,6 +157,13 @@
       "english_sha256": "d90b87180da5b33877eee66da6179424eb746190d715547745e16cf76c9c643b"
     },
     {
+      "source": "programs/physics/README.md",
+      "source_sha256": "86d9004af468fada7fa9b9c4c86f9035c838c16ecee9a2178417a91102dc8be7",
+      "english": "programs/physics/README.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "4c96de3a79bf9966a83f97669a1b452a6b9af613db6f8809b770b79b4f47c0ea"
+    },
+    {
       "source": "programs/reliable-ai-research/reading/agents-and-evaluation.md",
       "source_sha256": "1cacfe507e1716d74ca028fe3c8e1c61c7c4e4c08f1c6ab990d2126ce1eb7db4",
       "english": "programs/reliable-ai-research/reading/agents-and-evaluation.en.md",
@@ -144,10 +186,10 @@
     },
     {
       "source": "programs/reliable-ai-research/README.md",
-      "source_sha256": "fca227d73e7c0d8dffa1f777991491604752242e7bd5822ddc237d857052eb2e",
+      "source_sha256": "12af4929a06b6bc4b6b6eddefce5671734d55a6ee607982aedcd80fda7107af0",
       "english": "programs/reliable-ai-research/README.en.md",
       "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
-      "english_sha256": "407ca9078cc1e646c85036812fce6b9eeecaab1ef7bd92adffe60f6b715f8846"
+      "english_sha256": "3d55e9da9ab8d2f43b23b6bbe193f1c93fd472ca8fbb789f8e4e4394726fd356"
     },
     {
       "source": "programs/reliable-ai-research/SOURCES.md",
@@ -190,6 +232,13 @@
       "english": "programs/religion-and-cooperation/SOURCES.en.md",
       "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
       "english_sha256": "bb1557e123ce762311d6117fd267e7cca61d4dd37a252b90fc77e5069b8d2364"
+    },
+    {
+      "source": "programs/state-and-institutions/README.md",
+      "source_sha256": "52e0c915d939b2b4afbb244a8985312f5fc81cd9a5915991c009dbe284e6ebfe",
+      "english": "programs/state-and-institutions/README.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "81e171d448ff34ed2409c8986bc93c25f28ffc6d19a7f6b047e5ad6e67aad4f8"
     },
     {
       "source": "programs/verified-learning/reading/overview.md",
@@ -263,10 +312,10 @@
     },
     {
       "source": "README.md",
-      "source_sha256": "5d89b6d3c51d3dbbe913ce8c078df8cde649529ea6387afbaad12340fe29afa4",
+      "source_sha256": "ed948553661a0df203c9191f49a720c707cdf2dca830ba47378ed87f6102ddab",
       "english": "README.en.md",
       "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
-      "english_sha256": "7cb3b603de30cf9aa4e13af6de10362ff7d06cd644e5be824f3707d6dfc03f08"
+      "english_sha256": "cf0f64f0b0e6d2e4c6638e319e6628fe0663fa77c1e21988ae429d592180bf32"
     },
     {
       "source": "RIGHTS.md",
@@ -284,10 +333,10 @@
     },
     {
       "source": "site/README.md",
-      "source_sha256": "86b95886cf0cb3c8c3d18934ddd00a741b9b1d8bbc78b201244509d640cef4c3",
+      "source_sha256": "a25f5a3b19d4ba1853e5feca163f85c9e265bb90df18069fb5d376463f670780",
       "english": "site/README.en.md",
       "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
-      "english_sha256": "25c94be06f7ea8ff2a136ae7c100fc6b935101af77fc86f042442ce5b28da4ce"
+      "english_sha256": "e56a5074ba986b9767d49251fc41d6b7824eb8ef107adcc562a6766c9d4990c1"
     }
   ]
 }

@@ -1,0 +1,707 @@
+[
+  {
+    "slug": "physics",
+    "group": "nature",
+    "stage": "agenda",
+    "related": [
+      "reliable-ai-research"
+    ],
+    "en": {
+      "title": "Physics of information",
+      "kicker": "Physics · Complex systems",
+      "question": "How do energy, information and interactions shape complex systems?",
+      "summary": "A programme connecting quantum information, the energy cost of computation and collective behaviour. Its starting point is a comparison of models that explain how physical interactions enable information processing and the emergence of order.",
+      "focus": [
+        {
+          "title": "The cost of computation",
+          "text": "How do energy use, speed and accuracy constrain physical information processing?"
+        },
+        {
+          "title": "Self-organisation",
+          "text": "Which interactions produce stable collective patterns, and when do those patterns change?"
+        },
+        {
+          "title": "Quantum information",
+          "text": "How do entanglement, noise and error correction shape the possibilities of quantum computation?"
+        }
+      ],
+      "nextStep": "The planned first output is a comparative review of information thermodynamics and self-organisation, with a reproducible simulation of one selected model."
+    },
+    "ru": {
+      "title": "Физика информации",
+      "kicker": "Физика · Сложные системы",
+      "question": "Как энергия, информация и взаимодействия определяют поведение сложных систем?",
+      "summary": "Программа связывает квантовую информацию, энергетическую цену вычислений и коллективное поведение. Отправная точка — сравнение моделей, объясняющих, как физические взаимодействия обеспечивают обработку информации и возникновение порядка.",
+      "focus": [
+        {
+          "title": "Цена вычисления",
+          "text": "Как расход энергии, скорость и точность ограничивают физическую обработку информации?"
+        },
+        {
+          "title": "Самоорганизация",
+          "text": "Какие взаимодействия создают устойчивые коллективные структуры и при каких условиях они меняются?"
+        },
+        {
+          "title": "Квантовая информация",
+          "text": "Как запутанность, шум и коррекция ошибок определяют возможности квантовых вычислений?"
+        }
+      ],
+      "nextStep": "Первый намеченный результат — сравнительный обзор термодинамики информации и самоорганизации с воспроизводимой симуляцией одной выбранной модели."
+    },
+    "references": [
+      {
+        "title": "Santa Fe Institute — The thermodynamics of computation",
+        "url": "https://www.santafe.edu/research/projects/thermodynamics-computation"
+      },
+      {
+        "title": "Perimeter Institute — Research Areas",
+        "url": "https://perimeterinstitute.ca/research/research-areas"
+      }
+    ]
+  },
+  {
+    "slug": "biology",
+    "group": "nature",
+    "stage": "agenda",
+    "related": [],
+    "en": {
+      "title": "Biology of cellular systems",
+      "kicker": "Biology · Cells and tissues",
+      "question": "How do interactions between cells give rise to living tissues?",
+      "summary": "Cells sense their surroundings, exchange signals and organise into tissues. This programme connects cell structure, collective behaviour and adaptation through quantitative models and open biological data.",
+      "focus": [
+        {
+          "title": "Cell states",
+          "text": "How are a cell's shape, internal organisation and activity related?"
+        },
+        {
+          "title": "From cells to tissues",
+          "text": "How do local signals and mechanical interactions guide tissue organisation?"
+        },
+        {
+          "title": "Adaptation and resilience",
+          "text": "Which mechanisms help cellular systems maintain function as their environment changes?"
+        }
+      ],
+      "nextStep": "The planned first output is a review of cellular self-organisation and a documented analysis of one open cell-imaging dataset."
+    },
+    "ru": {
+      "title": "Биология клеточных систем",
+      "kicker": "Биология · Клетки и ткани",
+      "question": "Как из взаимодействий клеток возникают живые ткани?",
+      "summary": "Клетки воспринимают среду, обмениваются сигналами и формируют ткани. Программа связывает устройство клетки, коллективное поведение и адаптацию через количественные модели и открытые биологические данные.",
+      "focus": [
+        {
+          "title": "Состояния клетки",
+          "text": "Как связаны форма клетки, её внутренняя организация и активность?"
+        },
+        {
+          "title": "От клетки к ткани",
+          "text": "Как локальные сигналы и механические взаимодействия направляют формирование тканей?"
+        },
+        {
+          "title": "Адаптация и устойчивость",
+          "text": "Какие механизмы помогают клеточным системам сохранять функции при изменении среды?"
+        }
+      ],
+      "nextStep": "Первый намеченный результат — обзор клеточной самоорганизации и документированный анализ одного открытого набора изображений клеток."
+    },
+    "references": [
+      {
+        "title": "Allen Institute — Cell Science",
+        "url": "https://alleninstitute.org/cell-science"
+      },
+      {
+        "title": "Salk Institute — Research Areas",
+        "url": "https://www.salk.edu/science/research/"
+      }
+    ]
+  },
+  {
+    "slug": "brain",
+    "group": "nature",
+    "stage": "agenda",
+    "related": [
+      "consciousness",
+      "digital-continuity"
+    ],
+    "en": {
+      "title": "Brain and memory",
+      "kicker": "Neuroscience · Learning",
+      "question": "How do neural circuits turn experience into memory and behaviour?",
+      "summary": "A programme connecting brain structure, neural activity and learning. The central challenge is to explain how changing interactions between cells support stable memories and flexible behaviour.",
+      "focus": [
+        {
+          "title": "Circuit architecture",
+          "text": "What can cell types and connection maps reveal about a circuit's function?"
+        },
+        {
+          "title": "Neural dynamics",
+          "text": "How do patterns of population activity represent stimuli, actions and past experience?"
+        },
+        {
+          "title": "Memory and plasticity",
+          "text": "Which changes in cells and synapses support learning, retention and recall?"
+        }
+      ],
+      "nextStep": "The planned first output is an evidence map linking circuit structure, activity and memory, followed by a reproducible analysis of a selected public dataset."
+    },
+    "ru": {
+      "title": "Мозг и память",
+      "kicker": "Нейронаука · Обучение",
+      "question": "Как нейронные сети превращают опыт в память и поведение?",
+      "summary": "Программа связывает устройство мозга, нейронную активность и обучение. В центре внимания — то, как изменяющиеся взаимодействия клеток поддерживают устойчивые воспоминания и гибкое поведение.",
+      "focus": [
+        {
+          "title": "Архитектура нейронных сетей",
+          "text": "Что типы клеток и карты связей позволяют узнать о работе нейронной сети?"
+        },
+        {
+          "title": "Динамика активности",
+          "text": "Как активность групп нейронов отражает стимулы, действия и прошлый опыт?"
+        },
+        {
+          "title": "Память и пластичность",
+          "text": "Какие изменения клеток и синапсов участвуют в обучении, сохранении и извлечении воспоминаний?"
+        }
+      ],
+      "nextStep": "Первый намеченный результат — карта свидетельств о связи структуры, активности и памяти, затем воспроизводимый анализ выбранного открытого набора данных."
+    },
+    "references": [
+      {
+        "title": "Allen Institute — Brain Science",
+        "url": "https://alleninstitute.org/brain-science"
+      },
+      {
+        "title": "Allen Institute — Neural Dynamics",
+        "url": "https://alleninstitute.org/neural-dynamics"
+      }
+    ]
+  },
+  {
+    "slug": "consciousness",
+    "group": "nature",
+    "stage": "review",
+    "related": [
+      "consciousness",
+      "digital-continuity"
+    ],
+    "en": {
+      "title": "Consciousness and perception",
+      "kicker": "Consciousness · Measurement",
+      "question": "What distinguishes conscious experience from information processing without awareness?",
+      "summary": "We compare theories of consciousness, neuroscience findings and proposed indicators for artificial systems. The focus is on predictions that can distinguish theories and on what each measurement actually captures.",
+      "focus": [
+        {
+          "title": "Competing theories",
+          "text": "Where do theories make different predictions, and how have those predictions been tested?"
+        },
+        {
+          "title": "Measuring awareness",
+          "text": "How do attention, reporting and experimental tasks affect measures of conscious perception?"
+        },
+        {
+          "title": "Artificial systems",
+          "text": "What can functional indicators tell us about the possibility of consciousness in AI?"
+        }
+      ],
+      "nextStep": "The next step is to extend the comparison of theories with explicit predictions, measurement choices and the outcomes of published tests."
+    },
+    "ru": {
+      "title": "Сознание и восприятие",
+      "kicker": "Сознание · Измерение",
+      "question": "Что отличает осознанное переживание от обработки информации без осознания?",
+      "summary": "Мы сопоставляем теории сознания, нейронаучные результаты и предложенные индикаторы для искусственных систем. В центре внимания — предсказания, позволяющие различить теории, и смысл каждого измерения.",
+      "focus": [
+        {
+          "title": "Конкурирующие теории",
+          "text": "В чём расходятся предсказания теорий и как эти различия проверяли?"
+        },
+        {
+          "title": "Измерение осознания",
+          "text": "Как внимание, отчёт участника и экспериментальная задача влияют на измерение восприятия?"
+        },
+        {
+          "title": "Искусственные системы",
+          "text": "Что функциональные индикаторы позволяют сказать о возможности сознания у ИИ?"
+        }
+      ],
+      "nextStep": "Следующий шаг — расширить сравнение теорий: сопоставить конкретные предсказания, способы измерения и результаты опубликованных проверок."
+    },
+    "references": []
+  },
+  {
+    "slug": "genomics",
+    "group": "nature",
+    "stage": "agenda",
+    "related": [],
+    "en": {
+      "title": "DNA and gene regulation",
+      "kicker": "Genomics · Biological information",
+      "question": "How does the same genome support different cell identities and functions?",
+      "summary": "A programme on how genetic information is read, regulated and expressed in cells. It connects DNA variation, gene activity and cellular states through single-cell and spatial genomics.",
+      "focus": [
+        {
+          "title": "Gene regulation",
+          "text": "How do regulatory sequences and chromatin state influence when genes become active?"
+        },
+        {
+          "title": "Cell identity",
+          "text": "How do patterns of gene activity distinguish cell types and developmental transitions?"
+        },
+        {
+          "title": "From variant to function",
+          "text": "Which evidence links a DNA change to a change in cellular behaviour?"
+        }
+      ],
+      "nextStep": "The planned first output is a review of gene regulation and a reproducible comparison of cell states in one selected open single-cell dataset."
+    },
+    "ru": {
+      "title": "ДНК и регуляция генов",
+      "kicker": "Геномика · Биологическая информация",
+      "question": "Как один геном обеспечивает разные типы и функции клеток?",
+      "summary": "Программа о том, как генетическая информация считывается, регулируется и проявляется в клетке. Она связывает вариации ДНК, активность генов и состояния клеток через геномику отдельных клеток и тканей.",
+      "focus": [
+        {
+          "title": "Регуляция генов",
+          "text": "Как регуляторные участки ДНК и состояние хроматина влияют на включение генов?"
+        },
+        {
+          "title": "Идентичность клетки",
+          "text": "Как сочетания активных генов различают типы клеток и переходы между состояниями?"
+        },
+        {
+          "title": "От варианта к функции",
+          "text": "Какие данные связывают изменение ДНК с изменением поведения клетки?"
+        }
+      ],
+      "nextStep": "Первый намеченный результат — обзор регуляции генов и воспроизводимое сравнение состояний клеток на одном открытом наборе данных single-cell."
+    },
+    "references": [
+      {
+        "title": "Broad Institute — Research Areas",
+        "url": "https://www.broadinstitute.org/research-areas"
+      },
+      {
+        "title": "Broad Institute — Focus Areas",
+        "url": "https://www.broadinstitute.org/about-us/broads-focus-areas"
+      }
+    ]
+  },
+  {
+    "slug": "business-and-organizations",
+    "group": "society",
+    "stage": "agenda",
+    "related": [
+      "voluntary-governance",
+      "reliable-ai-research"
+    ],
+    "en": {
+      "title": "Business and organizations",
+      "kicker": "Entrepreneurship · Organisational research",
+      "question": "How do entrepreneurs and companies organise decisions, incentives and joint work under uncertainty?",
+      "summary": "A programme on entrepreneurship, company structure and coordination between people and teams. It connects the distribution of authority, incentives and knowledge with decision-making and the adoption of AI in work.",
+      "focus": [
+        {
+          "title": "Entrepreneurship and company structure",
+          "text": "How are entrepreneurial ideas tested, and how does the distribution of decisions change as a company grows?"
+        },
+        {
+          "title": "Incentives and coordination",
+          "text": "How do goals, rewards and access to information affect cooperation and the quality of work?"
+        },
+        {
+          "title": "Decisions and AI adoption",
+          "text": "Which tasks are delegated to AI, and how can changes in quality, time and costs be evaluated?"
+        }
+      ],
+      "nextStep": "The first stage is to collect and compare studies of entrepreneurship, company structure, incentives and AI adoption, then define a focused question and prepare an initial review."
+    },
+    "ru": {
+      "title": "Бизнес и организации",
+      "kicker": "Предпринимательство · Исследование организаций",
+      "question": "Как предприниматели и компании организуют решения, стимулы и совместную работу в условиях неопределённости?",
+      "summary": "Программа посвящена предпринимательству, устройству компаний и координации людей и команд. Она связывает распределение полномочий, стимулов и знаний с принятием решений и внедрением ИИ в работу.",
+      "focus": [
+        {
+          "title": "Предпринимательство и устройство компании",
+          "text": "Как проверяются предпринимательские идеи и как меняется распределение решений по мере роста компании?"
+        },
+        {
+          "title": "Стимулы и координация",
+          "text": "Как цели, вознаграждения и доступ к информации влияют на сотрудничество и качество работы?"
+        },
+        {
+          "title": "Решения и внедрение ИИ",
+          "text": "Какие задачи передают ИИ и как оценивать изменения качества, времени и издержек?"
+        }
+      ],
+      "nextStep": "Первый этап — собрать и сопоставить исследования предпринимательства, устройства компаний, стимулов и внедрения ИИ, затем уточнить узкий вопрос и подготовить первоначальный обзор."
+    },
+    "references": []
+  },
+  {
+    "slug": "state-and-institutions",
+    "group": "society",
+    "stage": "agenda",
+    "related": [
+      "voluntary-governance",
+      "philosophy-and-meaning"
+    ],
+    "en": {
+      "title": "State and institutions",
+      "kicker": "Government · Public services",
+      "question": "How do state institutions provide public services, citizen participation and accountability across levels of government?",
+      "summary": "A programme on state institutions, the implementation of public decisions and the relationships between citizens and public bodies. It connects service access and quality with the distribution of authority, participation and coordination across levels of government.",
+      "focus": [
+        {
+          "title": "Institutions and public services",
+          "text": "How are authority, resources and work organisation related to service access, quality and continuity?"
+        },
+        {
+          "title": "Participation and accountability",
+          "text": "When does citizen participation influence decisions, and how do feedback, appeals and audits help correct implementation?"
+        },
+        {
+          "title": "Levels of government and coordination",
+          "text": "How are responsibilities, funding and accountability aligned across local, regional and national institutions?"
+        }
+      ],
+      "nextStep": "The first stage is to map the existing reviews, find additional studies and public data, and prepare a comparative review of public services, accountability and coordination across levels of government."
+    },
+    "ru": {
+      "title": "Государство и институты",
+      "kicker": "Государственное управление · Публичные услуги",
+      "question": "Как государственные институты обеспечивают публичные услуги, участие граждан и подотчётность на разных уровнях власти?",
+      "summary": "Программа посвящена государственным институтам, исполнению публичных решений и отношениям граждан с учреждениями. Она связывает доступность и качество услуг с распределением полномочий, участием и согласованием действий между уровнями власти.",
+      "focus": [
+        {
+          "title": "Институты и публичные услуги",
+          "text": "Как полномочия, ресурсы и организация работы связаны с доступностью, качеством и устойчивостью услуг?"
+        },
+        {
+          "title": "Участие и подотчётность",
+          "text": "Когда участие граждан влияет на решения и как обратная связь, обжалование и аудит помогают исправлять исполнение?"
+        },
+        {
+          "title": "Уровни власти и координация",
+          "text": "Как согласуются полномочия, финансирование и ответственность местных, региональных и национальных институтов?"
+        }
+      ],
+      "nextStep": "Первый этап — составить карту существующих обзоров, найти дополнительные исследования и открытые данные, затем подготовить сравнительный обзор публичных услуг, подотчётности и взаимодействия уровней власти."
+    },
+    "references": []
+  },
+  {
+    "slug": "religion-and-cooperation",
+    "group": "society",
+    "stage": "review",
+    "related": [
+      "religion-and-cooperation",
+      "voluntary-governance"
+    ],
+    "en": {
+      "title": "Religion, ritual and cooperation",
+      "kicker": "Culture · Social behaviour",
+      "question": "How do beliefs and rituals shape trust and collective action?",
+      "summary": "We compare field, laboratory and historical studies of religion and cooperation. The programme examines shared practices, group membership and the institutions that sustain collective life.",
+      "focus": [
+        {
+          "title": "Ritual and trust",
+          "text": "How are shared practices associated with trust, commitment and prosocial behaviour?"
+        },
+        {
+          "title": "Groups and institutions",
+          "text": "When does cooperation extend beyond a group, and who benefits from it?"
+        },
+        {
+          "title": "Historical change",
+          "text": "How do cultural context, data selection and missing records affect explanations?"
+        }
+      ],
+      "nextStep": "The next step is to organise the evidence by proposed mechanism and study design, tracing which findings hold across contexts."
+    },
+    "ru": {
+      "title": "Религия, ритуал и сотрудничество",
+      "kicker": "Культура · Социальное поведение",
+      "question": "Как убеждения и ритуалы связаны с доверием и совместным действием?",
+      "summary": "Мы сопоставляем полевые, лабораторные и исторические исследования религии и сотрудничества. Программа рассматривает общие практики, групповую принадлежность и институты совместной жизни.",
+      "focus": [
+        {
+          "title": "Ритуал и доверие",
+          "text": "Как общие практики связаны с доверием, приверженностью группе и помощью другим?"
+        },
+        {
+          "title": "Группы и институты",
+          "text": "Когда сотрудничество выходит за пределы группы и кто получает от него пользу?"
+        },
+        {
+          "title": "Исторические изменения",
+          "text": "Как культурный контекст, отбор и пропуски данных влияют на объяснения?"
+        }
+      ],
+      "nextStep": "Следующий шаг — упорядочить свидетельства по предполагаемым механизмам и устройству исследований, проследив устойчивость результатов в разных контекстах."
+    },
+    "references": []
+  },
+  {
+    "slug": "voluntary-governance",
+    "group": "society",
+    "stage": "review",
+    "related": [
+      "voluntary-governance",
+      "religion-and-cooperation"
+    ],
+    "en": {
+      "title": "Voluntary coordination",
+      "kicker": "Institutions · Collective action",
+      "question": "Under what conditions do people sustain shared rules and accountability?",
+      "summary": "The programme examines common resources, participation and polycentric governance. It compares how communities establish rules, resolve conflicts and keep decision-makers accountable.",
+      "focus": [
+        {
+          "title": "Shared resources",
+          "text": "Which arrangements help communities manage resources over time?"
+        },
+        {
+          "title": "Participation and influence",
+          "text": "When does participation change decisions, and how can power become concentrated?"
+        },
+        {
+          "title": "Accountability",
+          "text": "What do studies of monitoring and audit reveal about compliance and trust?"
+        }
+      ],
+      "nextStep": "The next step is a comparative map of institutional mechanisms, with the conditions and outcomes documented for each case."
+    },
+    "ru": {
+      "title": "Добровольная координация",
+      "kicker": "Институты · Совместное действие",
+      "question": "При каких условиях люди поддерживают общие правила и подотчётность?",
+      "summary": "Программа посвящена общим ресурсам, участию и полицентрическому управлению. Она сопоставляет способы, которыми сообщества устанавливают правила, разрешают конфликты и контролируют принятие решений.",
+      "focus": [
+        {
+          "title": "Общие ресурсы",
+          "text": "Какие правила помогают сообществам управлять ресурсами в долгосрочной перспективе?"
+        },
+        {
+          "title": "Участие и влияние",
+          "text": "Когда участие меняет решения и как возникает концентрация власти?"
+        },
+        {
+          "title": "Подотчётность",
+          "text": "Что исследования мониторинга и аудита показывают о соблюдении правил и доверии?"
+        }
+      ],
+      "nextStep": "Следующий шаг — сравнительная карта институциональных механизмов с описанием условий и результатов каждого рассмотренного случая."
+    },
+    "references": []
+  },
+  {
+    "slug": "philosophy-and-meaning",
+    "group": "society",
+    "stage": "review",
+    "related": [
+      "philosophy-and-meaning",
+      "digital-continuity"
+    ],
+    "en": {
+      "title": "Philosophy and meaning",
+      "kicker": "Philosophy · Values",
+      "question": "What makes a life meaningful, and how can competing answers be assessed?",
+      "summary": "The programme compares accounts of meaning, a good life and the justification of values. Philosophical arguments are read alongside psychological research on how people experience meaning.",
+      "focus": [
+        {
+          "title": "Theories of meaning",
+          "text": "How do subjective, objective and mixed accounts explain meaningful lives?"
+        },
+        {
+          "title": "Pluralism and values",
+          "text": "How can people reason together when their commitments and conceptions of a good life differ?"
+        },
+        {
+          "title": "Measuring experience",
+          "text": "What do self-reports of meaning reveal about a person's experience and circumstances?"
+        }
+      ],
+      "nextStep": "The next step is a comparison of key arguments, objections and empirical measures, making each approach's assumptions explicit."
+    },
+    "ru": {
+      "title": "Философия и смысл",
+      "kicker": "Философия · Ценности",
+      "question": "Что делает жизнь осмысленной и как сопоставлять разные ответы?",
+      "summary": "Программа сравнивает представления о смысле, хорошей жизни и обосновании ценностей. Философские аргументы рассматриваются рядом с психологическими исследованиями переживания смысла.",
+      "focus": [
+        {
+          "title": "Теории смысла",
+          "text": "Как субъективные, объективные и смешанные подходы объясняют осмысленную жизнь?"
+        },
+        {
+          "title": "Плюрализм и ценности",
+          "text": "Как обсуждать общие решения при разных убеждениях и представлениях о хорошей жизни?"
+        },
+        {
+          "title": "Измерение переживания",
+          "text": "Что самоотчёты о смысле позволяют узнать об опыте человека и обстоятельствах его жизни?"
+        }
+      ],
+      "nextStep": "Следующий шаг — сравнить ключевые аргументы, возражения и эмпирические измерения, явно указав предпосылки каждого подхода."
+    },
+    "references": []
+  },
+  {
+    "slug": "reliable-ai-research",
+    "group": "technology",
+    "stage": "review",
+    "related": [
+      "reliable-ai-research",
+      "verified-learning"
+    ],
+    "en": {
+      "title": "AI for scientific research",
+      "kicker": "Artificial intelligence · Discovery",
+      "question": "How can AI produce research results that stand up to independent checking?",
+      "summary": "We study the reliability of research assistants and multi-agent systems: finding evidence, using sources and evaluating conclusions. The programme connects the capabilities of AI with the demands of scientific work.",
+      "focus": [
+        {
+          "title": "Evidence and sources",
+          "text": "How accurately do systems find relevant studies and support claims with their contents?"
+        },
+        {
+          "title": "Teams of agents",
+          "text": "When does collaboration improve a result, and when does it spread a shared error?"
+        },
+        {
+          "title": "Evaluation",
+          "text": "Which benchmarks and independent checks reveal the quality of a research result?"
+        }
+      ],
+      "nextStep": "The next step is to turn the existing review into a comparison framework for research systems, with explicit tasks, evidence checks and evaluation criteria."
+    },
+    "ru": {
+      "title": "ИИ для научных исследований",
+      "kicker": "Искусственный интеллект · Открытия",
+      "question": "Как получать с помощью ИИ результаты, которые выдерживают независимую проверку?",
+      "summary": "Мы изучаем надёжность исследовательских помощников и систем из нескольких агентов: поиск свидетельств, работу с источниками и оценку выводов. Программа связывает возможности ИИ с задачами научной работы.",
+      "focus": [
+        {
+          "title": "Свидетельства и источники",
+          "text": "Насколько точно системы находят нужные работы и подтверждают утверждения их содержанием?"
+        },
+        {
+          "title": "Команды агентов",
+          "text": "Когда совместная работа улучшает результат, а когда распространяет общую ошибку?"
+        },
+        {
+          "title": "Оценка результата",
+          "text": "Какие задачи и независимые проверки показывают качество исследовательского ответа?"
+        }
+      ],
+      "nextStep": "Следующий шаг — на основе существующего обзора подготовить схему сравнения исследовательских систем с конкретными задачами, проверкой свидетельств и критериями оценки."
+    },
+    "references": []
+  },
+  {
+    "slug": "verified-learning",
+    "group": "technology",
+    "stage": "review",
+    "related": [
+      "verified-learning",
+      "reliable-ai-research"
+    ],
+    "en": {
+      "title": "Learning from verified results",
+      "kicker": "Machine learning · Verification",
+      "question": "Which forms of verification help models learn and generalise?",
+      "summary": "The programme examines learning from checked answers, intermediate reasoning steps and synthetic data. It follows the connection between the training signal, data selection and performance on new tasks.",
+      "focus": [
+        {
+          "title": "Answers and reasoning steps",
+          "text": "When does checking the solution process add information beyond checking the final answer?"
+        },
+        {
+          "title": "Verifier reliability",
+          "text": "How do errors in automatic checkers affect the examples and signals used for training?"
+        },
+        {
+          "title": "Synthetic data",
+          "text": "Which data-generation and selection choices improve transfer to unfamiliar tasks?"
+        }
+      ],
+      "nextStep": "The next step is to compare published training approaches by verification method, data quality and evidence of generalisation."
+    },
+    "ru": {
+      "title": "Обучение на проверенных результатах",
+      "kicker": "Машинное обучение · Проверка",
+      "question": "Какие способы проверки помогают моделям учиться и обобщать?",
+      "summary": "Программа посвящена обучению на проверенных ответах, промежуточных шагах решения и синтетических данных. Она связывает сигнал обучения, отбор примеров и результат на новых задачах.",
+      "focus": [
+        {
+          "title": "Ответ и ход решения",
+          "text": "Когда проверка процесса сообщает больше, чем проверка конечного ответа?"
+        },
+        {
+          "title": "Надёжность проверяющего",
+          "text": "Как ошибки автоматической проверки влияют на примеры и сигналы для обучения?"
+        },
+        {
+          "title": "Синтетические данные",
+          "text": "Какие способы генерации и отбора данных улучшают перенос на незнакомые задачи?"
+        }
+      ],
+      "nextStep": "Следующий шаг — сравнить опубликованные подходы по способу проверки, качеству данных и свидетельствам обобщения."
+    },
+    "references": []
+  },
+  {
+    "slug": "digital-continuity",
+    "group": "technology",
+    "stage": "review",
+    "related": [
+      "digital-continuity",
+      "consciousness"
+    ],
+    "en": {
+      "title": "Digital continuity of identity",
+      "kicker": "Identity · Memory and models",
+      "question": "What can a digital model preserve about a person?",
+      "summary": "The programme brings together personal identity, memory, connectomics and behavioural models. It examines the relationship between recorded structure, predicted behaviour and psychological continuity.",
+      "focus": [
+        {
+          "title": "Maps of the brain",
+          "text": "Which properties do neural maps capture, and what additional information describes brain activity?"
+        },
+        {
+          "title": "Memory and behaviour",
+          "text": "How well can a model capture a person's memories, preferences and responses?"
+        },
+        {
+          "title": "Continuity and identity",
+          "text": "How do theories of personal identity treat copying, change and branching?"
+        }
+      ],
+      "nextStep": "The next step is to connect the existing philosophical review to a clear inventory of what current neural and behavioural models measure."
+    },
+    "ru": {
+      "title": "Цифровая непрерывность личности",
+      "kicker": "Идентичность · Память и модели",
+      "question": "Что цифровая модель может сохранить о человеке?",
+      "summary": "Программа объединяет вопросы личного тождества, памяти, коннектомики и моделей поведения. Она рассматривает связь между записанной структурой, предсказанием поведения и психологической непрерывностью.",
+      "focus": [
+        {
+          "title": "Карты мозга",
+          "text": "Какие свойства отражают нейронные карты и какие данные дополняют их описанием активности?"
+        },
+        {
+          "title": "Память и поведение",
+          "text": "Насколько точно модель может отражать воспоминания, предпочтения и реакции человека?"
+        },
+        {
+          "title": "Непрерывность и идентичность",
+          "text": "Как теории личности рассматривают копирование, изменение и ветвление?"
+        }
+      ],
+      "nextStep": "Следующий шаг — связать существующий философский обзор с конкретной картой того, что измеряют современные нейронные и поведенческие модели."
+    },
+    "references": []
+  }
+]

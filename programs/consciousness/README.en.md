@@ -1,4 +1,4 @@
-# Consciousness and Measurement
+# Consciousness and perception
 
 [Русский](README.md)
 

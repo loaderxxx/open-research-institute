@@ -1,33 +1,49 @@
 [
   {
-    "slug": "reliable-ai-research",
-    "title": "Надёжные исследования с ИИ",
-    "question": "Как отличить убедительный ответ от результата, который можно проверить?",
-    "page": "programs/reliable-ai-research/README.md",
-    "documents": [
-      "overview",
-      "agents-and-evaluation",
-      "evidence-and-citations"
-    ],
-    "status": "LITERATURE_REVIEW"
+    "slug": "physics",
+    "title": "Физика информации",
+    "title_en": "Physics of information",
+    "question": "Как энергия, информация и взаимодействия определяют поведение сложных систем?",
+    "question_en": "How do energy, information and interactions shape complex systems?",
+    "group": "nature",
+    "page": "programs/physics/README.md",
+    "page_en": "programs/physics/README.en.md",
+    "documents": [],
+    "status": "PROGRAMME_AGENDA"
   },
   {
-    "slug": "verified-learning",
-    "title": "Обучение на проверенных результатах",
-    "question": "Какие данные и способы проверки действительно помогают обучению моделей?",
-    "page": "programs/verified-learning/README.md",
-    "documents": [
-      "overview",
-      "process-verification",
-      "synthetic-data"
-    ],
-    "status": "LITERATURE_REVIEW"
+    "slug": "biology",
+    "title": "Биология клеточных систем",
+    "title_en": "Biology of cellular systems",
+    "question": "Как из взаимодействий клеток возникают живые ткани?",
+    "question_en": "How do interactions between cells give rise to living tissues?",
+    "group": "nature",
+    "page": "programs/biology/README.md",
+    "page_en": "programs/biology/README.en.md",
+    "documents": [],
+    "status": "PROGRAMME_AGENDA"
+  },
+  {
+    "slug": "brain",
+    "title": "Мозг и память",
+    "title_en": "Brain and memory",
+    "question": "Как нейронные сети превращают опыт в память и поведение?",
+    "question_en": "How do neural circuits turn experience into memory and behaviour?",
+    "group": "nature",
+    "page": "programs/brain/README.md",
+    "page_en": "programs/brain/README.en.md",
+    "documents": [],
+    "status": "PROGRAMME_AGENDA"
   },
   {
     "slug": "consciousness",
-    "title": "Сознание и измерение",
-    "question": "Что можно измерить в исследованиях сознания, а что пока остаётся интерпретацией?",
+    "title": "Сознание и восприятие",
+    "title_en": "Consciousness and perception",
+    "question": "Что отличает осознанное переживание от обработки информации без осознания?",
+    "question_en": "What distinguishes conscious experience from information processing without awareness?",
+    "group": "nature",
     "page": "programs/consciousness/README.md",
+    "page_en": "programs/consciousness/README.en.md",
     "documents": [
       "overview",
       "indicators-and-measurement",
@@ -36,22 +52,50 @@
     "status": "LITERATURE_REVIEW"
   },
   {
-    "slug": "digital-continuity",
-    "title": "Цифровая непрерывность личности",
-    "question": "Что сохраняют данные о человеке и где проходит граница между моделью и личностью?",
-    "page": "programs/digital-continuity/README.md",
-    "documents": [
-      "overview",
-      "connectomics-and-memory",
-      "identity-and-models"
-    ],
-    "status": "LITERATURE_REVIEW"
+    "slug": "genomics",
+    "title": "ДНК и регуляция генов",
+    "title_en": "DNA and gene regulation",
+    "question": "Как один геном обеспечивает разные типы и функции клеток?",
+    "question_en": "How does the same genome support different cell identities and functions?",
+    "group": "nature",
+    "page": "programs/genomics/README.md",
+    "page_en": "programs/genomics/README.en.md",
+    "documents": [],
+    "status": "PROGRAMME_AGENDA"
+  },
+  {
+    "slug": "business-and-organizations",
+    "title": "Бизнес и организации",
+    "title_en": "Business and organizations",
+    "question": "Как предприниматели и компании организуют решения, стимулы и совместную работу в условиях неопределённости?",
+    "question_en": "How do entrepreneurs and companies organise decisions, incentives and joint work under uncertainty?",
+    "group": "society",
+    "page": "programs/business-and-organizations/README.md",
+    "page_en": "programs/business-and-organizations/README.en.md",
+    "documents": [],
+    "status": "PROGRAMME_AGENDA"
+  },
+  {
+    "slug": "state-and-institutions",
+    "title": "Государство и институты",
+    "title_en": "State and institutions",
+    "question": "Как государственные институты обеспечивают публичные услуги, участие граждан и подотчётность на разных уровнях власти?",
+    "question_en": "How do state institutions provide public services, citizen participation and accountability across levels of government?",
+    "group": "society",
+    "page": "programs/state-and-institutions/README.md",
+    "page_en": "programs/state-and-institutions/README.en.md",
+    "documents": [],
+    "status": "PROGRAMME_AGENDA"
   },
   {
     "slug": "religion-and-cooperation",
     "title": "Религия, ритуал и сотрудничество",
-    "question": "Как связаны религиозные представления, ритуалы и совместное действие?",
+    "title_en": "Religion, ritual and cooperation",
+    "question": "Как убеждения и ритуалы связаны с доверием и совместным действием?",
+    "question_en": "How do beliefs and rituals shape trust and collective action?",
+    "group": "society",
     "page": "programs/religion-and-cooperation/README.md",
+    "page_en": "programs/religion-and-cooperation/README.en.md",
     "documents": [
       "overview",
       "religion-and-institutions",
@@ -62,8 +106,12 @@
   {
     "slug": "voluntary-governance",
     "title": "Добровольная координация",
+    "title_en": "Voluntary coordination",
     "question": "При каких условиях люди поддерживают общие правила и подотчётность?",
+    "question_en": "Under what conditions do people sustain shared rules and accountability?",
+    "group": "society",
     "page": "programs/voluntary-governance/README.md",
+    "page_en": "programs/voluntary-governance/README.en.md",
     "documents": [
       "overview",
       "commons-and-polycentricity",
@@ -74,12 +122,64 @@
   {
     "slug": "philosophy-and-meaning",
     "title": "Философия и смысл",
-    "question": "Как обсуждать ценности и смысл, сохраняя различие между аргументом и измерением?",
+    "title_en": "Philosophy and meaning",
+    "question": "Что делает жизнь осмысленной и как сопоставлять разные ответы?",
+    "question_en": "What makes a life meaningful, and how can competing answers be assessed?",
+    "group": "society",
     "page": "programs/philosophy-and-meaning/README.md",
+    "page_en": "programs/philosophy-and-meaning/README.en.md",
     "documents": [
       "overview",
       "pluralism-and-measurement",
       "theories-of-meaning"
+    ],
+    "status": "LITERATURE_REVIEW"
+  },
+  {
+    "slug": "reliable-ai-research",
+    "title": "ИИ для научных исследований",
+    "title_en": "AI for scientific research",
+    "question": "Как получать с помощью ИИ результаты, которые выдерживают независимую проверку?",
+    "question_en": "How can AI produce research results that stand up to independent checking?",
+    "group": "technology",
+    "page": "programs/reliable-ai-research/README.md",
+    "page_en": "programs/reliable-ai-research/README.en.md",
+    "documents": [
+      "overview",
+      "agents-and-evaluation",
+      "evidence-and-citations"
+    ],
+    "status": "LITERATURE_REVIEW"
+  },
+  {
+    "slug": "verified-learning",
+    "title": "Обучение на проверенных результатах",
+    "title_en": "Learning from verified results",
+    "question": "Какие способы проверки помогают моделям учиться и обобщать?",
+    "question_en": "Which forms of verification help models learn and generalise?",
+    "group": "technology",
+    "page": "programs/verified-learning/README.md",
+    "page_en": "programs/verified-learning/README.en.md",
+    "documents": [
+      "overview",
+      "process-verification",
+      "synthetic-data"
+    ],
+    "status": "LITERATURE_REVIEW"
+  },
+  {
+    "slug": "digital-continuity",
+    "title": "Цифровая непрерывность личности",
+    "title_en": "Digital continuity of identity",
+    "question": "Что цифровая модель может сохранить о человеке?",
+    "question_en": "What can a digital model preserve about a person?",
+    "group": "technology",
+    "page": "programs/digital-continuity/README.md",
+    "page_en": "programs/digital-continuity/README.en.md",
+    "documents": [
+      "overview",
+      "connectomics-and-memory",
+      "identity-and-models"
     ],
     "status": "LITERATURE_REVIEW"
   }

@@ -3,6 +3,7 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 const { randomUUID, createHash } = require('node:crypto');
 const { markdown } = require('./markdown');
+const { renderPage } = require('./pages');
 const escapeHtml = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 const RECIPIENT = 'im@vladimiruzbek.com';
@@ -32,13 +33,13 @@ function createServer({ env = process.env, fetchImpl = fetch, root = __dirname, 
   const attempts = new Map(), pending = new Set(), accepted = new Map();
   let inFlight = 0;
   const repo = path.dirname(root);
-  const files = new Map(['/index.html', '/style.css', '/reader.css', '/app.js'].map(p => [p, path.join(root, p)]));
-  for (const doc of ['README', 'LIBRARY', 'EDITORIAL_NOTE', 'RIGHTS']) {
+  const files = new Map(['/style.css', '/reader.css', '/app.js'].map(p => [p, path.join(root, p)]));
+  for (const doc of ['README', 'LIBRARY', 'EDITORIAL_NOTE', 'RIGHTS', 'METHODOLOGY']) {
     for (const suffix of ['.md', '.en.md']) files.set('/' + doc + suffix, path.join(repo, doc + suffix));
   }
   files.set('/data/reading-library.json', path.join(repo, 'data/reading-library.json'));
   for (const file of ['catalog.json', 'data/sources.json', 'data/claims.json']) files.set('/' + file, path.join(repo, file));
-  const catalogueReady = fs.readFile(path.join(repo, 'data/reading-library.json'), 'utf8').then(raw => {
+  const readingReady = fs.readFile(path.join(repo, 'data/reading-library.json'), 'utf8').then(raw => {
     for (const item of JSON.parse(raw)) {
       for (const name of [item.markdown, item.markdown_en, ...['README.md', 'README.en.md', 'SOURCES.md', 'SOURCES.en.md', 'sources.json'].map(doc => 'programs/' + item.program + '/' + doc)]) {
         if (/^programs\/[a-z-]+\/(?:reading\/[a-z-]+(?:\.en)?\.md|(?:README|SOURCES)(?:\.en)?\.md|sources\.json)$/.test(name))
@@ -46,6 +47,16 @@ function createServer({ env = process.env, fetchImpl = fetch, root = __dirname, 
       }
     }
   }).catch(() => {});
+  const programmesReady = fs.readFile(path.join(repo, 'catalog.json'), 'utf8').then(raw => {
+    for (const item of JSON.parse(raw)) {
+      if (!/^[a-z-]+$/.test(item.slug)) continue;
+      for (const doc of ['README.md', 'README.en.md']) {
+        const name = '/programs/' + item.slug + '/' + doc;
+        files.set(name, path.join(repo, name));
+      }
+    }
+  }).catch(() => {});
+  const catalogueReady = Promise.all([readingReady, programmesReady]);
   const server = http.createServer(async (req, res) => {
     res.setHeader('X-Content-Type-Options', 'nosniff');
     res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
@@ -106,7 +117,17 @@ function createServer({ env = process.env, fetchImpl = fetch, root = __dirname, 
         finally { pending.delete(fingerprint); inFlight--; }
       }
       if (!['GET', 'HEAD'].includes(req.method)) { res.setHeader('Allow', 'GET, HEAD'); return reply(res, 405, 'method_not_allowed'); }
-      const file = ['/', '/en', '/en/', '/ru', '/ru/'].includes(pathname) ? '/index.html' : pathname;
+      const legacyMethods = pathname.match(/^\/(en|ru)\/methods\/?$/);
+      if (legacyMethods) {
+        res.writeHead(308, { Location: '/' + legacyMethods[1] + '/methodology/' + new URL(req.url, 'http://local').search });
+        return res.end();
+      }
+      const page = renderPage(pathname === '/index.html' ? '/' : pathname);
+      if (page !== null) {
+        res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-cache' });
+        return res.end(req.method === 'HEAD' ? undefined : page);
+      }
+      const file = pathname;
       await catalogueReady;
       if (!files.has(file)) return reply(res, 404, 'not_found');
       const body = await fs.readFile(files.get(file));
@@ -116,7 +137,7 @@ function createServer({ env = process.env, fetchImpl = fetch, root = __dirname, 
         const hasOther = files.has(other) && await fs.access(files.get(other)).then(() => true, () => false);
         const title = body.toString('utf8').match(/^#\s+(.+)$/m)?.[1] || 'Open Research Institute';
         const languageLink = hasOther ? `<a href="${escapeHtml(other)}">${english ? 'Русский' : 'English'}</a>` : `<span>${english ? 'Russian translation pending' : 'Перевод на английский ещё не готов'}</span>`;
-        const page = `<!doctype html><html lang="${english ? 'en' : 'ru'}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escapeHtml(title)} — ORI</title><link rel="stylesheet" href="/reader.css"></head><body><header><a href="/${english ? 'en' : 'ru'}/">ORI · ${english ? 'Research library' : 'Исследовательская библиотека'}</a><nav>${languageLink}<a href="${escapeHtml(file)}?raw=1">Markdown</a></nav></header><main>${markdown.render(body.toString('utf8'))}</main></body></html>`;
+        const page = `<!doctype html><html lang="${english ? 'en' : 'ru'}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escapeHtml(title)} — ORI</title><link rel="stylesheet" href="/reader.css"></head><body><header><a href="/${english ? 'en' : 'ru'}/library/">ORI · ${english ? 'Research library' : 'Исследовательская библиотека'}</a><nav>${languageLink}<a href="${escapeHtml(file)}?raw=1">Markdown</a></nav></header><main>${markdown.render(body.toString('utf8'))}</main></body></html>`;
         res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-cache' });
         return res.end(req.method === 'HEAD' ? undefined : page);
       }

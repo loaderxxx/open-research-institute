@@ -83,7 +83,7 @@ test('document reader renders English with language link and offers original Mar
   assert.match(response.headers.get('content-type'), /text\/html/);
   const html = await response.text();
   assert.match(html, /<html lang="en">/);
-  assert.match(html, /<h1 id="consciousness-and-measurement">Consciousness and Measurement<\/h1>/);
+  assert.match(html, /<h1 id="consciousness-and-perception">Consciousness and perception<\/h1>/);
   assert.match(html, /href="\/programs\/consciousness\/README.md"/);
   const raw = await fetch(base + '/programs/consciousness/README.en.md?raw=1', { headers: { Accept: 'text/html' } });
   assert.match(raw.headers.get('content-type'), /text\/plain/);
@@ -96,4 +96,78 @@ test('Markdown contents target generated heading anchors, including Cyrillic and
   assert.match(html, /id="1-предмет-исследования"/);
   assert.match(html, /id="same-heading-1"/);
   assert.ok(!markdown.render('<script>alert(1)</script>').includes('<script>'));
+});
+
+test('programme pages render without a reading entry, preserve language and expose only published reviews', async t => {
+  const { base } = await withServer(t);
+  const programmes = require('./research-programmes.json');
+  assert.equal(programmes.filter(p => p.stage === 'agenda').length, 6);
+  for (const lang of ['en', 'ru']) {
+    for (const p of programmes) {
+      const response = await fetch(`${base}/${lang}/research/${p.slug}/`);
+      assert.equal(response.status, 200, `${lang}/${p.slug}`);
+      const html = await response.text();
+      assert.ok(html.includes(`<html lang="${lang}">`));
+      assert.ok(html.includes(`href="/${lang === 'en' ? 'ru' : 'en'}/research/${p.slug}/"`));
+      assert.equal((html.match(/<h1>/g) || []).length, 1);
+      assert.ok(!html.includes('{{'));
+      if (p.stage === 'agenda') {
+        assert.ok(html.includes(lang === 'en' ? 'Programme in development' : 'Формируем программу'));
+        assert.ok(!html.includes(`/programs/${p.slug}/reading/`), 'new programmes must not invent published reviews');
+      }
+    }
+    const library = await (await fetch(`${base}/${lang}/library/`)).text();
+    assert.equal((library.match(/class="reading-card"/g) || []).length, 21);
+    const home = await (await fetch(`${base}/${lang}/`)).text();
+    assert.equal((home.match(/class="programme-card"/g) || []).length, 13);
+    assert.ok(!home.includes('slide-content'));
+    assert.ok(!home.includes('class="reading-card"'));
+    const legacy = await fetch(`${base}/${lang}/methods/`, {redirect:'manual'});
+    assert.equal(legacy.status, 308);
+    assert.equal(legacy.headers.get('location'), `/${lang}/methodology/`);
+    const methodology = await (await fetch(`${base}/${lang}/methodology/`)).text();
+    assert.ok(methodology.includes(`href="/${lang === 'en' ? 'ru' : 'en'}/methodology/"`));
+    assert.ok(methodology.includes(lang === 'ru' ? 'Протокол будущего исследования' : 'Protocols for future studies'));
+    assert.ok(!home.includes(lang === 'ru' ? 'Протокол будущего исследования' : 'Protocols for future studies'));
+    assert.equal((await fetch(`${base}/${lang}/research/does-not-exist/`)).status, 404);
+    assert.equal((await fetch(`${base}/${lang}/methods/`, {method:'HEAD'})).status, 200);
+  }
+  for (const privatePath of ['/pages.js', '/research-programmes.json', '/en/research/../../pages.js']) {
+    assert.equal((await fetch(base + privatePath)).status, 404, privatePath);
+  }
+});
+
+test('every local link on new pages resolves, including all published review links', async t => {
+  const { base } = await withServer(t);
+  const programmes = require('./research-programmes.json');
+  const targets = new Set();
+  for (const lang of ['ru','en']) {
+    for (const route of ['', 'library/', 'methodology/', ...programmes.map(p=>`research/${p.slug}/`)]) {
+      const html = await (await fetch(`${base}/${lang}/${route}`)).text();
+      for (const match of html.matchAll(/href="(\/[^"#]*)"/g)) targets.add(match[1].split('#')[0]);
+    }
+  }
+  for (const target of targets) assert.equal((await fetch(base + target)).status, 200, target);
+});
+
+test('every website programme is registered and has bilingual repository descriptions', async t => {
+  const { base } = await withServer(t);
+  const programmes = require('./research-programmes.json');
+  const catalog = require('../catalog.json');
+  const reading = require('../data/reading-library.json');
+  assert.deepEqual(new Set(catalog.map(p=>p.slug)), new Set(programmes.map(p=>p.slug)));
+  for (const p of programmes) {
+    const record = catalog.find(x=>x.slug === p.slug);
+    assert.equal(record.status, p.stage === 'agenda' ? 'PROGRAMME_AGENDA' : 'LITERATURE_REVIEW');
+    assert.ok(['nature','society','technology'].includes(p.group));
+    assert.deepEqual(new Set(record.documents), new Set(reading.filter(b=>b.program === p.slug).map(b=>b.slug)));
+    for (const file of [record.page, record.page_en]) {
+      assert.ok(file);
+      const response = await fetch(base + '/' + file);
+      assert.equal(response.status, 200, file);
+      const body = await response.text();
+      assert.match(body, /^# /);
+      if (p.stage === 'agenda') assert.ok(body.includes('PROGRAMME_AGENDA'), file);
+    }
+  }
 });

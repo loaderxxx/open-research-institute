@@ -4,6 +4,8 @@
 
 Published on 24 October with the owner’s authorization. See [the deployment record](DEPLOYMENT.en.md) for the verified commit, checks and current email-delivery mode.
 
+The next local revision centres on research programmes: 13 programmes in three areas: nature and life; business, government and society; AI and identity. Six new areas — physics, biology, brain research, genomics, business and government — have agendas with bilingual README files. All 21 published reviews remain available in a separate library. This revision has not been deployed.
+
 <!-- ori-toc:start -->
 ## Contents
 
@@ -13,6 +15,8 @@ Published on 24 October with the owner’s authorization. See [the deployment re
 <!-- ori-toc:end -->
 
 ## Run and verify
+
+Programme pages use `/ru/research/<slug>/` and `/en/research/<slug>/`; the library uses `/ru/library/` and `/en/library/`; methods and protocols use `/ru/methodology/` and `/en/methodology/`. Pages render on the server and remain available without JavaScript. The bilingual agenda lives in `site/research-programmes.json`; `data/reading-library.json` contains only published reviews. Historical Markdown URLs remain available. Restart the server after changing templates or programme content.
 
 From the repository root run `npm start`; open http://localhost:3000/en/ or http://localhost:3000/ru/. Run `npm test` for HTTP and mail-adapter tests. They use an injected fake mail provider and send no email. Run `npm run translations` to regenerate the public-document translation inventory. English is the default site language. The full review editions are tracked in `data/translation-status.json`; automated checks do not replace semantic review. Run `npm run format:docs` to rebuild linked contents and bilingual navigation; `npm run check:docs` validates local files and section anchors. `npm run check:translations` compares numbered review sections, paragraph counts, and source identifiers/URLs. These are structural checks, not a certification of semantic equivalence.
 

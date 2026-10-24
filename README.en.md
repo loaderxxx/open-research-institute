@@ -4,84 +4,70 @@
 
 **We study what is known. We search for what is new.**
 
-Open Research Institute is an independent research initiative focused on artificial intelligence, consciousness, personal identity, and human cooperation. We are building an open library of accessible reviews of published knowledge: explaining questions, comparing findings, examining objections, and showing where the available evidence ends.
-
-This repository helps readers move from a broad subject to a specific work and a checkable claim. Here you can learn about a research area, read a connected review, explore a focused topic, and follow the links to primary sources. “Institute” names a research initiative; it does not claim government accreditation, legal status as a scientific institution, or a permanent staff.
+Open Research Institute is an independent research initiative in nature, intelligence and society. Our programmes span physics, biology, the brain, consciousness, DNA, artificial intelligence, business, government, religion and human cooperation.
 
 <!-- ori-toc:start -->
 ## Contents
 
+- [Research programmes](#research-programmes)
 - [What you can read now](#what-you-can-read-now)
-- [Seven research programs](#seven-research-programs)
-- [What we do](#what-we-do)
-- [How the materials are organized](#how-the-materials-are-organized)
-- [How to begin](#how-to-begin)
-- [Evidence and limitations](#evidence-and-limitations)
-- [Registers and corrections](#registers-and-corrections)
-- [Contact](#contact)
+- [Methodology](#methodology)
+- [Adding and developing programmes](#adding-and-developing-programmes)
+- [Collaboration and corrections](#collaboration-and-corrections)
 <!-- ori-toc:end -->
+
+## Research programmes
+
+The repository contains **13 programmes**, each with a description in English and Russian. Seven have published reviews; six have documented agendas with research questions and a plan for the next stage.
+
+### Nature, life and consciousness
+
+| Programme | Main question | Current stage |
+|---|---|---|
+| [Physics of information](programs/physics/README.en.md) | How do energy, information and interactions shape complex systems? | Description and agenda |
+| [Biology of cellular systems](programs/biology/README.en.md) | How do interactions between cells give rise to living tissues? | Description and agenda |
+| [Brain and memory](programs/brain/README.en.md) | How do neural circuits turn experience into memory and behaviour? | Description and agenda |
+| [Consciousness and perception](programs/consciousness/README.en.md) | What distinguishes conscious experience from information processing without awareness? | Reviews published |
+| [DNA and gene regulation](programs/genomics/README.en.md) | How does the same genome support different cell identities and functions? | Description and agenda |
+
+### Business, government and society
+
+| Programme | Main question | Current stage |
+|---|---|---|
+| [Business and organizations](programs/business-and-organizations/README.en.md) | How do entrepreneurs and companies organise decisions, incentives and joint work under uncertainty? | Description and agenda |
+| [State and institutions](programs/state-and-institutions/README.en.md) | How do state institutions provide public services, citizen participation and accountability across levels of government? | Description and agenda |
+| [Religion, ritual and cooperation](programs/religion-and-cooperation/README.en.md) | How do beliefs and rituals shape trust and collective action? | Reviews published |
+| [Voluntary coordination](programs/voluntary-governance/README.en.md) | Under what conditions do people sustain shared rules and accountability? | Reviews published |
+| [Philosophy and meaning](programs/philosophy-and-meaning/README.en.md) | What makes a life meaningful, and how can competing answers be assessed? | Reviews published |
+
+### AI, learning and identity
+
+| Programme | Main question | Current stage |
+|---|---|---|
+| [AI for scientific research](programs/reliable-ai-research/README.en.md) | How can AI produce research results that stand up to independent checking? | Reviews published |
+| [Learning from verified results](programs/verified-learning/README.en.md) | Which forms of verification help models learn and generalise? | Reviews published |
+| [Digital continuity of identity](programs/digital-continuity/README.en.md) | What can a digital model preserve about a person? | Reviews published |
 
 ## What you can read now
 
-The library contains **7 programs and 21 standalone reviews: one general review and two topic reviews for each program**. All 21 reviews are available in English and Russian Markdown. The Russian source texts comprise about 75,000 words.
+The [library](LIBRARY.en.md) retains **21 standalone reviews** across seven programmes: one general and two focused reviews per programme. All texts are available in English and Russian. New programme descriptions are not completed studies and do not increase the review count.
 
-**[Browse the complete document catalogue](LIBRARY.en.md)**
+Business, government, physics, biology, brain research and genomics currently have scope descriptions, research questions, information-gathering plans and expected materials. The next stage is a separate launch of source collection and research based on these descriptions.
 
-## Seven research programs
+## Methodology
 
-| Program | Central question | Overview |
-|---|---|---|
-| [Reliable AI Research](programs/reliable-ai-research/README.en.md) | How can we distinguish a persuasive answer from a result that can be checked? | [Read](programs/reliable-ai-research/reading/overview.en.md) |
-| [Learning from Verified Results](programs/verified-learning/README.en.md) | Which data and verification methods actually help models learn? | [Read](programs/verified-learning/reading/overview.en.md) |
-| [Consciousness and Measurement](programs/consciousness/README.en.md) | What can be measured in consciousness research, and what remains interpretation? | [Read](programs/consciousness/reading/overview.en.md) |
-| [Digital Continuity of Personal Identity](programs/digital-continuity/README.en.md) | What do data preserve about a person, and where is the boundary between a model and a person? | [Read](programs/digital-continuity/reading/overview.en.md) |
-| [Religion, Ritual, and Cooperation](programs/religion-and-cooperation/README.en.md) | How are religious beliefs, rituals, and joint action related? | [Read](programs/religion-and-cooperation/reading/overview.en.md) |
-| [Voluntary Coordination](programs/voluntary-governance/README.en.md) | Under what conditions do people support shared rules and accountability? | [Read](programs/voluntary-governance/reading/overview.en.md) |
-| [Philosophy and Meaning](programs/philosophy-and-meaning/README.en.md) | How can we discuss values and meaning while distinguishing argument from measurement? | [Read](programs/philosophy-and-meaning/reading/overview.en.md) |
+Question formulation, source work, evidence assessment, reproducibility, future protocols and editorial review are described in the [research methodology](METHODOLOGY.en.md).
 
-## What we do
+Current materials review published knowledge and were prepared with AI assistance and internal editorial checks. Details: [editorial note](EDITORIAL_NOTE.en.md), [provenance and rights](RIGHTS.en.md).
 
-We examine what research authors actually claim and what data support their conclusions. We consider not only positive findings, but also counterexamples, measurement limits, competing explanations, and questionable transfers from one field to another. For example, a model's success on a test does not automatically make its scientific answer reliable; a neural map does not automatically describe a person; and cooperation within a group does not automatically make its rules fair.
+## Adding and developing programmes
 
-The programs have substantive connections. AI evaluation is tied to the quality of training data. Consciousness research connects with questions of memory and personal identity. Religious practices and institutions are considered alongside research on cooperation and governance. Philosophy helps distinguish factual description, interpretation, and value judgment. These connections do not imply that combining disciplines by itself proves a new theory.
+Every new programme immediately receives a `programs/<slug>/` folder with `README.md` and `README.en.md`: scope, main question, research priorities, current status and next step. It is added to the [catalogue](catalog.json) and the website catalogue.
 
-## How the materials are organized
+Until materials are ready, its status is `PROGRAMME_AGENDA` and its review list is empty. Completed reviews enter the [reading catalogue](data/reading-library.json) after preparation and checks. Programme counts and published review counts are tracked separately.
 
-**A general program review** maps concepts, major findings, and debates. **Topic reviews** examine two selected questions in depth. **A program page** brings together books, a concise evidence map, and sources. **Bibliographies** provide links, the depth of reading available, and source limitations.
+## Collaboration and corrections
 
-The texts present the underlying evidence, strong objections, and cautious conclusions about the state of published knowledge. We aim to preserve distinctions between causal experiments and correlations, laboratory tasks and real-world applications, human and model evaluations, and philosophical arguments and empirical findings.
+For programme and collaboration inquiries: [im@vladimiruzbek.com](mailto:im@vladimiruzbek.com). Suggest corrections through [Issues](https://github.com/loaderxxx/open-research-institute/issues), identifying the file, question and source.
 
-## How to begin
-
-1. Choose a question in the program table.
-2. Open the general review in Markdown. Specialized terms are explained as you read.
-3. For a narrower question, choose one of the two topic reviews on the program page.
-4. To check an important conclusion, open the sources section and bibliography. Note whether the full text or only the abstract was available.
-
-If you are interested in whether AI results can be checked, start with the first program. For the brain and personal identity, read the programs on consciousness and digital continuity in sequence. For shared norms and joint action, compare the programs on religion, coordination, and philosophy.
-
-## Evidence and limitations
-
-These are focused in-depth reviews, not exhaustive systematic reviews of all seven disciplines. Not every source was read in full; the registers record access and depth of reading. Some works are preprints. Corrections and retractions are considered where identified; a limited search cannot guarantee that every later change has been found.
-
-The documents were prepared with AI assistance and internal editorial review. They have not undergone external scientific peer review. We do not present other authors' findings as our own discoveries, and we do not claim to have conducted experiments. Public materials review published knowledge; an open repository does not mean that every related development is openly licensed.
-
-## Registers and corrections
-
-- [All 21 reviews](LIBRARY.en.md)
-- [Program catalogue](catalog.json)
-- [Machine-readable reading catalogue](data/reading-library.json)
-- [The first release's 40 source records](data/sources.json)
-- [The first release's 35 claims](data/claims.json)
-- [Editorial note](EDITORIAL_NOTE.en.md)
-- [Provenance and rights](RIGHTS.en.md)
-
-Expanded bibliographies are on each program page. The first release's counts should not be read as the size of the entire new library.
-
-Corrections can be proposed through Issues. Please identify the file and section, provide the primary source, describe the problem, and suggest wording. Do not post confidential information or personal data in public discussions. Current release date: **23 September 2026**.
-
-## Contact
-
-For project inquiries and technology collaboration: **[im@vladimiruzbek.com](mailto:im@vladimiruzbek.com)**.
-
-[Personal technology portfolio](https://vladimiruzbek.com/) · [All public GitHub projects](https://github.com/loaderxxx?tab=repositories&type=public).
+[Technology portfolio](https://vladimiruzbek.com/) · [Public projects](https://github.com/loaderxxx?tab=repositories&type=public).

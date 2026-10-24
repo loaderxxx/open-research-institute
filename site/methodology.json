@@ -1,0 +1,62 @@
+{
+  "ru": {
+    "title": "Методология исследований",
+    "intro": "Начинаем с конкретного вопроса, сопоставляем опубликованные знания и определяем следующий шаг. Сейчас наша работа — обзоры литературы и развитие программ; собственные эксперименты пока не проводились.",
+    "sections": [
+      {
+        "title": "Вопрос и границы",
+        "text": "Определяем, что хотим объяснить, сравнить или проверить, какие понятия используем и что остаётся за пределами задачи. Различаем наблюдение, причинное объяснение, философский аргумент и ценностное суждение."
+      },
+      {
+        "title": "Первичные источники",
+        "text": "Обращаемся к оригинальным исследованиям, методам и данным. Указываем ссылки и глубину чтения, различаем препринты и рецензированные работы, учитываем найденные исправления и отзывы. Нынешние обзоры не претендуют на исчерпывающий поиск."
+      },
+      {
+        "title": "Свидетельства и альтернативы",
+        "text": "Соотносим вывод с методом, данными и условиями исследования. Сопоставляем конкурирующие объяснения и сильные возражения; неопределённость сохраняем там, где доступные свидетельства не позволяют выбрать ответ."
+      },
+      {
+        "title": "Данные и воспроизводимость",
+        "text": "Для будущих анализов планируем фиксировать происхождение и версии данных, преобразования, код и параметры. Материалы должны позволять повторить вычисления; ограничения доступа и условия использования должны быть понятны читателю."
+      },
+      {
+        "title": "Протокол будущего исследования",
+        "text": "До начала проекта предполагается согласовать вопрос, гипотезы, данные, методы, показатели и план анализа. Изменения плана следует объяснять, а заранее намеченные проверки отделять от последующего поиска. Пока новые программы представляют исследовательскую повестку."
+      },
+      {
+        "title": "Проверка и исправления",
+        "text": "Материалы подготовлены с помощью ИИ и внутренней редакционной проверки; внешняя научная рецензия не проведена. Для исправления укажите материал, утверждение, первоисточник и предлагаемую правку. Изменения сохраняются в истории репозитория."
+      }
+    ]
+  },
+  "en": {
+    "title": "Research methodology",
+    "intro": "We start with a specific question, compare published knowledge and define the next step. Our current work is literature synthesis and programme development; we have not conducted original experiments.",
+    "sections": [
+      {
+        "title": "Questions and scope",
+        "text": "We define what needs explaining, comparing or testing, the concepts involved and what falls outside the task. Observation, causal explanation, philosophical argument and value judgment remain distinct."
+      },
+      {
+        "title": "Primary sources",
+        "text": "We consult original studies, methods and data. We provide links and reading depth, distinguish preprints from peer-reviewed work and consider identified corrections and retractions. Current reviews do not claim an exhaustive search."
+      },
+      {
+        "title": "Evidence and alternatives",
+        "text": "We relate conclusions to methods, data and research conditions. We compare competing explanations and strong objections, retaining uncertainty where the available evidence cannot settle a question."
+      },
+      {
+        "title": "Data and reproducibility",
+        "text": "For future analyses, we plan to record data provenance and versions, transformations, code and parameters. Materials should support repeating computations, with access limitations and usage terms made clear."
+      },
+      {
+        "title": "Protocols for future studies",
+        "text": "Before a project starts, its question, hypotheses, data, methods, measures and analysis plan should be agreed. Changes should be explained, and planned tests distinguished from later exploration. New programmes currently describe research agendas."
+      },
+      {
+        "title": "Review and corrections",
+        "text": "Materials were prepared with AI assistance and internal editorial review; they have not undergone external scientific peer review. To suggest a correction, identify the material, claim, primary source and proposed change. Repository history records revisions."
+      }
+    ]
+  }
+}
