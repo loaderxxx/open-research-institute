@@ -6,6 +6,16 @@
 
 We study institutions for shared resources, polycentric governance, participation, and auditing. The reviews compare theoretical frameworks, laboratory games, and field studies. Particular attention is paid to the differences between the emergence of cooperation, the fairness of rules, and long-term legitimacy.
 
+<!-- ori-toc:start -->
+## Contents
+
+- [Program questions](#program-questions)
+- [Reading library](#reading-library)
+- [Sources and limitations](#sources-and-limitations)
+- [What the sources report](#what-the-sources-report)
+- [How to read this review](#how-to-read-this-review)
+<!-- ori-toc:end -->
+
 ## Program questions
 
 - When can local communities sustain shared resources?
@@ -16,13 +26,13 @@ We study institutions for shared resources, polycentric governance, participatio
 
 Start with the general review, then continue to the two standalone in-depth reviews. This is the first selected level of topics; it does not exhaust the field.
 
-| Material | PDF | Read in repository |
-|---|---|---|
-| Voluntary Coordination | [20 A5 pages, Russian](reading/overview.pdf) | [Markdown, Russian](reading/overview.md) |
-| Shared Resources and Polycentricity | [20 A5 pages, Russian](reading/commons-and-polycentricity.pdf) | [Markdown, Russian](reading/commons-and-polycentricity.md) |
-| Participation and Accountability | [20 A5 pages, Russian](reading/participation-and-accountability.pdf) | [Markdown, Russian](reading/participation-and-accountability.md) |
+| Material | Read in repository |
+|---|---|
+| Voluntary Coordination | [Markdown](reading/overview.en.md) |
+| Shared Resources and Polycentricity | [Markdown](reading/commons-and-polycentricity.en.md) |
+| Participation and Accountability | [Markdown](reading/participation-and-accountability.en.md) |
 
-Each PDF contains 20 A5 pages. The reviews examine concepts and published findings, strong objections, and limits of knowledge. They do not replace primary sources and are not reports of our own experiments.
+The reviews examine concepts and published findings, strong objections, and limits of knowledge. They do not replace primary sources and are not reports of our own experiments.
 
 ## Sources and limitations
 

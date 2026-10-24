@@ -55,8 +55,8 @@ test('rate limit cannot be bypassed by forged forwarded headers', async t => {
 });
 test('public routes work; source, secrets and traversal blocked', async t => {
   const { base } = await withServer(t);
-  for (const route of ['/', '/en/', '/ru/', '/data/reading-library.json', '/programs/verified-learning/reading/overview.pdf']) assert.equal((await fetch(base + route)).status, 200, route);
-  for (const route of ['/server.js', '/.env', '/package.json', '/server.test.js', '/%2e%2e/server.js', '/README.private.md']) assert.equal((await fetch(base + route)).status, 404, route);
+  for (const route of ['/', '/en/', '/ru/', '/data/reading-library.json', '/programs/verified-learning/reading/overview.md']) assert.equal((await fetch(base + route)).status, 200, route);
+  for (const route of ['/programs/verified-learning/reading/overview.pdf', '/server.js', '/.env', '/package.json', '/server.test.js', '/%2e%2e/server.js', '/README.private.md']) assert.equal((await fetch(base + route)).status, 404, route);
   assert.equal((await fetch(base + '/api/research-requests')).status, 405);
 });
 test('production requires explicitly configured origin', async t => {
@@ -83,8 +83,17 @@ test('document reader renders English with language link and offers original Mar
   assert.match(response.headers.get('content-type'), /text\/html/);
   const html = await response.text();
   assert.match(html, /<html lang="en">/);
-  assert.match(html, /<h1>Consciousness and Measurement<\/h1>/);
+  assert.match(html, /<h1 id="consciousness-and-measurement">Consciousness and Measurement<\/h1>/);
   assert.match(html, /href="\/programs\/consciousness\/README.md"/);
   const raw = await fetch(base + '/programs/consciousness/README.en.md?raw=1', { headers: { Accept: 'text/html' } });
   assert.match(raw.headers.get('content-type'), /text\/plain/);
+});
+
+test('Markdown contents target generated heading anchors, including Cyrillic and repeated headings', () => {
+  const { markdown } = require('./markdown');
+  const html = markdown.render('[Раздел](#1-предмет-исследования)\n\n## 1. Предмет исследования\n\n## Same heading\n\n## Same heading');
+  assert.match(decodeURI(html), /href="#1-предмет-исследования"/);
+  assert.match(html, /id="1-предмет-исследования"/);
+  assert.match(html, /id="same-heading-1"/);
+  assert.ok(!markdown.render('<script>alert(1)</script>').includes('<script>'));
 });

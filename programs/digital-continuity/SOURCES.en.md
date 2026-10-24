@@ -4,6 +4,26 @@
 
 This registry covers the expanded reviews in this program. Checked on: 23 September 2026. Access to an abstract does not mean the full paper was read.
 
+<!-- ori-toc:start -->
+## Contents
+
+- [I1 — Dorkenwald et al., Neuronal wiring diagram of an adult brain](#i1--dorkenwald-et-al-neuronal-wiring-diagram-of-an-adult-brain)
+- [I2 — Shapson-Coe et al., A petavoxel fragment of human cerebral cortex reconstructed at nanoscale resolution](#i2--shapson-coe-et-al-a-petavoxel-fragment-of-human-cerebral-cortex-reconstructed-at-nanoscale-resolution)
+- [I3 — MICrONS Consortium, Functional connectomics spanning multiple areas of mouse visual cortex](#i3--microns-consortium-functional-connectomics-spanning-multiple-areas-of-mouse-visual-cortex)
+- [I4 — Lappalainen et al., Connectome-constrained networks predict neural activity across the fly visual system](#i4--lappalainen-et-al-connectome-constrained-networks-predict-neural-activity-across-the-fly-visual-system)
+- [I5 — Liu et al., Optogenetic stimulation of a hippocampal engram activates fear memory recall](#i5--liu-et-al-optogenetic-stimulation-of-a-hippocampal-engram-activates-fear-memory-recall)
+- [I7 — Cerullo, Uploading and Branching Identity](#i7--cerullo-uploading-and-branching-identity)
+- [I8 — Shiu et al., A Drosophila computational brain model reveals sensorimotor processing](#i8--shiu-et-al-a-drosophila-computational-brain-model-reveals-sensorimotor-processing)
+- [I9 — Ramirez et al., Creating a false memory in the hippocampus](#i9--ramirez-et-al-creating-a-false-memory-in-the-hippocampus)
+- [I10 — Roy et al., Brain-wide mapping reveals that engrams for a single memory are distributed across multiple brain regions](#i10--roy-et-al-brain-wide-mapping-reveals-that-engrams-for-a-single-memory-are-distributed-across-multiple-brain-regions)
+- [I11 — Scoville and Milner, Loss of recent memory after bilateral hippocampal lesions](#i11--scoville-and-milner-loss-of-recent-memory-after-bilateral-hippocampal-lesions)
+- [I12 — Binz et al., A foundation model to predict and capture human cognition](#i12--binz-et-al-a-foundation-model-to-predict-and-capture-human-cognition)
+- [I13 — Namazova et al., Not Yet AlphaFold for the Mind: Evaluating Centaur as a Synthetic Participant](#i13--namazova-et-al-not-yet-alphafold-for-the-mind-evaluating-centaur-as-a-synthetic-participant)
+- [I14 — Wang et al., Foundation model of neural activity predicts response to new stimulus types](#i14--wang-et-al-foundation-model-of-neural-activity-predicts-response-to-new-stimulus-types)
+- [I15 — Locke, An Essay Concerning Human Understanding, II.xxvii, Of Identity and Diversity](#i15--locke-an-essay-concerning-human-understanding-iixxvii-of-identity-and-diversity)
+- [I16 — Eric T. Olson, The Human Animal: Personal Identity Without Psychology](#i16--eric-t-olson-the-human-animal-personal-identity-without-psychology)
+<!-- ori-toc:end -->
+
 ## I1 — Dorkenwald et al., Neuronal wiring diagram of an adult brain
 
 Source: https://www.nature.com/articles/s41586-024-07558-y

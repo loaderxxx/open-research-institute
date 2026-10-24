@@ -6,6 +6,16 @@
 
 This program compares theories of consciousness, neuroscientific findings, and proposed indicators for artificial systems. We distinguish subjective experience, access to information, the ability to report, and outward behavior. Adversarial tests of theories are considered alongside criticism of which predictions were actually tested.
 
+<!-- ori-toc:start -->
+## Contents
+
+- [Program questions](#program-questions)
+- [Reading library](#reading-library)
+- [Sources and limitations](#sources-and-limitations)
+- [What the sources report](#what-the-sources-report)
+- [How to read this review](#how-to-read-this-review)
+<!-- ori-toc:end -->
+
 ## Program questions
 
 - How do the predictions of competing theories differ, and how are they tested?
@@ -16,15 +26,13 @@ This program compares theories of consciousness, neuroscientific findings, and p
 
 Start with the general overview, then move on to two standalone deep dives. This is the first selected level of topics; it does not cover the whole field.
 
-| Material | PDF | Read in the repository |
-|---|---|---|
-| Consciousness: A Map of Open Questions | [20 A5 pages](reading/overview.pdf) | [Markdown](reading/overview.md) |
-| Indicators and Measurement of Consciousness | [20 A5 pages](reading/indicators-and-measurement.pdf) | [Markdown](reading/indicators-and-measurement.md) |
-| Theories of Consciousness and Testing Predictions | [20 A5 pages](reading/theories-and-evidence.pdf) | [Markdown](reading/theories-and-evidence.md) |
+| Material | Read in the repository |
+|---|---|
+| Consciousness: A Map of Open Questions | [Markdown](reading/overview.en.md) |
+| Indicators and Measurement of Consciousness | [Markdown](reading/indicators-and-measurement.en.md) |
+| Theories of Consciousness and Testing Predictions | [Markdown](reading/theories-and-evidence.en.md) |
 
-The linked PDFs and repository Markdown are in Russian; the titles above are English translations.
-
-Each PDF contains 20 A5 pages. The reviews examine concepts and published findings, strong objections, and the limits of current knowledge. They do not replace primary sources and are not reports of our own experiments.
+The reviews examine concepts and published findings, strong objections, and the limits of current knowledge. They do not replace primary sources and are not reports of our own experiments.
 
 ## Sources and limitations
 

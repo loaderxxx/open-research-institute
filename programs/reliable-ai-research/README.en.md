@@ -6,6 +6,16 @@
 
 This program concerns the reliability of research answers and agent systems. We examine claim verifiability, citation accuracy, search quality, use of long context, and ways to evaluate results. A separate section covers interaction among multiple agents: when message exchange helps solve a task and when it spreads the same error.
 
+<!-- ori-toc:start -->
+## Contents
+
+- [Program questions](#program-questions)
+- [Reading library](#reading-library)
+- [Sources and limitations](#sources-and-limitations)
+- [What the sources report](#what-the-sources-report)
+- [How to read this review](#how-to-read-this-review)
+<!-- ori-toc:end -->
+
 ## Program questions
 
 - How does factual accuracy differ from having a citation or from agreement among several models?
@@ -16,13 +26,13 @@ This program concerns the reliability of research answers and agent systems. We 
 
 Start with the general review, then continue to the two standalone in-depth reviews. This is the first selected level of topics; it does not exhaust the field.
 
-| Material | PDF | Read in repository |
-|---|---|---|
-| Reliable AI Research | [20 A5 pages, Russian](reading/overview.pdf) | [Markdown, Russian](reading/overview.md) |
-| Agents and Evaluation of Research Systems | [20 A5 pages, Russian](reading/agents-and-evaluation.pdf) | [Markdown, Russian](reading/agents-and-evaluation.md) |
-| Evidence and Citation | [20 A5 pages, Russian](reading/evidence-and-citations.pdf) | [Markdown, Russian](reading/evidence-and-citations.md) |
+| Material | Read in repository |
+|---|---|
+| Reliable AI Research | [Markdown](reading/overview.en.md) |
+| Agents and Evaluation of Research Systems | [Markdown](reading/agents-and-evaluation.en.md) |
+| Evidence and Citation | [Markdown](reading/evidence-and-citations.en.md) |
 
-Each PDF contains 20 A5 pages. The reviews examine concepts and published findings, strong objections, and limits of knowledge. They do not replace primary sources and are not reports of our own experiments.
+The reviews examine concepts and published findings, strong objections, and limits of knowledge. They do not replace primary sources and are not reports of our own experiments.
 
 ## Sources and limitations
 

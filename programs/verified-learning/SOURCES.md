@@ -4,6 +4,26 @@
 
 Реестр относится к развёрнутым обзорам этой программы. Дата проверки: 23 сентября 2026 года. Доступ к аннотации не обозначает чтение полной статьи.
 
+<!-- ori-toc:start -->
+## Содержание
+
+- [S03 — SWE-Bench+: Enhanced Coding Benchmark for LLMs](#s03--swe-bench-enhanced-coding-benchmark-for-llms)
+- [S04 — Judging the Judges: A Systematic Study of Position Bias in LLM-as-a-Judge](#s04--judging-the-judges-a-systematic-study-of-position-bias-in-llm-as-a-judge)
+- [S06 — Training Verifiers to Solve Math Word Problems](#s06--training-verifiers-to-solve-math-word-problems)
+- [S07 — Let's Verify Step by Step](#s07--lets-verify-step-by-step)
+- [S08 — Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes](#s08--distilling-step-by-step-outperforming-larger-language-models-with-less-training-data-and-smaller-model-sizes)
+- [S09 — STaR: Bootstrapping Reasoning With Reasoning](#s09--star-bootstrapping-reasoning-with-reasoning)
+- [S10 — AI models collapse when trained on recursively generated data](#s10--ai-models-collapse-when-trained-on-recursively-generated-data)
+- [S11 — Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data](#s11--is-model-collapse-inevitable-breaking-the-curse-of-recursion-by-accumulating-real-and-synthetic-data)
+- [S12 — Textbooks Are All You Need](#s12--textbooks-are-all-you-need)
+- [VL13 — Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations](#vl13--math-shepherd-verify-and-reinforce-llms-step-by-step-without-human-annotations)
+- [VL14 — Large Language Models Cannot Self-Correct Reasoning Yet](#vl14--large-language-models-cannot-self-correct-reasoning-yet)
+- [VL15 — Self-Consistency Improves Chain of Thought Reasoning in Language Models](#vl15--self-consistency-improves-chain-of-thought-reasoning-in-language-models)
+- [VL16 — Collapse or Thrive? Perils and Promises of Synthetic Data in a Self-Generating World](#vl16--collapse-or-thrive-perils-and-promises-of-synthetic-data-in-a-self-generating-world)
+- [VL17 — Author Correction: AI models collapse when trained on recursively generated data](#vl17--author-correction-ai-models-collapse-when-trained-on-recursively-generated-data)
+- [VL18 — LLMs cannot find reasoning errors, but can correct them when given the error location](#vl18--llms-cannot-find-reasoning-errors-but-can-correct-them-when-given-the-error-location)
+<!-- ori-toc:end -->
+
 ## S03 — SWE-Bench+: Enhanced Coding Benchmark for LLMs
 
 Источник: https://arxiv.org/abs/2410.06992

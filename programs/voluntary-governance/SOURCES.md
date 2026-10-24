@@ -4,6 +4,23 @@
 
 Реестр относится к развёрнутым обзорам этой программы. Дата проверки: 23 сентября 2026 года. Доступ к аннотации не обозначает чтение полной статьи.
 
+<!-- ori-toc:start -->
+## Содержание
+
+- [G1 — Ostrom 2009, A general framework for analyzing sustainability of social-ecological systems](#g1--ostrom-2009-a-general-framework-for-analyzing-sustainability-of-social-ecological-systems)
+- [G2 — Kosfeld, Okada & Riedl 2009, Institution Formation in Public Goods Games](#g2--kosfeld-okada--riedl-2009-institution-formation-in-public-goods-games)
+- [G3 — Olken 2007, Monitoring Corruption: Evidence from a Field Experiment in Indonesia](#g3--olken-2007-monitoring-corruption-evidence-from-a-field-experiment-in-indonesia)
+- [G4 — Mansuri & Rao 2013, Localizing Development: Does Participation Work?](#g4--mansuri--rao-2013-localizing-development-does-participation-work)
+- [G5 — UNFCCC 2023, Outcome of the first global stocktake](#g5--unfccc-2023-outcome-of-the-first-global-stocktake)
+- [G6 — Poteete & Ostrom 2004, Heterogeneity, Group Size and Collective Action](#g6--poteete--ostrom-2004-heterogeneity-group-size-and-collective-action)
+- [G7 — Ostrom 2007, A diagnostic approach for going beyond panaceas](#g7--ostrom-2007-a-diagnostic-approach-for-going-beyond-panaceas)
+- [G8 — Ostrom 2010, Polycentric systems for coping with collective action and global environmental change](#g8--ostrom-2010-polycentric-systems-for-coping-with-collective-action-and-global-environmental-change)
+- [G9 — Cox, Arnold & Villamayor Tomás 2010, A Review of Design Principles for Community-based Natural Resource Management](#g9--cox-arnold--villamayor-tomás-2010-a-review-of-design-principles-for-community-based-natural-resource-management)
+- [G10 — Power to the People: Evidence from a Randomized Field Experiment on Community-Based Monitoring in Uganda](#g10--power-to-the-people-evidence-from-a-randomized-field-experiment-on-community-based-monitoring-in-uganda)
+- [G11 — Casey, Glennerster & Miguel 2012, Reshaping Institutions: Evidence on Aid Impacts Using a Preanalysis Plan](#g11--casey-glennerster--miguel-2012-reshaping-institutions-evidence-on-aid-impacts-using-a-preanalysis-plan)
+- [G12 — Banerjee et al. 2010, Pitfalls of Participatory Programs](#g12--banerjee-et-al-2010-pitfalls-of-participatory-programs)
+<!-- ori-toc:end -->
+
 ## G1 — Ostrom 2009, A general framework for analyzing sustainability of social-ecological systems
 
 Источник: https://www.science.org/doi/10.1126/science.1172133

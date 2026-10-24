@@ -4,6 +4,23 @@
 
 This register covers the in-depth reviews in this program. Checked: 23 September 2026. Access to an abstract does not mean the full article was read.
 
+<!-- ori-toc:start -->
+## Contents
+
+- [A01 — Why Do Multi-Agent LLM Systems Fail?](#a01--why-do-multi-agent-llm-systems-fail)
+- [A02 — Improving Multi-Agent Debate with Sparse Communication Topology](#a02--improving-multi-agent-debate-with-sparse-communication-topology)
+- [A03 — Enabling Large Language Models to Generate Text with Citations](#a03--enabling-large-language-models-to-generate-text-with-citations)
+- [A04 — Evaluating Verifiability in Generative Search Engines](#a04--evaluating-verifiability-in-generative-search-engines)
+- [A05 — SWE-Bench+: Enhanced Coding Benchmark for LLMs](#a05--swe-bench-enhanced-coding-benchmark-for-llms)
+- [A06 — Judging the Judges: A Systematic Study of Position Bias in LLM-as-a-Judge](#a06--judging-the-judges-a-systematic-study-of-position-bias-in-llm-as-a-judge)
+- [A07 — Holistic Evaluation of Language Models](#a07--holistic-evaluation-of-language-models)
+- [A08 — Lost in the Middle: How Language Models Use Long Contexts](#a08--lost-in-the-middle-how-language-models-use-long-contexts)
+- [A09 — FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation](#a09--factscore-fine-grained-atomic-evaluation-of-factual-precision-in-long-form-text-generation)
+- [A10 — TruthfulQA: Measuring How Models Mimic Human Falsehoods](#a10--truthfulqa-measuring-how-models-mimic-human-falsehoods)
+- [A11 — Language Models (Mostly) Know What They Know](#a11--language-models-mostly-know-what-they-know)
+- [A13 — Automatic Evaluation of Attribution by Large Language Models](#a13--automatic-evaluation-of-attribution-by-large-language-models)
+<!-- ori-toc:end -->
+
 ## A01 — Why Do Multi-Agent LLM Systems Fail?
 
 Source: https://arxiv.org/html/2503.13657v3

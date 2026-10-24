@@ -4,11 +4,19 @@
 
 Release candidate for the owner-authorized 24 October publication. Deployment results are recorded separately after verification; the historical production record in DEPLOYMENT.md describes 7 October only.
 
+<!-- ori-toc:start -->
+## Contents
+
+- [Run and verify](#run-and-verify)
+- [Research requests](#research-requests)
+- [Mail activation and release verification](#mail-activation-and-release-verification)
+<!-- ori-toc:end -->
+
 ## Run and verify
 
-From the repository root run `npm start`; open http://localhost:3000/en/ or http://localhost:3000/ru/. Run `npm test` for HTTP and mail-adapter tests. They use an injected fake mail provider and send no email. Run `npm run translations` to regenerate the public-document translation inventory. English is the default site language. A translated catalogue does not mean the linked full reviews are translated.
+From the repository root run `npm start`; open http://localhost:3000/en/ or http://localhost:3000/ru/. Run `npm test` for HTTP and mail-adapter tests. They use an injected fake mail provider and send no email. Run `npm run translations` to regenerate the public-document translation inventory. English is the default site language. The full review editions are tracked in `data/translation-status.json`; automated checks do not replace semantic review. Run `npm run format:docs` to rebuild linked contents and bilingual navigation; `npm run check:docs` validates local files and section anchors. `npm run check:translations` compares numbered review sections, paragraph counts, and source identifiers/URLs. These are structural checks, not a certification of semantic equivalence.
 
-The server serves an explicit public-file allowlist, including catalogue-listed PDFs and Markdown files. It does not expose server source or configuration. Keep the full repository in the deployment build context: this version needs the catalogue and review files outside `site/`. If deploying to Railway, change the service root from `/site` to the repository root and use `npm start`, only after release authorization. Do not change the existing deployment merely to preview this work.
+The server serves an explicit public-file allowlist, including catalogue-listed English and Russian Markdown files. It does not expose server source or configuration. Keep the full repository in the deployment build context: this version needs the catalogue and review files outside `site/`. If deploying to Railway, change the service root from `/site` to the repository root and use `npm start`, only after release authorization. Do not change the existing deployment merely to preview this work.
 
 ## Research requests
 
@@ -20,10 +28,10 @@ Without configuration, the website offers “Prepare email”: it builds a mailt
 
 The server validates input, requires same-origin JSON, caps request sizes, applies a honeypot and limits requests. The in-memory limit is five attempts per socket IP per 15 minutes and resets on restart. Behind a reverse proxy visitors may share the same limit; forwarded IP headers are deliberately not trusted. Before public traffic, configure a trusted edge rate limit and verify proxy behavior. Multiple server instances do not share this counter. Identical accepted requests are deduplicated in memory for 15 minutes and use a stable provider idempotency key. No durable application inbox or retry queue is implemented.
 
-## Release checks still required
+## Mail activation and release verification
 
 - Confirm configured sender and provider account with the owner.
 - Verify delivery to the approved inbox, including Reply-To, with one explicitly authorized live test.
 - Verify both languages, mobile layout, catalogue/document links, errors and anti-spam behavior on the target host.
-- Complete and review the missing full translations and downloadable presentation editions before describing the entire corpus as bilingual.
-- Obtain authorization covering publication/deployment. Existing production remains unchanged.
+- Review the English and Russian Markdown editions for semantic equivalence.
+- Publication was authorized by the owner on 24 October 2026. Record each verified release and its commit separately.

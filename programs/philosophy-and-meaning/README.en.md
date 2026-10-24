@@ -6,6 +6,16 @@
 
 This program compares philosophical accounts of a good and meaningful life, pluralism, and public justification. One topic is the psychological measurement of the experience of meaning and its limits. We explain the assumptions behind arguments, strong objections, and disagreements that cannot be resolved by a single empirical scale.
 
+<!-- ori-toc:start -->
+## Contents
+
+- [Program questions](#program-questions)
+- [Reading library](#reading-library)
+- [Sources and limitations](#sources-and-limitations)
+- [What the sources report](#what-the-sources-report)
+- [How to read this review](#how-to-read-this-review)
+<!-- ori-toc:end -->
+
 ## Program questions
 
 - What is the difference between happiness, moral value, and meaning?
@@ -16,13 +26,13 @@ This program compares philosophical accounts of a good and meaningful life, plur
 
 Start with the general review, then continue to the two standalone in-depth reviews. This is the first selected level of topics; it does not exhaust the field.
 
-| Material | PDF | Read in repository |
-|---|---|---|
-| The Philosophy of Meaning in Life | [20 A5 pages, Russian](reading/overview.pdf) | [Markdown, Russian](reading/overview.md) |
-| Pluralism and the Measurement of Meaning | [20 A5 pages, Russian](reading/pluralism-and-measurement.pdf) | [Markdown, Russian](reading/pluralism-and-measurement.md) |
-| Theories of Meaning | [20 A5 pages, Russian](reading/theories-of-meaning.pdf) | [Markdown, Russian](reading/theories-of-meaning.md) |
+| Material | Read in repository |
+|---|---|
+| The Philosophy of Meaning in Life | [Markdown](reading/overview.en.md) |
+| Pluralism and the Measurement of Meaning | [Markdown](reading/pluralism-and-measurement.en.md) |
+| Theories of Meaning | [Markdown](reading/theories-of-meaning.en.md) |
 
-Each PDF contains 20 A5 pages. The reviews examine concepts and published findings, strong objections, and limits of knowledge. They do not replace primary sources and are not reports of our own experiments.
+The reviews examine concepts and published findings, strong objections, and limits of knowledge. They do not replace primary sources and are not reports of our own experiments.
 
 ## Sources and limitations
 

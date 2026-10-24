@@ -2,14 +2,13 @@ const http = require('node:http');
 const fs = require('node:fs/promises');
 const path = require('node:path');
 const { randomUUID, createHash } = require('node:crypto');
-const MarkdownIt = require('markdown-it');
-const markdown = new MarkdownIt({ html: false, linkify: false });
+const { markdown } = require('./markdown');
 const escapeHtml = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 const RECIPIENT = 'im@vladimiruzbek.com';
 const MAX_BODY = 16384;
 const WINDOW = 15 * 60 * 1000;
-const MIME = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.json': 'application/json; charset=utf-8', '.md': 'text/plain; charset=utf-8', '.pdf': 'application/pdf' };
+const MIME = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.json': 'application/json; charset=utf-8', '.md': 'text/plain; charset=utf-8' };
 
 function reply(res, status, code, extra = {}) {
   res.writeHead(status, { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' });
@@ -41,8 +40,8 @@ function createServer({ env = process.env, fetchImpl = fetch, root = __dirname, 
   for (const file of ['catalog.json', 'data/sources.json', 'data/claims.json']) files.set('/' + file, path.join(repo, file));
   const catalogueReady = fs.readFile(path.join(repo, 'data/reading-library.json'), 'utf8').then(raw => {
     for (const item of JSON.parse(raw)) {
-      for (const name of [item.pdf, item.markdown, ...['README.md', 'README.en.md', 'SOURCES.md', 'SOURCES.en.md', 'sources.json'].map(doc => 'programs/' + item.program + '/' + doc)]) {
-        if (/^programs\/[a-z-]+\/(?:reading\/[a-z-]+\.(?:md|pdf)|(?:README|SOURCES)(?:\.en)?\.md|sources\.json)$/.test(name))
+      for (const name of [item.markdown, item.markdown_en, ...['README.md', 'README.en.md', 'SOURCES.md', 'SOURCES.en.md', 'sources.json'].map(doc => 'programs/' + item.program + '/' + doc)]) {
+        if (/^programs\/[a-z-]+\/(?:reading\/[a-z-]+(?:\.en)?\.md|(?:README|SOURCES)(?:\.en)?\.md|sources\.json)$/.test(name))
           files.set('/' + name, path.join(repo, name));
       }
     }

@@ -6,6 +6,16 @@
 
 We study published work on training with verified answers, intermediate solution steps, and synthetic data. Three questions are connected here: what exactly counts as verified, how a training signal is constructed, and how well a result transfers to new tasks. The focus is on distinctions between checking a final answer and a process, selecting data and achieving real generalization.
 
+<!-- ori-toc:start -->
+## Contents
+
+- [Program questions](#program-questions)
+- [Reading library](#reading-library)
+- [Sources and limitations](#sources-and-limitations)
+- [What the sources report](#what-the-sources-report)
+- [How to read this review](#how-to-read-this-review)
+<!-- ori-toc:end -->
+
 ## Program questions
 
 - When does checking a solution step tell us more than a correct final answer?
@@ -16,13 +26,13 @@ We study published work on training with verified answers, intermediate solution
 
 Start with the general review, then continue to the two standalone in-depth reviews. This is the first selected level of topics; it does not exhaust the field.
 
-| Material | PDF | Read in repository |
-|---|---|---|
-| Learning from Verified Results | [20 A5 pages, Russian](reading/overview.pdf) | [Markdown, Russian](reading/overview.md) |
-| Verifying the Solution Process | [20 A5 pages, Russian](reading/process-verification.pdf) | [Markdown, Russian](reading/process-verification.md) |
-| Synthetic Data and Recursive Learning | [20 A5 pages, Russian](reading/synthetic-data.pdf) | [Markdown, Russian](reading/synthetic-data.md) |
+| Material | Read in repository |
+|---|---|
+| Learning from Verified Results | [Markdown](reading/overview.en.md) |
+| Verifying the Solution Process | [Markdown](reading/process-verification.en.md) |
+| Synthetic Data and Recursive Learning | [Markdown](reading/synthetic-data.en.md) |
 
-Each PDF contains 20 A5 pages. The reviews examine concepts and published findings, strong objections, and limits of knowledge. They do not replace primary sources and are not reports of our own experiments.
+The reviews examine concepts and published findings, strong objections, and limits of knowledge. They do not replace primary sources and are not reports of our own experiments.
 
 ## Sources and limitations
 

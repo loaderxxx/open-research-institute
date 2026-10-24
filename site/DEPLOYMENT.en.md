@@ -2,7 +2,7 @@
 
 [Русский](DEPLOYMENT.md)
 
-Historical record only. For the undeployed 24 October revision, see [current setup instructions](README.en.md).
+Historical record only. For the current implementation, see [current setup instructions](README.en.md).
 
 Date: 2026-10-07
 

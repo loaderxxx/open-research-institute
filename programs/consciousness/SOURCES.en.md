@@ -4,6 +4,26 @@
 
 This registry covers the expanded reviews in this program. Checked on: 23 September 2026. Access to an abstract does not mean the full paper was read.
 
+<!-- ori-toc:start -->
+## Contents
+
+- [C1 — Identifying indicators of consciousness in AI systems](#c1--identifying-indicators-of-consciousness-in-ai-systems)
+- [C2 — Adversarial testing of global neuronal workspace and integrated information theories of consciousness](#c2--adversarial-testing-of-global-neuronal-workspace-and-integrated-information-theories-of-consciousness)
+- [C3 — A theoretically based index of consciousness independent of sensory processing and behavior](#c3--a-theoretically-based-index-of-consciousness-independent-of-sensory-processing-and-behavior)
+- [C4 — No-Report Paradigms: Extracting the True Neural Correlates of Consciousness](#c4--no-report-paradigms-extracting-the-true-neural-correlates-of-consciousness)
+- [C5 — Gamma band activity and the P3 reflect post-perceptual processes, not visual awareness](#c5--gamma-band-activity-and-the-p3-reflect-post-perceptual-processes-not-visual-awareness)
+- [C6 — Distilling the neural correlates of consciousness](#c6--distilling-the-neural-correlates-of-consciousness)
+- [C7 — Conscious Processing and the Global Neuronal Workspace Hypothesis](#c7--conscious-processing-and-the-global-neuronal-workspace-hypothesis)
+- [C8 — Integrated information theory (IIT) 4.0: Formulating the properties of phenomenal existence in physical terms](#c8--integrated-information-theory-iit-40-formulating-the-properties-of-phenomenal-existence-in-physical-terms)
+- [C9 — A higher-order theory of emotional consciousness](#c9--a-higher-order-theory-of-emotional-consciousness)
+- [C10 — Visual Functions Generating Conscious Seeing](#c10--visual-functions-generating-conscious-seeing)
+- [C11 — Consciousness and cortical reactivity: a within-state study during non-rapid eye movement sleep](#c11--consciousness-and-cortical-reactivity-a-within-state-study-during-non-rapid-eye-movement-sleep)
+- [C12 — Cognitive Motor Dissociation in Disorders of Consciousness](#c12--cognitive-motor-dissociation-in-disorders-of-consciousness)
+- [C13 — An adversarial collaboration protocol for testing contrasting predictions of global neuronal workspace and integrated information theory](#c13--an-adversarial-collaboration-protocol-for-testing-contrasting-predictions-of-global-neuronal-workspace-and-integrated-information-theory)
+- [C14 — GNW theoretical framework and the “adversarial testing of global neuronal workspace and integrated information theories of consciousness”](#c14--gnw-theoretical-framework-and-the-adversarial-testing-of-global-neuronal-workspace-and-integrated-information-theories-of-consciousness)
+- [C15 — Correction to: GNW theoretical framework and the “adversarial testing of global neuronal workspace and integrated information theories of consciousness”](#c15--correction-to-gnw-theoretical-framework-and-the-adversarial-testing-of-global-neuronal-workspace-and-integrated-information-theories-of-consciousness)
+<!-- ori-toc:end -->
+
 ## C1 — Identifying indicators of consciousness in AI systems
 
 Source: https://pubmed.ncbi.nlm.nih.gov/41219038/

@@ -5,7 +5,10 @@
   "scripts": {
     "start": "node site/server.js",
     "test": "node --test site/server.test.js",
-    "translations": "node scripts/translation-status.js"
+    "translations": "node scripts/translation-status.js",
+    "format:docs": "node scripts/format-markdown.js",
+    "check:docs": "node scripts/check-markdown.js",
+    "check:translations": "node scripts/check-translations.js"
   },
   "engines": {
     "node": ">=20"

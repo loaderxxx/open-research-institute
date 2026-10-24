@@ -6,6 +6,16 @@
 
 This program brings together the philosophy of personal identity, memory research, connectomics, and behavioral models. We examine what information neural maps provide, which properties must be distinguished from connection structure, and what accurate behavioral prediction shows. Biological preservation, psychological continuity, and continuation of subjective experience are discussed as distinct questions.
 
+<!-- ori-toc:start -->
+## Contents
+
+- [Program questions](#program-questions)
+- [Reading library](#reading-library)
+- [Sources and limitations](#sources-and-limitations)
+- [What the sources report](#what-the-sources-report)
+- [How to read this review](#how-to-read-this-review)
+<!-- ori-toc:end -->
+
 ## Program questions
 
 - What has already been measured in the brain of a fly, a mouse, and fragments of human tissue?
@@ -16,15 +26,13 @@ This program brings together the philosophy of personal identity, memory researc
 
 Start with the general overview, then move on to two standalone deep dives. This is the first selected level of topics; it does not cover the whole field.
 
-| Material | PDF | Read in the repository |
-|---|---|---|
-| Digital Continuity of the Person | [20 A5 pages](reading/overview.pdf) | [Markdown](reading/overview.md) |
-| Connectivity and Memory | [20 A5 pages](reading/connectomics-and-memory.pdf) | [Markdown](reading/connectomics-and-memory.md) |
-| Identity and Digital Models | [20 A5 pages](reading/identity-and-models.pdf) | [Markdown](reading/identity-and-models.md) |
+| Material | Read in the repository |
+|---|---|
+| Digital Continuity of the Person | [Markdown](reading/overview.en.md) |
+| Connectivity and Memory | [Markdown](reading/connectomics-and-memory.en.md) |
+| Identity and Digital Models | [Markdown](reading/identity-and-models.en.md) |
 
-The linked PDFs and repository Markdown are in Russian; the titles above are English translations.
-
-Each PDF contains 20 A5 pages. The reviews examine concepts and published findings, strong objections, and the limits of current knowledge. They do not replace primary sources and are not reports of our own experiments.
+The reviews examine concepts and published findings, strong objections, and the limits of current knowledge. They do not replace primary sources and are not reports of our own experiments.
 
 ## Sources and limitations
 

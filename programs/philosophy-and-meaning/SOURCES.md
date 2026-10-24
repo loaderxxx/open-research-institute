@@ -4,6 +4,22 @@
 
 Реестр относится к развёрнутым обзорам этой программы. Дата проверки: 23 сентября 2026 года. Доступ к аннотации не обозначает чтение полной статьи.
 
+<!-- ori-toc:start -->
+## Содержание
+
+- [P1 — Aristotle, Nicomachean Ethics, Book I](#p1--aristotle-nicomachean-ethics-book-i)
+- [P2 — Dhammapada, verses 1–20, translation Bhikkhu Sujato](#p2--dhammapada-verses-120-translation-bhikkhu-sujato)
+- [P3 — Susan Wolf, Meaning in Life and Why It Matters](#p3--susan-wolf-meaning-in-life-and-why-it-matters)
+- [P4 — Thomas Nagel, The Absurd](#p4--thomas-nagel-the-absurd)
+- [P5 — John Rawls, The Idea of Public Reason Revisited](#p5--john-rawls-the-idea-of-public-reason-revisited)
+- [P6 — Amartya Sen, Democracy as a Universal Value](#p6--amartya-sen-democracy-as-a-universal-value)
+- [P7 — Steger et al., The Meaning in Life Questionnaire](#p7--steger-et-al-the-meaning-in-life-questionnaire)
+- [P8 — Robert Nozick, The Experience Machine](#p8--robert-nozick-the-experience-machine)
+- [P9 — Frank Martela and Michael F. Steger, The three meanings of meaning in life](#p9--frank-martela-and-michael-f-steger-the-three-meanings-of-meaning-in-life)
+- [P10 — Laura A. King et al., Positive affect and the experience of meaning in life](#p10--laura-a-king-et-al-positive-affect-and-the-experience-of-meaning-in-life)
+- [P11 — Harry Frankfurt, The Importance of What We Care About](#p11--harry-frankfurt-the-importance-of-what-we-care-about)
+<!-- ori-toc:end -->
+
 ## P1 — Aristotle, Nicomachean Ethics, Book I
 
 Источник: https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0054%3Abook%3D1

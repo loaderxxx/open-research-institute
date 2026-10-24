@@ -4,6 +4,31 @@
 
 Реестр относится к развёрнутым обзорам этой программы. Дата проверки: 23 сентября 2026 года. Доступ к аннотации не обозначает чтение полной статьи.
 
+<!-- ori-toc:start -->
+## Содержание
+
+- [R01 — Cooperation and Commune Longevity: A Test of the Costly Signaling Theory of Religion](#r01--cooperation-and-commune-longevity-a-test-of-the-costly-signaling-theory-of-religion)
+- [R02 — Moralistic gods, supernatural punishment and the expansion of human sociality](#r02--moralistic-gods-supernatural-punishment-and-the-expansion-of-human-sociality)
+- [R03 — Extreme Rituals Promote Prosociality](#r03--extreme-rituals-promote-prosociality)
+- [R04 — Collective ritual and social support networks in rural South India](#r04--collective-ritual-and-social-support-networks-in-rural-south-india)
+- [R05 — Synchrony and Physiological Arousal Increase Cohesion and Cooperation in Large Naturalistic Groups](#r05--synchrony-and-physiological-arousal-increase-cohesion-and-cooperation-in-large-naturalistic-groups)
+- [R06 — The Boundaries of Trust: Cross-Religious and Cross-Ethnic Field Experiments in Mauritius](#r06--the-boundaries-of-trust-cross-religious-and-cross-ethnic-field-experiments-in-mauritius)
+- [R07 — Advertising cooperative phenotype through costly signals in a public goods experiment](#r07--advertising-cooperative-phenotype-through-costly-signals-in-a-public-goods-experiment)
+- [R08 — Prosocial correlates of transformative experiences at secular multi-day mass gatherings](#r08--prosocial-correlates-of-transformative-experiences-at-secular-multi-day-mass-gatherings)
+- [R09 — Markets, Religion, Community Size, and the Evolution of Fairness and Punishment](#r09--markets-religion-community-size-and-the-evolution-of-fairness-and-punishment)
+- [R10 — Religious Identity and Economic Behavior](#r10--religious-identity-and-economic-behavior)
+- [R11 — Meta-analyses are no substitute for registered replications](#r11--meta-analyses-are-no-substitute-for-registered-replications)
+- [R12 — The Church, intensive kinship, and global psychological variation](#r12--the-church-intensive-kinship-and-global-psychological-variation)
+- [R13 — Increased Affluence Explains the Emergence of Ascetic Wisdoms and Moralizing Religions](#r13--increased-affluence-explains-the-emergence-of-ascetic-wisdoms-and-moralizing-religions)
+- [R14 — Complex societies precede moralizing gods throughout world history — RETRACTED](#r14--complex-societies-precede-moralizing-gods-throughout-world-history--retracted)
+- [R15 — Retraction Note: Complex societies precede moralizing gods throughout world history](#r15--retraction-note-complex-societies-precede-moralizing-gods-throughout-world-history)
+- [R16 — Treatment of missing data determined conclusions regarding moralizing gods](#r16--treatment-of-missing-data-determined-conclusions-regarding-moralizing-gods)
+- [R17 — Disentangling the evolutionary drivers of social complexity](#r17--disentangling-the-evolutionary-drivers-of-social-complexity)
+- [R18 — Cross-cultural dataset for the evolution of religion and morality](#r18--cross-cultural-dataset-for-the-evolution-of-religion-and-morality)
+- [R19 — Large-scale cooperation driven by reputation, not fear of divine punishment](#r19--large-scale-cooperation-driven-by-reputation-not-fear-of-divine-punishment)
+- [R20 — What is the association between religious affiliation and children's altruism?](#r20--what-is-the-association-between-religious-affiliation-and-childrens-altruism)
+<!-- ori-toc:end -->
+
 ## R01 — Cooperation and Commune Longevity: A Test of the Costly Signaling Theory of Religion
 
 Источник: https://journals.sagepub.com/doi/10.1177/1069397103037002003

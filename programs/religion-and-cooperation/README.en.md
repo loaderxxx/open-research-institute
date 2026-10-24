@@ -6,6 +6,16 @@
 
 This program examines religion through specific research questions about trust, group belonging, ritual practice, and institutions. We compare field, laboratory, and historical findings while taking cultural context and alternative explanations into account. Debates about causality and changes to historical data are part of the review.
 
+<!-- ori-toc:start -->
+## Contents
+
+- [Program questions](#program-questions)
+- [Reading library](#reading-library)
+- [Sources and limitations](#sources-and-limitations)
+- [What the sources report](#what-the-sources-report)
+- [How to read this review](#how-to-read-this-review)
+<!-- ori-toc:end -->
+
 ## Program questions
 
 - What conclusions do studies of ritual and prosocial behavior support?
@@ -16,13 +26,13 @@ This program examines religion through specific research questions about trust, 
 
 Start with the general review, then continue to the two standalone in-depth reviews. This is the first selected level of topics; it does not exhaust the field.
 
-| Material | PDF | Read in repository |
-|---|---|---|
-| Religion and Cooperation | [20 A5 pages, Russian](reading/overview.pdf) | [Markdown, Russian](reading/overview.md) |
-| Religion and Institutions | [20 A5 pages, Russian](reading/religion-and-institutions.pdf) | [Markdown, Russian](reading/religion-and-institutions.md) |
-| Ritual and Cooperation | [20 A5 pages, Russian](reading/ritual-and-cooperation.pdf) | [Markdown, Russian](reading/ritual-and-cooperation.md) |
+| Material | Read in repository |
+|---|---|
+| Religion and Cooperation | [Markdown](reading/overview.en.md) |
+| Religion and Institutions | [Markdown](reading/religion-and-institutions.en.md) |
+| Ritual and Cooperation | [Markdown](reading/ritual-and-cooperation.en.md) |
 
-Each PDF contains 20 A5 pages. The reviews examine concepts and published findings, strong objections, and limits of knowledge. They do not replace primary sources and are not reports of our own experiments.
+The reviews examine concepts and published findings, strong objections, and limits of knowledge. They do not replace primary sources and are not reports of our own experiments.
 
 ## Sources and limitations
 
