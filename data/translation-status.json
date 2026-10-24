@@ -431,10 +431,10 @@
     },
     {
       "source": "site/README.md",
-      "source_sha256": "10067fd275773a99702d03c1f7a1e092423886753b80dd8bc3bfb98d1acba9ad",
+      "source_sha256": "d28d7df08416fc97d3548925344f6dceb96b805bbfb72b965455e976ce9e307a",
       "english": "site/README.en.md",
       "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
-      "english_sha256": "20c4c176cd1efb99c2001ef4afc22e30295f8c8dde4281afc1170c50c7d9a627"
+      "english_sha256": "3d19104d2ef1176b4fa2dd53469f685133632ccccc3c4618a0ec6ab0ff92c40e"
     }
   ]
 }
