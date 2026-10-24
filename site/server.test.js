@@ -280,16 +280,16 @@ test('source-level analyses have bilingual reader routes and complete programme 
       const pairs = [['markdown','markdown_en']];
       if (a.deep_markdown) pairs.push(['deep_markdown','deep_markdown_en']);
       for (const pair of pairs) {
-      for (const lang of ['ru','en']) {
-        const field = pair[lang === 'en' ? 1 : 0];
-        const other = pair[lang === 'en' ? 0 : 1];
-        const response = await fetch(base + '/' + a[field], {headers:{Accept:'text/html'}});
-        assert.equal(response.status, 200, a[field]);
-        const html = await response.text();
-        assert.ok(html.includes(`<html lang="${lang}">`));
-        assert.ok(html.includes(`href="/${a[other]}"`));
-        assert.match(html, /<h1\b/);
-      }
+        for (const lang of ['ru','en']) {
+          const field = pair[lang === 'en' ? 1 : 0];
+          const other = pair[lang === 'en' ? 0 : 1];
+          const response = await fetch(base + '/' + a[field], {headers:{Accept:'text/html'}});
+          assert.equal(response.status, 200, a[field]);
+          const html = await response.text();
+          assert.ok(html.includes(`<html lang="${lang}">`));
+          assert.ok(html.includes(`href="/${a[other]}"`));
+          assert.match(html, /<h1\b/);
+        }
       }
     }
   }

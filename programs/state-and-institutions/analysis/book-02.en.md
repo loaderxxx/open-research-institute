@@ -26,6 +26,6 @@ ORI should translate the general question of power into a narrow service questio
 
 **Access and reading limits.** The official publisher record and description were inspected, confirming the 2012 and 2013 editions. The full text and historical chapters were not read.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://www.penguinrandomhouse.com/books/205014/why-nations-fail-by-daron-acemoglu-and-james-a-robinson/?facet=app&mode=light)

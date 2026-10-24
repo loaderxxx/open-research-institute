@@ -28,7 +28,7 @@ The UBC profile implies no connection to ORI, and reading one abstract does not 
 
 **Access and reading limits.** The UBC profile and abstract of the Kelly–Kramer–Shariff meta-analysis were inspected. Neither a complete publication review nor verification of the meta-analytic calculations was performed.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://psych.ubc.ca/profile/azim-shariff/)
 - [2](https://pubmed.ncbi.nlm.nih.gov/38407059/)

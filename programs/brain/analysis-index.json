@@ -1,0 +1,311 @@
+[
+  {
+    "id": "book-01",
+    "title": {
+      "ru": "Даян и Эбботт — Theoretical Neuroscience",
+      "en": "Dayan and Abbott — Theoretical Neuroscience"
+    },
+    "summary": {
+      "ru": "Авторская глава показывает, зачем упрощать нейронные сети до моделей частоты разрядов. Анализ связывает выбор масштаба с проверкой механизмов памяти.",
+      "en": "The author-supplied chapter explains why neural networks are simplified into firing-rate models. The analysis connects that choice of scale to testing memory mechanisms."
+    },
+    "source_url": "https://mitpress.mit.edu/9780262041997/theoretical-neuroscience/",
+    "access": "selected_sections",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://mitpress.mit.edu/9780262041997/theoretical-neuroscience/",
+      "https://www.gatsby.ucl.ac.uk/~dayan/book/",
+      "https://www.gatsby.ucl.ac.uk/~dayan/book/ch7.pdf"
+    ],
+    "access_note": {
+      "ru": "Проверены описание издателя, авторская страница и начало открытой авторской главы 7. Полная книга не прочитана; для большого разбора нужен подтверждённый доступ к остальным главам.",
+      "en": "Checked the publisher description, author page and opening of the openly supplied author chapter 7. The complete book was not read; a long dossier requires verified access to the remaining chapters."
+    },
+    "kind": "books",
+    "ordinal": 1,
+    "markdown": "programs/brain/analysis/book-01.md",
+    "markdown_en": "programs/brain/analysis/book-01.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "book-02",
+    "title": {
+      "ru": "Кандел и соавторы — Principles of Neural Science, 6-е издание",
+      "en": "Kandel and colleagues — Principles of Neural Science, sixth edition"
+    },
+    "summary": {
+      "ru": "Предисловие задаёт переход от молекул к цепям и поведению. Разбор показывает, какие причинные переходы необходимо проверять отдельно.",
+      "en": "The preface connects molecules, circuits and behaviour. The analysis identifies which causal transitions require separate evidence."
+    },
+    "source_url": "https://www.mheducation.com/highered/product/principles-neural-science-kandel-koester/M9781259642234.html",
+    "access": "selected_sections",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://neurology.mhmedical.com/book.aspx?bookid=3024",
+      "https://neurology.mhmedical.com/content.aspx?bookid=3024&sectionid=254326781"
+    ],
+    "access_note": {
+      "ru": "Проверены оглавление и предисловие шестого издания на платформе McGraw Hill. Основные главы полностью не прочитаны; исходная торговая ссылка не открылась.",
+      "en": "Checked the sixth-edition contents and preface on McGraw Hill’s platform. The substantive chapters were not read in full; the original retail URL did not load."
+    },
+    "kind": "books",
+    "ordinal": 2,
+    "markdown": "programs/brain/analysis/book-02.md",
+    "markdown_en": "programs/brain/analysis/book-02.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "book-03",
+    "title": {
+      "ru": "Сквайр и Кандел — Memory: From Mind to Molecules",
+      "en": "Squire and Kandel — Memory: From Mind to Molecules"
+    },
+    "summary": {
+      "ru": "Начальная рамка чтения различает виды памяти, временные этапы и причинные переходы от молекул к поведению. Полный текст второго издания ещё требуется.",
+      "en": "This initial reading framework distinguishes memory systems, temporal stages and causal transitions from molecules to behaviour. The complete second edition is still required."
+    },
+    "source_url": "https://www.roberts-publishers.com/memory-from-mind-to-molecules.html",
+    "access": "publisher_description",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://www.roberts-publishers.com/memory-from-mind-to-molecules.html",
+      "https://jonas.salk.edu/cgi-bin/koha/opac-detail.pl?biblionumber=3308",
+      "https://carta.anthropogeny.org/node/2327"
+    ],
+    "access_note": {
+      "ru": "Проверено 24 октября 2026 года: исходная страница издателя недоступна. Прочитаны издательское описание, воспроизведённое в каталоге Salk, и оглавление; данные сопоставлены с записью CARTA. Текст книги не прочитан.",
+      "en": "Checked 24 October 2026: the original publisher page was unavailable. The publisher-provided description reproduced in the Salk catalogue and the contents were read, and compared with the CARTA record. The book itself was not read."
+    },
+    "kind": "books",
+    "ordinal": 3,
+    "markdown": "programs/brain/analysis/book-03.md",
+    "markdown_en": "programs/brain/analysis/book-03.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-01",
+    "title": {
+      "ru": "Dorkenwald et al. — Схема связей взрослого мозга",
+      "en": "Dorkenwald et al. — Neuronal wiring diagram of an adult brain"
+    },
+    "summary": {
+      "ru": "Коннектом взрослой мухи задаёт конкретные структурные ограничения для гипотез о цепях. Он не измеряет динамику или изменение связей при обучении.",
+      "en": "The adult fly connectome constrains circuit hypotheses structurally. It does not measure dynamics or connection changes during learning."
+    },
+    "source_url": "https://www.nature.com/articles/s41586-024-07558-y",
+    "access": "selected_sections",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.nature.com/articles/s41586-024-07558-y"
+    ],
+    "access_note": {
+      "ru": "Проверены аннотация и начало основного текста открытой статьи. Набор данных и API самостоятельно не запускались.",
+      "en": "Inspected the abstract and opening of the open article. The dataset and API were not independently run."
+    },
+    "kind": "studies",
+    "ordinal": 1,
+    "markdown": "programs/brain/analysis/study-01.md",
+    "markdown_en": "programs/brain/analysis/study-01.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-02",
+    "title": {
+      "ru": "Ko et al. — Реорганизация гиппокампальных энграмм",
+      "en": "Ko et al. — Systems consolidation reorganizes hippocampal engram circuitry"
+    },
+    "summary": {
+      "ru": "Исследование мышей связывает нейрогенез с изменением точности и обобщения памяти. Аннотация не позволяет полностью оценить контроли и перенос на человека.",
+      "en": "The mouse study connects neurogenesis with changes in memory precision and generalisation. Abstract access limits assessment of controls and human transfer."
+    },
+    "source_url": "https://www.nature.com/articles/s41586-025-08993-1",
+    "access": "abstract",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.nature.com/articles/s41586-025-08993-1",
+      "https://pubmed.ncbi.nlm.nih.gov/40369077/"
+    ],
+    "access_note": {
+      "ru": "Проверены аннотация и доступные подписи рисунков. Полный основной текст не получен; обозначение открытого доступа в исходной карте не подтверждено.",
+      "en": "Checked the abstract and available figure captions. The complete main text was not obtained; the map’s open-access designation was not confirmed."
+    },
+    "kind": "studies",
+    "ordinal": 2,
+    "markdown": "programs/brain/analysis/study-02.md",
+    "markdown_en": "programs/brain/analysis/study-02.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-03",
+    "title": {
+      "ru": "Dewa et al. — Астроцитарный след стабилизации памяти",
+      "en": "Dewa et al. — The astrocytic ensemble acts as a multiday trace to stabilize memory"
+    },
+    "summary": {
+      "ru": "Многодневное состояние астроцитов помогает стабилизации памяти в конкретной модели. Поддерживающий след нельзя автоматически считать кодом содержания воспоминания.",
+      "en": "A multiday astrocytic state supports memory stabilisation in a specific model. A supportive trace should not automatically be treated as a code for memory content."
+    },
+    "source_url": "https://www.nature.com/articles/s41586-025-09619-2",
+    "access": "selected_sections",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.nature.com/articles/s41586-025-09619-2",
+      "https://pubmed.ncbi.nlm.nih.gov/41094146/"
+    ],
+    "access_note": {
+      "ru": "Проверены аннотация, доступные разделы основного текста и обсуждение. Связанные данные не переанализировались.",
+      "en": "Inspected the abstract, available main-text sections and discussion. Linked data were not reanalysed."
+    },
+    "kind": "studies",
+    "ordinal": 3,
+    "markdown": "programs/brain/analysis/study-03.md",
+    "markdown_en": "programs/brain/analysis/study-03.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-04",
+    "title": {
+      "ru": "Lin et al. — Сетевая статистика коннектома Drosophila",
+      "en": "Lin et al. — Network statistics of the whole-brain connectome of Drosophila"
+    },
+    "summary": {
+      "ru": "Мотивы и связные ядра описывают организацию сети. Их функциональная интерпретация зависит от нулевой модели, определения веса и последующей физиологической проверки.",
+      "en": "Motifs and densely connected cores describe network organisation. Functional interpretation depends on null models, edge definitions and subsequent physiological tests."
+    },
+    "source_url": "https://www.nature.com/articles/s41586-024-07968-y",
+    "access": "selected_sections",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.nature.com/articles/s41586-024-07968-y"
+    ],
+    "access_note": {
+      "ru": "Проверены аннотация и начало основного текста. Статистические расчёты и исходный граф самостоятельно не воспроизводились.",
+      "en": "Inspected the abstract and opening main text. The statistical calculations and source graph were not independently reproduced."
+    },
+    "kind": "studies",
+    "ordinal": 4,
+    "markdown": "programs/brain/analysis/study-04.md",
+    "markdown_en": "programs/brain/analysis/study-04.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-05",
+    "title": {
+      "ru": "MICrONS — Функциональная коннектомика зрительной коры мыши",
+      "en": "MICrONS — Functional connectomics spanning multiple areas of mouse visual cortex"
+    },
+    "summary": {
+      "ru": "MICrONS связывает зрительные ответы и микроскопическую связность в одном объёме коры. Это ресурс для проверки моделей, а не прямое исследование обучения или всего мозга.",
+      "en": "MICrONS aligns visual responses and microscopic connectivity within one cortical volume. It supports model tests rather than directly measuring learning or the entire brain."
+    },
+    "source_url": "https://doi.org/10.1038/s41586-025-08790-w",
+    "access": "abstract",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://doi.org/10.1038/s41586-025-08790-w",
+      "https://pubmed.ncbi.nlm.nih.gov/40205214/"
+    ],
+    "access_note": {
+      "ru": "Проверена аннотация открытой статьи и библиографическая запись. Полный методический текст, портал и сами массивы данных не исследованы.",
+      "en": "Checked the open article’s abstract and bibliographic record. The full methods, portal and underlying data arrays were not examined."
+    },
+    "kind": "studies",
+    "ordinal": 5,
+    "markdown": "programs/brain/analysis/study-05.md",
+    "markdown_en": "programs/brain/analysis/study-05.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "researcher-01",
+    "title": {
+      "ru": "Пол Франкленд и Шина Джосселин — память и энграммы",
+      "en": "Paul Frankland and Sheena Josselyn — memory and engrams"
+    },
+    "summary": {
+      "ru": "Группа связывает клеточные вмешательства с этапами формирования и изменения памяти. Следить полезно за разделением активности, необходимости и достаточности энграмм.",
+      "en": "The group connects cellular interventions with stages of memory formation and transformation. Distinguishing engram activity, necessity and sufficiency is especially useful."
+    },
+    "source_url": "https://www.sickkids.ca/en/staff/f/paul-frankland/",
+    "access": "institutional_profile",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.sickkids.ca/en/staff/f/paul-frankland/",
+      "https://www.nature.com/articles/s41586-025-08993-1"
+    ],
+    "access_note": {
+      "ru": "Проверены институциональный профиль Франкленда и аннотация совместной работы Ko et al. 2025. Полный текст этой работы не получен.",
+      "en": "Checked Frankland’s institutional profile and the abstract of the jointly authored Ko et al. 2025 paper. Its complete text was not obtained."
+    },
+    "kind": "researchers",
+    "ordinal": 1,
+    "markdown": "programs/brain/analysis/researcher-01.md",
+    "markdown_en": "programs/brain/analysis/researcher-01.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "researcher-02",
+    "title": {
+      "ru": "Дзюн Нагаи — Glia–Neuron Circuit Dynamics, RIKEN",
+      "en": "Jun Nagai — Glia–Neuron Circuit Dynamics, RIKEN"
+    },
+    "summary": {
+      "ru": "Лаборатория исследует взаимодействие глии и нейронных цепей. Для ORI важны клеточная специфичность вмешательств и согласование быстрых и медленных процессов.",
+      "en": "The laboratory studies glia–circuit interactions. Cellular specificity of interventions and alignment of fast and slow processes matter most for ORI."
+    },
+    "source_url": "https://cbs.riken.jp/en/faculty/j.nagai/",
+    "access": "institutional_profile",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://cbs.riken.jp/en/faculty/j.nagai/",
+      "https://www.nature.com/articles/s41586-025-09619-2"
+    ],
+    "access_note": {
+      "ru": "Проверены профиль RIKEN, перечень методов и публикаций, а также доступные разделы Dewa et al. 2025.",
+      "en": "Checked the RIKEN profile, listed methods and publications, and accessible sections of Dewa et al. 2025."
+    },
+    "kind": "researchers",
+    "ordinal": 2,
+    "markdown": "programs/brain/analysis/researcher-02.md",
+    "markdown_en": "programs/brain/analysis/researcher-02.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "researcher-03",
+    "title": {
+      "ru": "FlyWire, Мала Мурти и Себастьян Сеунг",
+      "en": "FlyWire, Mala Murthy and H. Sebastian Seung"
+    },
+    "summary": {
+      "ru": "FlyWire соединяет коллективную реконструкцию мозга с вопросами о функции и поведении. Разбор выделяет версионирование данных и проверяемый переход от карты к эксперименту.",
+      "en": "FlyWire links collective brain reconstruction with function and behaviour. The analysis emphasises data versioning and testable transitions from maps to experiments."
+    },
+    "source_url": "https://murthylab.princeton.edu/mala-murthy",
+    "access": "institutional_profile",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://murthylab.princeton.edu/mala-murthy",
+      "https://pni.princeton.edu/people/h-sebastian-seung",
+      "https://www.nature.com/articles/s41586-024-07558-y"
+    ],
+    "access_note": {
+      "ru": "Проверены профили Мурти и Сеунга и доступные разделы статьи о коннектоме. Работа с интерактивным ресурсом отдельно не выполнялась.",
+      "en": "Checked Murthy’s and Seung’s profiles and accessible sections of the connectome paper. The interactive resource was not independently used."
+    },
+    "kind": "researchers",
+    "ordinal": 3,
+    "markdown": "programs/brain/analysis/researcher-03.md",
+    "markdown_en": "programs/brain/analysis/researcher-03.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  }
+]

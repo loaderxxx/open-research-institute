@@ -26,9 +26,8 @@
 
 **Доступ и границы чтения.** Проверены профиль CEPR, индексированная запись HBS и рабочая статья. В карте неверный facId; подтверждённый профиль HBS использует 602452. Точное звание не переносится из расходящихся карточек.
 
-Источники (2026-10-25):
+Источники (2026-10-24):
 
-- [1](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=489797)
-- [2](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452)
-- [3](https://cepr.org/about/people/christopher-stanton)
-- [4](https://arxiv.org/abs/2504.11436)
+- [1](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452)
+- [2](https://cepr.org/about/people/christopher-stanton)
+- [3](https://arxiv.org/abs/2504.11436)

@@ -26,7 +26,7 @@ For ORI, the paper models a concrete accountability question: who checks, what i
 
 **Access and reading limits.** The open J-PAL PDF was inspected for the abstract, opening, expenditure-measurement section and selected results. Appendices were not fully read and estimates were not reproduced.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://doi.org/10.1086/517935)
 - [2](https://www.povertyactionlab.org/sites/default/files/research-paper/27_Olken_Monitoring_Corruption.pdf)

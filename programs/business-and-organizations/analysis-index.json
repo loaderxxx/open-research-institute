@@ -16,7 +16,7 @@
     "source_url": "https://www.simonandschuster.com/books/The-Economic-Intstitutions-of-Capitalism/Oliver-E-Williamson/9780684863740",
     "access": "publisher_description",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "requires_full_text",
     "evidence_urls": [
       "https://www.simonandschuster.com/books/The-Economic-Intstitutions-of-Capitalism/Oliver-E-Williamson/9780684863740",
@@ -44,7 +44,7 @@
     "source_url": "https://www.wiley.com/en-us/Organizations%2C+2nd+Edition-p-9780631227400",
     "access": "publisher_description",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "requires_full_text",
     "evidence_urls": [
       "https://www.wiley.com/en-us/Organizations%2C+2nd+Edition-p-9780631227400",
@@ -73,7 +73,7 @@
     "source_url": "https://www.simonandschuster.com/books/Right-Kind-of-Wrong/Amy-C-Edmondson/9781982195069",
     "access": "publisher_description",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "requires_full_text",
     "evidence_urls": [
       "https://www.simonandschuster.com/books/Right-Kind-of-Wrong/Amy-C-Edmondson/9781982195069"
@@ -100,7 +100,7 @@
     "source_url": "https://doi.org/10.3386/w33795",
     "access": "selected_sections",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://doi.org/10.3386/w33795",
@@ -129,7 +129,7 @@
     "source_url": "https://doi.org/10.1093/qje/qjae044",
     "access": "selected_sections",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://doi.org/10.1093/qje/qjae044"
@@ -156,7 +156,7 @@
     "source_url": "https://www.hbs.edu/ris/Publication%20Files/25-021_491efe26-e444-4e02-b58e-f27300cde12f.pdf",
     "access": "selected_sections",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://www.hbs.edu/ris/Publication%20Files/25-021_491efe26-e444-4e02-b58e-f27300cde12f.pdf"
@@ -183,7 +183,7 @@
     "source_url": "https://academic.oup.com/rcfs/article/15/4/967/8742315",
     "access": "abstract",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://academic.oup.com/rcfs/article/15/4/967/8742315",
@@ -211,7 +211,7 @@
     "source_url": "https://doi.org/10.2139/ssrn.5610873",
     "access": "abstract",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://doi.org/10.2139/ssrn.5610873",
@@ -239,7 +239,7 @@
     "source_url": "https://doi.org/10.1002/smj.3708",
     "access": "abstract",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://doi.org/10.1002/smj.3708",
@@ -267,7 +267,7 @@
     "source_url": "https://cepr.org/publications/dp20627",
     "access": "abstract",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://cepr.org/publications/dp20627"
@@ -294,7 +294,7 @@
     "source_url": "https://www.gsb.stanford.edu/faculty-research/faculty/erik-brynjolfsson",
     "access": "institutional_profile",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://www.gsb.stanford.edu/faculty-research/faculty/erik-brynjolfsson",
@@ -323,7 +323,7 @@
     "source_url": "https://mitsloan.mit.edu/faculty/directory/danielle-li",
     "access": "institutional_profile",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://mitsloan.mit.edu/faculty/directory/danielle-li",
@@ -352,10 +352,9 @@
     "source_url": "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452",
     "access": "institutional_profile",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
-      "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=489797",
       "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452",
       "https://cepr.org/about/people/christopher-stanton",
       "https://arxiv.org/abs/2504.11436"

@@ -26,6 +26,6 @@ Heterogeneity is particularly valuable for ORI: an average can conceal different
 
 **Access and reading limits.** Open journal text: the abstract, opening introduction and Section IV.C on estimation were inspected. This is not a complete reading of all results and appendices.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://doi.org/10.1093/qje/qjae044)

@@ -2,7 +2,7 @@
 
 [Русский](study-04.md)
 
-**Access.** Checked 25 October 2026: indexed abstract, approach, discussion and availability sections of the Nature Communications article. Code was not run and images were not reanalysed.
+**Access.** Checked 24 October 2026: indexed abstract, approach, discussion and availability sections of the Nature Communications article. Code was not run and images were not reanalysed.
 
 The authors measure orientational order on reconstructed tissue surfaces using local tangent planes. Demonstrations include cellular aggregates and zebrafish hearts. The approach preserves geometrical information that flat projections of volumetric images can lose; MATLAB code and data are listed as open. The principal contribution is a measurement method.
 

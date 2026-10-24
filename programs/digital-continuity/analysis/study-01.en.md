@@ -2,7 +2,7 @@
 
 [Русский](study-01.md) · [Programme](../README.en.md)
 
-Checked: 25 October 2026. Initial source analysis; the author abstract in the university record was read; direct publisher retrieval failed.
+Checked: 24 October 2026. Initial source analysis; the author abstract in the university record was read; direct publisher retrieval failed.
 
 <!-- ori-toc:start -->
 ## Contents

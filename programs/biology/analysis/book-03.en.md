@@ -2,7 +2,7 @@
 
 [Русский](book-03.md)
 
-**Access and status.** Checked 25 October 2026: open Oxford Learning Link overview. The instructor PDF linked in the map redirects to login and was not read. The publisher marks edition 8 as replaced by edition 9. A substantial dossier requires the full text.
+**Access and status.** Checked 24 October 2026: open Oxford Learning Link overview. The instructor PDF linked in the map redirects to login and was not read. The publisher marks edition 8 as replaced by edition 9. A substantial dossier requires the full text.
 
 The publisher describes Cooper's textbook as a concise introduction for a semester course, combining fundamental concepts, research examples and active learning. Its overview explicitly names genomics, transcriptional regulation and epigenetics. For ORI's cellular programme, its role is to connect molecular explanations with observable cellular behaviour before moving to collective tissue organisation.
 

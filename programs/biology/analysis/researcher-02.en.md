@@ -2,7 +2,7 @@
 
 [Русский](researcher-02.md)
 
-**Access.** Checked 25 October 2026: INM institutional profile and selected sections of the open Piernitzki et al. (2025) article. The institutional profile is the main basis; no comprehensive publication review was performed.
+**Access.** Checked 24 October 2026: INM institutional profile and selected sections of the open Piernitzki et al. (2025) article. The institutional profile is the main basis; no comprehensive publication review was performed.
 
 INM lists Staufer as leader of Immuno-Materials and a research group also connected with the Max Planck Bristol Centre for Minimal Biology. The concrete work in ORI's map concerns co-assembly of living and synthetic components into cancer cultures. It combines construction of model cellular materials with imaging of their interactions with living cells.
 

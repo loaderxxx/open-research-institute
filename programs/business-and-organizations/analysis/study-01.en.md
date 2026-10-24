@@ -26,7 +26,7 @@ The source connects AI adoption to coordination structures. Subsequent compariso
 
 **Access and reading limits.** The arXiv v4 abstract dated 13 November 2025 and the opening of the earlier HBS PDF dated 6 May 2025 were checked. Estimates from different versions are not combined; tables were not fully rechecked.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://doi.org/10.3386/w33795)
 - [2](https://arxiv.org/abs/2504.11436)

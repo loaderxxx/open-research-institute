@@ -26,7 +26,7 @@ ORI can use the index as a map of administrative process components. Further ana
 
 **Access and reading limits.** The release description, indicator scope and World Bank cautions were inspected. The dashboard and underlying data were not analysed, and the index was not recalculated.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://www.worldbank.org/en/programs/govtech/gtmi-2025-update)
 - [2](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099121725193511608)

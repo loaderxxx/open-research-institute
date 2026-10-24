@@ -26,7 +26,7 @@ The source connects bounded-rationality theory with observable resource decision
 
 **Access and reading limits.** Wiley’s research and managerial abstracts and journal metadata were inspected. The full text, source of exogenous variation and additional checks were not separately examined.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://doi.org/10.1002/smj.3708)
 - [2](https://sms.onlinelibrary.wiley.com/doi/10.1002/smj.3708?af=R)

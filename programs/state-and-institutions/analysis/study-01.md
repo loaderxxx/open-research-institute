@@ -26,7 +26,7 @@ ORI может использовать WGI для описания контек
 
 **Доступ и границы чтения.** Прочитаны официальная страница выпуска и методическое описание агрегирования и использования. Файлы данных и пакет воспроизводимости не загружались; расчёты не повторялись.
 
-Источники (2026-10-25):
+Источники (2026-10-24):
 
 - [1](https://www.worldbank.org/en/publication/worldwide-governance-indicators)
 - [2](https://www.worldbank.org/en/publication/worldwide-governance-indicators/documentation)

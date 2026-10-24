@@ -2,7 +2,7 @@
 
 [Русский](study-01.md)
 
-**Access.** Checked 25 October 2026: the official catalogue entry `cpg0000-jump-pilot`; images and numerical files were not downloaded. This is an open dataset, assessed through its description.
+**Access.** Checked 24 October 2026: the official catalogue entry `cpg0000-jump-pilot`; images and numerical files were not downloaded. This is an open dataset, assessed through its description.
 
 The catalogue lists over 300 compounds and 160 genes investigated through knockout and overexpression in A549 and U2OS at two timepoints. It reports 12.3 TB split between images and numerical data, using protocol v2.5. This bounded pilot must be distinguished from the much larger JUMP dataset with a different identifier.
 

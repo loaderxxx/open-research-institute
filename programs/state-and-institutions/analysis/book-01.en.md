@@ -26,6 +26,6 @@ A state-focused perspective requires examining relationships between local rules
 
 **Access and reading limits.** The Cambridge description and contents were inspected. Chapters and the full text were not obtained; detailed case findings are not reconstructed here.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79)

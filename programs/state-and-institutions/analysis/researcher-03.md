@@ -26,7 +26,7 @@
 
 **Доступ и границы чтения.** Прочитаны профили Barbera и Ferry, индексированная запись Queen’s о Hyndman и аннотация вводной статьи. Полные 14 работ специального выпуска не прочитаны.
 
-Источники (2026-10-25):
+Источники (2026-10-24):
 
 - [1](https://unibg.unifind.cineca.it/resource/person/53029?language=en-US)
 - [2](https://dur.ac.uk/business/our-people/laurence-ferry/)

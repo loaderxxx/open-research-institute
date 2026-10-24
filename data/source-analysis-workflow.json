@@ -1,6 +1,6 @@
 {
   "task_id": "ori-source-analyses-2026-10-25",
-  "requested_at": "2026-10-25",
+  "requested_at": "2026-10-24",
   "authority": "Owner request to populate the existing ORI source collections in Russian and English; later instruction limits concurrent research workers to avoid excessive usage.",
   "scope": "The 144 programme-level entries in the thirteen current public research maps: 39 book entries, 66 studies/resources, 39 researchers/teams. Some sources recur across programmes. Earlier review bibliographies remain separate.",
   "source_base_commit": "04b7e9124e3f61c5ff76c30a2e77c67931249d71",
@@ -23,5 +23,16 @@
     "Source access and factual corrections are recorded per entry; old map dates do not substitute for current verification."
   ],
   "canonical_progress": "data/source-analysis-status.json",
-  "state": "IN_PROGRESS"
+  "state": "INITIAL_COVERAGE_COMPLETE_EXTENDED_ANALYSIS_IN_PROGRESS",
+  "date_basis": "UTC; stable task/branch identifiers may contain the originally assigned 2026-10-25 label.",
+  "initial_coverage": {
+    "programmes": 13,
+    "entries": 144,
+    "languages": [
+      "ru",
+      "en"
+    ],
+    "markdown_files": 288
+  },
+  "book_length_goal_complete": false
 }

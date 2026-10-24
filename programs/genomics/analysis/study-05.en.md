@@ -2,7 +2,7 @@
 
 [Русский](study-05.md)
 
-**Access.** Checked 25 October 2026: indexed abstract, introduction and selected training and discussion sections in Nature. Code, weights and supplements were not executed or assessed.
+**Access.** Checked 24 October 2026: indexed abstract, introduction and selected training and discussion sections in Nature. Code, weights and supplements were not executed or assessed.
 
 GET combines sequence information and chromatin accessibility to predict expression. Pretraining uses 213 cell types; expression data for subsequent training and evaluation are available for 153. The paper examines transfer to held-out types and interpretation of regulatory relationships. This is a computational model with selected biological tests, not a complete transcription mechanism.
 

@@ -2,7 +2,7 @@
 
 [Русский](study-05.md) · [Programme](../README.en.md)
 
-Checked: 25 October 2026. Initial source analysis; the abstract, model description and discussion were inspected through indexed primary pages; code was not run.
+Checked: 24 October 2026. Initial source analysis; the abstract, model description and discussion were inspected through indexed primary pages; code was not run.
 
 <!-- ori-toc:start -->
 ## Contents

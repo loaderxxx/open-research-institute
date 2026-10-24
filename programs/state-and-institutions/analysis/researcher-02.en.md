@@ -26,7 +26,7 @@ ORI should follow methodological updates, published underlying data and explanat
 
 **Access and reading limits.** The World Bank profile, WGI 2026 page and documentation were inspected. Personal authorship of the 2026 release methodology was not verified; the confirmed Kaufmann–Kraay 2024 paper is identified.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://www.worldbank.org/en/about/people/a/aart-kraay)
 - [2](https://www.worldbank.org/en/publication/worldwide-governance-indicators)

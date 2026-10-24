@@ -26,6 +26,6 @@ For ORI, the book asks how religious rules change social networks and the circle
 
 **Access and reading limits.** The opening of Chapter 1 in Macmillan’s authorised excerpt and publisher description were inspected. Historical chapters and the complete evidential apparatus were not read.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://us.macmillan.com/books/9780374710453/theweirdestpeopleintheworld/)

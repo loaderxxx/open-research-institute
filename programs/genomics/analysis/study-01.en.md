@@ -2,7 +2,7 @@
 
 [Русский](study-01.md)
 
-**Access.** Checked 25 October 2026: abstract, introduction and sections on data categories, processing and search in the open Nature Communications article. Experiment files were not downloaded. This describes data infrastructure rather than a single biological experiment.
+**Access.** Checked 24 October 2026: abstract, introduction and sections on data categories, processing and search in the open Nature Communications article. Experiment files were not downloaded. This describes data infrastructure rather than a single biological experiment.
 
 The paper explains ENCODE's organisation, distinguishing functional-genomics experiments, functional element characterisation, single-cell data and computational annotations. It describes metadata, uniform pipelines and file-selection tools. Some experiments nevertheless contain laboratory-processed results, others uniformly processed results, and some contain both.
 

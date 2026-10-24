@@ -1,0 +1,282 @@
+[
+  {
+    "id": "book-01",
+    "title": {
+      "ru": "Дэвид Чалмерс — The Conscious Mind",
+      "en": "David Chalmers — The Conscious Mind"
+    },
+    "summary": {
+      "ru": "Введение отделяет объяснение функций от вопроса о субъективном опыте. Разбор использует это различие для проверки того, что именно измеряют исследования сознания.",
+      "en": "The introduction separates functional explanation from the question of subjective experience. The analysis uses that distinction to examine what consciousness studies actually measure."
+    },
+    "source_url": "https://consc.net/the-conscious-mind/",
+    "access": "selected_sections",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://consc.net/the-conscious-mind/",
+      "https://consc.net/books/tcm/intro.html"
+    ],
+    "access_note": {
+      "ru": "Проверены авторская страница и начало открытого введения. Полная книга и развёрнутые аргументы остальных глав не прочитаны.",
+      "en": "Checked the author page and opening of the freely available introduction. The complete book and extended arguments in later chapters were not read."
+    },
+    "kind": "books",
+    "ordinal": 1,
+    "markdown": "programs/consciousness/analysis/book-01.md",
+    "markdown_en": "programs/consciousness/analysis/book-01.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "book-02",
+    "title": {
+      "ru": "Анил Сет — Being You",
+      "en": "Anil Seth — Being You"
+    },
+    "summary": {
+      "ru": "Издательское описание представляет предсказательный подход к восприятию. Разбор разделяет эффекты ожиданий, вычислительные модели и объяснение субъективного опыта.",
+      "en": "The publisher describes a predictive account of perception. The analysis separates expectation effects, computational models and explanation of subjective experience."
+    },
+    "source_url": "https://www.penguinrandomhouse.com/books/566315/being-you-by-anil-seth/",
+    "access": "publisher_description",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://www.penguinrandomhouse.com/books/566315/being-you-by-anil-seth/"
+    ],
+    "access_note": {
+      "ru": "Проверено издательское описание издания 2021 года. Полный текст и отдельный издательский образец не прочитаны.",
+      "en": "Checked the publisher’s description of the 2021 edition. The full text and separate publisher sample were not read."
+    },
+    "kind": "books",
+    "ordinal": 2,
+    "markdown": "programs/consciousness/analysis/book-02.md",
+    "markdown_en": "programs/consciousness/analysis/book-02.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "book-03",
+    "title": {
+      "ru": "Кристоф Кох — The Feeling of Life Itself",
+      "en": "Christof Koch — The Feeling of Life Itself"
+    },
+    "summary": {
+      "ru": "Кох защищает количественный подход IIT. Анализ отделяет постулаты, физическую реализацию и измеримые следствия, которые можно сопоставлять с экспериментом.",
+      "en": "Koch defends IIT’s quantitative approach. The analysis separates postulates, physical implementation and measurable consequences that can be compared with experiments."
+    },
+    "source_url": "https://mitpress.mit.edu/9780262539555/the-feeling-of-life-itself/",
+    "access": "publisher_description",
+    "long_form_status": "requires_full_text",
+    "evidence_urls": [
+      "https://mitpress.mit.edu/9780262539555/the-feeling-of-life-itself/"
+    ],
+    "access_note": {
+      "ru": "Проверено описание MIT Press. Книга впервые вышла в 2019 году; указанная ссылка ведёт на мягкую обложку 2020 года. Полный текст не прочитан.",
+      "en": "Checked the MIT Press description. The book first appeared in 2019; the linked paperback is dated 2020. The complete text was not read."
+    },
+    "kind": "books",
+    "ordinal": 3,
+    "markdown": "programs/consciousness/analysis/book-03.md",
+    "markdown_en": "programs/consciousness/analysis/book-03.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-01",
+    "title": {
+      "ru": "Cogitate — Состязательная проверка GNWT и IIT",
+      "en": "Cogitate — Adversarial testing of GNWT and IIT"
+    },
+    "summary": {
+      "ru": "Согласованные заранее предсказания двух теорий получили смешанную поддержку. Значимость работы — в проверяемом сравнении конкретных реализаций, а не окончательном выборе теории.",
+      "en": "Advance-agreed predictions from two theories received mixed support. The value lies in accountable comparison of specific implementations rather than final theory selection."
+    },
+    "source_url": "https://www.nature.com/articles/s41586-025-08888-1",
+    "access": "selected_sections",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.nature.com/articles/s41586-025-08888-1"
+    ],
+    "access_note": {
+      "ru": "Проверены аннотация, доступные фрагменты основного текста и сведения о данных. Пререгистрация и исходные массивы отдельно не анализировались.",
+      "en": "Inspected the abstract, accessible main-text passages and data statement. The preregistration and underlying arrays were not separately analysed."
+    },
+    "kind": "studies",
+    "ordinal": 1,
+    "markdown": "programs/consciousness/analysis/study-01.md",
+    "markdown_en": "programs/consciousness/analysis/study-01.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-02",
+    "title": {
+      "ru": "Butlin et al. — Индикаторы сознания в системах ИИ",
+      "en": "Butlin et al. — Identifying indicators of consciousness in AI systems"
+    },
+    "summary": {
+      "ru": "Метод выводит индикаторы из теорий, сохраняя зависимость оценки от предположений. Это исследовательская рамка, а не подтверждение сознания конкретного ИИ.",
+      "en": "The method derives indicators from theories while preserving dependence on assumptions. It is a research framework rather than confirmation of consciousness in a particular AI."
+    },
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S1364661325002864",
+    "access": "abstract",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.sciencedirect.com/science/article/pii/S1364661325002864",
+      "https://pubmed.ncbi.nlm.nih.gov/41219038/",
+      "https://escholarship.org/uc/item/9wp8t1n8"
+    ],
+    "access_note": {
+      "ru": "Проверены аннотация, ключевые положения и данные публикации. Статья открытая, но полный текст не получен: прямой доступ к издателю и репозиторию был ограничен. Онлайн-публикация — 2025, журнальный выпуск — июнь 2026.",
+      "en": "Checked the abstract, highlights and publication metadata. The article is open access, but the full text was not obtained because direct publisher and repository access was restricted. Online publication was in 2025; the journal issue is June 2026."
+    },
+    "kind": "studies",
+    "ordinal": 2,
+    "markdown": "programs/consciousness/analysis/study-02.md",
+    "markdown_en": "programs/consciousness/analysis/study-02.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-03",
+    "title": {
+      "ru": "Toker et al. — ИИ-модели нарушений сознания",
+      "en": "Toker et al. — AI models of disorders of consciousness"
+    },
+    "summary": {
+      "ru": "ИИ помогает формировать физиологические гипотезы о нарушениях сознания. Классификация состояния, причинный механизм и клиническая эффективность требуют разных проверок.",
+      "en": "AI helps generate physiological hypotheses about disorders of consciousness. State classification, causal mechanism and clinical efficacy require different tests."
+    },
+    "source_url": "https://www.nature.com/articles/s41593-026-02220-4",
+    "access": "abstract",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.nature.com/articles/s41593-026-02220-4",
+      "https://pubmed.ncbi.nlm.nih.gov/41876853/"
+    ],
+    "access_note": {
+      "ru": "Проверены аннотация, подписи рисунков и сведения о доступе к данным. Полный основной текст не получен; обозначение открытой статьи в карте не подтверждено.",
+      "en": "Checked the abstract, figure captions and data-access statement. The full main text was not obtained; the map’s open-article designation was not confirmed."
+    },
+    "kind": "studies",
+    "ordinal": 3,
+    "markdown": "programs/consciousness/analysis/study-03.md",
+    "markdown_en": "programs/consciousness/analysis/study-03.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "study-04",
+    "title": {
+      "ru": "Bariach et al. — Риски кажущегося сознательным ИИ",
+      "en": "Bariach et al. — Seemingly conscious AI risks"
+    },
+    "summary": {
+      "ru": "Обзор и экспертный опрос касаются человеческого приписывания сознания и возможных социальных последствий. Они не измеряют субъективные состояния ИИ или распространённость вреда.",
+      "en": "The review and expert survey concern human attribution of consciousness and possible social consequences. They do not measure AI subjective states or the prevalence of harm."
+    },
+    "source_url": "https://link.springer.com/article/10.1007/s43681-026-01294-x",
+    "access": "selected_sections",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://link.springer.com/article/10.1007/s43681-026-01294-x"
+    ],
+    "access_note": {
+      "ru": "Проверены аннотация, введение и определение исследуемого явления в открытой статье. Опросные данные самостоятельно не переанализированы.",
+      "en": "Inspected the abstract, introduction and definition of the target phenomenon in the open article. Survey data were not independently reanalysed."
+    },
+    "kind": "studies",
+    "ordinal": 4,
+    "markdown": "programs/consciousness/analysis/study-04.md",
+    "markdown_en": "programs/consciousness/analysis/study-04.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "researcher-01",
+    "title": {
+      "ru": "Анил Сет и Sussex Centre for Consciousness Science",
+      "en": "Anil Seth and the Sussex Centre for Consciousness Science"
+    },
+    "summary": {
+      "ru": "Сет и центр дают экспериментальный и концептуальный контекст для восприятия и сознания. Недавние эссе о сознании ИИ следует оценивать как аргументы, а не новые опыты.",
+      "en": "Seth and the centre provide experimental and conceptual context for perception and consciousness. Recent AI-consciousness essays should be assessed as arguments rather than new experiments."
+    },
+    "source_url": "https://www.sussex.ac.uk/research/centres/sussex-centre-for-consciousness-science/people",
+    "access": "institutional_profile",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://www.sussex.ac.uk/research/centres/sussex-centre-for-consciousness-science/people",
+      "https://pubmed.ncbi.nlm.nih.gov/40065186/",
+      "https://www.nature.com/articles/d41586-026-03313-7"
+    ],
+    "access_note": {
+      "ru": "Проверены состав центра и роль Сета, библиографическая запись комментария 2025 года и доступные разделы эссе октября 2026 года. Комментарии не представлены как экспериментальные исследования.",
+      "en": "Checked the centre membership and Seth’s role, the 2025 comment’s bibliographic record and accessible sections of the October 2026 essay. These comments are not represented as experimental studies."
+    },
+    "kind": "researchers",
+    "ordinal": 1,
+    "markdown": "programs/consciousness/analysis/researcher-01.md",
+    "markdown_en": "programs/consciousness/analysis/researcher-01.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "researcher-02",
+    "title": {
+      "ru": "Патрик Батлин, Тим Бейн и соавторы — индикаторы сознания",
+      "en": "Patrick Butlin, Tim Bayne and colleagues — consciousness indicators"
+    },
+    "summary": {
+      "ru": "Междисциплинарная группа превращает теоретические положения в исследуемые индикаторы. Разбор отделяет теорию, техническую проверку и нормативное решение.",
+      "en": "The interdisciplinary group translates theoretical commitments into investigable indicators. The analysis separates theory, technical testing and normative decisions."
+    },
+    "source_url": "https://doi.org/10.1016/j.tics.2026.04.006",
+    "access": "institutional_profile",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://eleosai.org/",
+      "https://pubmed.ncbi.nlm.nih.gov/42036253/",
+      "https://www.sciencedirect.com/science/article/pii/S1364661325002864"
+    ],
+    "access_note": {
+      "ru": "Проверены профиль Батлина в Eleos, авторы и учреждения в PubMed, аннотация статьи об индикаторах. Для короткого ответа о мимикрии доступна библиографическая запись без аннотации; его аргументы не пересказываются.",
+      "en": "Checked Butlin’s Eleos profile, authors and affiliations in PubMed, and the indicator paper’s abstract. The short response on mimicry has a bibliographic record without an abstract; its detailed arguments are not summarised."
+    },
+    "kind": "researchers",
+    "ordinal": 2,
+    "markdown": "programs/consciousness/analysis/researcher-02.md",
+    "markdown_en": "programs/consciousness/analysis/researcher-02.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  },
+  {
+    "id": "researcher-03",
+    "title": {
+      "ru": "Мартин Монти и команда UCLA — сознание и кома",
+      "en": "Martin Monti and the UCLA team — consciousness and coma"
+    },
+    "summary": {
+      "ru": "Команда исследует сознание при ограниченной способности к поведенческому ответу. Для ORI важны различия между сигналом, диагнозом, прогнозом и эффектом вмешательства.",
+      "en": "The team studies consciousness when behavioural response is impaired. ORI should distinguish signals, diagnosis, prognosis and intervention effects."
+    },
+    "source_url": "https://montilab.psych.ucla.edu/",
+    "access": "institutional_profile",
+    "long_form_status": "not_applicable",
+    "evidence_urls": [
+      "https://montilab.psych.ucla.edu/",
+      "https://www.psych.ucla.edu/faculty-page/monti/",
+      "https://www.nature.com/articles/s41593-026-02220-4"
+    ],
+    "access_note": {
+      "ru": "Проверены индексируемая страница лаборатории, профиль UCLA и аннотация работы Toker et al. 2026. Полный текст последней не получен.",
+      "en": "Checked the indexed laboratory page, UCLA profile and abstract of Toker et al. 2026. The complete text of that paper was not obtained."
+    },
+    "kind": "researchers",
+    "ordinal": 3,
+    "markdown": "programs/consciousness/analysis/researcher-03.md",
+    "markdown_en": "programs/consciousness/analysis/researcher-03.en.md",
+    "status": "initial_analysis",
+    "checked": "2026-10-24"
+  }
+]

@@ -2,7 +2,7 @@
 
 [Русский](book-01.md) · [Programme](../README.en.md)
 
-Checked: 25 October 2026. Initial source analysis; the author abstract and bibliographic record were read; full text was located but not read in full.
+Checked: 24 October 2026. Initial source analysis; the author abstract and bibliographic record were read; full text was located but not read in full.
 
 <!-- ori-toc:start -->
 ## Contents

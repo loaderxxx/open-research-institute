@@ -26,7 +26,7 @@
 
 **Доступ и границы чтения.** Прочитаны аннотация и метаданные институционального репозитория Maastricht. Полный текст не прочитан; репозиторий указывает CC BY-NC, в отличие от CC BY в карте.
 
-Источники (2026-10-25):
+Источники (2026-10-24):
 
 - [1](https://doi.org/10.1016/j.jebo.2023.09.025)
 - [2](https://cris.maastrichtuniversity.nl/en/publications/religion-and-cooperation-across-the-globe/)

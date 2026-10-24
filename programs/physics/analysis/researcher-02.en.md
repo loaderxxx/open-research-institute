@@ -2,7 +2,7 @@
 
 [Русский](researcher-02.md) · [Programme](../README.en.md)
 
-Checked: 25 October 2026. Initial source analysis; Minagawa’s profile and selected parts of the joint paper were checked; the Nagoya profile returned an error.
+Checked: 24 October 2026. Initial source analysis; Minagawa’s profile and selected parts of the joint paper were checked; the Nagoya profile returned an error.
 
 <!-- ori-toc:start -->
 ## Contents

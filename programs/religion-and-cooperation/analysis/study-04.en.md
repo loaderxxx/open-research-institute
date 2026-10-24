@@ -26,7 +26,7 @@ For ORI, the descriptive comparison’s scale is useful. It should be compared w
 
 **Access and reading limits.** The Maastricht institutional abstract and metadata were inspected. The full text was not read; the repository lists CC BY-NC rather than the map’s CC BY.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://doi.org/10.1016/j.jebo.2023.09.025)
 - [2](https://cris.maastrichtuniversity.nl/en/publications/religion-and-cooperation-across-the-globe/)

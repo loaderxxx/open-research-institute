@@ -2,7 +2,7 @@
 
 [Русский](book-03.md) · [Programme](../README.en.md)
 
-Checked: 25 October 2026. Initial source analysis; the publisher description was read; the book chapters were not read.
+Checked: 24 October 2026. Initial source analysis; the publisher description was read; the book chapters were not read.
 
 <!-- ori-toc:start -->
 ## Contents

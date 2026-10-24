@@ -2,7 +2,7 @@
 
 [Русский](study-02.md) · [Programme](../README.en.md)
 
-Checked: 25 October 2026. Initial source analysis; the PubMed abstract and figure captions were read; the complete main text was not read.
+Checked: 24 October 2026. Initial source analysis; the PubMed abstract and figure captions were read; the complete main text was not read.
 
 <!-- ori-toc:start -->
 ## Contents

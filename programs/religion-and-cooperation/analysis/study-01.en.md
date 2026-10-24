@@ -26,6 +26,6 @@ For ORI, the study shows why religious identity cannot be coded only by denomina
 
 **Access and reading limits.** The abstract and portions of introduction, procedure and discussion of the open article were inspected. Not all tables or supplements were checked.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://doi.org/10.1111/jssr.12961)

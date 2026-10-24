@@ -2,7 +2,7 @@
 
 [Русский](book-01.md)
 
-**Access and status.** Checked 25 October 2026: Norton description; the demonstration interface did not expose chapter content. This is an initial assessment for the genomics programme. A substantial dossier requires the full text.
+**Access and status.** Checked 24 October 2026: Norton description; the demonstration interface did not expose chapter content. This is an initial assessment for the genomics programme. A substantial dossier requires the full text.
 
 The publisher highlights updates on human genomes, cancer genomes and chromosome organisation. For this programme, the book's relevance is placing DNA regulation within the whole cell. That context helps frame why the same genomic sequence can support different cellular states and functions.
 

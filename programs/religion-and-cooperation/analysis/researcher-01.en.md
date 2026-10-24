@@ -28,7 +28,7 @@ Naming the laboratory implies neither collaboration nor endorsement of ORI. An i
 
 **Access and reading limits.** The UIC profile and abstracts of two coauthored experimental papers were inspected. The laboratory’s complete publication record was not reviewed.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://psch.uic.edu/profiles/pasek-michael/)
 - [2](https://pubmed.ncbi.nlm.nih.gov/40674036/)

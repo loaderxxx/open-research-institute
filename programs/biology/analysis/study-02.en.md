@@ -2,7 +2,7 @@
 
 [Русский](study-02.md)
 
-**Access.** Checked 25 October 2026: indexed abstract, introduction and optimisation sections of the PMC author manuscript; direct retrieval displayed CAPTCHA. Supplements and raw images were not inspected. This is a methods paper, not a test of one disease mechanism.
+**Access.** Checked 24 October 2026: indexed abstract, introduction and optimisation sections of the PMC author manuscript; direct retrieval displayed CAPTCHA. Supplements and raw images were not inspected. This is a methods paper, not a test of one disease mechanism.
 
 The authors optimise Cell Painting through the ability of morphological profiles to detect reproducible effects and group related perturbations. Version 3 uses multichannel staining of cellular components and simplifies parts of the procedure. Rather than selecting visually attractive staining, quantitative evaluation targets the usefulness of the resulting profiles for comparing conditions.
 

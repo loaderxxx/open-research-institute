@@ -2,7 +2,7 @@
 
 [Русский](study-04.md) · [Programme](../README.en.md)
 
-Checked: 25 October 2026. Initial source analysis; the indexed author abstract and official EBRAINS explanation were read; the complete review was not read.
+Checked: 24 October 2026. Initial source analysis; the indexed author abstract and official EBRAINS explanation were read; the complete review was not read.
 
 <!-- ori-toc:start -->
 ## Contents

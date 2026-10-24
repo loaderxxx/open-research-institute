@@ -26,7 +26,7 @@ The framework suggests questions about outsourcing AI: who controls data, checks
 
 **Access and reading limits.** The Free Press record and an indexed passage from the author’s Nobel lecture were checked. The book’s full text was not obtained; detailed analysis requires lawful access.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://www.simonandschuster.com/books/The-Economic-Intstitutions-of-Capitalism/Oliver-E-Williamson/9780684863740)
 - [2](https://www.nobelprize.org/uploads/2018/06/williamson_lecture.pdf)

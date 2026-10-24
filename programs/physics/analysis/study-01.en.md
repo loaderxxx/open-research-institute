@@ -2,7 +2,7 @@
 
 [Русский](study-01.md) · [Programme](../README.en.md)
 
-Checked: 25 October 2026. Initial source analysis; the indexed IBM/IEEE abstract was checked; direct DOI access required browser verification.
+Checked: 24 October 2026. Initial source analysis; the indexed IBM/IEEE abstract was checked; direct DOI access required browser verification.
 
 <!-- ori-toc:start -->
 ## Contents

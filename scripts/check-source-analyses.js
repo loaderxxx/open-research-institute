@@ -24,7 +24,7 @@ for (const p of programmes) {
     if(Boolean(a.deep_markdown)!==(a.long_form_status==='extended_analysis')) failures.push(`${p.slug}/${a.id}: extended reading status disagrees with documents`);
     if(!Array.isArray(a.evidence_urls)||!a.evidence_urls.length) failures.push(`${p.slug}/${a.id}: no evidence URLs`);
     const ru=fs.readFileSync(path.join(root,a.markdown),'utf8'),en=fs.readFileSync(path.join(root,a.markdown_en),'utf8');
-    const urls=body=>[...body.matchAll(/\]\((https?:[^)]+)\)/g)].map(m=>m[1]).sort();
+    const urls=body=>[...new Set((body.match(/https?:\/\/[^\s)>\]]+/g)||[]).map(u=>u.replace(/[.,;]+$/,'')))].sort();
     if(JSON.stringify(urls(ru))!==JSON.stringify(urls(en))) failures.push(`${p.slug}/${a.id}: source URLs differ across languages`);
     if(!ru.includes(`](${path.basename(a.markdown_en)})`)||!en.includes(`](${path.basename(a.markdown)})`)) failures.push(`${p.slug}/${a.id}: missing reciprocal language link`);
     for(const [lang,body] of [['ru',ru],['en',en]]) {
@@ -36,6 +36,10 @@ for (const p of programmes) {
     if(a.deep_markdown) {
       extended++;
       if(a.deep_markdown_en!==a.deep_markdown.replace(/\.md$/,'.en.md')) failures.push(`${p.slug}/${a.id}: extended language paths do not pair`);
+      const deepRu=fs.readFileSync(path.join(root,a.deep_markdown),'utf8');
+      const deepEn=fs.readFileSync(path.join(root,a.deep_markdown_en),'utf8');
+      if(JSON.stringify(urls(deepRu))!==JSON.stringify(urls(deepEn))) failures.push(`${p.slug}/${a.id}: extended source URLs differ across languages`);
+      if(!deepRu.includes(`](${path.basename(a.deep_markdown_en)})`)||!deepEn.includes(`](${path.basename(a.deep_markdown)})`)) failures.push(`${p.slug}/${a.id}: extended language switch missing`);
       for(const field of ['deep_markdown','deep_markdown_en']) {
         const body=fs.readFileSync(path.join(root,a[field]),'utf8');
         if(body.split(/\s+/).length<4500) failures.push(`${a[field]}: extended analysis below 4500 words`);

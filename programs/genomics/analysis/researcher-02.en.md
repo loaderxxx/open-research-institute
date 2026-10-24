@@ -2,7 +2,7 @@
 
 [Русский](researcher-02.md)
 
-**Access.** Checked 25 October 2026: official laboratory website, publication list and selected scE2G sections (2026). The original address without www failed; the www version was accessible. The complete research corpus and code were not assessed.
+**Access.** Checked 24 October 2026: official laboratory website, publication list and selected scE2G sections (2026). The original address without www failed; the www version was accessible. The complete research corpus and code were not assessed.
 
 The laboratory combines experimental and computational genomics, biochemistry and human genetics to map regulation, including questions of heart development and disease. A concrete collaborative example is scE2G, which relates enhancer–gene predictions to perturbation evidence. The central question is which elements control which genes in a defined cellular context.
 

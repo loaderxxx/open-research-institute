@@ -2,7 +2,7 @@
 
 [Русский](study-03.md)
 
-**Access.** Checked 25 October 2026: abstract, introduction and initial results sections of the open Nature Communications article. Supplements, movies and the complete results were not inspected.
+**Access.** Checked 24 October 2026: abstract, introduction and initial results sections of the open Nature Communications article. Supplements, movies and the complete results were not inspected.
 
 The study compares incorporation of different synthetic cell models into three-dimensional cancer cultures. The authors connect co-assembly to adhesion and surface tension; live observations show synthetic components entering aggregates during formation. This is an experimental platform for controlling selected properties of a cellular environment, rather than a reconstruction of an entire natural tissue.
 

@@ -2,7 +2,7 @@
 
 [Русский](book-01.md)
 
-**Access and status.** Checked 25 October 2026: Norton description; the demonstration interface did not expose chapter text. This is an initial assessment of the book's role, not a completed reading. A substantial dossier requires the full text.
+**Access and status.** Checked 24 October 2026: Norton description; the demonstration interface did not expose chapter text. This is an initial assessment of the book's role, not a completed reading. A substantial dossier requires the full text.
 
 Norton presents the seventh edition as a synthesis of cell biology and highlights updates on cellular organisation, biomolecular condensates and microscopy. Within ORI, the book provides a conceptual foundation for relating molecular organisation, measurable morphology and cellular interactions without treating these levels as interchangeable.
 

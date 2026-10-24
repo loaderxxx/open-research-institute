@@ -26,6 +26,6 @@ An AI pilot could distinguish execution failures in established processes, inter
 
 **Access and reading limits.** The publisher’s description and bibliographic details were inspected; the full text was not accessed in this reading. A detailed dossier requires the full text.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://www.simonandschuster.com/books/Right-Kind-of-Wrong/Amy-C-Edmondson/9781982195069)

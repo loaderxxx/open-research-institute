@@ -2,7 +2,7 @@
 
 [Русский](study-05.md) · [Programme](../README.en.md)
 
-Checked: 25 October 2026. Initial source analysis; the author abstract and journal metadata were checked; the experiment and supplements were not reproduced.
+Checked: 24 October 2026. Initial source analysis; the author abstract and journal metadata were checked; the experiment and supplements were not reproduced.
 
 <!-- ori-toc:start -->
 ## Contents

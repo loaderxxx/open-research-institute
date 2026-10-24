@@ -26,7 +26,7 @@ ORI can use the book to challenge a single functional narrative: identify the re
 
 **Access and reading limits.** The Oxford Academic publisher abstract was inspected; the original product page did not open. The book’s full text was not obtained.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://global.oup.com/academic/product/in-gods-we-trust-9780195178037)
 - [2](https://academic.oup.com/book/10966)

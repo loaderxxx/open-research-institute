@@ -26,7 +26,7 @@ ORI can compare this work with trust research, where expectations of another per
 
 **Access and reading limits.** The SAGE abstract and metadata were inspected: online 25 January 2025, with Volume 29(5) belonging to 2026. Full text is restricted.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://doi.org/10.1177/13684302241307011)
 - [2](https://journals.sagepub.com/doi/10.1177/13684302241307011)

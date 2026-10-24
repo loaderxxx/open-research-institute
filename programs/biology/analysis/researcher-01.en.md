@@ -2,7 +2,7 @@
 
 [Русский](researcher-01.md)
 
-**Access.** Checked 25 October 2026: University of Queensland group profile, publication list and selected sections of Eckert et al. (2025). The institutional profile and stated example were inspected; the complete research corpus was not assessed.
+**Access.** Checked 24 October 2026: University of Queensland group profile, publication list and selected sections of Eckert et al. (2025). The institutional profile and stated example were inspected; the complete research corpus was not assessed.
 
 The group investigates how epithelial cells transmit and sense mechanical influences while maintaining tissue integrity and responding to injury. Its institutional page identifies live microscopy, genetic manipulation in zebrafish embryos and physical approaches. A concrete collaborative example concerns orientational order on curved tissue surfaces; the publication list also includes a 2025 review of epithelial mechanoadaptation.
 

@@ -26,7 +26,7 @@ ORI can use WGI to describe context and choose comparative cases while preservin
 
 **Access and reading limits.** The official release page and documentation on aggregation and use were inspected. Data files and the reproducibility package were not downloaded; calculations were not reproduced.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://www.worldbank.org/en/publication/worldwide-governance-indicators)
 - [2](https://www.worldbank.org/en/publication/worldwide-governance-indicators/documentation)

@@ -26,7 +26,7 @@ This line merits attention for studying digitalisation and new service arrangeme
 
 **Access and reading limits.** Barbera’s and Ferry’s profiles, Queen’s indexed Hyndman record and the introductory article’s abstract were inspected. The special issue’s 14 papers were not fully read.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://unibg.unifind.cineca.it/resource/person/53029?language=en-US)
 - [2](https://dur.ac.uk/business/our-people/laurence-ferry/)

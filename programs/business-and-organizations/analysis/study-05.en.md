@@ -26,7 +26,7 @@ For ORI, the study opens a concrete line of inquiry into entrepreneurial decisio
 
 **Access and reading limits.** The indexed SSRN abstract and revision date of 25 June 2026 were inspected; direct record access was restricted. The manuscript and tables were not read.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://doi.org/10.2139/ssrn.5610873)
 - [2](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5610873)

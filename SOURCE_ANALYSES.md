@@ -26,7 +26,7 @@
 
 ## Охват
 
-39 книжных позиций; 66 публикаций и ресурсов; 39 записей об исследователях и командах. Двуязычных разборов: **79**. Подробных двуязычных анализов: **0**.
+39 книжных позиций; 66 публикаций и ресурсов; 39 записей об исследователях и командах. Двуязычных разборов: **144**. Подробных двуязычных анализов: **1**.
 
 Позиции считаются по программам: одна работа может рассматриваться с разных исследовательских точек зрения. Этот слой учитывается отдельно от 21 опубликованного тематического обзора. Старые библиографии этих обзоров сохраняются; эта очередь соответствует текущим картам литературы.
 
@@ -82,44 +82,44 @@
 
 ### Книги
 
-- **Laurence F. Abbott и Peter Dayan, Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems (2001; paperback 2005).** — Ожидает разбора · [Источник](https://mitpress.mit.edu/9780262041997/theoretical-neuroscience/).
-- **Eric R. Kandel, John D. Koester, Sarah H. Mack и Steven A. Siegelbaum, Principles of Neural Science (6-е изд., 2021). McGraw Hill** — Ожидает разбора · [Источник](https://www.mheducation.com/highered/product/principles-neural-science-kandel-koester/M9781259642234.html).
-- **Larry R. Squire и Eric R. Kandel, Memory: From Mind to Molecules (2009, 2-е изд.). Roberts & Company / издательская страница** — Ожидает разбора · [Источник](https://www.roberts-publishers.com/memory-from-mind-to-molecules.html).
+- **Даян и Эбботт — Theoretical Neuroscience** — [Разбор](programs/brain/analysis/book-01.md) · [Источник](https://mitpress.mit.edu/9780262041997/theoretical-neuroscience/). Нужен полный текст.
+- **Кандел и соавторы — Principles of Neural Science, 6-е издание** — [Разбор](programs/brain/analysis/book-02.md) · [Источник](https://www.mheducation.com/highered/product/principles-neural-science-kandel-koester/M9781259642234.html). Нужен полный текст.
+- **Сквайр и Кандел — Memory: From Mind to Molecules** — [Разбор](programs/brain/analysis/book-03.md) · [Источник](https://www.roberts-publishers.com/memory-from-mind-to-molecules.html). Нужен полный текст.
 
 ### Исследования и данные
 
-- **Dorkenwald et al. (2024), “Neuronal wiring diagram of an adult brain”. Nature, DOI** — Ожидает разбора · [Источник](https://www.nature.com/articles/s41586-024-07558-y).
-- **Ko et al. (2025), “Systems consolidation reorganizes hippocampal engram circuitry”. Nature, DOI** — Ожидает разбора · [Источник](https://www.nature.com/articles/s41586-025-08993-1).
-- **Dewa et al. (2025), “The astrocytic ensemble acts as a multiday trace to stabilize memory”. Nature, DOI и доступ к данным** — Ожидает разбора · [Источник](https://www.nature.com/articles/s41586-025-09619-2).
-- **Albert Lin et al. / FlyWire Consortium (2024), “Network statistics of the whole-brain connectome of Drosophila”. Nature, DOI** — Ожидает разбора · [Источник](https://www.nature.com/articles/s41586-024-07968-y).
-- **MICrONS Consortium (2025), “Functional connectomics spanning multiple areas of mouse visual cortex”. Nature, DOI** — Ожидает разбора · [Источник](https://doi.org/10.1038/s41586-025-08790-w).
+- **Dorkenwald et al. — Схема связей взрослого мозга** — [Разбор](programs/brain/analysis/study-01.md) · [Источник](https://www.nature.com/articles/s41586-024-07558-y).
+- **Ko et al. — Реорганизация гиппокампальных энграмм** — [Разбор](programs/brain/analysis/study-02.md) · [Источник](https://www.nature.com/articles/s41586-025-08993-1).
+- **Dewa et al. — Астроцитарный след стабилизации памяти** — [Разбор](programs/brain/analysis/study-03.md) · [Источник](https://www.nature.com/articles/s41586-025-09619-2).
+- **Lin et al. — Сетевая статистика коннектома Drosophila** — [Разбор](programs/brain/analysis/study-04.md) · [Источник](https://www.nature.com/articles/s41586-024-07968-y).
+- **MICrONS — Функциональная коннектомика зрительной коры мыши** — [Разбор](programs/brain/analysis/study-05.md) · [Источник](https://doi.org/10.1038/s41586-025-08790-w).
 
 ### Исследователи и команды
 
-- **Paul W. Frankland и Sheena Josselyn — Hospital for Sick Children / University of Toronto.** — Ожидает разбора · [Источник](https://www.sickkids.ca/en/staff/f/paul-frankland/).
-- **Jun Nagai — RIKEN Center for Brain Science, Laboratory for Glia–Neuron Circuit Dynamics.** — Ожидает разбора · [Источник](https://cbs.riken.jp/en/faculty/j.nagai/).
-- **FlyWire Consortium / Mala Murthy и H. Sebastian Seung — Princeton Neuroscience Institute и международные коллеги.** — Ожидает разбора · [Источник](https://murthylab.princeton.edu/mala-murthy).
+- **Пол Франкленд и Шина Джосселин — память и энграммы** — [Разбор](programs/brain/analysis/researcher-01.md) · [Источник](https://www.sickkids.ca/en/staff/f/paul-frankland/).
+- **Дзюн Нагаи — Glia–Neuron Circuit Dynamics, RIKEN** — [Разбор](programs/brain/analysis/researcher-02.md) · [Источник](https://cbs.riken.jp/en/faculty/j.nagai/).
+- **FlyWire, Мала Мурти и Себастьян Сеунг** — [Разбор](programs/brain/analysis/researcher-03.md) · [Источник](https://murthylab.princeton.edu/mala-murthy).
 
 ## Сознание и восприятие
 
 ### Книги
 
-- **David J. Chalmers, The Conscious Mind: In Search of a Fundamental Theory (1996), страница автора** — Ожидает разбора · [Источник](https://consc.net/the-conscious-mind/).
-- **Anil Seth, Being You: A New Science of Consciousness (2021)** — Ожидает разбора · [Источник](https://www.penguinrandomhouse.com/books/566315/being-you-by-anil-seth/).
-- **Christof Koch, The Feeling of Life Itself: Why Consciousness Is Widespread but Can't Be Computed (2019)** — Ожидает разбора · [Источник](https://mitpress.mit.edu/9780262539555/the-feeling-of-life-itself/).
+- **Дэвид Чалмерс — The Conscious Mind** — [Разбор](programs/consciousness/analysis/book-01.md) · [Источник](https://consc.net/the-conscious-mind/). Нужен полный текст.
+- **Анил Сет — Being You** — [Разбор](programs/consciousness/analysis/book-02.md) · [Источник](https://www.penguinrandomhouse.com/books/566315/being-you-by-anil-seth/). Нужен полный текст.
+- **Кристоф Кох — The Feeling of Life Itself** — [Разбор](programs/consciousness/analysis/book-03.md) · [Источник](https://mitpress.mit.edu/9780262539555/the-feeling-of-life-itself/). Нужен полный текст.
 
 ### Исследования и данные
 
-- **Cogitate Consortium, Ferrante, O., Gorska-Klimowska, U. et al., “Adversarial testing of global neuronal workspace and integrated information theories of consciousness”** — Ожидает разбора · [Источник](https://www.nature.com/articles/s41586-025-08888-1).
-- **Butlin et al., “Identifying indicators of consciousness in AI systems”** — Ожидает разбора · [Источник](https://www.sciencedirect.com/science/article/pii/S1364661325002864).
-- **Toker et al., “Adversarial AI reveals mechanisms and treatments for disorders of consciousness”** — Ожидает разбора · [Источник](https://www.nature.com/articles/s41593-026-02220-4).
-- **Bariach et al., “Seemingly conscious AI risks”** — Ожидает разбора · [Источник](https://link.springer.com/article/10.1007/s43681-026-01294-x).
+- **Cogitate — Состязательная проверка GNWT и IIT** — [Разбор](programs/consciousness/analysis/study-01.md) · [Источник](https://www.nature.com/articles/s41586-025-08888-1).
+- **Butlin et al. — Индикаторы сознания в системах ИИ** — [Разбор](programs/consciousness/analysis/study-02.md) · [Источник](https://www.sciencedirect.com/science/article/pii/S1364661325002864).
+- **Toker et al. — ИИ-модели нарушений сознания** — [Разбор](programs/consciousness/analysis/study-03.md) · [Источник](https://www.nature.com/articles/s41593-026-02220-4).
+- **Bariach et al. — Риски кажущегося сознательным ИИ** — [Разбор](programs/consciousness/analysis/study-04.md) · [Источник](https://link.springer.com/article/10.1007/s43681-026-01294-x).
 
 ### Исследователи и команды
 
-- **Anil Seth и Sussex Centre for Consciousness Science** — Ожидает разбора · [Источник](https://www.sussex.ac.uk/research/centres/sussex-centre-for-consciousness-science/people).
-- **Patrick Butlin, Tim Bayne, Stephen Fleming, Liad Mudrik и соавторы** — Ожидает разбора · [Источник](https://doi.org/10.1016/j.tics.2026.04.006).
-- **Martin M. Monti и междисциплинарная команда** — Ожидает разбора · [Источник](https://montilab.psych.ucla.edu/).
+- **Анил Сет и Sussex Centre for Consciousness Science** — [Разбор](programs/consciousness/analysis/researcher-01.md) · [Источник](https://www.sussex.ac.uk/research/centres/sussex-centre-for-consciousness-science/people).
+- **Патрик Батлин, Тим Бейн и соавторы — индикаторы сознания** — [Разбор](programs/consciousness/analysis/researcher-02.md) · [Источник](https://doi.org/10.1016/j.tics.2026.04.006).
+- **Мартин Монти и команда UCLA — сознание и кома** — [Разбор](programs/consciousness/analysis/researcher-03.md) · [Источник](https://montilab.psych.ucla.edu/).
 
 ## ДНК и регуляция генов
 
@@ -165,7 +165,7 @@
 
 - **Erik Brynjolfsson — Stanford Digital Economy Lab** — [Разбор](programs/business-and-organizations/analysis/researcher-01.md) · [Источник](https://www.gsb.stanford.edu/faculty-research/faculty/erik-brynjolfsson).
 - **Danielle Li — MIT Sloan** — [Разбор](programs/business-and-organizations/analysis/researcher-02.md) · [Источник](https://mitsloan.mit.edu/faculty/directory/danielle-li).
-- **Christopher T. Stanton — Harvard Business School** — [Разбор](programs/business-and-organizations/analysis/researcher-03.md) · [Источник](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=489797).
+- **Christopher T. Stanton — Harvard Business School** — [Разбор](programs/business-and-organizations/analysis/researcher-03.md) · [Источник](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452).
 
 ## Государство и институты
 
@@ -215,95 +215,95 @@
 
 ### Книги
 
-- **Elinor Ostrom, Governing the Commons** — Ожидает разбора · [Источник](https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79).
-- **Graham Smith, Deliberative Democracy and the Environment** — Ожидает разбора · [Источник](https://www.routledge.com/Deliberative-Democracy-and-the-Environment-1st-Edition/Smith/p/book/9780415309400).
-- **Ghazala Mansuri & Vijayendra Rao, Localizing Development: Does Participation Work?** — Ожидает разбора · [Источник](https://openknowledge.worldbank.org/handle/10986/11859).
+- **Элинор Остром — Governing the Commons** — [Разбор](programs/voluntary-governance/analysis/book-01.md) · [Источник](https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79). Нужен полный текст.
+- **Грэм Смит — Deliberative Democracy and the Environment** — [Разбор](programs/voluntary-governance/analysis/book-02.md) · [Источник](https://www.routledge.com/Deliberative-Democracy-and-the-Environment-1st-Edition/Smith/p/book/9780415309400). Нужен полный текст.
+- **Газала Мансури и Виджайендра Рао — Localizing Development: Does Participation Work?** — [Разбор](programs/voluntary-governance/analysis/book-03.md) · [Источник](https://openknowledge.worldbank.org/handle/10986/11859). Углублённое чтение ещё не завершено.
 
 ### Исследования и данные
 
-- **Ostrom, “A General Framework for Analyzing Sustainability of Social-Ecological Systems”** — Ожидает разбора · [Источник](https://doi.org/10.1126/science.1172133).
-- **Ostrom, “Beyond Markets and States: Polycentric Governance of Complex Economic Systems”** — Ожидает разбора · [Источник](https://www.aeaweb.org/articles?id=10.1257/aer.100.3.641).
-- **Olken, “Monitoring Corruption: Evidence from a Field Experiment in Indonesia”** — Ожидает разбора · [Источник](https://doi.org/10.1086/517935).
-- **UNFCCC, первое глобальное подведение итогов Парижского соглашения, решение 1/CMA.5** — Ожидает разбора · [Источник](https://unfccc.int/sites/default/files/resource/cma2023_16a01_adv_.pdf).
-- **Pascucci, “Theorizing Polycentric Governance of Global Socio-Ecological Challenges through a Meso-Institutional Perspective”** — Ожидает разбора · [Источник](https://doi.org/10.1017/S1744137425100325).
-- **Eakin et al., “Emergent Polycentric Governance in Response to Drought”** — Ожидает разбора · [Источник](https://doi.org/10.1002/eet.2141).
+- **Elinor Ostrom — A General Framework for Analyzing Sustainability of Social-Ecological Systems** — [Разбор](programs/voluntary-governance/analysis/study-01.md) · [Источник](https://doi.org/10.1126/science.1172133).
+- **Elinor Ostrom — Beyond Markets and States: Polycentric Governance of Complex Economic Systems** — [Разбор](programs/voluntary-governance/analysis/study-02.md) · [Источник](https://www.aeaweb.org/articles?id=10.1257/aer.100.3.641).
+- **Benjamin A. Olken — Monitoring Corruption: Evidence from a Field Experiment in Indonesia** — [Разбор](programs/voluntary-governance/analysis/study-03.md) · [Источник](https://doi.org/10.1086/517935).
+- **UNFCCC — первое глобальное подведение итогов, решение 1/CMA.5** — [Разбор](programs/voluntary-governance/analysis/study-04.md) · [Источник](https://unfccc.int/sites/default/files/resource/cma2023_16a01_adv_.pdf).
+- **Stefano Pascucci — Theorizing Polycentric Governance through a Meso-Institutional Perspective** — [Разбор](programs/voluntary-governance/analysis/study-05.md) · [Источник](https://doi.org/10.1017/S1744137425100325).
+- **Hallie Eakin и Clifford Shearing — Emergent Polycentric Governance in Response to Drought** — [Разбор](programs/voluntary-governance/analysis/study-06.md) · [Источник](https://doi.org/10.1002/eet.2141).
 
 ### Исследователи и команды
 
-- **Stefano Pascucci — University of Exeter, University of Auckland, Wageningen University.** — Ожидает разбора · [Источник](https://www.cambridge.org/core/journals/journal-of-institutional-economics/article/theorizing-polycentric-governance-of-global-socioecological-challenges-through-a-mesoinstitutional-perspective/3141861FAAC4F0C27820C5021085109E).
-- **Hallie Eakin — Arizona State University, School of Sustainability.** — Ожидает разбора · [Источник](https://search.asu.edu/profile/1288750).
-- **Cem Dener и GovTech-команда — World Bank.** — Ожидает разбора · [Источник](https://www.worldbank.org/en/programs/govtech/gtmi-2025-update).
+- **Стефано Паскуччи — мезоинституты и многосторонние партнёрства** — [Разбор](programs/voluntary-governance/analysis/researcher-01.md) · [Источник](https://www.cambridge.org/core/journals/journal-of-institutional-economics/article/theorizing-polycentric-governance-of-global-socioecological-challenges-through-a-mesoinstitutional-perspective/3141861FAAC4F0C27820C5021085109E).
+- **Халли Икин — климатическая устойчивость и городское управление** — [Разбор](programs/voluntary-governance/analysis/researcher-02.md) · [Источник](https://search.asu.edu/profile/1288750).
+- **Джем Денер и команда GovTech — цифровое участие** — [Разбор](programs/voluntary-governance/analysis/researcher-03.md) · [Источник](https://www.worldbank.org/en/programs/govtech/gtmi-2025-update).
 
 ## Философия и смысл
 
 ### Книги
 
-- **Thaddeus Metz, Meaning in Life: An Analytic Study** — Ожидает разбора · [Источник](https://academic.oup.com/book/10038).
-- **Susan Wolf, Meaning in Life and Why It Matters** — Ожидает разбора · [Источник](https://press.princeton.edu/books/paperback/9780691154466/meaning-in-life-and-why-it-matters).
-- **Thaddeus Metz & Joshua Seachris, What Makes Life Meaningful? A Debate** — Ожидает разбора · [Источник](https://www.routledge.com/What-Makes-Life-Meaningful-A-Debate/Metz-Seachris/p/book/9781032566061).
+- **Таддеус Мец — Meaning in Life: An Analytic Study** — [Разбор](programs/philosophy-and-meaning/analysis/book-01.md) · [Источник](https://academic.oup.com/book/10038). Нужен полный текст.
+- **Сьюзен Вулф — Meaning in Life and Why It Matters** — [Разбор](programs/philosophy-and-meaning/analysis/book-02.md) · [Источник](https://press.princeton.edu/books/paperback/9780691154466/meaning-in-life-and-why-it-matters). Углублённое чтение ещё не завершено.
+- **Таддеус Мец и Джошуа Сикрис — What Makes Life Meaningful? A Debate** — [Разбор](programs/philosophy-and-meaning/analysis/book-03.md) · [Источник](https://www.routledge.com/What-Makes-Life-Meaningful-A-Debate/Metz-Seachris/p/book/9781032566061). Нужен полный текст.
 
 ### Исследования и данные
 
-- **Metz, “The Meaning of Life”** — Ожидает разбора · [Источник](https://plato.stanford.edu/archives/win2025/entries/life-meaning/).
-- **Kipke, “The Individuality of Meaning in Life”** — Ожидает разбора · [Источник](https://doi.org/10.1111/ejop.13050).
-- **Ota, “The Dual Impact of Determinism on Meaning in Life”** — Ожидает разбора · [Источник](https://doi.org/10.1007/s11406-025-00877-y).
-- **Steger, Frazier, Oishi & Kaler, “The Meaning in Life Questionnaire: Assessing the Presence of and Search for Meaning in Life”** — Ожидает разбора · [Источник](https://doi.org/10.1037/0022-0167.53.1.80).
-- **Guevara-Tantalean et al., “Development and Psychometric Properties of a Scale to Measure the Meaning of Life”** — Ожидает разбора · [Источник](https://doi.org/10.3390/ejihpe15090174).
+- **Таддеус Мец — The Meaning of Life, SEP, Winter 2025** — [Разбор](programs/philosophy-and-meaning/analysis/study-01.md) · [Источник](https://plato.stanford.edu/archives/win2025/entries/life-meaning/).
+- **Roland Kipke — The Individuality of Meaning in Life** — [Разбор](programs/philosophy-and-meaning/analysis/study-02.md) · [Источник](https://doi.org/10.1111/ejop.13050).
+- **Koji Ota — The Dual Impact of Determinism on Meaning in Life** — [Разбор](programs/philosophy-and-meaning/analysis/study-03.md) · [Источник](https://doi.org/10.1007/s11406-025-00877-y).
+- **Steger, Frazier, Oishi и Kaler — The Meaning in Life Questionnaire** — [Разбор](programs/philosophy-and-meaning/analysis/study-04.md) · [Источник](https://doi.org/10.1037/0022-0167.53.1.80).
+- **Guevara-Tantalean и соавторы — Development and Psychometric Properties of a Scale to Measure the Meaning of Life** — [Разбор](programs/philosophy-and-meaning/analysis/study-05.md) · [Источник](https://doi.org/10.3390/ejihpe15090174).
 
 ### Исследователи и команды
 
-- **Thaddeus Metz — University of Pretoria, Department of Philosophy.** — Ожидает разбора · [Источник](https://doi.org/10.1093/oxfordhb/9780197625835.013.0034).
-- **Roland Kipke — Bielefeld University, Department of Philosophy.** — Ожидает разбора · [Источник](https://www.uni-bielefeld.de/fakultaeten/philosophie/abteilung/personen/kipke/).
-- **Koji Ota — Kansai University, Faculty of Informatics.** — Ожидает разбора · [Источник](https://doi.org/10.1007/s11406-025-00877-y).
+- **Таддеус Мец — философия смысла и нормативная этика** — [Разбор](programs/philosophy-and-meaning/analysis/researcher-01.md) · [Источник](https://academic.oup.com/edited-volume/61380/chapter-abstract/533151538).
+- **Роланд Кипке — индивидуальность смысла и практическая философия** — [Разбор](programs/philosophy-and-meaning/analysis/researcher-02.md) · [Источник](https://www.uni-bielefeld.de/fakultaeten/philosophie/abteilung/personen/kipke/).
+- **Кодзи Ота — сознание, свобода воли и смысл** — [Разбор](programs/philosophy-and-meaning/analysis/researcher-03.md) · [Источник](https://www.kansai-u.ac.jp/Fc_inf/fm/staff/ota.html).
 
 ## ИИ для научных исследований
 
 ### Книги
 
-- **Alexei Robsky, Liliya Lavitas, Yueqing Wang, Reliable Evaluations for LLMs and AI Agents: End-to-End Evaluation Frameworks for LLMs and Autonomous AI Agents (2026)** — Ожидает разбора · [Источник](https://link.springer.com/book/10.1007/978-3-032-26749-8).
-- **Bin Yu, Rebecca L. Barter, Veridical Data Science (2024)** — Ожидает разбора · [Источник](https://mitpress.mit.edu/9780262049191/veridical-data-science/).
-- **Christian Sandvig, Marc Aidinoff, Alondra Nelson, Kristen Vaccaro, Karrie Karahalios, Esha Bhandari, Ellery Roberts Biddle, Lena Armstrong, J. Nathan Matias, Motahhare Eslami & Danaé Metaxa (The Marquand House Collective), Auditing AI (2026)** — Ожидает разбора · [Источник](https://mitpress.mit.edu/9780262051736/auditing-ai/).
+- **Robsky, Lavitas, Wang — Reliable Evaluations for LLMs and AI Agents** — [Разбор](programs/reliable-ai-research/analysis/book-01.md) · [Источник](https://link.springer.com/book/10.1007/978-3-032-26749-8). Нужен полный текст.
+- **Юй и Бартер — Veridical Data Science** — [Разбор](programs/reliable-ai-research/analysis/book-02.md) · [Источник](https://mitpress.mit.edu/9780262049191/veridical-data-science/). Углублённое чтение ещё не завершено.
+- **The Marquand House Collective — Auditing AI** — [Разбор](programs/reliable-ai-research/analysis/book-03.md) · [Источник](https://mitpress.mit.edu/9780262051736/auditing-ai/). Углублённое чтение ещё не завершено.
 
 ### Исследования и данные
 
-- **Chen et al., “ScienceAgentBench”** — Ожидает разбора · [Источник](https://proceedings.iclr.cc/paper_files/paper/2025/hash/f12b4df26344f3be803c06b555252efe-Abstract-Conference.html).
-- **Chen et al., “MLR-Bench”** — Ожидает разбора · [Источник](https://proceedings.neurips.cc/paper_files/paper/2025/hash/ab8dd000d6f87f40061a73f8bca7fae4-Abstract-Datasets_and_Benchmarks_Track.html).
-- **Wang et al., “PaperArena: An Evaluation Benchmark for Tool-Augmented Agentic Reasoning on Scientific Literature”** — Ожидает разбора · [Источник](https://arxiv.org/abs/2510.10909).
-- **Liu et al., “Benchmarking AI Agents for Addressing Scientific Challenges Across Scales” (SciAgentArena)** — Ожидает разбора · [Источник](https://arxiv.org/abs/2606.12736).
+- **Chen et al. — ScienceAgentBench** — [Разбор](programs/reliable-ai-research/analysis/study-01.md) · [Источник](https://proceedings.iclr.cc/paper_files/paper/2025/hash/f12b4df26344f3be803c06b555252efe-Abstract-Conference.html).
+- **Chen et al. — MLR-Bench** — [Разбор](programs/reliable-ai-research/analysis/study-02.md) · [Источник](https://proceedings.neurips.cc/paper_files/paper/2025/hash/ab8dd000d6f87f40061a73f8bca7fae4-Abstract-Datasets_and_Benchmarks_Track.html).
+- **Wang et al. — PaperArena, версия 4** — [Разбор](programs/reliable-ai-research/analysis/study-03.md) · [Источник](https://arxiv.org/abs/2510.10909).
+- **Liu et al. — SciAgentArena** — [Разбор](programs/reliable-ai-research/analysis/study-04.md) · [Источник](https://arxiv.org/abs/2606.12736).
 
 ### Исследователи и команды
 
-- **Huan Sun и команда OSU NLP** — Ожидает разбора · [Источник](https://people.engineering.osu.edu/people/sun.397).
-- **Yiyou Sun и группа Dawn Song** — Ожидает разбора · [Источник](https://sunyiyou.github.io/).
-- **Daoyu Wang и соавторы PaperArena** — Ожидает разбора · [Источник](https://ustcagi.github.io/author/daoyu-wang/).
+- **Хуань Сунь и OSU NLP — научные агенты** — [Разбор](programs/reliable-ai-research/analysis/researcher-01.md) · [Источник](https://people.engineering.osu.edu/people/sun.397).
+- **Ию Сунь и группа Доун Сонг — оценка долгих агентных задач** — [Разбор](programs/reliable-ai-research/analysis/researcher-02.md) · [Источник](https://sunyiyou.github.io/).
+- **Даоюй Ван и PaperArena — работа с научной литературой** — [Разбор](programs/reliable-ai-research/analysis/researcher-03.md) · [Источник](https://ustcagi.github.io/author/daoyu-wang/).
 
 ## Обучение на проверенных результатах
 
 ### Книги
 
-- **Richard S. Sutton, Andrew G. Barto, Reinforcement Learning: An Introduction, 2-е изд. (2018)** — Ожидает разбора · [Источник](https://mitpress.mit.edu/9780262039246/reinforcement-learning/).
-- **Masashi Sugiyama et al., Machine Learning from Weak Supervision: An Empirical Risk Minimization Approach (2022)** — Ожидает разбора · [Источник](https://mitpress.mit.edu/9780262370561/machine-learning-from-weak-supervision/).
-- **Marc G. Bellemare, Will Dabney, Mark Rowland, Distributional Reinforcement Learning (2023)** — Ожидает разбора · [Источник](https://mitpress.mit.edu/9780262048019/distributional-reinforcement-learning/).
+- **Саттон и Барто — Reinforcement Learning: An Introduction** — [Разбор](programs/verified-learning/analysis/book-01.md) · [Источник](https://mitpress.mit.edu/9780262039246/reinforcement-learning/). Углублённое чтение ещё не завершено.
+- **Сугияма и соавторы — Machine Learning from Weak Supervision** — [Разбор](programs/verified-learning/analysis/book-02.md) · [Источник](https://mitpress.mit.edu/9780262370561/machine-learning-from-weak-supervision/). Нужен полный текст.
+- **Bellemare, Dabney, Rowland — Distributional Reinforcement Learning** — [Разбор](programs/verified-learning/analysis/book-03.md) · [Источник](https://mitpress.mit.edu/9780262048019/distributional-reinforcement-learning/). Углублённое чтение ещё не завершено.
 
 ### Исследования и данные
 
-- **Setlur et al., “Rewarding Progress”** — Ожидает разбора · [Источник](https://proceedings.iclr.cc/paper_files/paper/2025/hash/98711dea460bdefe0e651ca23ec98ba2-Abstract-Conference.html).
-- **Feng et al., “Beyond Model Collapse: Scaling Up with Synthesized Data Requires Verification”** — Ожидает разбора · [Источник](https://proceedings.iclr.cc/paper_files/paper/2025/hash/df2d62b96a4003203450cf89cd338bb7-Abstract-Conference.html).
-- **Wen et al., “Reinforcement Learning with Verifiable Rewards Implicitly Incentivizes Correct Reasoning”** — Ожидает разбора · [Источник](https://proceedings.iclr.cc/paper_files/paper/2026/hash/517f9b9c227b9dd51dba4560f37165ed-Abstract-Conference.html).
-- **Yuan et al., “Verifiable Process Rewards for Agentic Reasoning”** — Ожидает разбора · [Источник](https://arxiv.org/abs/2605.10325).
-- **Zeng et al., “RLVE: Scaling Up Reinforcement Learning for Language Models with Adaptive Verifiable Environments”** — Ожидает разбора · [Источник](https://proceedings.mlr.press/v306/zeng26j.html).
+- **Setlur et al. — Rewarding Progress** — [Разбор](programs/verified-learning/analysis/study-01.md) · [Источник](https://proceedings.iclr.cc/paper_files/paper/2025/hash/98711dea460bdefe0e651ca23ec98ba2-Abstract-Conference.html).
+- **Feng et al. — Beyond Model Collapse** — [Разбор](programs/verified-learning/analysis/study-02.md) · [Источник](https://proceedings.iclr.cc/paper_files/paper/2025/hash/df2d62b96a4003203450cf89cd338bb7-Abstract-Conference.html).
+- **Wen et al. — RLVR и корректность рассуждения** — [Разбор](programs/verified-learning/analysis/study-03.md) · [Источник](https://proceedings.iclr.cc/paper_files/paper/2026/hash/517f9b9c227b9dd51dba4560f37165ed-Abstract-Conference.html).
+- **Yuan et al. — Verifiable Process Rewards** — [Разбор](programs/verified-learning/analysis/study-04.md) · [Источник](https://arxiv.org/abs/2605.10325).
+- **Zeng et al. — RLVE** — [Разбор](programs/verified-learning/analysis/study-05.md) · [Источник](https://proceedings.mlr.press/v306/zeng26j.html).
 
 ### Исследователи и команды
 
-- **Xumeng Wen и команда Microsoft Research Asia** — Ожидает разбора · [Источник](https://www.microsoft.com/en-us/research/publication/reinforcement-learning-with-verifiable-rewards-implicitly-incentivizes-correct-reasoning-in-base-llms/).
-- **Amrith Setlur, Aviral Kumar и соавторы** — Ожидает разбора · [Источник](https://openreview.net/pdf?id=A6Y7AqlzLW).
-- **Zhiyuan Zeng, Simon Shaolei Du, Hannaneh Hajishirzi и команда RLVE** — Ожидает разбора · [Источник](https://proceedings.mlr.press/v306/zeng26j.html).
+- **Сюмэн Вэнь и Microsoft Research — проверяемая награда** — [Разбор](programs/verified-learning/analysis/researcher-01.md) · [Источник](https://www.microsoft.com/en-us/research/publication/reinforcement-learning-with-verifiable-rewards-implicitly-incentivizes-correct-reasoning-in-base-llms/).
+- **Амрит Сетлур, Авирал Кумар и соавторы — процессные верификаторы** — [Разбор](programs/verified-learning/analysis/researcher-02.md) · [Источник](https://openreview.net/pdf?id=A6Y7AqlzLW).
+- **Чжиюань Цзэн, Саймон Ду, Ханнане Хаджиширзи и RLVE** — [Разбор](programs/verified-learning/analysis/researcher-03.md) · [Источник](https://proceedings.mlr.press/v306/zeng26j.html).
 
 ## Цифровая непрерывность личности
 
 ### Книги
 
-- **Locke — Of Identity and Diversity (1694)** — [Разбор](programs/digital-continuity/analysis/book-01.md) · [Источник](https://www.gutenberg.org/files/10615/10615-h/10615-h.htm). Углублённое чтение ещё не завершено.
+- **Locke — Of Identity and Diversity (1694)** — [Разбор](programs/digital-continuity/analysis/book-01.md) · [Подробный анализ](programs/digital-continuity/analysis/book-01-deep.md) · [Источник](https://www.gutenberg.org/files/10615/10615-h/10615-h.htm).
 - **Parfit — Reasons and Persons (1984/1986)** — [Разбор](programs/digital-continuity/analysis/book-02.md) · [Источник](https://academic.oup.com/book/12484). Нужен полный текст.
 - **Seung — Connectome (2012/2013)** — [Разбор](programs/digital-continuity/analysis/book-03.md) · [Источник](https://www.penguin.co.uk/books/180235/connectome-by-seung-sebastian/9780241951873). Нужен полный текст.
 

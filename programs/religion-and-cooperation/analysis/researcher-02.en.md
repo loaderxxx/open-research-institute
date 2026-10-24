@@ -28,7 +28,7 @@ Interest in the researcher implies neither partnership with ORI nor acceptance o
 
 **Access and reading limits.** LSE’s description of research questions and methods, author lists and abstracts of two joint papers were inspected. Full texts were not examined.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://www.lse.ac.uk/people/jeremy-ginges)
 - [2](https://pubmed.ncbi.nlm.nih.gov/40674036/)

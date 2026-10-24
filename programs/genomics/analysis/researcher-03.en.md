@@ -2,7 +2,7 @@
 
 [Русский](researcher-03.md)
 
-**Access.** Checked 25 October 2026: UC Irvine institutional news and indexed abstract and results from Bower et al. (Nature, 2025). Supplements and the laboratory's complete publication corpus were not examined.
+**Access.** Checked 24 October 2026: UC Irvine institutional news and indexed abstract and results from Bower et al. (Nature, 2025). Supplements and the laboratory's complete publication corpus were not examined.
 
 Kvon's team investigates distal enhancer activity. In work with Grace Bower and colleagues, regulatory-element replacements in mice demonstrate a role for REX in long-range enhancer action. REX itself lacks conventional enhancer activity in the reported test; adding it enables other elements to act across greater distances. This is a specific mechanism in the studied limb-development context.
 

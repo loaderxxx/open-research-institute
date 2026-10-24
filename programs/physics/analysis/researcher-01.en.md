@@ -2,7 +2,7 @@
 
 [Русский](researcher-01.md) · [Programme](../README.en.md)
 
-Checked: 25 October 2026. Initial source analysis; the Caltech profile and paper abstract were checked; the complete proof was not evaluated.
+Checked: 24 October 2026. Initial source analysis; the Caltech profile and paper abstract were checked; the complete proof was not evaluated.
 
 <!-- ori-toc:start -->
 ## Contents

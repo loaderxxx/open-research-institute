@@ -2,7 +2,7 @@
 
 [Русский](study-03.md)
 
-**Access.** Checked 25 October 2026: abstract and public extended-data captions in the Nature Genetics subscription preview. The publisher's main text was not read. A PMC author manuscript was located, but direct access displayed CAPTCHA; full reading is not claimed.
+**Access.** Checked 24 October 2026: abstract and public extended-data captions in the Nature Genetics subscription preview. The publisher's main text was not read. A PMC author manuscript was located, but direct access displayed CAPTCHA; full reading is not claimed.
 
 pgBoost combines regulatory-link scores with genomic distance and trains on eQTL data. The authors report improved enrichment of evaluation sets relative to individual approaches and investigate cell-type specificity. It ranks candidate variant–gene links rather than experimentally validating every link.
 

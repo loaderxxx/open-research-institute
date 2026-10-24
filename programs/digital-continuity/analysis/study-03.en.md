@@ -2,7 +2,7 @@
 
 [Русский](study-03.md) · [Programme](../README.en.md)
 
-Checked: 25 October 2026. Initial source analysis; the official resource description was read; the complete journal text and underlying data were not checked.
+Checked: 24 October 2026. Initial source analysis; the official resource description was read; the complete journal text and underlying data were not checked.
 
 <!-- ori-toc:start -->
 ## Contents

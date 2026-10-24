@@ -26,7 +26,7 @@ ORI should construct a matrix specifying what was measured, by which method and 
 
 **Access and reading limits.** The PubMed abstract was inspected; direct APA access was blocked. Full-text availability in the map does not imply it was read here.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://doi.org/10.1037/bul0000413)
 - [2](https://pubmed.ncbi.nlm.nih.gov/38407059/)

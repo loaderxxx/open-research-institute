@@ -26,7 +26,7 @@ ORI should compare this framework with intergroup-trust research and Atran’s c
 
 **Access and reading limits.** The publisher description on JSTOR, contents and brief chapter openings were inspected. The full book was unavailable; opening snippets are not treated as chapter reading.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://press.princeton.edu/books/paperback/9780691169743/big-gods)
 - [2](https://www.jstor.org/stable/j.ctt32bbp0)

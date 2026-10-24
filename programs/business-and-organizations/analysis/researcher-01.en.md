@@ -26,7 +26,7 @@ ORI should watch for longer observations of skills, repeated deployments in othe
 
 **Access and reading limits.** The Stanford Economics profile was checked; the GSB record did not open directly. Selected sections of Generative AI at Work supplied the exemplar, not the researcher’s complete body of work.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://www.gsb.stanford.edu/faculty-research/faculty/erik-brynjolfsson)
 - [2](https://economics.stanford.edu/people/erik-brynjolfsson)

@@ -2,7 +2,7 @@
 
 [Русский](study-03.md) · [Programme](../README.en.md)
 
-Checked: 25 October 2026. Initial source analysis; the author arXiv abstract and UC Davis record were checked; the complete review was not read.
+Checked: 24 October 2026. Initial source analysis; the author arXiv abstract and UC Davis record were checked; the complete review was not read.
 
 <!-- ori-toc:start -->
 ## Contents

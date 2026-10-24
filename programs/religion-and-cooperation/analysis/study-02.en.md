@@ -26,7 +26,7 @@ ORI can use the work to clarify religious-cooperation hypotheses. Reminders of a
 
 **Access and reading limits.** The author abstract and bibliographic details on PubMed were inspected. Protocols, full text and individual-level data were not read.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://doi.org/10.1037/pspi0000499)
 - [2](https://pubmed.ncbi.nlm.nih.gov/40674036/)

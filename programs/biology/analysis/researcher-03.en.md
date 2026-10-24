@@ -2,7 +2,7 @@
 
 [Русский](researcher-03.md)
 
-**Access.** Checked 25 October 2026: Yale profile and indexed abstract, results and discussion of Lu, Ikawa and Tang (PNAS, 2025). The institutional profile is the main basis; supplements were not inspected.
+**Access.** Checked 24 October 2026: Yale profile and indexed abstract, results and discussion of Lu, Ikawa and Tang (PNAS, 2025). The institutional profile is the main basis; supplements were not inspected.
 
 Tang's programme combines structural biology, protein engineering and cellular methods to investigate cell recognition and fusion. The 2025 OBF13 study provides structural and functional evidence supporting allosteric inhibition of IZUMO1–JUNO interaction during mouse fertilisation. Antibody binding occurs away from the JUNO-binding site, making the conformational mechanism central to interpretation.
 

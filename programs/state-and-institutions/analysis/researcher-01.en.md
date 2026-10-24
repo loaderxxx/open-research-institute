@@ -26,7 +26,7 @@ ORI should follow materials on interoperability, data quality and allocation of 
 
 **Access and reading limits.** The institutional profile and GTMI 2025 page were inspected. The brief’s record opened without text; this entry does not establish his individual authorship share in the release.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://blogs.worldbank.org/en/team/c/cem-dener)
 - [2](https://www.worldbank.org/en/programs/govtech/gtmi-2025-update)

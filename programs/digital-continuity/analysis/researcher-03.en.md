@@ -2,7 +2,7 @@
 
 [Русский](researcher-03.md) · [Programme](../README.en.md)
 
-Checked: 25 October 2026. Initial source analysis; official project and EBRAINS materials were read; the original TVB link was unavailable.
+Checked: 24 October 2026. Initial source analysis; official project and EBRAINS materials were read; the original TVB link was unavailable.
 
 <!-- ori-toc:start -->
 ## Contents

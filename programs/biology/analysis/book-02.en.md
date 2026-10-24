@@ -2,7 +2,7 @@
 
 [Русский](book-02.md)
 
-**Access and status.** Checked 25 October 2026: indexed OUP description and contents; direct retrieval failed intermittently. Chapters were not read. A substantial dossier requires the full text.
+**Access and status.** Checked 24 October 2026: indexed OUP description and contents; direct retrieval failed intermittently. Chapters were not read. A substantial dossier requires the full text.
 
 The contents connect body-plan formation, morphogenesis, differentiation, organogenesis and regeneration. OUP also highlights new material on embryonic stem cells and embryo models. This scope provides a useful framework for ORI's question of how local cellular interactions generate tissue: form is situated within a developmental sequence rather than treated solely as a final image.
 

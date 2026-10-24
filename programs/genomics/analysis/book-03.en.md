@@ -2,7 +2,7 @@
 
 [Русский](book-03.md)
 
-**Access and status.** Checked 25 October 2026: MIT Press bibliographic information and short description. Chapter content was not obtained. This is an initial critical assessment of the book's role; a substantial dossier requires the full text.
+**Access and status.** Checked 24 October 2026: MIT Press bibliographic information and short description. Chapter content was not obtained. This is an initial critical assessment of the book's role; a substantial dossier requires the full text.
 
 The publisher describes an account of molecular structures and mechanisms underlying genetic-information use in complex organisms, emphasising experimental principles and methods. Publication dates to 1991. For ORI, its principal value is a historical comparison between mechanistic molecular genetics and contemporary genome-scale measurement.
 

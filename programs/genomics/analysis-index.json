@@ -16,7 +16,7 @@
     "source_url": "https://seagull.wwnorton.com/molecularbiologycell",
     "access": "publisher_description",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "requires_full_text",
     "evidence_urls": [
       "https://seagull.wwnorton.com/molecularbiologycell",
@@ -36,23 +36,24 @@
       "en": "James D. Watson et al. — Molecular Biology of the Gene, 7th edition (2014)"
     },
     "summary": {
-      "ru": "Первоначальная программа чтения посвящена логике генетического эксперимента и различению механизмов регуляции. Содержательный доступ к седьмому изданию остаётся открытым пробелом.",
-      "en": "The initial reading agenda concerns genetic-experiment reasoning and discrimination between regulatory mechanisms. Substantive access to edition seven remains an explicit gap."
+      "ru": "Структура, сохранение, экспрессия и регуляция генома; проверено издательское оглавление седьмого издания.",
+      "en": "Genome structure, maintenance, expression and regulation; the publisher contents for the seventh edition were checked."
     },
     "markdown": "programs/genomics/analysis/book-02.md",
     "markdown_en": "programs/genomics/analysis/book-02.en.md",
     "source_url": "https://www.pearson.com/en-us/subject-catalog/p/molecular-biology-of-the-gene/P200000003297/9780321762436",
-    "access": "research_map_only",
+    "access": "publisher_description",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "requires_full_text",
     "evidence_urls": [
       "https://www.pearson.com/en-us/subject-catalog/p/molecular-biology-of-the-gene/P200000003297/9780321762436",
-      "https://www.cshlpress.com/link/mbog7.htm"
+      "https://www.cshlpress.com/link/mbog7.htm",
+      "https://in.pearson.com/content/dam/region-growth/india/pearson-india/Support/pdf/Catalog-BIOSCIENCE-2019-FINAL.pdf"
     ],
     "access_note": {
-      "ru": "Pearson недоступен; индекс CSHL подтверждает название и редакцию, страница возвращает 403. Содержательный контекст взят из карты ORI, главы не прочитаны.",
-      "en": "Pearson inaccessible; the CSHL index confirms title and edition but the page returns 403. Substantive context comes from ORI’s map; chapters were not read."
+      "ru": "Проверено 24 октября 2026 года: основной адрес Pearson недоступен; в официальном каталоге Pearson India 2019 прочитаны описание и оглавление седьмого издания (региональная запись 2017, печатная страница каталога 49). Главы книги не прочитаны; полная сверка региональных изданий не выполнялась.",
+      "en": "Checked 24 October 2026: the original Pearson URL was inaccessible; the official 2019 Pearson India catalogue supplied a description and contents for the seventh edition (regional listing dated 2017, printed catalogue page 49). Book chapters were not read; regional editions were not fully collated."
     }
   },
   {
@@ -72,7 +73,7 @@
     "source_url": "https://mitpress.mit.edu/9780935702170/genes-and-genomes/",
     "access": "publisher_description",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "requires_full_text",
     "evidence_urls": [
       "https://mitpress.mit.edu/9780935702170/genes-and-genomes/"
@@ -99,7 +100,7 @@
     "source_url": "https://www.nature.com/articles/s41467-025-64343-9",
     "access": "selected_sections",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://www.nature.com/articles/s41467-025-64343-9"
@@ -126,7 +127,7 @@
     "source_url": "https://www.nature.com/articles/s41586-025-08844-z",
     "access": "selected_sections",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://doi.org/10.1038/s41586-025-08844-z"
@@ -153,7 +154,7 @@
     "source_url": "https://doi.org/10.1038/s41588-025-02220-3",
     "access": "abstract",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://www.nature.com/articles/s41588-025-02220-3",
@@ -181,7 +182,7 @@
     "source_url": "https://www.nature.com/articles/s41588-026-02695-8",
     "access": "selected_sections",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://www.nature.com/articles/s41588-026-02695-8",
@@ -209,7 +210,7 @@
     "source_url": "https://www.nature.com/articles/s41586-024-08391-z",
     "access": "selected_sections",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://www.nature.com/articles/s41586-024-08391-z",
@@ -237,7 +238,7 @@
     "source_url": "https://research.umcutrecht.nl/researchers/robin-h-van-der-weide/",
     "access": "institutional_profile",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://research.umcutrecht.nl/researchers/robin-h-van-der-weide/",
@@ -266,7 +267,7 @@
     "source_url": "https://engreitzlab.org/",
     "access": "institutional_profile",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://www.engreitzlab.org/",
@@ -295,7 +296,7 @@
     "source_url": "https://devcell.bio.uci.edu/new-discovery-reveals-hidden-dna-element-that-helps-switch-on-genes-from-afar/",
     "access": "institutional_profile",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://devcell.bio.uci.edu/new-discovery-reveals-hidden-dna-element-that-helps-switch-on-genes-from-afar/",

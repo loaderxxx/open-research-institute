@@ -16,15 +16,18 @@
     "source_url": "https://www.gutenberg.org/files/10615/10615-h/10615-h.htm",
     "access": "selected_sections",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
-    "long_form_status": "pending_close_reading",
+    "checked": "2026-10-24",
+    "long_form_status": "extended_analysis",
     "evidence_urls": [
-      "https://www.gutenberg.org/files/10615/10615-h/10615-h.htm"
+      "https://www.gutenberg.org/files/10615/10615-h/10615-h.htm",
+      "https://plato.stanford.edu/entries/locke-personal-identity/"
     ],
     "access_note": {
-      "ru": "прочитана полностью глава II.27 в открытой исторической транскрипции; остальная книга не анализировалась.",
-      "en": "the complete designated chapter II.27 was read in the open historical transcription; the rest of the book was not analysed."
-    }
+      "ru": "Полностью прочитана выбранная глава II.27 в транскрипции Project Gutenberg; подготовлен расширенный двуязычный разбор именно главы. Остальная книга не анализировалась. Нумерация подразделов транскрипции отличается от распространённых научных изданий.",
+      "en": "The complete selected chapter II.27 was read in the Project Gutenberg transcription; an extended bilingual analysis of that chapter was prepared. The rest of the book was not analysed. The transcription’s subsection numbers differ from common scholarly editions."
+    },
+    "deep_markdown": "programs/digital-continuity/analysis/book-01-deep.md",
+    "deep_markdown_en": "programs/digital-continuity/analysis/book-01-deep.en.md"
   },
   {
     "id": "book-02",
@@ -43,7 +46,7 @@
     "source_url": "https://academic.oup.com/book/12484",
     "access": "publisher_description",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "requires_full_text",
     "evidence_urls": [
       "https://academic.oup.com/book/12484"
@@ -70,7 +73,7 @@
     "source_url": "https://www.penguin.co.uk/books/180235/connectome-by-seung-sebastian/9780241951873",
     "access": "publisher_description",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "requires_full_text",
     "evidence_urls": [
       "https://www.penguin.co.uk/books/180235/connectome-by-seung-sebastian/9780241951873"
@@ -97,7 +100,7 @@
     "source_url": "https://www.nature.com/articles/s41586-024-07558-y",
     "access": "abstract",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://www.nature.com/articles/s41586-024-07558-y",
@@ -125,7 +128,7 @@
     "source_url": "https://www.science.org/doi/10.1126/science.adk4858",
     "access": "selected_sections",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://www.science.org/doi/10.1126/science.adk4858",
@@ -153,7 +156,7 @@
     "source_url": "https://www.nature.com/articles/s41586-025-08790-w",
     "access": "institutional_profile",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://www.nature.com/articles/s41586-025-08790-w",
@@ -181,7 +184,7 @@
     "source_url": "https://pubmed.ncbi.nlm.nih.gov/40257892/",
     "access": "abstract",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://pubmed.ncbi.nlm.nih.gov/40257892/",
@@ -209,7 +212,7 @@
     "source_url": "https://www.nature.com/articles/s41467-026-74357-6",
     "access": "selected_sections",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://www.nature.com/articles/s41467-026-74357-6",
@@ -237,7 +240,7 @@
     "source_url": "https://lichtmanlab.fas.harvard.edu/people/jeff-lichtman",
     "access": "institutional_profile",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://lichtmanlab.fas.harvard.edu/people/jeff-lichtman",
@@ -265,7 +268,7 @@
     "source_url": "https://hcai-munich.com/marcel.html",
     "access": "institutional_profile",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://hcai-munich.com/marcel.html",
@@ -294,7 +297,7 @@
     "source_url": "https://thevirtualbrain.com/tvb/zwei/teamwork-leaders",
     "access": "institutional_profile",
     "status": "initial_analysis",
-    "checked": "2026-10-25",
+    "checked": "2026-10-24",
     "long_form_status": "not_applicable",
     "evidence_urls": [
       "https://thevirtualbrain.com/tvb/zwei/teamwork-leaders",

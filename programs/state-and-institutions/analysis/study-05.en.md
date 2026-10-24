@@ -26,7 +26,7 @@ For public services, coordination of standards across government levels is espec
 
 **Access and reading limits.** The official description and main messages on the report page were inspected. The overview PDF link returned an access restriction; the full report was not read.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://www.worldbank.org/en/publication/wdr2025)
 - [2](https://openknowledge.worldbank.org/bitstreams/d5d445ac-35f1-41a8-ab6b-debfd4eeb47c/download)

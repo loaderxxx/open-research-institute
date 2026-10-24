@@ -2,7 +2,7 @@
 
 [Русский](study-04.md) · [Programme](../README.en.md)
 
-Checked: 25 October 2026. Initial source analysis; selected parts of arXiv v3 were read; not all proofs or a complete comparison with the journal version.
+Checked: 24 October 2026. Initial source analysis; selected parts of arXiv v3 were read; not all proofs or a complete comparison with the journal version.
 
 <!-- ori-toc:start -->
 ## Contents

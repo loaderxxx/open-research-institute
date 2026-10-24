@@ -26,7 +26,7 @@
 
 **Доступ и границы чтения.** Проверен профиль Stanford Economics; карточка GSB напрямую не открылась. Для примера изучены отдельные разделы Generative AI at Work, а не весь массив работ исследователя.
 
-Источники (2026-10-25):
+Источники (2026-10-24):
 
 - [1](https://www.gsb.stanford.edu/faculty-research/faculty/erik-brynjolfsson)
 - [2](https://economics.stanford.edu/people/erik-brynjolfsson)

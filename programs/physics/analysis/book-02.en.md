@@ -2,7 +2,7 @@
 
 [Русский](book-02.md) · [Programme](../README.en.md)
 
-Checked: 25 October 2026. Initial source analysis; the Cambridge record was inspected; full-text access was not obtained.
+Checked: 24 October 2026. Initial source analysis; the Cambridge record was inspected; full-text access was not obtained.
 
 <!-- ori-toc:start -->
 ## Contents

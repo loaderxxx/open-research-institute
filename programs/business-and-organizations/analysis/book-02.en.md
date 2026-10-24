@@ -26,7 +26,7 @@ AI creates a specific question: does a summary release attention or conceal the 
 
 **Access and reading limits.** Indexed descriptions from Wiley and Stanford GSB were inspected; direct record access was blocked. The full text and chapters were not read.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://www.wiley.com/en-us/Organizations%2C+2nd+Edition-p-9780631227400)
 - [2](https://www.wiley.com/en-us/Organizations%2C%2B2nd%2BEdition-p-9780631186311)

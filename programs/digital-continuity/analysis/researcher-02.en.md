@@ -2,7 +2,7 @@
 
 [Русский](researcher-02.md) · [Programme](../README.en.md)
 
-Checked: 25 October 2026. Initial source analysis; the profile and author abstract were read; the data and model training were not reproduced.
+Checked: 24 October 2026. Initial source analysis; the profile and author abstract were read; the data and model training were not reproduced.
 
 <!-- ori-toc:start -->
 ## Contents

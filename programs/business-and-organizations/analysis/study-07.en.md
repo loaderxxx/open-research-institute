@@ -26,6 +26,6 @@ For ORI, the framework suggests examining demand together with the internal allo
 
 **Access and reading limits.** The CEPR DP20627 abstract dated 8 September 2025 was inspected. The full models and proofs were not obtained.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://cepr.org/publications/dp20627)

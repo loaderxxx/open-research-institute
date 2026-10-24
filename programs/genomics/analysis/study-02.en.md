@@ -2,7 +2,7 @@
 
 [Русский](study-02.md)
 
-**Access.** Checked 25 October 2026: indexed abstract and selected main-text sections of the Nature paper. The page notes a correction dated 3 June 2025; its contents were not separately checked. Supplements were not read.
+**Access.** Checked 24 October 2026: indexed abstract and selected main-text sections of the Nature paper. The page notes a correction dated 3 June 2025; its contents were not separately checked. Supplements were not read.
 
 The study uses CAP-SELEX to investigate interactions between DNA-bound transcription factors. The authors report 2,198 interacting pairs and show that joint preferences can depend on motif spacing and orientation or differ from individual-factor motifs. It extends regulatory descriptions from independent binding sites to contextual recognition by interacting factors.
 

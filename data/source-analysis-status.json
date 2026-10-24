@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-24",
   "scope": "All entries in the 13 public RESEARCH_MAP files, in their original order. Programme-level recommendations may repeat a source.",
   "totals": {
     "books": 39,
     "studies": 66,
     "researchers": 39,
-    "analyses": 79,
-    "extended": 0
+    "analyses": 144,
+    "extended": 1
   },
   "entries": [
     {
@@ -27,7 +27,7 @@
       "markdown_en": "programs/physics/analysis/book-01.en.md",
       "access": "abstract",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "pending_close_reading",
       "evidence_urls": [
         "https://quthermo.umbc.edu/publications/books/",
@@ -56,7 +56,7 @@
       "markdown_en": "programs/physics/analysis/book-02.en.md",
       "access": "publisher_description",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "requires_full_text",
       "evidence_urls": [
         "https://www.cambridge.org/highereducation/books/quantum-computation-and-quantum-information/01E10196D0A682A6AEFFEA52D53BE9AE"
@@ -84,7 +84,7 @@
       "markdown_en": "programs/physics/analysis/book-03.en.md",
       "access": "publisher_description",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "pending_close_reading",
       "evidence_urls": [
         "https://sethna.lassp.cornell.edu/StatMech/",
@@ -113,7 +113,7 @@
       "markdown_en": "programs/physics/analysis/study-01.en.md",
       "access": "abstract",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://doi.org/10.1147/rd.53.0183"
@@ -141,7 +141,7 @@
       "markdown_en": "programs/physics/analysis/study-02.en.md",
       "access": "abstract",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://www.nature.com/articles/nature10872",
@@ -170,7 +170,7 @@
       "markdown_en": "programs/physics/analysis/study-03.en.md",
       "access": "abstract",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://doi.org/10.1016/j.physrep.2024.04.001",
@@ -200,7 +200,7 @@
       "markdown_en": "programs/physics/analysis/study-04.en.md",
       "access": "selected_sections",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://www.nature.com/articles/s41534-024-00922-w",
@@ -229,7 +229,7 @@
       "markdown_en": "programs/physics/analysis/study-05.en.md",
       "access": "abstract",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://www.nature.com/articles/s41467-025-67768-4",
@@ -258,7 +258,7 @@
       "markdown_en": "programs/physics/analysis/researcher-01.en.md",
       "access": "institutional_profile",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://preskill.caltech.edu/",
@@ -287,7 +287,7 @@
       "markdown_en": "programs/physics/analysis/researcher-02.en.md",
       "access": "institutional_profile",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://shintarominagawa.github.io/",
@@ -317,7 +317,7 @@
       "markdown_en": "programs/physics/analysis/researcher-03.en.md",
       "access": "institutional_profile",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://www.binghamton.edu/ssie/people/profile.html?id=cgg",
@@ -346,7 +346,7 @@
       "markdown_en": "programs/biology/analysis/book-01.en.md",
       "access": "publisher_description",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "requires_full_text",
       "evidence_urls": [
         "https://seagull.wwnorton.com/molecularbiologycell",
@@ -375,7 +375,7 @@
       "markdown_en": "programs/biology/analysis/book-02.en.md",
       "access": "publisher_description",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "requires_full_text",
       "evidence_urls": [
         "https://www.oupjapan.co.jp/en/products/detail/65084"
@@ -403,7 +403,7 @@
       "markdown_en": "programs/biology/analysis/book-03.en.md",
       "access": "publisher_description",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "requires_full_text",
       "evidence_urls": [
         "https://learninglink.oup.com/access/cooper8e",
@@ -432,7 +432,7 @@
       "markdown_en": "programs/biology/analysis/study-01.en.md",
       "access": "selected_sections",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://broadinstitute.github.io/cellpainting-gallery/complete_datasets.html"
@@ -460,7 +460,7 @@
       "markdown_en": "programs/biology/analysis/study-02.en.md",
       "access": "selected_sections",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC10536784/",
@@ -489,7 +489,7 @@
       "markdown_en": "programs/biology/analysis/study-03.en.md",
       "access": "selected_sections",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://doi.org/10.1038/s41467-025-66789-3"
@@ -517,7 +517,7 @@
       "markdown_en": "programs/biology/analysis/study-04.en.md",
       "access": "selected_sections",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://www.nature.com/articles/s41467-025-62694-x",
@@ -546,7 +546,7 @@
       "markdown_en": "programs/biology/analysis/study-05.en.md",
       "access": "abstract",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://www.nature.com/articles/s41556-025-01697-8",
@@ -575,7 +575,7 @@
       "markdown_en": "programs/biology/analysis/researcher-01.en.md",
       "access": "institutional_profile",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://imb.uq.edu.au/research-groups/yap",
@@ -605,7 +605,7 @@
       "markdown_en": "programs/biology/analysis/researcher-02.en.md",
       "access": "institutional_profile",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://www.leibniz-inm.de/mitarbeiter/dr-staufer-oskar/",
@@ -634,7 +634,7 @@
       "markdown_en": "programs/biology/analysis/researcher-03.en.md",
       "access": "institutional_profile",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://medicine.yale.edu/profile/shaogeng-tang/",
@@ -650,252 +650,610 @@
       "kind": "books",
       "ordinal": 1,
       "title": {
-        "ru": "Laurence F. Abbott и Peter Dayan, Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems (2001; paperback 2005).",
-        "en": "Laurence F. Abbott and Peter Dayan, Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems (2001; paperback 2005)."
+        "ru": "Даян и Эбботт — Theoretical Neuroscience",
+        "en": "Dayan and Abbott — Theoretical Neuroscience"
       },
       "source_url": "https://mitpress.mit.edu/9780262041997/theoretical-neuroscience/",
-      "status": "pending",
-      "long_form_status": "pending_access_check"
+      "id": "book-01",
+      "summary": {
+        "ru": "Авторская глава показывает, зачем упрощать нейронные сети до моделей частоты разрядов. Анализ связывает выбор масштаба с проверкой механизмов памяти.",
+        "en": "The author-supplied chapter explains why neural networks are simplified into firing-rate models. The analysis connects that choice of scale to testing memory mechanisms."
+      },
+      "access": "selected_sections",
+      "long_form_status": "requires_full_text",
+      "evidence_urls": [
+        "https://mitpress.mit.edu/9780262041997/theoretical-neuroscience/",
+        "https://www.gatsby.ucl.ac.uk/~dayan/book/",
+        "https://www.gatsby.ucl.ac.uk/~dayan/book/ch7.pdf"
+      ],
+      "access_note": {
+        "ru": "Проверены описание издателя, авторская страница и начало открытой авторской главы 7. Полная книга не прочитана; для большого разбора нужен подтверждённый доступ к остальным главам.",
+        "en": "Checked the publisher description, author page and opening of the openly supplied author chapter 7. The complete book was not read; a long dossier requires verified access to the remaining chapters."
+      },
+      "markdown": "programs/brain/analysis/book-01.md",
+      "markdown_en": "programs/brain/analysis/book-01.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "brain",
       "kind": "books",
       "ordinal": 2,
       "title": {
-        "ru": "Eric R. Kandel, John D. Koester, Sarah H. Mack и Steven A. Siegelbaum, Principles of Neural Science (6-е изд., 2021). McGraw Hill",
-        "en": "Eric R. Kandel, John D. Koester, Sarah H. Mack and Steven A. Siegelbaum, Principles of Neural Science (6th ed., 2021). McGraw Hill"
+        "ru": "Кандел и соавторы — Principles of Neural Science, 6-е издание",
+        "en": "Kandel and colleagues — Principles of Neural Science, sixth edition"
       },
       "source_url": "https://www.mheducation.com/highered/product/principles-neural-science-kandel-koester/M9781259642234.html",
-      "status": "pending",
-      "long_form_status": "pending_access_check"
+      "id": "book-02",
+      "summary": {
+        "ru": "Предисловие задаёт переход от молекул к цепям и поведению. Разбор показывает, какие причинные переходы необходимо проверять отдельно.",
+        "en": "The preface connects molecules, circuits and behaviour. The analysis identifies which causal transitions require separate evidence."
+      },
+      "access": "selected_sections",
+      "long_form_status": "requires_full_text",
+      "evidence_urls": [
+        "https://neurology.mhmedical.com/book.aspx?bookid=3024",
+        "https://neurology.mhmedical.com/content.aspx?bookid=3024&sectionid=254326781"
+      ],
+      "access_note": {
+        "ru": "Проверены оглавление и предисловие шестого издания на платформе McGraw Hill. Основные главы полностью не прочитаны; исходная торговая ссылка не открылась.",
+        "en": "Checked the sixth-edition contents and preface on McGraw Hill’s platform. The substantive chapters were not read in full; the original retail URL did not load."
+      },
+      "markdown": "programs/brain/analysis/book-02.md",
+      "markdown_en": "programs/brain/analysis/book-02.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "brain",
       "kind": "books",
       "ordinal": 3,
       "title": {
-        "ru": "Larry R. Squire и Eric R. Kandel, Memory: From Mind to Molecules (2009, 2-е изд.). Roberts & Company / издательская страница",
-        "en": "Larry R. Squire and Eric R. Kandel, Memory: From Mind to Molecules (2nd ed., 2009). Roberts & Company / publisher page"
+        "ru": "Сквайр и Кандел — Memory: From Mind to Molecules",
+        "en": "Squire and Kandel — Memory: From Mind to Molecules"
       },
       "source_url": "https://www.roberts-publishers.com/memory-from-mind-to-molecules.html",
-      "status": "pending",
-      "long_form_status": "pending_access_check"
+      "id": "book-03",
+      "summary": {
+        "ru": "Начальная рамка чтения различает виды памяти, временные этапы и причинные переходы от молекул к поведению. Полный текст второго издания ещё требуется.",
+        "en": "This initial reading framework distinguishes memory systems, temporal stages and causal transitions from molecules to behaviour. The complete second edition is still required."
+      },
+      "access": "publisher_description",
+      "long_form_status": "requires_full_text",
+      "evidence_urls": [
+        "https://www.roberts-publishers.com/memory-from-mind-to-molecules.html",
+        "https://jonas.salk.edu/cgi-bin/koha/opac-detail.pl?biblionumber=3308",
+        "https://carta.anthropogeny.org/node/2327"
+      ],
+      "access_note": {
+        "ru": "Проверено 24 октября 2026 года: исходная страница издателя недоступна. Прочитаны издательское описание, воспроизведённое в каталоге Salk, и оглавление; данные сопоставлены с записью CARTA. Текст книги не прочитан.",
+        "en": "Checked 24 October 2026: the original publisher page was unavailable. The publisher-provided description reproduced in the Salk catalogue and the contents were read, and compared with the CARTA record. The book itself was not read."
+      },
+      "markdown": "programs/brain/analysis/book-03.md",
+      "markdown_en": "programs/brain/analysis/book-03.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "brain",
       "kind": "studies",
       "ordinal": 1,
       "title": {
-        "ru": "Dorkenwald et al. (2024), “Neuronal wiring diagram of an adult brain”. Nature, DOI",
-        "en": "Dorkenwald et al. (2024), “Neuronal wiring diagram of an adult brain”. Nature, DOI"
+        "ru": "Dorkenwald et al. — Схема связей взрослого мозга",
+        "en": "Dorkenwald et al. — Neuronal wiring diagram of an adult brain"
       },
       "source_url": "https://www.nature.com/articles/s41586-024-07558-y",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-01",
+      "summary": {
+        "ru": "Коннектом взрослой мухи задаёт конкретные структурные ограничения для гипотез о цепях. Он не измеряет динамику или изменение связей при обучении.",
+        "en": "The adult fly connectome constrains circuit hypotheses structurally. It does not measure dynamics or connection changes during learning."
+      },
+      "access": "selected_sections",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41586-024-07558-y"
+      ],
+      "access_note": {
+        "ru": "Проверены аннотация и начало основного текста открытой статьи. Набор данных и API самостоятельно не запускались.",
+        "en": "Inspected the abstract and opening of the open article. The dataset and API were not independently run."
+      },
+      "markdown": "programs/brain/analysis/study-01.md",
+      "markdown_en": "programs/brain/analysis/study-01.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "brain",
       "kind": "studies",
       "ordinal": 2,
       "title": {
-        "ru": "Ko et al. (2025), “Systems consolidation reorganizes hippocampal engram circuitry”. Nature, DOI",
-        "en": "Ko et al. (2025), “Systems consolidation reorganizes hippocampal engram circuitry”. Nature, DOI"
+        "ru": "Ko et al. — Реорганизация гиппокампальных энграмм",
+        "en": "Ko et al. — Systems consolidation reorganizes hippocampal engram circuitry"
       },
       "source_url": "https://www.nature.com/articles/s41586-025-08993-1",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-02",
+      "summary": {
+        "ru": "Исследование мышей связывает нейрогенез с изменением точности и обобщения памяти. Аннотация не позволяет полностью оценить контроли и перенос на человека.",
+        "en": "The mouse study connects neurogenesis with changes in memory precision and generalisation. Abstract access limits assessment of controls and human transfer."
+      },
+      "access": "abstract",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41586-025-08993-1",
+        "https://pubmed.ncbi.nlm.nih.gov/40369077/"
+      ],
+      "access_note": {
+        "ru": "Проверены аннотация и доступные подписи рисунков. Полный основной текст не получен; обозначение открытого доступа в исходной карте не подтверждено.",
+        "en": "Checked the abstract and available figure captions. The complete main text was not obtained; the map’s open-access designation was not confirmed."
+      },
+      "markdown": "programs/brain/analysis/study-02.md",
+      "markdown_en": "programs/brain/analysis/study-02.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "brain",
       "kind": "studies",
       "ordinal": 3,
       "title": {
-        "ru": "Dewa et al. (2025), “The astrocytic ensemble acts as a multiday trace to stabilize memory”. Nature, DOI и доступ к данным",
-        "en": "Dewa et al. (2025), “The astrocytic ensemble acts as a multiday trace to stabilize memory”. Nature, DOI and data access"
+        "ru": "Dewa et al. — Астроцитарный след стабилизации памяти",
+        "en": "Dewa et al. — The astrocytic ensemble acts as a multiday trace to stabilize memory"
       },
       "source_url": "https://www.nature.com/articles/s41586-025-09619-2",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-03",
+      "summary": {
+        "ru": "Многодневное состояние астроцитов помогает стабилизации памяти в конкретной модели. Поддерживающий след нельзя автоматически считать кодом содержания воспоминания.",
+        "en": "A multiday astrocytic state supports memory stabilisation in a specific model. A supportive trace should not automatically be treated as a code for memory content."
+      },
+      "access": "selected_sections",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41586-025-09619-2",
+        "https://pubmed.ncbi.nlm.nih.gov/41094146/"
+      ],
+      "access_note": {
+        "ru": "Проверены аннотация, доступные разделы основного текста и обсуждение. Связанные данные не переанализировались.",
+        "en": "Inspected the abstract, available main-text sections and discussion. Linked data were not reanalysed."
+      },
+      "markdown": "programs/brain/analysis/study-03.md",
+      "markdown_en": "programs/brain/analysis/study-03.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "brain",
       "kind": "studies",
       "ordinal": 4,
       "title": {
-        "ru": "Albert Lin et al. / FlyWire Consortium (2024), “Network statistics of the whole-brain connectome of Drosophila”. Nature, DOI",
-        "en": "Albert Lin et al. / FlyWire Consortium (2024), “Network statistics of the whole-brain connectome of Drosophila”. Nature, DOI"
+        "ru": "Lin et al. — Сетевая статистика коннектома Drosophila",
+        "en": "Lin et al. — Network statistics of the whole-brain connectome of Drosophila"
       },
       "source_url": "https://www.nature.com/articles/s41586-024-07968-y",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-04",
+      "summary": {
+        "ru": "Мотивы и связные ядра описывают организацию сети. Их функциональная интерпретация зависит от нулевой модели, определения веса и последующей физиологической проверки.",
+        "en": "Motifs and densely connected cores describe network organisation. Functional interpretation depends on null models, edge definitions and subsequent physiological tests."
+      },
+      "access": "selected_sections",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41586-024-07968-y"
+      ],
+      "access_note": {
+        "ru": "Проверены аннотация и начало основного текста. Статистические расчёты и исходный граф самостоятельно не воспроизводились.",
+        "en": "Inspected the abstract and opening main text. The statistical calculations and source graph were not independently reproduced."
+      },
+      "markdown": "programs/brain/analysis/study-04.md",
+      "markdown_en": "programs/brain/analysis/study-04.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "brain",
       "kind": "studies",
       "ordinal": 5,
       "title": {
-        "ru": "MICrONS Consortium (2025), “Functional connectomics spanning multiple areas of mouse visual cortex”. Nature, DOI",
-        "en": "MICrONS Consortium (2025), “Functional connectomics spanning multiple areas of mouse visual cortex”. Nature, DOI"
+        "ru": "MICrONS — Функциональная коннектомика зрительной коры мыши",
+        "en": "MICrONS — Functional connectomics spanning multiple areas of mouse visual cortex"
       },
       "source_url": "https://doi.org/10.1038/s41586-025-08790-w",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-05",
+      "summary": {
+        "ru": "MICrONS связывает зрительные ответы и микроскопическую связность в одном объёме коры. Это ресурс для проверки моделей, а не прямое исследование обучения или всего мозга.",
+        "en": "MICrONS aligns visual responses and microscopic connectivity within one cortical volume. It supports model tests rather than directly measuring learning or the entire brain."
+      },
+      "access": "abstract",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://doi.org/10.1038/s41586-025-08790-w",
+        "https://pubmed.ncbi.nlm.nih.gov/40205214/"
+      ],
+      "access_note": {
+        "ru": "Проверена аннотация открытой статьи и библиографическая запись. Полный методический текст, портал и сами массивы данных не исследованы.",
+        "en": "Checked the open article’s abstract and bibliographic record. The full methods, portal and underlying data arrays were not examined."
+      },
+      "markdown": "programs/brain/analysis/study-05.md",
+      "markdown_en": "programs/brain/analysis/study-05.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "brain",
       "kind": "researchers",
       "ordinal": 1,
       "title": {
-        "ru": "Paul W. Frankland и Sheena Josselyn — Hospital for Sick Children / University of Toronto.",
-        "en": "Paul W. Frankland and Sheena Josselyn — Hospital for Sick Children / University of Toronto."
+        "ru": "Пол Франкленд и Шина Джосселин — память и энграммы",
+        "en": "Paul Frankland and Sheena Josselyn — memory and engrams"
       },
       "source_url": "https://www.sickkids.ca/en/staff/f/paul-frankland/",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "researcher-01",
+      "summary": {
+        "ru": "Группа связывает клеточные вмешательства с этапами формирования и изменения памяти. Следить полезно за разделением активности, необходимости и достаточности энграмм.",
+        "en": "The group connects cellular interventions with stages of memory formation and transformation. Distinguishing engram activity, necessity and sufficiency is especially useful."
+      },
+      "access": "institutional_profile",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://www.sickkids.ca/en/staff/f/paul-frankland/",
+        "https://www.nature.com/articles/s41586-025-08993-1"
+      ],
+      "access_note": {
+        "ru": "Проверены институциональный профиль Франкленда и аннотация совместной работы Ko et al. 2025. Полный текст этой работы не получен.",
+        "en": "Checked Frankland’s institutional profile and the abstract of the jointly authored Ko et al. 2025 paper. Its complete text was not obtained."
+      },
+      "markdown": "programs/brain/analysis/researcher-01.md",
+      "markdown_en": "programs/brain/analysis/researcher-01.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "brain",
       "kind": "researchers",
       "ordinal": 2,
       "title": {
-        "ru": "Jun Nagai — RIKEN Center for Brain Science, Laboratory for Glia–Neuron Circuit Dynamics.",
-        "en": "Jun Nagai — RIKEN Center for Brain Science, Laboratory for Glia–Neuron Circuit Dynamics."
+        "ru": "Дзюн Нагаи — Glia–Neuron Circuit Dynamics, RIKEN",
+        "en": "Jun Nagai — Glia–Neuron Circuit Dynamics, RIKEN"
       },
       "source_url": "https://cbs.riken.jp/en/faculty/j.nagai/",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "researcher-02",
+      "summary": {
+        "ru": "Лаборатория исследует взаимодействие глии и нейронных цепей. Для ORI важны клеточная специфичность вмешательств и согласование быстрых и медленных процессов.",
+        "en": "The laboratory studies glia–circuit interactions. Cellular specificity of interventions and alignment of fast and slow processes matter most for ORI."
+      },
+      "access": "institutional_profile",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://cbs.riken.jp/en/faculty/j.nagai/",
+        "https://www.nature.com/articles/s41586-025-09619-2"
+      ],
+      "access_note": {
+        "ru": "Проверены профиль RIKEN, перечень методов и публикаций, а также доступные разделы Dewa et al. 2025.",
+        "en": "Checked the RIKEN profile, listed methods and publications, and accessible sections of Dewa et al. 2025."
+      },
+      "markdown": "programs/brain/analysis/researcher-02.md",
+      "markdown_en": "programs/brain/analysis/researcher-02.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "brain",
       "kind": "researchers",
       "ordinal": 3,
       "title": {
-        "ru": "FlyWire Consortium / Mala Murthy и H. Sebastian Seung — Princeton Neuroscience Institute и международные коллеги.",
-        "en": "FlyWire Consortium / Mala Murthy and H. Sebastian Seung — Princeton Neuroscience Institute and international collaborators."
+        "ru": "FlyWire, Мала Мурти и Себастьян Сеунг",
+        "en": "FlyWire, Mala Murthy and H. Sebastian Seung"
       },
       "source_url": "https://murthylab.princeton.edu/mala-murthy",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "researcher-03",
+      "summary": {
+        "ru": "FlyWire соединяет коллективную реконструкцию мозга с вопросами о функции и поведении. Разбор выделяет версионирование данных и проверяемый переход от карты к эксперименту.",
+        "en": "FlyWire links collective brain reconstruction with function and behaviour. The analysis emphasises data versioning and testable transitions from maps to experiments."
+      },
+      "access": "institutional_profile",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://murthylab.princeton.edu/mala-murthy",
+        "https://pni.princeton.edu/people/h-sebastian-seung",
+        "https://www.nature.com/articles/s41586-024-07558-y"
+      ],
+      "access_note": {
+        "ru": "Проверены профили Мурти и Сеунга и доступные разделы статьи о коннектоме. Работа с интерактивным ресурсом отдельно не выполнялась.",
+        "en": "Checked Murthy’s and Seung’s profiles and accessible sections of the connectome paper. The interactive resource was not independently used."
+      },
+      "markdown": "programs/brain/analysis/researcher-03.md",
+      "markdown_en": "programs/brain/analysis/researcher-03.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "consciousness",
       "kind": "books",
       "ordinal": 1,
       "title": {
-        "ru": "David J. Chalmers, The Conscious Mind: In Search of a Fundamental Theory (1996), страница автора",
-        "en": "David J. Chalmers, The Conscious Mind: In Search of a Fundamental Theory (1996), author page"
+        "ru": "Дэвид Чалмерс — The Conscious Mind",
+        "en": "David Chalmers — The Conscious Mind"
       },
       "source_url": "https://consc.net/the-conscious-mind/",
-      "status": "pending",
-      "long_form_status": "pending_access_check"
+      "id": "book-01",
+      "summary": {
+        "ru": "Введение отделяет объяснение функций от вопроса о субъективном опыте. Разбор использует это различие для проверки того, что именно измеряют исследования сознания.",
+        "en": "The introduction separates functional explanation from the question of subjective experience. The analysis uses that distinction to examine what consciousness studies actually measure."
+      },
+      "access": "selected_sections",
+      "long_form_status": "requires_full_text",
+      "evidence_urls": [
+        "https://consc.net/the-conscious-mind/",
+        "https://consc.net/books/tcm/intro.html"
+      ],
+      "access_note": {
+        "ru": "Проверены авторская страница и начало открытого введения. Полная книга и развёрнутые аргументы остальных глав не прочитаны.",
+        "en": "Checked the author page and opening of the freely available introduction. The complete book and extended arguments in later chapters were not read."
+      },
+      "markdown": "programs/consciousness/analysis/book-01.md",
+      "markdown_en": "programs/consciousness/analysis/book-01.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "consciousness",
       "kind": "books",
       "ordinal": 2,
       "title": {
-        "ru": "Anil Seth, Being You: A New Science of Consciousness (2021)",
-        "en": "Anil Seth, Being You: A New Science of Consciousness (2021)"
+        "ru": "Анил Сет — Being You",
+        "en": "Anil Seth — Being You"
       },
       "source_url": "https://www.penguinrandomhouse.com/books/566315/being-you-by-anil-seth/",
-      "status": "pending",
-      "long_form_status": "pending_access_check"
+      "id": "book-02",
+      "summary": {
+        "ru": "Издательское описание представляет предсказательный подход к восприятию. Разбор разделяет эффекты ожиданий, вычислительные модели и объяснение субъективного опыта.",
+        "en": "The publisher describes a predictive account of perception. The analysis separates expectation effects, computational models and explanation of subjective experience."
+      },
+      "access": "publisher_description",
+      "long_form_status": "requires_full_text",
+      "evidence_urls": [
+        "https://www.penguinrandomhouse.com/books/566315/being-you-by-anil-seth/"
+      ],
+      "access_note": {
+        "ru": "Проверено издательское описание издания 2021 года. Полный текст и отдельный издательский образец не прочитаны.",
+        "en": "Checked the publisher’s description of the 2021 edition. The full text and separate publisher sample were not read."
+      },
+      "markdown": "programs/consciousness/analysis/book-02.md",
+      "markdown_en": "programs/consciousness/analysis/book-02.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "consciousness",
       "kind": "books",
       "ordinal": 3,
       "title": {
-        "ru": "Christof Koch, The Feeling of Life Itself: Why Consciousness Is Widespread but Can't Be Computed (2019)",
-        "en": "Christof Koch, The Feeling of Life Itself: Why Consciousness Is Widespread but Can't Be Computed (2019)"
+        "ru": "Кристоф Кох — The Feeling of Life Itself",
+        "en": "Christof Koch — The Feeling of Life Itself"
       },
       "source_url": "https://mitpress.mit.edu/9780262539555/the-feeling-of-life-itself/",
-      "status": "pending",
-      "long_form_status": "pending_access_check"
+      "id": "book-03",
+      "summary": {
+        "ru": "Кох защищает количественный подход IIT. Анализ отделяет постулаты, физическую реализацию и измеримые следствия, которые можно сопоставлять с экспериментом.",
+        "en": "Koch defends IIT’s quantitative approach. The analysis separates postulates, physical implementation and measurable consequences that can be compared with experiments."
+      },
+      "access": "publisher_description",
+      "long_form_status": "requires_full_text",
+      "evidence_urls": [
+        "https://mitpress.mit.edu/9780262539555/the-feeling-of-life-itself/"
+      ],
+      "access_note": {
+        "ru": "Проверено описание MIT Press. Книга впервые вышла в 2019 году; указанная ссылка ведёт на мягкую обложку 2020 года. Полный текст не прочитан.",
+        "en": "Checked the MIT Press description. The book first appeared in 2019; the linked paperback is dated 2020. The complete text was not read."
+      },
+      "markdown": "programs/consciousness/analysis/book-03.md",
+      "markdown_en": "programs/consciousness/analysis/book-03.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "consciousness",
       "kind": "studies",
       "ordinal": 1,
       "title": {
-        "ru": "Cogitate Consortium, Ferrante, O., Gorska-Klimowska, U. et al., “Adversarial testing of global neuronal workspace and integrated information theories of consciousness”",
-        "en": "Cogitate Consortium, Ferrante, O., Gorska-Klimowska, U. et al., “Adversarial testing of global neuronal workspace and integrated information theories of consciousness”"
+        "ru": "Cogitate — Состязательная проверка GNWT и IIT",
+        "en": "Cogitate — Adversarial testing of GNWT and IIT"
       },
       "source_url": "https://www.nature.com/articles/s41586-025-08888-1",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-01",
+      "summary": {
+        "ru": "Согласованные заранее предсказания двух теорий получили смешанную поддержку. Значимость работы — в проверяемом сравнении конкретных реализаций, а не окончательном выборе теории.",
+        "en": "Advance-agreed predictions from two theories received mixed support. The value lies in accountable comparison of specific implementations rather than final theory selection."
+      },
+      "access": "selected_sections",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41586-025-08888-1"
+      ],
+      "access_note": {
+        "ru": "Проверены аннотация, доступные фрагменты основного текста и сведения о данных. Пререгистрация и исходные массивы отдельно не анализировались.",
+        "en": "Inspected the abstract, accessible main-text passages and data statement. The preregistration and underlying arrays were not separately analysed."
+      },
+      "markdown": "programs/consciousness/analysis/study-01.md",
+      "markdown_en": "programs/consciousness/analysis/study-01.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "consciousness",
       "kind": "studies",
       "ordinal": 2,
       "title": {
-        "ru": "Butlin et al., “Identifying indicators of consciousness in AI systems”",
-        "en": "Butlin et al., “Identifying indicators of consciousness in AI systems”"
+        "ru": "Butlin et al. — Индикаторы сознания в системах ИИ",
+        "en": "Butlin et al. — Identifying indicators of consciousness in AI systems"
       },
       "source_url": "https://www.sciencedirect.com/science/article/pii/S1364661325002864",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-02",
+      "summary": {
+        "ru": "Метод выводит индикаторы из теорий, сохраняя зависимость оценки от предположений. Это исследовательская рамка, а не подтверждение сознания конкретного ИИ.",
+        "en": "The method derives indicators from theories while preserving dependence on assumptions. It is a research framework rather than confirmation of consciousness in a particular AI."
+      },
+      "access": "abstract",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S1364661325002864",
+        "https://pubmed.ncbi.nlm.nih.gov/41219038/",
+        "https://escholarship.org/uc/item/9wp8t1n8"
+      ],
+      "access_note": {
+        "ru": "Проверены аннотация, ключевые положения и данные публикации. Статья открытая, но полный текст не получен: прямой доступ к издателю и репозиторию был ограничен. Онлайн-публикация — 2025, журнальный выпуск — июнь 2026.",
+        "en": "Checked the abstract, highlights and publication metadata. The article is open access, but the full text was not obtained because direct publisher and repository access was restricted. Online publication was in 2025; the journal issue is June 2026."
+      },
+      "markdown": "programs/consciousness/analysis/study-02.md",
+      "markdown_en": "programs/consciousness/analysis/study-02.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "consciousness",
       "kind": "studies",
       "ordinal": 3,
       "title": {
-        "ru": "Toker et al., “Adversarial AI reveals mechanisms and treatments for disorders of consciousness”",
-        "en": "Toker et al., “Adversarial AI reveals mechanisms and treatments for disorders of consciousness”"
+        "ru": "Toker et al. — ИИ-модели нарушений сознания",
+        "en": "Toker et al. — AI models of disorders of consciousness"
       },
       "source_url": "https://www.nature.com/articles/s41593-026-02220-4",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-03",
+      "summary": {
+        "ru": "ИИ помогает формировать физиологические гипотезы о нарушениях сознания. Классификация состояния, причинный механизм и клиническая эффективность требуют разных проверок.",
+        "en": "AI helps generate physiological hypotheses about disorders of consciousness. State classification, causal mechanism and clinical efficacy require different tests."
+      },
+      "access": "abstract",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41593-026-02220-4",
+        "https://pubmed.ncbi.nlm.nih.gov/41876853/"
+      ],
+      "access_note": {
+        "ru": "Проверены аннотация, подписи рисунков и сведения о доступе к данным. Полный основной текст не получен; обозначение открытой статьи в карте не подтверждено.",
+        "en": "Checked the abstract, figure captions and data-access statement. The full main text was not obtained; the map’s open-article designation was not confirmed."
+      },
+      "markdown": "programs/consciousness/analysis/study-03.md",
+      "markdown_en": "programs/consciousness/analysis/study-03.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "consciousness",
       "kind": "studies",
       "ordinal": 4,
       "title": {
-        "ru": "Bariach et al., “Seemingly conscious AI risks”",
-        "en": "Bariach et al., “Seemingly conscious AI risks”"
+        "ru": "Bariach et al. — Риски кажущегося сознательным ИИ",
+        "en": "Bariach et al. — Seemingly conscious AI risks"
       },
       "source_url": "https://link.springer.com/article/10.1007/s43681-026-01294-x",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-04",
+      "summary": {
+        "ru": "Обзор и экспертный опрос касаются человеческого приписывания сознания и возможных социальных последствий. Они не измеряют субъективные состояния ИИ или распространённость вреда.",
+        "en": "The review and expert survey concern human attribution of consciousness and possible social consequences. They do not measure AI subjective states or the prevalence of harm."
+      },
+      "access": "selected_sections",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://link.springer.com/article/10.1007/s43681-026-01294-x"
+      ],
+      "access_note": {
+        "ru": "Проверены аннотация, введение и определение исследуемого явления в открытой статье. Опросные данные самостоятельно не переанализированы.",
+        "en": "Inspected the abstract, introduction and definition of the target phenomenon in the open article. Survey data were not independently reanalysed."
+      },
+      "markdown": "programs/consciousness/analysis/study-04.md",
+      "markdown_en": "programs/consciousness/analysis/study-04.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "consciousness",
       "kind": "researchers",
       "ordinal": 1,
       "title": {
-        "ru": "Anil Seth и Sussex Centre for Consciousness Science",
+        "ru": "Анил Сет и Sussex Centre for Consciousness Science",
         "en": "Anil Seth and the Sussex Centre for Consciousness Science"
       },
       "source_url": "https://www.sussex.ac.uk/research/centres/sussex-centre-for-consciousness-science/people",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "researcher-01",
+      "summary": {
+        "ru": "Сет и центр дают экспериментальный и концептуальный контекст для восприятия и сознания. Недавние эссе о сознании ИИ следует оценивать как аргументы, а не новые опыты.",
+        "en": "Seth and the centre provide experimental and conceptual context for perception and consciousness. Recent AI-consciousness essays should be assessed as arguments rather than new experiments."
+      },
+      "access": "institutional_profile",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://www.sussex.ac.uk/research/centres/sussex-centre-for-consciousness-science/people",
+        "https://pubmed.ncbi.nlm.nih.gov/40065186/",
+        "https://www.nature.com/articles/d41586-026-03313-7"
+      ],
+      "access_note": {
+        "ru": "Проверены состав центра и роль Сета, библиографическая запись комментария 2025 года и доступные разделы эссе октября 2026 года. Комментарии не представлены как экспериментальные исследования.",
+        "en": "Checked the centre membership and Seth’s role, the 2025 comment’s bibliographic record and accessible sections of the October 2026 essay. These comments are not represented as experimental studies."
+      },
+      "markdown": "programs/consciousness/analysis/researcher-01.md",
+      "markdown_en": "programs/consciousness/analysis/researcher-01.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "consciousness",
       "kind": "researchers",
       "ordinal": 2,
       "title": {
-        "ru": "Patrick Butlin, Tim Bayne, Stephen Fleming, Liad Mudrik и соавторы",
-        "en": "Patrick Butlin, Tim Bayne, Stephen Fleming, Liad Mudrik, and co-authors"
+        "ru": "Патрик Батлин, Тим Бейн и соавторы — индикаторы сознания",
+        "en": "Patrick Butlin, Tim Bayne and colleagues — consciousness indicators"
       },
       "source_url": "https://doi.org/10.1016/j.tics.2026.04.006",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "researcher-02",
+      "summary": {
+        "ru": "Междисциплинарная группа превращает теоретические положения в исследуемые индикаторы. Разбор отделяет теорию, техническую проверку и нормативное решение.",
+        "en": "The interdisciplinary group translates theoretical commitments into investigable indicators. The analysis separates theory, technical testing and normative decisions."
+      },
+      "access": "institutional_profile",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://eleosai.org/",
+        "https://pubmed.ncbi.nlm.nih.gov/42036253/",
+        "https://www.sciencedirect.com/science/article/pii/S1364661325002864"
+      ],
+      "access_note": {
+        "ru": "Проверены профиль Батлина в Eleos, авторы и учреждения в PubMed, аннотация статьи об индикаторах. Для короткого ответа о мимикрии доступна библиографическая запись без аннотации; его аргументы не пересказываются.",
+        "en": "Checked Butlin’s Eleos profile, authors and affiliations in PubMed, and the indicator paper’s abstract. The short response on mimicry has a bibliographic record without an abstract; its detailed arguments are not summarised."
+      },
+      "markdown": "programs/consciousness/analysis/researcher-02.md",
+      "markdown_en": "programs/consciousness/analysis/researcher-02.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "consciousness",
       "kind": "researchers",
       "ordinal": 3,
       "title": {
-        "ru": "Martin M. Monti и междисциплинарная команда",
-        "en": "Martin M. Monti and an interdisciplinary team"
+        "ru": "Мартин Монти и команда UCLA — сознание и кома",
+        "en": "Martin Monti and the UCLA team — consciousness and coma"
       },
       "source_url": "https://montilab.psych.ucla.edu/",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "researcher-03",
+      "summary": {
+        "ru": "Команда исследует сознание при ограниченной способности к поведенческому ответу. Для ORI важны различия между сигналом, диагнозом, прогнозом и эффектом вмешательства.",
+        "en": "The team studies consciousness when behavioural response is impaired. ORI should distinguish signals, diagnosis, prognosis and intervention effects."
+      },
+      "access": "institutional_profile",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://montilab.psych.ucla.edu/",
+        "https://www.psych.ucla.edu/faculty-page/monti/",
+        "https://www.nature.com/articles/s41593-026-02220-4"
+      ],
+      "access_note": {
+        "ru": "Проверены индексируемая страница лаборатории, профиль UCLA и аннотация работы Toker et al. 2026. Полный текст последней не получен.",
+        "en": "Checked the indexed laboratory page, UCLA profile and abstract of Toker et al. 2026. The complete text of that paper was not obtained."
+      },
+      "markdown": "programs/consciousness/analysis/researcher-03.md",
+      "markdown_en": "programs/consciousness/analysis/researcher-03.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "genomics",
@@ -915,7 +1273,7 @@
       "markdown_en": "programs/genomics/analysis/book-01.en.md",
       "access": "publisher_description",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "requires_full_text",
       "evidence_urls": [
         "https://seagull.wwnorton.com/molecularbiologycell",
@@ -937,22 +1295,23 @@
       "source_url": "https://www.pearson.com/en-us/subject-catalog/p/molecular-biology-of-the-gene/P200000003297/9780321762436",
       "id": "book-02",
       "summary": {
-        "ru": "Первоначальная программа чтения посвящена логике генетического эксперимента и различению механизмов регуляции. Содержательный доступ к седьмому изданию остаётся открытым пробелом.",
-        "en": "The initial reading agenda concerns genetic-experiment reasoning and discrimination between regulatory mechanisms. Substantive access to edition seven remains an explicit gap."
+        "ru": "Структура, сохранение, экспрессия и регуляция генома; проверено издательское оглавление седьмого издания.",
+        "en": "Genome structure, maintenance, expression and regulation; the publisher contents for the seventh edition were checked."
       },
       "markdown": "programs/genomics/analysis/book-02.md",
       "markdown_en": "programs/genomics/analysis/book-02.en.md",
-      "access": "research_map_only",
+      "access": "publisher_description",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "requires_full_text",
       "evidence_urls": [
         "https://www.pearson.com/en-us/subject-catalog/p/molecular-biology-of-the-gene/P200000003297/9780321762436",
-        "https://www.cshlpress.com/link/mbog7.htm"
+        "https://www.cshlpress.com/link/mbog7.htm",
+        "https://in.pearson.com/content/dam/region-growth/india/pearson-india/Support/pdf/Catalog-BIOSCIENCE-2019-FINAL.pdf"
       ],
       "access_note": {
-        "ru": "Pearson недоступен; индекс CSHL подтверждает название и редакцию, страница возвращает 403. Содержательный контекст взят из карты ORI, главы не прочитаны.",
-        "en": "Pearson inaccessible; the CSHL index confirms title and edition but the page returns 403. Substantive context comes from ORI’s map; chapters were not read."
+        "ru": "Проверено 24 октября 2026 года: основной адрес Pearson недоступен; в официальном каталоге Pearson India 2019 прочитаны описание и оглавление седьмого издания (региональная запись 2017, печатная страница каталога 49). Главы книги не прочитаны; полная сверка региональных изданий не выполнялась.",
+        "en": "Checked 24 October 2026: the original Pearson URL was inaccessible; the official 2019 Pearson India catalogue supplied a description and contents for the seventh edition (regional listing dated 2017, printed catalogue page 49). Book chapters were not read; regional editions were not fully collated."
       }
     },
     {
@@ -973,7 +1332,7 @@
       "markdown_en": "programs/genomics/analysis/book-03.en.md",
       "access": "publisher_description",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "requires_full_text",
       "evidence_urls": [
         "https://mitpress.mit.edu/9780935702170/genes-and-genomes/"
@@ -1001,7 +1360,7 @@
       "markdown_en": "programs/genomics/analysis/study-01.en.md",
       "access": "selected_sections",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://www.nature.com/articles/s41467-025-64343-9"
@@ -1029,7 +1388,7 @@
       "markdown_en": "programs/genomics/analysis/study-02.en.md",
       "access": "selected_sections",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://doi.org/10.1038/s41586-025-08844-z"
@@ -1057,7 +1416,7 @@
       "markdown_en": "programs/genomics/analysis/study-03.en.md",
       "access": "abstract",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://www.nature.com/articles/s41588-025-02220-3",
@@ -1086,7 +1445,7 @@
       "markdown_en": "programs/genomics/analysis/study-04.en.md",
       "access": "selected_sections",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://www.nature.com/articles/s41588-026-02695-8",
@@ -1115,7 +1474,7 @@
       "markdown_en": "programs/genomics/analysis/study-05.en.md",
       "access": "selected_sections",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://www.nature.com/articles/s41586-024-08391-z",
@@ -1144,7 +1503,7 @@
       "markdown_en": "programs/genomics/analysis/researcher-01.en.md",
       "access": "institutional_profile",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://research.umcutrecht.nl/researchers/robin-h-van-der-weide/",
@@ -1174,7 +1533,7 @@
       "markdown_en": "programs/genomics/analysis/researcher-02.en.md",
       "access": "institutional_profile",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://www.engreitzlab.org/",
@@ -1204,7 +1563,7 @@
       "markdown_en": "programs/genomics/analysis/researcher-03.en.md",
       "access": "institutional_profile",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://devcell.bio.uci.edu/new-discovery-reveals-hidden-dna-element-that-helps-switch-on-genes-from-afar/",
@@ -1234,7 +1593,7 @@
       "markdown_en": "programs/business-and-organizations/analysis/book-01.en.md",
       "access": "publisher_description",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "requires_full_text",
       "evidence_urls": [
         "https://www.simonandschuster.com/books/The-Economic-Intstitutions-of-Capitalism/Oliver-E-Williamson/9780684863740",
@@ -1263,7 +1622,7 @@
       "markdown_en": "programs/business-and-organizations/analysis/book-02.en.md",
       "access": "publisher_description",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "requires_full_text",
       "evidence_urls": [
         "https://www.wiley.com/en-us/Organizations%2C+2nd+Edition-p-9780631227400",
@@ -1293,7 +1652,7 @@
       "markdown_en": "programs/business-and-organizations/analysis/book-03.en.md",
       "access": "publisher_description",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "requires_full_text",
       "evidence_urls": [
         "https://www.simonandschuster.com/books/Right-Kind-of-Wrong/Amy-C-Edmondson/9781982195069"
@@ -1321,7 +1680,7 @@
       "markdown_en": "programs/business-and-organizations/analysis/study-01.en.md",
       "access": "selected_sections",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://doi.org/10.3386/w33795",
@@ -1351,7 +1710,7 @@
       "markdown_en": "programs/business-and-organizations/analysis/study-02.en.md",
       "access": "selected_sections",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://doi.org/10.1093/qje/qjae044"
@@ -1379,7 +1738,7 @@
       "markdown_en": "programs/business-and-organizations/analysis/study-03.en.md",
       "access": "selected_sections",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://www.hbs.edu/ris/Publication%20Files/25-021_491efe26-e444-4e02-b58e-f27300cde12f.pdf"
@@ -1407,7 +1766,7 @@
       "markdown_en": "programs/business-and-organizations/analysis/study-04.en.md",
       "access": "abstract",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://academic.oup.com/rcfs/article/15/4/967/8742315",
@@ -1436,7 +1795,7 @@
       "markdown_en": "programs/business-and-organizations/analysis/study-05.en.md",
       "access": "abstract",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://doi.org/10.2139/ssrn.5610873",
@@ -1465,7 +1824,7 @@
       "markdown_en": "programs/business-and-organizations/analysis/study-06.en.md",
       "access": "abstract",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://doi.org/10.1002/smj.3708",
@@ -1494,7 +1853,7 @@
       "markdown_en": "programs/business-and-organizations/analysis/study-07.en.md",
       "access": "abstract",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://cepr.org/publications/dp20627"
@@ -1522,7 +1881,7 @@
       "markdown_en": "programs/business-and-organizations/analysis/researcher-01.en.md",
       "access": "institutional_profile",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://www.gsb.stanford.edu/faculty-research/faculty/erik-brynjolfsson",
@@ -1552,7 +1911,7 @@
       "markdown_en": "programs/business-and-organizations/analysis/researcher-02.en.md",
       "access": "institutional_profile",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://mitsloan.mit.edu/faculty/directory/danielle-li",
@@ -1572,7 +1931,7 @@
         "ru": "Christopher T. Stanton — Harvard Business School",
         "en": "Christopher T. Stanton — Harvard Business School"
       },
-      "source_url": "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=489797",
+      "source_url": "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452",
       "id": "researcher-03",
       "summary": {
         "ru": "Организационная экономика Stanton помогает различать индивидуальную экономию времени и изменения совместной работы. Проверенный пример — соавторство Shifting Work Patterns with Generative AI.",
@@ -1582,10 +1941,9 @@
       "markdown_en": "programs/business-and-organizations/analysis/researcher-03.en.md",
       "access": "institutional_profile",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
-        "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=489797",
         "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452",
         "https://cepr.org/about/people/christopher-stanton",
         "https://arxiv.org/abs/2504.11436"
@@ -1613,7 +1971,7 @@
       "markdown_en": "programs/state-and-institutions/analysis/book-01.en.md",
       "access": "publisher_description",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "requires_full_text",
       "evidence_urls": [
         "https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79"
@@ -1641,7 +1999,7 @@
       "markdown_en": "programs/state-and-institutions/analysis/book-02.en.md",
       "access": "publisher_description",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "requires_full_text",
       "evidence_urls": [
         "https://www.penguinrandomhouse.com/books/205014/why-nations-fail-by-daron-acemoglu-and-james-a-robinson/?facet=app&mode=light"
@@ -1669,7 +2027,7 @@
       "markdown_en": "programs/state-and-institutions/analysis/book-03.en.md",
       "access": "selected_sections",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "requires_full_text",
       "evidence_urls": [
         "https://us.macmillan.com/books/9781429944328/politicalorderandpoliticaldecay/"
@@ -1697,7 +2055,7 @@
       "markdown_en": "programs/state-and-institutions/analysis/study-01.en.md",
       "access": "selected_sections",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
@@ -1726,7 +2084,7 @@
       "markdown_en": "programs/state-and-institutions/analysis/study-02.en.md",
       "access": "selected_sections",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://www.worldbank.org/en/programs/govtech/gtmi-2025-update",
@@ -1755,7 +2113,7 @@
       "markdown_en": "programs/state-and-institutions/analysis/study-03.en.md",
       "access": "selected_sections",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://doi.org/10.1086/517935",
@@ -1784,7 +2142,7 @@
       "markdown_en": "programs/state-and-institutions/analysis/study-04.en.md",
       "access": "publisher_description",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://openknowledge.worldbank.org/handle/10986/11859",
@@ -1814,7 +2172,7 @@
       "markdown_en": "programs/state-and-institutions/analysis/study-05.en.md",
       "access": "publisher_description",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://www.worldbank.org/en/publication/wdr2025",
@@ -1843,7 +2201,7 @@
       "markdown_en": "programs/state-and-institutions/analysis/researcher-01.en.md",
       "access": "institutional_profile",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://blogs.worldbank.org/en/team/c/cem-dener",
@@ -1873,7 +2231,7 @@
       "markdown_en": "programs/state-and-institutions/analysis/researcher-02.en.md",
       "access": "institutional_profile",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://www.worldbank.org/en/about/people/a/aart-kraay",
@@ -1904,7 +2262,7 @@
       "markdown_en": "programs/state-and-institutions/analysis/researcher-03.en.md",
       "access": "institutional_profile",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://unibg.unifind.cineca.it/resource/person/53029?language=en-US",
@@ -1945,7 +2303,7 @@
       "markdown": "programs/religion-and-cooperation/analysis/book-01.md",
       "markdown_en": "programs/religion-and-cooperation/analysis/book-01.en.md",
       "status": "initial_analysis",
-      "checked": "2026-10-25"
+      "checked": "2026-10-24"
     },
     {
       "programme": "religion-and-cooperation",
@@ -1973,7 +2331,7 @@
       "markdown": "programs/religion-and-cooperation/analysis/book-02.md",
       "markdown_en": "programs/religion-and-cooperation/analysis/book-02.en.md",
       "status": "initial_analysis",
-      "checked": "2026-10-25"
+      "checked": "2026-10-24"
     },
     {
       "programme": "religion-and-cooperation",
@@ -2002,7 +2360,7 @@
       "markdown": "programs/religion-and-cooperation/analysis/book-03.md",
       "markdown_en": "programs/religion-and-cooperation/analysis/book-03.en.md",
       "status": "initial_analysis",
-      "checked": "2026-10-25"
+      "checked": "2026-10-24"
     },
     {
       "programme": "religion-and-cooperation",
@@ -2030,7 +2388,7 @@
       "markdown": "programs/religion-and-cooperation/analysis/study-01.md",
       "markdown_en": "programs/religion-and-cooperation/analysis/study-01.en.md",
       "status": "initial_analysis",
-      "checked": "2026-10-25"
+      "checked": "2026-10-24"
     },
     {
       "programme": "religion-and-cooperation",
@@ -2059,7 +2417,7 @@
       "markdown": "programs/religion-and-cooperation/analysis/study-02.md",
       "markdown_en": "programs/religion-and-cooperation/analysis/study-02.en.md",
       "status": "initial_analysis",
-      "checked": "2026-10-25"
+      "checked": "2026-10-24"
     },
     {
       "programme": "religion-and-cooperation",
@@ -2088,7 +2446,7 @@
       "markdown": "programs/religion-and-cooperation/analysis/study-03.md",
       "markdown_en": "programs/religion-and-cooperation/analysis/study-03.en.md",
       "status": "initial_analysis",
-      "checked": "2026-10-25"
+      "checked": "2026-10-24"
     },
     {
       "programme": "religion-and-cooperation",
@@ -2117,7 +2475,7 @@
       "markdown": "programs/religion-and-cooperation/analysis/study-04.md",
       "markdown_en": "programs/religion-and-cooperation/analysis/study-04.en.md",
       "status": "initial_analysis",
-      "checked": "2026-10-25"
+      "checked": "2026-10-24"
     },
     {
       "programme": "religion-and-cooperation",
@@ -2146,7 +2504,7 @@
       "markdown": "programs/religion-and-cooperation/analysis/study-05.md",
       "markdown_en": "programs/religion-and-cooperation/analysis/study-05.en.md",
       "status": "initial_analysis",
-      "checked": "2026-10-25"
+      "checked": "2026-10-24"
     },
     {
       "programme": "religion-and-cooperation",
@@ -2176,7 +2534,7 @@
       "markdown": "programs/religion-and-cooperation/analysis/researcher-01.md",
       "markdown_en": "programs/religion-and-cooperation/analysis/researcher-01.en.md",
       "status": "initial_analysis",
-      "checked": "2026-10-25"
+      "checked": "2026-10-24"
     },
     {
       "programme": "religion-and-cooperation",
@@ -2206,7 +2564,7 @@
       "markdown": "programs/religion-and-cooperation/analysis/researcher-02.md",
       "markdown_en": "programs/religion-and-cooperation/analysis/researcher-02.en.md",
       "status": "initial_analysis",
-      "checked": "2026-10-25"
+      "checked": "2026-10-24"
     },
     {
       "programme": "religion-and-cooperation",
@@ -2235,535 +2593,1268 @@
       "markdown": "programs/religion-and-cooperation/analysis/researcher-03.md",
       "markdown_en": "programs/religion-and-cooperation/analysis/researcher-03.en.md",
       "status": "initial_analysis",
-      "checked": "2026-10-25"
+      "checked": "2026-10-24"
     },
     {
       "programme": "voluntary-governance",
       "kind": "books",
       "ordinal": 1,
       "title": {
-        "ru": "Elinor Ostrom, Governing the Commons",
-        "en": "Elinor Ostrom, Governing the Commons"
+        "ru": "Элинор Остром — Governing the Commons",
+        "en": "Elinor Ostrom — Governing the Commons"
       },
       "source_url": "https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79",
-      "status": "pending",
-      "long_form_status": "pending_access_check"
+      "id": "book-01",
+      "summary": {
+        "ru": "Сравнительное исследование институтов общих ресурсов помогает анализировать совместные правила, а не объявлять самоуправление универсальным решением.",
+        "en": "Comparative research on commons institutions supports analysis of shared rules rather than a universal prescription for self-governance."
+      },
+      "access": "publisher_description",
+      "long_form_status": "requires_full_text",
+      "evidence_urls": [
+        "https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79"
+      ],
+      "access_note": {
+        "ru": "Прочитаны описание и оглавление издателя. Полный текст не получен; подробные аргументы и случаи требуют дальнейшего чтения.",
+        "en": "The publisher description and contents were inspected. The full text was not obtained; detailed arguments and cases require further reading."
+      },
+      "markdown": "programs/voluntary-governance/analysis/book-01.md",
+      "markdown_en": "programs/voluntary-governance/analysis/book-01.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "voluntary-governance",
       "kind": "books",
       "ordinal": 2,
       "title": {
-        "ru": "Graham Smith, Deliberative Democracy and the Environment",
-        "en": "Graham Smith, Deliberative Democracy and the Environment"
+        "ru": "Грэм Смит — Deliberative Democracy and the Environment",
+        "en": "Graham Smith — Deliberative Democracy and the Environment"
       },
       "source_url": "https://www.routledge.com/Deliberative-Democracy-and-the-Environment-1st-Edition/Smith/p/book/9780415309400",
-      "status": "pending",
-      "long_form_status": "pending_access_check"
+      "id": "book-02",
+      "summary": {
+        "ru": "Книга связывает экологическое многообразие ценностей с устройством публичного обсуждения; наличие форума ещё не означает представительство и влияние.",
+        "en": "The book connects environmental value pluralism with deliberative institutions; creating a forum does not establish representation or influence."
+      },
+      "access": "publisher_description",
+      "long_form_status": "requires_full_text",
+      "evidence_urls": [
+        "https://www.routledge.com/Citizen-Participation-in-Global-Environmental-Governance/Minna-Rask-Worthington/p/book/9780415309400"
+      ],
+      "access_note": {
+        "ru": "Прочитаны индексируемые описание и оглавление Routledge по ISBN 9780415309400. Прямой исходный адрес возвращал ошибку; другой адрес издателя имеет несогласованный текстовый путь, но карточка описывает книгу Смита. Главы не получены.",
+        "en": "The indexed Routledge description and contents for ISBN 9780415309400 were inspected. The original URL failed; an alternative publisher URL has an inconsistent textual path, but its record describes Smith’s book. Chapters were not obtained."
+      },
+      "markdown": "programs/voluntary-governance/analysis/book-02.md",
+      "markdown_en": "programs/voluntary-governance/analysis/book-02.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "voluntary-governance",
       "kind": "books",
       "ordinal": 3,
       "title": {
-        "ru": "Ghazala Mansuri & Vijayendra Rao, Localizing Development: Does Participation Work?",
-        "en": "Ghazala Mansuri & Vijayendra Rao, Localizing Development: Does Participation Work?"
+        "ru": "Газала Мансури и Виджайендра Рао — Localizing Development: Does Participation Work?",
+        "en": "Ghazala Mansuri and Vijayendra Rao — Localizing Development: Does Participation Work?"
       },
       "source_url": "https://openknowledge.worldbank.org/handle/10986/11859",
-      "status": "pending",
-      "long_form_status": "pending_access_check"
+      "id": "book-03",
+      "summary": {
+        "ru": "Обзор участия различает органическую мобилизацию и участие, создаваемое программами; местная инициатива нуждается в подотчётности и институциональной поддержке.",
+        "en": "The review distinguishes organic mobilisation from participation induced by programmes; local initiative requires accountability and institutional support."
+      },
+      "access": "selected_sections",
+      "long_form_status": "pending_close_reading",
+      "evidence_urls": [
+        "https://documents1.worldbank.org/curated/en/461701468150309553/pdf/NonAsciiFileName0.pdf",
+        "https://www.worldbank.org/en/research/publication/localizing-development-does-participation-work"
+      ],
+      "access_note": {
+        "ru": "Официальный полный PDF доступен. Прочитаны фрагменты обзора (печатные с. 1–13), особенно выводы об участии, захвате и подотчётности, а также фрагмент главы 2 о масштабе управления (с. 57–58). Остальные главы не прочитаны полностью; расширенный разбор пока не выполнен.",
+        "en": "An official complete PDF is available. Passages from the overview (printed pp. 1–13), particularly participation, capture and accountability findings, and the chapter 2 discussion of governance scale (pp. 57–58) were inspected. Other chapters were not read in full; an extended analysis remains outstanding."
+      },
+      "markdown": "programs/voluntary-governance/analysis/book-03.md",
+      "markdown_en": "programs/voluntary-governance/analysis/book-03.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "voluntary-governance",
       "kind": "studies",
       "ordinal": 1,
       "title": {
-        "ru": "Ostrom, “A General Framework for Analyzing Sustainability of Social-Ecological Systems”",
-        "en": "Ostrom, “A General Framework for Analyzing Sustainability of Social-Ecological Systems”"
+        "ru": "Elinor Ostrom — A General Framework for Analyzing Sustainability of Social-Ecological Systems",
+        "en": "Elinor Ostrom — A General Framework for Analyzing Sustainability of Social-Ecological Systems"
       },
       "source_url": "https://doi.org/10.1126/science.1172133",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-01",
+      "summary": {
+        "ru": "Статья предлагает общий язык исследования социально-экологических систем, чтобы результаты разных дисциплин можно было сопоставлять.",
+        "en": "The article proposes a shared language for studying social-ecological systems so findings across disciplines can accumulate."
+      },
+      "access": "abstract",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/19628857/",
+        "https://beijer.kva.se/publication/a-general-framework-for-analyzing-sustainability-of-social-ecological-systems/"
+      ],
+      "access_note": {
+        "ru": "Прочитана аннотация в индексируемой записи PubMed и на странице Beijer Institute. Полный текст и схема переменных непосредственно не изучены.",
+        "en": "The abstract in the indexed PubMed record and Beijer Institute page was inspected. The full text and variable diagram were not directly examined."
+      },
+      "markdown": "programs/voluntary-governance/analysis/study-01.md",
+      "markdown_en": "programs/voluntary-governance/analysis/study-01.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "voluntary-governance",
       "kind": "studies",
       "ordinal": 2,
       "title": {
-        "ru": "Ostrom, “Beyond Markets and States: Polycentric Governance of Complex Economic Systems”",
-        "en": "Ostrom, “Beyond Markets and States: Polycentric Governance of Complex Economic Systems”"
+        "ru": "Elinor Ostrom — Beyond Markets and States: Polycentric Governance of Complex Economic Systems",
+        "en": "Elinor Ostrom — Beyond Markets and States: Polycentric Governance of Complex Economic Systems"
       },
       "source_url": "https://www.aeaweb.org/articles?id=10.1257/aer.100.3.641",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-02",
+      "summary": {
+        "ru": "Остром обобщает исследования нескольких центров принятия решений, выходя за бинарное противопоставление государства и рынка.",
+        "en": "Ostrom synthesises research on multiple decision centres beyond a state-versus-market binary."
+      },
+      "access": "abstract",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://www.aeaweb.org/articles?id=10.1257/aer.100.3.641",
+        "https://dlc.dlib.indiana.edu/dlc/items/484f4147-bdce-4d55-9b8d-fe61f3b2d37b/full"
+      ],
+      "access_note": {
+        "ru": "Проверены карточка AER и аннотация версии Нобелевской лекции в репозитории Indiana University. Полные PDF AEA/Nobel не удалось получить; различия редакций не сопоставлялись.",
+        "en": "The AER record and the Nobel lecture version’s abstract in Indiana University’s repository were inspected. Complete AEA/Nobel PDFs could not be retrieved; versions were not compared."
+      },
+      "markdown": "programs/voluntary-governance/analysis/study-02.md",
+      "markdown_en": "programs/voluntary-governance/analysis/study-02.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "voluntary-governance",
       "kind": "studies",
       "ordinal": 3,
       "title": {
-        "ru": "Olken, “Monitoring Corruption: Evidence from a Field Experiment in Indonesia”",
-        "en": "Olken, “Monitoring Corruption: Evidence from a Field Experiment in Indonesia”"
+        "ru": "Benjamin A. Olken — Monitoring Corruption: Evidence from a Field Experiment in Indonesia",
+        "en": "Benjamin A. Olken — Monitoring Corruption: Evidence from a Field Experiment in Indonesia"
       },
       "source_url": "https://doi.org/10.1086/517935",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-03",
+      "summary": {
+        "ru": "Полевой эксперимент на индонезийских дорожных проектах сопоставляет усиление государственного аудита и гражданского мониторинга.",
+        "en": "The Indonesian road-project field experiment compares stronger government audits with citizen monitoring."
+      },
+      "access": "selected_sections",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://doi.org/10.1086/517935",
+        "https://www.povertyactionlab.org/sites/default/files/research-paper/27_Olken_Monitoring_Corruption.pdf"
+      ],
+      "access_note": {
+        "ru": "Прочитаны аннотация, начало, раздел измерения расходов и отдельные результаты открытого PDF J-PAL. Приложения полностью не разобраны; расчёты не воспроизводились.",
+        "en": "The abstract, opening, expenditure measurement section and selected results in the open J-PAL PDF were inspected. Appendices were not fully examined; estimates were not reproduced."
+      },
+      "markdown": "programs/voluntary-governance/analysis/study-03.md",
+      "markdown_en": "programs/voluntary-governance/analysis/study-03.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "voluntary-governance",
       "kind": "studies",
       "ordinal": 4,
       "title": {
-        "ru": "UNFCCC, первое глобальное подведение итогов Парижского соглашения, решение 1/CMA.5",
-        "en": "UNFCCC, first global stocktake under the Paris Agreement, decision 1/CMA.5"
+        "ru": "UNFCCC — первое глобальное подведение итогов, решение 1/CMA.5",
+        "en": "UNFCCC — First global stocktake, decision 1/CMA.5"
       },
       "source_url": "https://unfccc.int/sites/default/files/resource/cma2023_16a01_adv_.pdf",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-04",
+      "summary": {
+        "ru": "Официальный согласованный текст фиксирует разрыв между климатическими действиями и совокупным продвижением к целям; это не причинная оценка добровольных обязательств.",
+        "en": "The agreed official text documents a gap between climate action and aggregate progress towards goals; it is not a causal evaluation of voluntary commitments."
+      },
+      "access": "selected_sections",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://unfccc.int/sites/default/files/resource/cma2023_16a01_adv_.pdf"
+      ],
+      "access_note": {
+        "ru": "Прочитаны начальные положения и выбранные пункты об общем прогрессе и разрывах в реализации. Полный пакет решений не разобран постатейно. Решение принято в 2023 году; файл опубликован в марте 2024 года.",
+        "en": "Opening provisions and selected paragraphs on aggregate progress and implementation gaps were inspected. The full decision package was not analysed paragraph by paragraph. The decision was adopted in 2023; the file was issued in March 2024."
+      },
+      "markdown": "programs/voluntary-governance/analysis/study-04.md",
+      "markdown_en": "programs/voluntary-governance/analysis/study-04.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "voluntary-governance",
       "kind": "studies",
       "ordinal": 5,
       "title": {
-        "ru": "Pascucci, “Theorizing Polycentric Governance of Global Socio-Ecological Challenges through a Meso-Institutional Perspective”",
-        "en": "Pascucci, “Theorizing Polycentric Governance of Global Socio-Ecological Challenges through a Meso-Institutional Perspective”"
+        "ru": "Stefano Pascucci — Theorizing Polycentric Governance through a Meso-Institutional Perspective",
+        "en": "Stefano Pascucci — Theorizing Polycentric Governance through a Meso-Institutional Perspective"
       },
       "source_url": "https://doi.org/10.1017/S1744137425100325",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-05",
+      "summary": {
+        "ru": "Статья строит теорию связующих институтов на сравнении трёх многосторонних партнёрств; это объяснение процессов, а не причинная оценка их эффективности.",
+        "en": "The article builds a theory of connecting institutions through three multistakeholder partnership cases; it explains processes rather than causally estimating effectiveness."
+      },
+      "access": "selected_sections",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://www.cambridge.org/core/journals/journal-of-institutional-economics/article/theorizing-polycentric-governance-of-global-socioecological-challenges-through-a-mesoinstitutional-perspective/3141861FAAC4F0C27820C5021085109E"
+      ],
+      "access_note": {
+        "ru": "Прочитаны аннотация, теоретическая рамка и раздел методологии с отбором случаев. Статья открыта; весь массив документов случаев и выводы не проверены независимо.",
+        "en": "The abstract, theoretical framework and methodology including case selection were inspected. The article is open; the underlying case documents and findings were not independently checked."
+      },
+      "markdown": "programs/voluntary-governance/analysis/study-05.md",
+      "markdown_en": "programs/voluntary-governance/analysis/study-05.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "voluntary-governance",
       "kind": "studies",
       "ordinal": 6,
       "title": {
-        "ru": "Eakin et al., “Emergent Polycentric Governance in Response to Drought”",
-        "en": "Eakin et al., “Emergent Polycentric Governance in Response to Drought”"
+        "ru": "Hallie Eakin и Clifford Shearing — Emergent Polycentric Governance in Response to Drought",
+        "en": "Hallie Eakin and Clifford Shearing — Emergent Polycentric Governance in Response to Drought"
       },
       "source_url": "https://doi.org/10.1002/eet.2141",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-06",
+      "summary": {
+        "ru": "Интервью о водоснабжении Кейптауна показывают возникновение и ограничения координации города и бизнеса в условиях засухи.",
+        "en": "Interviews on Cape Town water provision trace the emergence and limits of city-business coordination during drought."
+      },
+      "access": "abstract",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/eet.2141"
+      ],
+      "access_note": {
+        "ru": "Прочитаны аннотация и издательские метаданные. Полная методология интервью и анализ не получены. Онлайн-публикация — ноябрь 2024 года, журнальный выпуск — 2025 год.",
+        "en": "The abstract and publisher metadata were inspected. The complete interview methodology and analysis were not obtained. Online publication was November 2024; the journal issue is dated 2025."
+      },
+      "markdown": "programs/voluntary-governance/analysis/study-06.md",
+      "markdown_en": "programs/voluntary-governance/analysis/study-06.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "voluntary-governance",
       "kind": "researchers",
       "ordinal": 1,
       "title": {
-        "ru": "Stefano Pascucci — University of Exeter, University of Auckland, Wageningen University.",
-        "en": "Stefano Pascucci — University of Exeter, University of Auckland and Wageningen University."
+        "ru": "Стефано Паскуччи — мезоинституты и многосторонние партнёрства",
+        "en": "Stefano Pascucci — Meso-institutions and multistakeholder partnerships"
       },
       "source_url": "https://www.cambridge.org/core/journals/journal-of-institutional-economics/article/theorizing-polycentric-governance-of-global-socioecological-challenges-through-a-mesoinstitutional-perspective/3141861FAAC4F0C27820C5021085109E",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "researcher-01",
+      "summary": {
+        "ru": "Исследования Паскуччи помогают рассматривать организации, которые переводят общие обязательства в операционные правила и связывают уровни управления.",
+        "en": "Pascucci’s research helps examine organisations that translate broad commitments into operational rules and connect governance levels."
+      },
+      "access": "institutional_profile",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://www.cambridge.org/core/journals/journal-of-institutional-economics/article/theorizing-polycentric-governance-of-global-socioecological-challenges-through-a-mesoinstitutional-perspective/3141861FAAC4F0C27820C5021085109E"
+      ],
+      "access_note": {
+        "ru": "Проверены авторские сведения и выбранные разделы статьи Cambridge 2025 года. Три аффилиации указаны издателем для этой публикации; отдельная проверка текущих трудовых назначений не выполнена.",
+        "en": "Author details and selected sections of the 2025 Cambridge article were inspected. The publisher lists three affiliations for that publication; current employment appointments were not separately verified."
+      },
+      "markdown": "programs/voluntary-governance/analysis/researcher-01.md",
+      "markdown_en": "programs/voluntary-governance/analysis/researcher-01.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "voluntary-governance",
       "kind": "researchers",
       "ordinal": 2,
       "title": {
-        "ru": "Hallie Eakin — Arizona State University, School of Sustainability.",
-        "en": "Hallie Eakin — Arizona State University, School of Sustainability."
+        "ru": "Халли Икин — климатическая устойчивость и городское управление",
+        "en": "Hallie Eakin — Climate resilience and urban governance"
       },
       "source_url": "https://search.asu.edu/profile/1288750",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "researcher-02",
+      "summary": {
+        "ru": "Исследования Икин связывают климатическую адаптацию с институтами и неравенством; кейс Кейптауна позволяет изучать изменение обязанностей в кризис.",
+        "en": "Eakin’s research connects climate adaptation with institutions and inequality; the Cape Town case supports analysis of changing responsibilities during crisis."
+      },
+      "access": "institutional_profile",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://search.asu.edu/profile/1288750",
+        "https://onlinelibrary.wiley.com/doi/10.1002/eet.2141"
+      ],
+      "access_note": {
+        "ru": "Прочитаны профиль ASU и аннотация статьи Икин и Ширинга. Полные материалы интервью и других проектов не изучены.",
+        "en": "The ASU profile and abstract of Eakin and Shearing’s article were inspected. Full interview materials and other projects were not examined."
+      },
+      "markdown": "programs/voluntary-governance/analysis/researcher-02.md",
+      "markdown_en": "programs/voluntary-governance/analysis/researcher-02.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "voluntary-governance",
       "kind": "researchers",
       "ordinal": 3,
       "title": {
-        "ru": "Cem Dener и GovTech-команда — World Bank.",
-        "en": "Cem Dener and the GovTech team — World Bank."
+        "ru": "Джем Денер и команда GovTech — цифровое участие",
+        "en": "Cem Dener and the GovTech team — Digital participation"
       },
       "source_url": "https://www.worldbank.org/en/programs/govtech/gtmi-2025-update",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "researcher-03",
+      "summary": {
+        "ru": "Ресурсы GovTech позволяют описывать цифровую инфраструктуру участия, сохраняя различие между доступной функцией и реальным влиянием граждан.",
+        "en": "GovTech resources describe digital participation infrastructure while preserving the distinction between available functions and citizens’ actual influence."
+      },
+      "access": "institutional_profile",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://www.worldbank.org/en/programs/govtech/gtmi-2025-update",
+        "https://blogs.worldbank.org/en/team/c/cem-dener"
+      ],
+      "access_note": {
+        "ru": "Проверены официальная страница GTMI 2025 и профиль Денера. Его роль в GovTech подтверждается профилем; персональное соавторство конкретного отчёта 2025 года не установлено. Микроданные не пересчитывались.",
+        "en": "The official GTMI 2025 page and Dener’s profile were inspected. His GovTech role is supported by the profile; personal coauthorship of the specific 2025 report was not established. Microdata were not reanalysed."
+      },
+      "markdown": "programs/voluntary-governance/analysis/researcher-03.md",
+      "markdown_en": "programs/voluntary-governance/analysis/researcher-03.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "philosophy-and-meaning",
       "kind": "books",
       "ordinal": 1,
       "title": {
-        "ru": "Thaddeus Metz, Meaning in Life: An Analytic Study",
-        "en": "Thaddeus Metz, Meaning in Life: An Analytic Study"
+        "ru": "Таддеус Мец — Meaning in Life: An Analytic Study",
+        "en": "Thaddeus Metz — Meaning in Life: An Analytic Study"
       },
       "source_url": "https://academic.oup.com/book/10038",
-      "status": "pending",
-      "long_form_status": "pending_access_check"
+      "id": "book-01",
+      "summary": {
+        "ru": "Мец ищет общую основу осмысленной жизни через критическое сравнение философских теорий; его объективистская позиция требует отдельной оценки предпосылок.",
+        "en": "Metz seeks a common basis of meaningful lives through critical comparison of philosophical theories; his objectivist account requires scrutiny of its premises."
+      },
+      "access": "publisher_description",
+      "long_form_status": "requires_full_text",
+      "evidence_urls": [
+        "https://academic.oup.com/book/10038"
+      ],
+      "access_note": {
+        "ru": "Прочитаны издательская аннотация и метаданные. Полные главы не получены; конкретные ответы автора на возражения здесь не реконструируются.",
+        "en": "The publisher abstract and metadata were inspected. Complete chapters were not obtained; the author’s detailed replies to objections are not reconstructed here."
+      },
+      "markdown": "programs/philosophy-and-meaning/analysis/book-01.md",
+      "markdown_en": "programs/philosophy-and-meaning/analysis/book-01.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "philosophy-and-meaning",
       "kind": "books",
       "ordinal": 2,
       "title": {
-        "ru": "Susan Wolf, Meaning in Life and Why It Matters",
-        "en": "Susan Wolf, Meaning in Life and Why It Matters"
+        "ru": "Сьюзен Вулф — Meaning in Life and Why It Matters",
+        "en": "Susan Wolf — Meaning in Life and Why It Matters"
       },
       "source_url": "https://press.princeton.edu/books/paperback/9780691154466/meaning-in-life-and-why-it-matters",
-      "status": "pending",
-      "long_form_status": "pending_access_check"
+      "id": "book-02",
+      "summary": {
+        "ru": "Смешанная теория Вулф соединяет личную вовлечённость с ценностью деятельности; ответ критикам уточняет, почему смысл нельзя свести к приятному переживанию.",
+        "en": "Wolf’s hybrid account joins personal engagement with valuable activity; her response to critics clarifies why meaning cannot be reduced to pleasant experience."
+      },
+      "access": "selected_sections",
+      "long_form_status": "pending_close_reading",
+      "evidence_urls": [
+        "https://personal.lse.ac.uk/ROBERT49/teaching/ph103/pdf/WolfSusanne_2010_Meaning-in-Life-and-Why-It-Matters.pdf"
+      ],
+      "access_note": {
+        "ru": "Доступен полный PDF на институциональном сайте LSE. Прочитаны оглавление, фрагмент первой лекции (печатные с. 7–9) и ответ Вулф об эмоциональной составляющей и оценках жизни (с. 108–115). Весь сборник и комментарии не прочитаны.",
+        "en": "A complete PDF is available on LSE’s institutional site. The contents, a first-lecture passage (printed pp. 7–9) and Wolf’s response on subjective engagement and life assessments (pp. 108–115) were inspected. The entire volume and commentaries were not read."
+      },
+      "markdown": "programs/philosophy-and-meaning/analysis/book-02.md",
+      "markdown_en": "programs/philosophy-and-meaning/analysis/book-02.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "philosophy-and-meaning",
       "kind": "books",
       "ordinal": 3,
       "title": {
-        "ru": "Thaddeus Metz & Joshua Seachris, What Makes Life Meaningful? A Debate",
-        "en": "Thaddeus Metz & Joshua Seachris, What Makes Life Meaningful? A Debate"
+        "ru": "Таддеус Мец и Джошуа Сикрис — What Makes Life Meaningful? A Debate",
+        "en": "Thaddeus Metz and Joshua Seachris — What Makes Life Meaningful? A Debate"
       },
       "source_url": "https://www.routledge.com/What-Makes-Life-Meaningful-A-Debate/Metz-Seachris/p/book/9781032566061",
-      "status": "pending",
-      "long_form_status": "pending_access_check"
+      "id": "book-03",
+      "summary": {
+        "ru": "Диалог сопоставляет роль Бога, структуру смысла и натуралистические основания; формат ответов помогает выявлять действительные точки разногласия.",
+        "en": "The dialogue compares God’s role, the structure of meaning and naturalistic foundations; its reply format helps identify genuine points of disagreement."
+      },
+      "access": "publisher_description",
+      "long_form_status": "requires_full_text",
+      "evidence_urls": [
+        "https://www.routledge.com/What-Makes-Life-Meaningful-A-Debate/Metz-Seachris/p/book/9781032566061"
+      ],
+      "access_note": {
+        "ru": "Прочитаны индексируемые описание и оглавление издателя. Полный диалог и ответы не получены. Карточка указывает copyright 2024; исходная карта различает выпуск 2023 года и этот год авторского права.",
+        "en": "The indexed publisher description and contents were inspected. The complete dialogue and replies were not obtained. The record gives copyright 2024; the original map distinguishes a 2023 release from that copyright year."
+      },
+      "markdown": "programs/philosophy-and-meaning/analysis/book-03.md",
+      "markdown_en": "programs/philosophy-and-meaning/analysis/book-03.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "philosophy-and-meaning",
       "kind": "studies",
       "ordinal": 1,
       "title": {
-        "ru": "Metz, “The Meaning of Life”",
-        "en": "Metz, “The Meaning of Life”"
+        "ru": "Таддеус Мец — The Meaning of Life, SEP, Winter 2025",
+        "en": "Thaddeus Metz — The Meaning of Life, SEP, Winter 2025"
       },
       "source_url": "https://plato.stanford.edu/archives/win2025/entries/life-meaning/",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-01",
+      "summary": {
+        "ru": "Энциклопедический обзор классифицирует аналитические теории смысла; архивная дата 2025 года не означает новую содержательную редакцию.",
+        "en": "The reference survey classifies analytic theories of meaning; its 2025 archive date does not signify a new substantive revision."
+      },
+      "access": "selected_sections",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://plato.stanford.edu/archives/win2025/entries/life-meaning/"
+      ],
+      "access_note": {
+        "ru": "Прочитаны введение, описание границ и выбранные разделы о сверхнатурализме, натурализме и субъективизме. Версия архивирована зимой 2025 года; указанная содержательная редакция — 9 февраля 2021 года. Библиография полностью не проверялась.",
+        "en": "The introduction, scope statement and selected sections on supernaturalism, naturalism and subjectivism were inspected. This is the Winter 2025 archive; the stated substantive revision is 9 February 2021. The bibliography was not fully checked."
+      },
+      "markdown": "programs/philosophy-and-meaning/analysis/study-01.md",
+      "markdown_en": "programs/philosophy-and-meaning/analysis/study-01.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "philosophy-and-meaning",
       "kind": "studies",
       "ordinal": 2,
       "title": {
-        "ru": "Kipke, “The Individuality of Meaning in Life”",
-        "en": "Kipke, “The Individuality of Meaning in Life”"
+        "ru": "Roland Kipke — The Individuality of Meaning in Life",
+        "en": "Roland Kipke — The Individuality of Meaning in Life"
       },
       "source_url": "https://doi.org/10.1111/ejop.13050",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-02",
+      "summary": {
+        "ru": "Кипке уточняет объективизм через индивидуальные возможности и соответствие занятий человеку, не отождествляя индивидуальность с большей осмысленностью.",
+        "en": "Kipke refines objectivism through individual capacities and personal suitability without equating individuality with greater meaningfulness."
+      },
+      "access": "selected_sections",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1111/ejop.13050"
+      ],
+      "access_note": {
+        "ru": "Прочитаны аннотация, постановка проблемы и основные фрагменты разделов 2–3 об индивидуальности и пропорциональности. Полная последовательность ответов на возражения не разобрана.",
+        "en": "The abstract, problem statement and central passages of sections 2–3 on individuality and proportionality were inspected. The full sequence of replies to objections was not analysed."
+      },
+      "markdown": "programs/philosophy-and-meaning/analysis/study-02.md",
+      "markdown_en": "programs/philosophy-and-meaning/analysis/study-02.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "philosophy-and-meaning",
       "kind": "studies",
       "ordinal": 3,
       "title": {
-        "ru": "Ota, “The Dual Impact of Determinism on Meaning in Life”",
-        "en": "Ota, “The Dual Impact of Determinism on Meaning in Life”"
+        "ru": "Koji Ota — The Dual Impact of Determinism on Meaning in Life",
+        "en": "Koji Ota — The Dual Impact of Determinism on Meaning in Life"
       },
       "source_url": "https://doi.org/10.1007/s11406-025-00877-y",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-03",
+      "summary": {
+        "ru": "Условный аргумент Оты связывает отсутствие свободы с ослаблением как положительного смысла, так и антисмысла; он не доказывает истинность детерминизма.",
+        "en": "Ota’s conditional argument links absence of freedom with diminished positive meaning and anti-meaning; it does not establish determinism’s truth."
+      },
+      "access": "selected_sections",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://link.springer.com/article/10.1007/s11406-025-00877-y"
+      ],
+      "access_note": {
+        "ru": "Прочитаны аннотация, введение и фрагменты основного аргумента и заключения о симметрии смысла и антисмысла. Все примечания и цитируемая дискуссия не изучены.",
+        "en": "The abstract, introduction and passages of the central argument and conclusion on meaning/anti-meaning symmetry were inspected. All notes and the cited debate were not examined."
+      },
+      "markdown": "programs/philosophy-and-meaning/analysis/study-03.md",
+      "markdown_en": "programs/philosophy-and-meaning/analysis/study-03.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "philosophy-and-meaning",
       "kind": "studies",
       "ordinal": 4,
       "title": {
-        "ru": "Steger, Frazier, Oishi & Kaler, “The Meaning in Life Questionnaire: Assessing the Presence of and Search for Meaning in Life”",
-        "en": "Steger, Frazier, Oishi & Kaler, “The Meaning in Life Questionnaire: Assessing the Presence of and Search for Meaning in Life”"
+        "ru": "Steger, Frazier, Oishi и Kaler — The Meaning in Life Questionnaire",
+        "en": "Steger, Frazier, Oishi and Kaler — The Meaning in Life Questionnaire"
       },
       "source_url": "https://doi.org/10.1037/0022-0167.53.1.80",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-04",
+      "summary": {
+        "ru": "MLQ различает переживаемое наличие смысла и его поиск; валидность самоотчёта не устанавливает объективную ценность жизни.",
+        "en": "The MLQ distinguishes experienced presence of meaning from searching for it; self-report validity does not establish a life’s objective value."
+      },
+      "access": "abstract",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://experts.umn.edu/en/publications/the-meaning-in-life-questionnaire-assessing-the-presence-of-and-s/",
+        "https://eric.ed.gov/?id=EJ734394",
+        "https://singteach.nie.edu.sg/wp-content/uploads/2021/12/Steger-et-al-2006_The-meaning-in-life-questionnaire.pdf"
+      ],
+      "access_note": {
+        "ru": "Прочитана авторская аннотация в университетской записи и ERIC; индексируемая первая страница оригинального PDF подтверждает порядок авторов. Полные методы трёх исследований не изучены; файл с сайта автора не загрузился.",
+        "en": "The author abstract in the university record and ERIC was inspected; the indexed first page of the original PDF confirms author order. Complete methods of the three studies were not examined; the author-site file did not load."
+      },
+      "markdown": "programs/philosophy-and-meaning/analysis/study-04.md",
+      "markdown_en": "programs/philosophy-and-meaning/analysis/study-04.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "philosophy-and-meaning",
       "kind": "studies",
       "ordinal": 5,
       "title": {
-        "ru": "Guevara-Tantalean et al., “Development and Psychometric Properties of a Scale to Measure the Meaning of Life”",
-        "en": "Guevara-Tantalean et al., “Development and Psychometric Properties of a Scale to Measure the Meaning of Life”"
+        "ru": "Guevara-Tantalean и соавторы — Development and Psychometric Properties of a Scale to Measure the Meaning of Life",
+        "en": "Guevara-Tantalean and colleagues — Development and Psychometric Properties of a Scale to Measure the Meaning of Life"
       },
       "source_url": "https://doi.org/10.3390/ejihpe15090174",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-05",
+      "summary": {
+        "ru": "Перуанское исследование предлагает четырёхпунктовую шкалу переживаемого смысла; удобная выборка и последующая доработка модели ограничивают перенос результатов.",
+        "en": "The Peruvian study proposes a four-item experienced-meaning scale; convenience sampling and model refinement limit transfer of the findings."
+      },
+      "access": "selected_sections",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12468523/",
+        "https://www.mdpi.com/2254-9625/15/9/174"
+      ],
+      "access_note": {
+        "ru": "Прочитаны индексируемые текст PMC: аннотация, методы и выбранные результаты. Прямые страницы выдавали технические ограничения. Дополнительные материалы и исходные данные не получены; расчёты не воспроизводились.",
+        "en": "The indexed PMC abstract, methods and selected results were inspected. Direct pages returned technical access restrictions. Supplementary materials and raw data were not obtained; calculations were not reproduced."
+      },
+      "markdown": "programs/philosophy-and-meaning/analysis/study-05.md",
+      "markdown_en": "programs/philosophy-and-meaning/analysis/study-05.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "philosophy-and-meaning",
       "kind": "researchers",
       "ordinal": 1,
       "title": {
-        "ru": "Thaddeus Metz — University of Pretoria, Department of Philosophy.",
-        "en": "Thaddeus Metz — University of Pretoria, Department of Philosophy."
+        "ru": "Таддеус Мец — философия смысла и нормативная этика",
+        "en": "Thaddeus Metz — Philosophy of meaning and normative ethics"
       },
-      "source_url": "https://doi.org/10.1093/oxfordhb/9780197625835.013.0034",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "source_url": "https://academic.oup.com/edited-volume/61380/chapter-abstract/533151538",
+      "id": "researcher-01",
+      "summary": {
+        "ru": "Мец исследует смысл жизни и нормативные основания практики; глава 2025 года предлагает учитывать смысл в философии медицины, не выдавая клинических рекомендаций.",
+        "en": "Metz studies meaning and normative foundations of practice; his 2025 chapter argues for considering meaning in philosophy of medicine without issuing clinical recommendations."
+      },
+      "access": "institutional_profile",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://www.up.ac.za/philosophy/prof-thaddeus-metz",
+        "https://academic.oup.com/edited-volume/61380/chapter/533151538"
+      ],
+      "access_note": {
+        "ru": "Прочитаны профиль University of Pretoria и аннотация главы Oxford. Полная глава недоступна. Строка старой аффилиации в карточке Oxford расходится с биографией; текущая Pretoria подтверждается университетским профилем.",
+        "en": "The University of Pretoria profile and Oxford chapter abstract were inspected. The complete chapter is unavailable. An older affiliation line in Oxford’s record differs from its biography; Pretoria is supported by the university profile."
+      },
+      "markdown": "programs/philosophy-and-meaning/analysis/researcher-01.md",
+      "markdown_en": "programs/philosophy-and-meaning/analysis/researcher-01.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "philosophy-and-meaning",
       "kind": "researchers",
       "ordinal": 2,
       "title": {
-        "ru": "Roland Kipke — Bielefeld University, Department of Philosophy.",
-        "en": "Roland Kipke — Bielefeld University, Department of Philosophy."
+        "ru": "Роланд Кипке — индивидуальность смысла и практическая философия",
+        "en": "Roland Kipke — Individual meaning and practical philosophy"
       },
       "source_url": "https://www.uni-bielefeld.de/fakultaeten/philosophie/abteilung/personen/kipke/",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "researcher-02",
+      "summary": {
+        "ru": "Кипке исследует смысл, достоинство и прикладную этику; его работы полезны для проверки того, насколько теория учитывает реальные возможности человека.",
+        "en": "Kipke studies meaning, dignity and applied ethics; his work helps test whether a theory acknowledges a person’s actual opportunities."
+      },
+      "access": "institutional_profile",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://www.uni-bielefeld.de/fakultaeten/philosophie/abteilung/personen/kipke/",
+        "https://onlinelibrary.wiley.com/doi/10.1111/ejop.13050"
+      ],
+      "access_note": {
+        "ru": "Прочитаны университетский профиль, исследовательские направления и выбранные разделы статьи 2025 года. Другие перечисленные публикации не считались прочитанными.",
+        "en": "The university profile, research areas and selected sections of the 2025 article were inspected. Other listed publications were not treated as read."
+      },
+      "markdown": "programs/philosophy-and-meaning/analysis/researcher-02.md",
+      "markdown_en": "programs/philosophy-and-meaning/analysis/researcher-02.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "philosophy-and-meaning",
       "kind": "researchers",
       "ordinal": 3,
       "title": {
-        "ru": "Koji Ota — Kansai University, Faculty of Informatics.",
-        "en": "Koji Ota — Kansai University, Faculty of Informatics."
+        "ru": "Кодзи Ота — сознание, свобода воли и смысл",
+        "en": "Koji Ota — Consciousness, free will and meaning"
       },
-      "source_url": "https://doi.org/10.1007/s11406-025-00877-y",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "source_url": "https://www.kansai-u.ac.jp/Fc_inf/fm/staff/ota.html",
+      "id": "researcher-03",
+      "summary": {
+        "ru": "Ота связывает философию сознания и агентности с вопросами ценности; статья о детерминизме требует отделять условный аргумент от эмпирических утверждений.",
+        "en": "Ota connects philosophy of mind and agency with value questions; the determinism article requires separating conditional argument from empirical claims."
+      },
+      "access": "institutional_profile",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://www.kansai-u.ac.jp/Fc_inf/fm/staff/ota.html",
+        "https://link.springer.com/article/10.1007/s11406-025-00877-y"
+      ],
+      "access_note": {
+        "ru": "Прочитаны текущая официальная страница Kansai University и выбранные разделы статьи 2025 года. Текущая аффилиация не выводится из более ранних публикаций.",
+        "en": "The current official Kansai University page and selected sections of the 2025 article were inspected. Current affiliation is not inferred from earlier publications."
+      },
+      "markdown": "programs/philosophy-and-meaning/analysis/researcher-03.md",
+      "markdown_en": "programs/philosophy-and-meaning/analysis/researcher-03.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "reliable-ai-research",
       "kind": "books",
       "ordinal": 1,
       "title": {
-        "ru": "Alexei Robsky, Liliya Lavitas, Yueqing Wang, Reliable Evaluations for LLMs and AI Agents: End-to-End Evaluation Frameworks for LLMs and Autonomous AI Agents (2026)",
-        "en": "Alexei Robsky, Liliya Lavitas, Yueqing Wang, Reliable Evaluations for LLMs and AI Agents: End-to-End Evaluation Frameworks for LLMs and Autonomous AI Agents (2026)"
+        "ru": "Robsky, Lavitas, Wang — Reliable Evaluations for LLMs and AI Agents",
+        "en": "Robsky, Lavitas and Wang — Reliable Evaluations for LLMs and AI Agents"
       },
       "source_url": "https://link.springer.com/book/10.1007/978-3-032-26749-8",
-      "status": "pending",
-      "long_form_status": "pending_access_check"
+      "id": "book-01",
+      "summary": {
+        "ru": "Рамка связывает задания, метрики и оценщиков. Для научных агентов требуется отдельно проверять исполнение, происхождение свидетельств и обоснованность вывода.",
+        "en": "The framework connects tasks, metrics and evaluators. Scientific agents require separate checks of execution, evidence provenance and inferential validity."
+      },
+      "access": "publisher_description",
+      "long_form_status": "requires_full_text",
+      "evidence_urls": [
+        "https://link.springer.com/book/10.1007/978-3-032-26749-8"
+      ],
+      "access_note": {
+        "ru": "Проверены описание, оглавление и сведения об издании Springer, сентябрь 2026 года. Полные главы не прочитаны.",
+        "en": "Checked Springer’s description, contents and publication details for September 2026. The complete chapters were not read."
+      },
+      "markdown": "programs/reliable-ai-research/analysis/book-01.md",
+      "markdown_en": "programs/reliable-ai-research/analysis/book-01.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "reliable-ai-research",
       "kind": "books",
       "ordinal": 2,
       "title": {
-        "ru": "Bin Yu, Rebecca L. Barter, Veridical Data Science (2024)",
-        "en": "Bin Yu, Rebecca L. Barter, Veridical Data Science (2024)"
+        "ru": "Юй и Бартер — Veridical Data Science",
+        "en": "Yu and Barter — Veridical Data Science"
       },
       "source_url": "https://mitpress.mit.edu/9780262049191/veridical-data-science/",
-      "status": "pending",
-      "long_form_status": "pending_access_check"
+      "id": "book-02",
+      "summary": {
+        "ru": "PCS рассматривает устойчивость результата к обоснованным изменениям анализа. Для ORI это основа журнала решений, а не гарантия истины по одному успешному запуску.",
+        "en": "PCS examines stability under justified analytical changes. For ORI it supports a decision log rather than a truth guarantee from one successful run."
+      },
+      "access": "selected_sections",
+      "long_form_status": "pending_close_reading",
+      "evidence_urls": [
+        "https://mitpress.mit.edu/9780262049191/veridical-data-science/",
+        "https://binyu.stat.berkeley.edu/",
+        "https://vdsbook.com/",
+        "https://vdsbook.com/01-veridical_ds"
+      ],
+      "access_note": {
+        "ru": "Подтверждена авторская открытая веб-версия по ссылке с официальной страницы Bin Yu. Прочитаны предисловие и выбранные фрагменты главы 1; вся книга ещё не прочитана внимательно.",
+        "en": "The official Bin Yu page confirms the author-supplied open web edition. The preface and selected chapter 1 passages were inspected; the entire book has not yet been closely read."
+      },
+      "markdown": "programs/reliable-ai-research/analysis/book-02.md",
+      "markdown_en": "programs/reliable-ai-research/analysis/book-02.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "reliable-ai-research",
       "kind": "books",
       "ordinal": 3,
       "title": {
-        "ru": "Christian Sandvig, Marc Aidinoff, Alondra Nelson, Kristen Vaccaro, Karrie Karahalios, Esha Bhandari, Ellery Roberts Biddle, Lena Armstrong, J. Nathan Matias, Motahhare Eslami & Danaé Metaxa (The Marquand House Collective), Auditing AI (2026)",
-        "en": "Christian Sandvig, Marc Aidinoff, Alondra Nelson, Kristen Vaccaro, Karrie Karahalios, Esha Bhandari, Ellery Roberts Biddle, Lena Armstrong, J. Nathan Matias, Motahhare Eslami & Danaé Metaxa (The Marquand House Collective), Auditing AI (2026)"
+        "ru": "The Marquand House Collective — Auditing AI",
+        "en": "The Marquand House Collective — Auditing AI"
       },
       "source_url": "https://mitpress.mit.edu/9780262051736/auditing-ai/",
-      "status": "pending",
-      "long_form_status": "pending_access_check"
+      "id": "book-03",
+      "summary": {
+        "ru": "Аудит связывает конкретное обещание системы, измерение ошибки и проверку исправления. Открытый текст подтверждён издателем, но основной текст ещё не прочитан.",
+        "en": "An audit connects a concrete system claim, error measurement and verification of a correction. The publisher confirms an open edition, but its main text remains unread."
+      },
+      "access": "publisher_description",
+      "long_form_status": "pending_close_reading",
+      "evidence_urls": [
+        "https://mitpress.mit.edu/9780262051736/auditing-ai/",
+        "https://cyber.harvard.edu/story/2026-05/auditing-ai",
+        "https://direct.mit.edu/books/book/6130/Auditing-AI",
+        "https://penguinrandomhousehighereducation.com/book/?isbn=9780262051729"
+      ],
+      "access_note": {
+        "ru": "MIT Press и Harvard подтверждают открытое издание. Проверены описание и оглавление, но MIT Direct вернул запрет доступа; основной текст ещё не прочитан.",
+        "en": "MIT Press and Harvard confirm an open edition. The description and contents were checked, but MIT Direct returned an access restriction; the main text has not yet been read."
+      },
+      "markdown": "programs/reliable-ai-research/analysis/book-03.md",
+      "markdown_en": "programs/reliable-ai-research/analysis/book-03.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "reliable-ai-research",
       "kind": "studies",
       "ordinal": 1,
       "title": {
-        "ru": "Chen et al., “ScienceAgentBench”",
-        "en": "Chen et al., “ScienceAgentBench”"
+        "ru": "Chen et al. — ScienceAgentBench",
+        "en": "Chen et al. — ScienceAgentBench"
       },
       "source_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/f12b4df26344f3be803c06b555252efe-Abstract-Conference.html",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-01",
+      "summary": {
+        "ru": "Бенчмарк проверяет исполнимые программы для задач из публикаций. Его показатели относятся к ограниченным операциям и заданному числу попыток, а не всей науке.",
+        "en": "The benchmark checks executable programs for tasks drawn from publications. Its scores describe bounded operations and an attempt budget, not science as a whole."
+      },
+      "access": "abstract",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2025/hash/f12b4df26344f3be803c06b555252efe-Abstract-Conference.html"
+      ],
+      "access_note": {
+        "ru": "Проверена аннотация ICLR 2025. Полный PDF не загрузился; код, задания и независимое воспроизведение не проверялись.",
+        "en": "Checked the ICLR 2025 abstract. The full PDF did not load; code, tasks and independent reproduction were not examined."
+      },
+      "markdown": "programs/reliable-ai-research/analysis/study-01.md",
+      "markdown_en": "programs/reliable-ai-research/analysis/study-01.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "reliable-ai-research",
       "kind": "studies",
       "ordinal": 2,
       "title": {
-        "ru": "Chen et al., “MLR-Bench”",
-        "en": "Chen et al., “MLR-Bench”"
+        "ru": "Chen et al. — MLR-Bench",
+        "en": "Chen et al. — MLR-Bench"
       },
       "source_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/ab8dd000d6f87f40061a73f8bca7fae4-Abstract-Datasets_and_Benchmarks_Track.html",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-02",
+      "summary": {
+        "ru": "MLR-Bench отделяет этапы исследования и выявляет разрыв между убедительным текстом и действительным экспериментом. Модельного рецензирования недостаточно без проверки артефактов.",
+        "en": "MLR-Bench separates research stages and exposes gaps between persuasive writing and valid experiments. Model review needs independent artefact checks."
+      },
+      "access": "abstract",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/ab8dd000d6f87f40061a73f8bca7fae4-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "access_note": {
+        "ru": "Проверены аннотация и библиографическая запись NeurIPS 2025. Полный протокол оценщика и экспериментальные журналы не изучены.",
+        "en": "Checked the NeurIPS 2025 abstract and bibliographic record. The complete judging protocol and experimental logs were not examined."
+      },
+      "markdown": "programs/reliable-ai-research/analysis/study-02.md",
+      "markdown_en": "programs/reliable-ai-research/analysis/study-02.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "reliable-ai-research",
       "kind": "studies",
       "ordinal": 3,
       "title": {
-        "ru": "Wang et al., “PaperArena: An Evaluation Benchmark for Tool-Augmented Agentic Reasoning on Scientific Literature”",
-        "en": "Wang et al., “PaperArena: An Evaluation Benchmark for Tool-Augmented Agentic Reasoning on Scientific Literature”"
+        "ru": "Wang et al. — PaperArena, версия 4",
+        "en": "Wang et al. — PaperArena, version 4"
       },
       "source_url": "https://arxiv.org/abs/2510.10909",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-03",
+      "summary": {
+        "ru": "PaperArena проверяет межстатейный синтез и инструменты. Анализ выделяет цепочку происхождения утверждения и необходимость сравнивать одинаковые версии и бюджеты.",
+        "en": "PaperArena tests cross-paper synthesis and tools. The analysis emphasises claim provenance and comparisons using matched versions and budgets."
+      },
+      "access": "abstract",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://arxiv.org/abs/2510.10909v4"
+      ],
+      "access_note": {
+        "ru": "Проверены аннотация и история версии v4 от 30 января 2026 года. Полные задания, агентные трассы и код не изучены; это препринт.",
+        "en": "Checked the abstract and history of v4 dated 30 January 2026. Full tasks, agent traces and code were not examined; this is a preprint."
+      },
+      "markdown": "programs/reliable-ai-research/analysis/study-03.md",
+      "markdown_en": "programs/reliable-ai-research/analysis/study-03.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "reliable-ai-research",
       "kind": "studies",
       "ordinal": 4,
       "title": {
-        "ru": "Liu et al., “Benchmarking AI Agents for Addressing Scientific Challenges Across Scales” (SciAgentArena)",
-        "en": "Liu et al., “Benchmarking AI Agents for Addressing Scientific Challenges Across Scales” (SciAgentArena)"
+        "ru": "Liu et al. — SciAgentArena",
+        "en": "Liu et al. — SciAgentArena"
       },
       "source_url": "https://arxiv.org/abs/2606.12736",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-04",
+      "summary": {
+        "ru": "SciAgentArena разделяет определённые и открытые научные задачи. Пошаговая обратная связь и критерий новизны должны учитываться при оценке самостоятельности агента.",
+        "en": "SciAgentArena distinguishes specified and open scientific tasks. Stepwise feedback and novelty criteria matter when assessing agent independence."
+      },
+      "access": "abstract",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://arxiv.org/abs/2606.12736"
+      ],
+      "access_note": {
+        "ru": "Проверены аннотация и запись препринта от 10 июня 2026 года. Интерактивная среда, задания и код самостоятельно не запускались.",
+        "en": "Checked the abstract and preprint record dated 10 June 2026. The interactive environment, tasks and code were not independently run."
+      },
+      "markdown": "programs/reliable-ai-research/analysis/study-04.md",
+      "markdown_en": "programs/reliable-ai-research/analysis/study-04.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "reliable-ai-research",
       "kind": "researchers",
       "ordinal": 1,
       "title": {
-        "ru": "Huan Sun и команда OSU NLP",
-        "en": "Huan Sun and the OSU NLP group"
+        "ru": "Хуань Сунь и OSU NLP — научные агенты",
+        "en": "Huan Sun and OSU NLP — scientific agents"
       },
       "source_url": "https://people.engineering.osu.edu/people/sun.397",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "researcher-01",
+      "summary": {
+        "ru": "Группа связывает агентные возможности с проверяемым исполнением научных задач. Следить полезно за постановкой задач и точной ролью предметной экспертизы.",
+        "en": "The group connects agent capabilities with checkable scientific-task execution. Task specification and the exact role of domain expertise deserve attention."
+      },
+      "access": "institutional_profile",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://people.engineering.osu.edu/people/sun.397",
+        "https://proceedings.iclr.cc/paper_files/paper/2025/hash/f12b4df26344f3be803c06b555252efe-Abstract-Conference.html"
+      ],
+      "access_note": {
+        "ru": "Проверены профиль Ohio State и аннотация ScienceAgentBench. Внутренние проекты группы и полные экспериментальные материалы не изучены.",
+        "en": "Checked the Ohio State profile and ScienceAgentBench abstract. Internal group projects and full experimental materials were not examined."
+      },
+      "markdown": "programs/reliable-ai-research/analysis/researcher-01.md",
+      "markdown_en": "programs/reliable-ai-research/analysis/researcher-01.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "reliable-ai-research",
       "kind": "researchers",
       "ordinal": 2,
       "title": {
-        "ru": "Yiyou Sun и группа Dawn Song",
-        "en": "Yiyou Sun and Dawn Song’s group"
+        "ru": "Ию Сунь и группа Доун Сонг — оценка долгих агентных задач",
+        "en": "Yiyou Sun and Dawn Song’s group — long-horizon agent evaluation"
       },
       "source_url": "https://sunyiyou.github.io/",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "researcher-02",
+      "summary": {
+        "ru": "Долгие профессиональные задачи требуют учёта накопленных ошибок и человеческого исправления. Живой бенчмарк нужно сравнивать по зафиксированным версиям.",
+        "en": "Long professional tasks require accounting for accumulated errors and human repair. Living benchmarks need comparisons between fixed versions."
+      },
+      "access": "institutional_profile",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://sunyiyou.github.io/",
+        "https://arxiv.org/abs/2606.05405"
+      ],
+      "access_note": {
+        "ru": "Проверены авторский профиль и аннотация Agents’ Last Exam v3 от 9 октября 2026 года. Размер живого набора на странице автора и в препринте различается; точные количества не объединяются.",
+        "en": "Checked the author profile and abstract of Agents’ Last Exam v3 dated 9 October 2026. The living benchmark’s size differs between the profile and preprint; their counts are not merged."
+      },
+      "markdown": "programs/reliable-ai-research/analysis/researcher-02.md",
+      "markdown_en": "programs/reliable-ai-research/analysis/researcher-02.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "reliable-ai-research",
       "kind": "researchers",
       "ordinal": 3,
       "title": {
-        "ru": "Daoyu Wang и соавторы PaperArena",
-        "en": "Daoyu Wang and the PaperArena co-authors"
+        "ru": "Даоюй Ван и PaperArena — работа с научной литературой",
+        "en": "Daoyu Wang and PaperArena — scientific-literature workflows"
       },
       "source_url": "https://ustcagi.github.io/author/daoyu-wang/",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "researcher-03",
+      "summary": {
+        "ru": "PaperArena делает межстатейное рассуждение наблюдаемым процессом. Для ORI важно локализовать потерю свидетельств между поиском, извлечением и выводом.",
+        "en": "PaperArena makes cross-paper reasoning an observable process. ORI should localise evidence failures between retrieval, extraction and inference."
+      },
+      "access": "institutional_profile",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://ustcagi.github.io/author/daoyu-wang/",
+        "https://arxiv.org/abs/2510.10909v4"
+      ],
+      "access_note": {
+        "ru": "Проверены профиль USTC-AGI, список работ и аннотация PaperArena v4. Полные трассы работы агентов не изучены.",
+        "en": "Checked the USTC-AGI profile, publication list and PaperArena v4 abstract. Complete agent traces were not examined."
+      },
+      "markdown": "programs/reliable-ai-research/analysis/researcher-03.md",
+      "markdown_en": "programs/reliable-ai-research/analysis/researcher-03.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "verified-learning",
       "kind": "books",
       "ordinal": 1,
       "title": {
-        "ru": "Richard S. Sutton, Andrew G. Barto, Reinforcement Learning: An Introduction, 2-е изд. (2018)",
-        "en": "Richard S. Sutton, Andrew G. Barto, Reinforcement Learning: An Introduction, 2nd ed. (2018)"
+        "ru": "Саттон и Барто — Reinforcement Learning: An Introduction",
+        "en": "Sutton and Barto — Reinforcement Learning: An Introduction"
       },
       "source_url": "https://mitpress.mit.edu/9780262039246/reinforcement-learning/",
-      "status": "pending",
-      "long_form_status": "pending_access_check"
+      "id": "book-01",
+      "summary": {
+        "ru": "Общая рамка RL помогает явно определить награду, действие и горизонт. Правильный конечный ответ и корректное рассуждение остаются разными целями проверки.",
+        "en": "The RL framework makes reward, action and horizon explicit. Correct final answers and correct reasoning remain different verification targets."
+      },
+      "access": "publisher_description",
+      "long_form_status": "pending_close_reading",
+      "evidence_urls": [
+        "https://mitpress.mit.edu/9780262039246/reinforcement-learning/",
+        "https://incompleteideas.net/book/the-book-2nd.html"
+      ],
+      "access_note": {
+        "ru": "Проверены описание второго издания и ссылка MIT Press на авторскую открытую версию. Авторский сервер возвращал тайм-аут; полный текст издания 2018 года не прочитан.",
+        "en": "Checked the second-edition description and MIT Press’s link to the authors’ open edition. The author server timed out; the full 2018 edition was not read."
+      },
+      "markdown": "programs/verified-learning/analysis/book-01.md",
+      "markdown_en": "programs/verified-learning/analysis/book-01.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "verified-learning",
       "kind": "books",
       "ordinal": 2,
       "title": {
-        "ru": "Masashi Sugiyama et al., Machine Learning from Weak Supervision: An Empirical Risk Minimization Approach (2022)",
-        "en": "Masashi Sugiyama et al., Machine Learning from Weak Supervision: An Empirical Risk Minimization Approach (2022)"
+        "ru": "Сугияма и соавторы — Machine Learning from Weak Supervision",
+        "en": "Sugiyama and colleagues — Machine Learning from Weak Supervision"
       },
       "source_url": "https://mitpress.mit.edu/9780262370561/machine-learning-from-weak-supervision/",
-      "status": "pending",
-      "long_form_status": "pending_access_check"
+      "id": "book-02",
+      "summary": {
+        "ru": "Слабая супервизия помогает описывать неполные и шумные метки. Для верификаторов критичны механизм ошибки и зависимость от генератора данных.",
+        "en": "Weak supervision helps describe incomplete and noisy labels. For verifiers, the error mechanism and dependence on the data generator are critical."
+      },
+      "access": "publisher_description",
+      "long_form_status": "requires_full_text",
+      "evidence_urls": [
+        "https://mitpress.mit.edu/9780262370561/machine-learning-from-weak-supervision/"
+      ],
+      "access_note": {
+        "ru": "Проверено описание MIT Press и перечисление рассматриваемых классов задач. Полный текст книги не прочитан.",
+        "en": "Checked the MIT Press description and listed problem classes. The complete book was not read."
+      },
+      "markdown": "programs/verified-learning/analysis/book-02.md",
+      "markdown_en": "programs/verified-learning/analysis/book-02.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "verified-learning",
       "kind": "books",
       "ordinal": 3,
       "title": {
-        "ru": "Marc G. Bellemare, Will Dabney, Mark Rowland, Distributional Reinforcement Learning (2023)",
-        "en": "Marc G. Bellemare, Will Dabney, Mark Rowland, Distributional Reinforcement Learning (2023)"
+        "ru": "Bellemare, Dabney, Rowland — Distributional Reinforcement Learning",
+        "en": "Bellemare, Dabney and Rowland — Distributional Reinforcement Learning"
       },
       "source_url": "https://mitpress.mit.edu/9780262048019/distributional-reinforcement-learning/",
-      "status": "pending",
-      "long_form_status": "pending_access_check"
+      "id": "book-03",
+      "summary": {
+        "ru": "Распределение суммарной награды содержит больше сведений, чем среднее. Но оно не исправляет ошибочную награду и не тождественно неопределённости научного вывода.",
+        "en": "The return distribution contains more information than its mean. It does not repair a faulty reward or equal uncertainty about a scientific conclusion."
+      },
+      "access": "selected_sections",
+      "long_form_status": "pending_close_reading",
+      "evidence_urls": [
+        "https://mitpress.mit.edu/9780262048019/distributional-reinforcement-learning/",
+        "https://www.distributional-rl.org/",
+        "https://www.distributional-rl.org/contents/chapter1"
+      ],
+      "access_note": {
+        "ru": "MIT Press подтверждает открытое издание. Прочитано начало главы 1 полного авторского веб-черновика, опубликованного по соглашению с издателем; финальное издание целиком не прочитано.",
+        "en": "MIT Press confirms an open edition. The opening of chapter 1 in the complete author web draft, supplied by agreement with the publisher, was inspected; the final edition was not read in full."
+      },
+      "markdown": "programs/verified-learning/analysis/book-03.md",
+      "markdown_en": "programs/verified-learning/analysis/book-03.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "verified-learning",
       "kind": "studies",
       "ordinal": 1,
       "title": {
-        "ru": "Setlur et al., “Rewarding Progress”",
-        "en": "Setlur et al., “Rewarding Progress”"
+        "ru": "Setlur et al. — Rewarding Progress",
+        "en": "Setlur et al. — Rewarding Progress"
       },
       "source_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/98711dea460bdefe0e651ca23ec98ba2-Abstract-Conference.html",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-01",
+      "summary": {
+        "ru": "Награда за прогресс измеряет улучшение шанса решить задачу под отдельной политикой. Полезность поискового шага отличается от корректности финального доказательства.",
+        "en": "Progress rewards measure improved solution probability under a separate policy. A useful search step differs from a correct final proof step."
+      },
+      "access": "selected_sections",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2025/hash/98711dea460bdefe0e651ca23ec98ba2-Abstract-Conference.html",
+        "https://proceedings.iclr.cc/paper_files/paper/2025/file/98711dea460bdefe0e651ca23ec98ba2-Paper-Conference.pdf"
+      ],
+      "access_note": {
+        "ru": "Проверены аннотация, начало введения и пояснение первой схемы в PDF ICLR 2025. Все эксперименты и доказательства подробно не прочитаны.",
+        "en": "Inspected the abstract, opening introduction and first figure explanation in the ICLR 2025 PDF. Not all experiments and proofs were closely read."
+      },
+      "markdown": "programs/verified-learning/analysis/study-01.md",
+      "markdown_en": "programs/verified-learning/analysis/study-01.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "verified-learning",
       "kind": "studies",
       "ordinal": 2,
       "title": {
-        "ru": "Feng et al., “Beyond Model Collapse: Scaling Up with Synthesized Data Requires Verification”",
-        "en": "Feng et al., “Beyond Model Collapse: Scaling Up with Synthesized Data Requires Verification”"
+        "ru": "Feng et al. — Beyond Model Collapse",
+        "en": "Feng et al. — Beyond Model Collapse"
       },
       "source_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/df2d62b96a4003203450cf89cd338bb7-Abstract-Conference.html",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-02",
+      "summary": {
+        "ru": "Проверка синтетики предотвращала спад в двух изученных задачах. Качество отбора нужно оценивать вместе с покрытием, редкими случаями и независимостью итогового теста.",
+        "en": "Verification prevented deterioration in two studied tasks. Selection quality must be assessed alongside coverage, rare cases and final-test independence."
+      },
+      "access": "abstract",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2025/hash/df2d62b96a4003203450cf89cd338bb7-Abstract-Conference.html"
+      ],
+      "access_note": {
+        "ru": "Проверена аннотация ICLR 2025. Теоремы, экспериментальные настройки и код подробно не исследованы.",
+        "en": "Checked the ICLR 2025 abstract. Theorems, experimental settings and code were not examined in detail."
+      },
+      "markdown": "programs/verified-learning/analysis/study-02.md",
+      "markdown_en": "programs/verified-learning/analysis/study-02.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "verified-learning",
       "kind": "studies",
       "ordinal": 3,
       "title": {
-        "ru": "Wen et al., “Reinforcement Learning with Verifiable Rewards Implicitly Incentivizes Correct Reasoning”",
-        "en": "Wen et al., “Reinforcement Learning with Verifiable Rewards Implicitly Incentivizes Correct Reasoning”"
+        "ru": "Wen et al. — RLVR и корректность рассуждения",
+        "en": "Wen et al. — RLVR and correct reasoning"
       },
       "source_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/517f9b9c227b9dd51dba4560f37165ed-Abstract-Conference.html",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-03",
+      "summary": {
+        "ru": "CoT-Pass@K учитывает шаги вместе с ответом. Вывод об улучшении рассуждения зависит от валидности этой оценки и сопоставимости вычислительных бюджетов.",
+        "en": "CoT-Pass@K includes steps as well as answers. Claims of improved reasoning depend on metric validity and comparable computational budgets."
+      },
+      "access": "abstract",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2026/hash/517f9b9c227b9dd51dba4560f37165ed-Abstract-Conference.html",
+        "https://www.microsoft.com/en-us/research/publication/reinforcement-learning-with-verifiable-rewards-implicitly-incentivizes-correct-reasoning-in-base-llms/"
+      ],
+      "access_note": {
+        "ru": "Проверены аннотация ICLR 2026 и институциональная запись Microsoft. PDF OpenReview потребовал проверку браузера; полный текст не прочитан.",
+        "en": "Checked the ICLR 2026 abstract and Microsoft’s institutional record. The OpenReview PDF required a browser check; the complete text was not read."
+      },
+      "markdown": "programs/verified-learning/analysis/study-03.md",
+      "markdown_en": "programs/verified-learning/analysis/study-03.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "verified-learning",
       "kind": "studies",
       "ordinal": 4,
       "title": {
-        "ru": "Yuan et al., “Verifiable Process Rewards for Agentic Reasoning”",
-        "en": "Yuan et al., “Verifiable Process Rewards for Agentic Reasoning”"
+        "ru": "Yuan et al. — Verifiable Process Rewards",
+        "en": "Yuan et al. — Verifiable Process Rewards"
       },
       "source_url": "https://arxiv.org/abs/2605.10325",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-04",
+      "summary": {
+        "ru": "VPR использует разные оракулы для промежуточных наград. Алгоритмическую проверку игр и экспертную LLM в переносе необходимо оценивать отдельно.",
+        "en": "VPR uses different oracles for intermediate rewards. Algorithmic game verification and an expert LLM in transfer should be evaluated separately."
+      },
+      "access": "abstract",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://arxiv.org/abs/2605.10325v3"
+      ],
+      "access_note": {
+        "ru": "Проверена аннотация версии v3 от 12 октября 2026 года и история препринта. Полные эксперименты и независимое рецензирование не проверены.",
+        "en": "Checked the abstract of v3 dated 12 October 2026 and the preprint history. Complete experiments and independent peer review were not examined."
+      },
+      "markdown": "programs/verified-learning/analysis/study-04.md",
+      "markdown_en": "programs/verified-learning/analysis/study-04.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "verified-learning",
       "kind": "studies",
       "ordinal": 5,
       "title": {
-        "ru": "Zeng et al., “RLVE: Scaling Up Reinforcement Learning for Language Models with Adaptive Verifiable Environments”",
-        "en": "Zeng et al., “RLVE: Scaling Up Reinforcement Learning for Language Models with Adaptive Verifiable Environments”"
+        "ru": "Zeng et al. — RLVE",
+        "en": "Zeng et al. — RLVE"
       },
       "source_url": "https://proceedings.mlr.press/v306/zeng26j.html",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "study-05",
+      "summary": {
+        "ru": "RLVE адаптирует сложность 400 проверяемых сред. Рост числа сред следует отличать от разнообразия навыков и переноса за пределы реализованных правил.",
+        "en": "RLVE adapts difficulty across 400 verifiable environments. Environment count should be distinguished from skill diversity and transfer beyond implemented rules."
+      },
+      "access": "abstract",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://proceedings.mlr.press/v306/zeng26j.html"
+      ],
+      "access_note": {
+        "ru": "Проверены аннотация и запись ICML/PMLR 2026. Код, генераторы задач и полный экспериментальный протокол не запускались и подробно не изучены.",
+        "en": "Checked the ICML/PMLR 2026 abstract and record. Code, task generators and the complete experimental protocol were not run or closely examined."
+      },
+      "markdown": "programs/verified-learning/analysis/study-05.md",
+      "markdown_en": "programs/verified-learning/analysis/study-05.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "verified-learning",
       "kind": "researchers",
       "ordinal": 1,
       "title": {
-        "ru": "Xumeng Wen и команда Microsoft Research Asia",
-        "en": "Xumeng Wen and the Microsoft Research Asia team"
+        "ru": "Сюмэн Вэнь и Microsoft Research — проверяемая награда",
+        "en": "Xumeng Wen and Microsoft Research — verifiable rewards"
       },
       "source_url": "https://www.microsoft.com/en-us/research/publication/reinforcement-learning-with-verifiable-rewards-implicitly-incentivizes-correct-reasoning-in-base-llms/",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "researcher-01",
+      "summary": {
+        "ru": "Команда исследует различие между выбором ответа и улучшением промежуточного рассуждения. Ключевой критерий — независимая воспроизводимость метрики и динамики обучения.",
+        "en": "The team investigates answer selection versus improved intermediate reasoning. Independent reproducibility of metrics and training dynamics is the key criterion."
+      },
+      "access": "institutional_profile",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://www.microsoft.com/en-us/research/publication/reinforcement-learning-with-verifiable-rewards-implicitly-incentivizes-correct-reasoning-in-base-llms/",
+        "https://proceedings.iclr.cc/paper_files/paper/2026/hash/517f9b9c227b9dd51dba4560f37165ed-Abstract-Conference.html"
+      ],
+      "access_note": {
+        "ru": "Проверена институциональная публикационная запись Microsoft и аннотация ICLR 2026. Индивидуальная биография Вэня и полный текст работы не проверялись.",
+        "en": "Checked Microsoft’s institutional publication record and the ICLR 2026 abstract. Wen’s individual biography and the complete paper were not examined."
+      },
+      "markdown": "programs/verified-learning/analysis/researcher-01.md",
+      "markdown_en": "programs/verified-learning/analysis/researcher-01.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "verified-learning",
       "kind": "researchers",
       "ordinal": 2,
       "title": {
-        "ru": "Amrith Setlur, Aviral Kumar и соавторы",
-        "en": "Amrith Setlur, Aviral Kumar, and co-authors"
+        "ru": "Амрит Сетлур, Авирал Кумар и соавторы — процессные верификаторы",
+        "en": "Amrith Setlur, Aviral Kumar and colleagues — process verifiers"
       },
       "source_url": "https://openreview.net/pdf?id=A6Y7AqlzLW",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "researcher-02",
+      "summary": {
+        "ru": "Процессные верификаторы полезны благодаря дополнительности исполнителю. Эффект необходимо отделять от увеличения вычислений и от корректности окончательного отчёта.",
+        "en": "Process verifiers can help through complementarity with the performer. Their effect must be separated from extra computation and final-report correctness."
+      },
+      "access": "institutional_profile",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://ars22.github.io/",
+        "https://proceedings.iclr.cc/paper_files/paper/2025/file/98711dea460bdefe0e651ca23ec98ba2-Paper-Conference.pdf"
+      ],
+      "access_note": {
+        "ru": "Проверены авторский профиль Сетлура, аффилиации и начало Rewarding Progress в конференционном PDF. Подробные доказательства и все эксперименты не прочитаны.",
+        "en": "Checked Setlur’s author profile, affiliations and the opening of Rewarding Progress in the conference PDF. Detailed proofs and all experiments were not read."
+      },
+      "markdown": "programs/verified-learning/analysis/researcher-02.md",
+      "markdown_en": "programs/verified-learning/analysis/researcher-02.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "verified-learning",
       "kind": "researchers",
       "ordinal": 3,
       "title": {
-        "ru": "Zhiyuan Zeng, Simon Shaolei Du, Hannaneh Hajishirzi и команда RLVE",
-        "en": "Zhiyuan Zeng, Simon Shaolei Du, Hannaneh Hajishirzi, and the RLVE team"
+        "ru": "Чжиюань Цзэн, Саймон Ду, Ханнане Хаджиширзи и RLVE",
+        "en": "Zhiyuan Zeng, Simon Du, Hannaneh Hajishirzi and RLVE"
       },
       "source_url": "https://proceedings.mlr.press/v306/zeng26j.html",
-      "status": "pending",
-      "long_form_status": "not_applicable"
+      "id": "researcher-03",
+      "summary": {
+        "ru": "RLVE делает устройство среды частью исследовательского вопроса. Для ORI важны проверка оракулов, журналы сложности и перенос на новые семейства задач.",
+        "en": "RLVE makes environment design part of the research question. Oracle validation, difficulty logs and transfer to new task families matter for ORI."
+      },
+      "access": "institutional_profile",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://proceedings.mlr.press/v306/zeng26j.html",
+        "https://www.cs.washington.edu/people/faculty/hannaneh-hajishirzi/"
+      ],
+      "access_note": {
+        "ru": "Проверены список авторов и аннотация RLVE, а также профиль Hajishirzi в University of Washington. Все индивидуальные биографии и код сред не изучены.",
+        "en": "Checked the RLVE author list and abstract, and Hajishirzi’s University of Washington profile. Not all individual biographies or environment code were examined."
+      },
+      "markdown": "programs/verified-learning/analysis/researcher-03.md",
+      "markdown_en": "programs/verified-learning/analysis/researcher-03.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-10-24"
     },
     {
       "programme": "digital-continuity",
@@ -2783,15 +3874,18 @@
       "markdown_en": "programs/digital-continuity/analysis/book-01.en.md",
       "access": "selected_sections",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
-      "long_form_status": "pending_close_reading",
+      "checked": "2026-10-24",
+      "long_form_status": "extended_analysis",
       "evidence_urls": [
-        "https://www.gutenberg.org/files/10615/10615-h/10615-h.htm"
+        "https://www.gutenberg.org/files/10615/10615-h/10615-h.htm",
+        "https://plato.stanford.edu/entries/locke-personal-identity/"
       ],
       "access_note": {
-        "ru": "прочитана полностью глава II.27 в открытой исторической транскрипции; остальная книга не анализировалась.",
-        "en": "the complete designated chapter II.27 was read in the open historical transcription; the rest of the book was not analysed."
-      }
+        "ru": "Полностью прочитана выбранная глава II.27 в транскрипции Project Gutenberg; подготовлен расширенный двуязычный разбор именно главы. Остальная книга не анализировалась. Нумерация подразделов транскрипции отличается от распространённых научных изданий.",
+        "en": "The complete selected chapter II.27 was read in the Project Gutenberg transcription; an extended bilingual analysis of that chapter was prepared. The rest of the book was not analysed. The transcription’s subsection numbers differ from common scholarly editions."
+      },
+      "deep_markdown": "programs/digital-continuity/analysis/book-01-deep.md",
+      "deep_markdown_en": "programs/digital-continuity/analysis/book-01-deep.en.md"
     },
     {
       "programme": "digital-continuity",
@@ -2811,7 +3905,7 @@
       "markdown_en": "programs/digital-continuity/analysis/book-02.en.md",
       "access": "publisher_description",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "requires_full_text",
       "evidence_urls": [
         "https://academic.oup.com/book/12484"
@@ -2839,7 +3933,7 @@
       "markdown_en": "programs/digital-continuity/analysis/book-03.en.md",
       "access": "publisher_description",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "requires_full_text",
       "evidence_urls": [
         "https://www.penguin.co.uk/books/180235/connectome-by-seung-sebastian/9780241951873"
@@ -2867,7 +3961,7 @@
       "markdown_en": "programs/digital-continuity/analysis/study-01.en.md",
       "access": "abstract",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://www.nature.com/articles/s41586-024-07558-y",
@@ -2896,7 +3990,7 @@
       "markdown_en": "programs/digital-continuity/analysis/study-02.en.md",
       "access": "selected_sections",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://www.science.org/doi/10.1126/science.adk4858",
@@ -2925,7 +4019,7 @@
       "markdown_en": "programs/digital-continuity/analysis/study-03.en.md",
       "access": "institutional_profile",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://www.nature.com/articles/s41586-025-08790-w",
@@ -2954,7 +4048,7 @@
       "markdown_en": "programs/digital-continuity/analysis/study-04.en.md",
       "access": "abstract",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/40257892/",
@@ -2983,7 +4077,7 @@
       "markdown_en": "programs/digital-continuity/analysis/study-05.en.md",
       "access": "selected_sections",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://www.nature.com/articles/s41467-026-74357-6",
@@ -3012,7 +4106,7 @@
       "markdown_en": "programs/digital-continuity/analysis/researcher-01.en.md",
       "access": "institutional_profile",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://lichtmanlab.fas.harvard.edu/people/jeff-lichtman",
@@ -3041,7 +4135,7 @@
       "markdown_en": "programs/digital-continuity/analysis/researcher-02.en.md",
       "access": "institutional_profile",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://hcai-munich.com/marcel.html",
@@ -3071,7 +4165,7 @@
       "markdown_en": "programs/digital-continuity/analysis/researcher-03.en.md",
       "access": "institutional_profile",
       "status": "initial_analysis",
-      "checked": "2026-10-25",
+      "checked": "2026-10-24",
       "long_form_status": "not_applicable",
       "evidence_urls": [
         "https://thevirtualbrain.com/tvb/zwei/teamwork-leaders",

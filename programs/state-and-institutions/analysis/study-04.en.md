@@ -26,7 +26,7 @@ ORI can use the report to organise conditions of participation: power distributi
 
 **Access and reading limits.** The main record and open PDF did not load. The official report page and authors’ account of its preparation were inspected; the full report was not read.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://openknowledge.worldbank.org/handle/10986/11859)
 - [2](https://www.worldbank.org/en/research/publication/localizing-development-does-participation-work)

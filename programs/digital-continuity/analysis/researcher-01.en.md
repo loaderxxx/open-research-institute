@@ -2,7 +2,7 @@
 
 [Русский](researcher-01.md) · [Programme](../README.en.md)
 
-Checked: 25 October 2026. Initial source analysis; the official profile and publication list were read; the listed methods were not reproduced.
+Checked: 24 October 2026. Initial source analysis; the official profile and publication list were read; the listed methods were not reproduced.
 
 <!-- ori-toc:start -->
 ## Contents

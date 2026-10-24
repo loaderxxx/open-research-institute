@@ -2,7 +2,7 @@
 
 [Русский](study-05.md)
 
-**Access.** Checked 25 October 2026: Nature Cell Biology abstract and metadata through an indexed page; direct DOI retrieval failed through an authorisation redirect. Methods and supplements were not examined.
+**Access.** Checked 24 October 2026: Nature Cell Biology abstract and metadata through an indexed page; direct DOI retrieval failed through an authorisation redirect. Methods and supplements were not examined.
 
 The authors report that migration along stiffness gradients contributes to lung fibrosis and metastatic pancreatic cancer in mouse models. Their proposed mechanism involves FAK–paxillin and mechanical signalling through YAP. The work moves durotaxis from a model surface into disease contexts, although the abstract alone cannot support independent assessment of all causal tests.
 

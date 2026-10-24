@@ -2,7 +2,7 @@
 
 [Русский](researcher-01.md)
 
-**Access.** Checked 25 October 2026: UMC Utrecht institutional profile and indexed abstract, selected result and availability sections of Magnitov et al. (2026). The full publication corpus and supplements were not examined.
+**Access.** Checked 24 October 2026: UMC Utrecht institutional profile and indexed abstract, selected result and availability sections of Magnitov et al. (2026). The full publication corpus and supplements were not examined.
 
 The profile describes experimental and computational investigation of regulatory layers of the genome. A concrete collaborative study with Magnitov and colleagues combines haplotyping, multiomic measurements and variant-effect prediction. For PIK3R5, the authors report functional testing of a variant disrupting an OCT2 motif. This is a contribution by the paper's author team, not something automatically attributable to the researcher's current laboratory.
 

@@ -26,7 +26,7 @@ For ORI, the review can inform a measurement dictionary. An evidence table shoul
 
 **Access and reading limits.** The abstract and journal record were inspected through the advance-article address. Online publication is dated 27 July 2026; the issue is labelled November 2026. The full review was not read.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://academic.oup.com/rcfs/article/15/4/967/8742315)
 - [2](https://academic.oup.com/rcfs/advance-article/doi/10.1093/rcfs/cfag027/8742315)

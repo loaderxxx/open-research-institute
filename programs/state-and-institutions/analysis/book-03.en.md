@@ -26,6 +26,6 @@ ORI can use the framework to compare a particular public service, describing cap
 
 **Access and reading limits.** The opening of Chapter 1 in the authorised publisher excerpt and the book record were inspected. The rest of the book was not read; a detailed dossier requires the full text.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://us.macmillan.com/books/9781429944328/politicalorderandpoliticaldecay/)

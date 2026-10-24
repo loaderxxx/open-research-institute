@@ -26,7 +26,7 @@
 
 **Доступ и границы чтения.** Проверены карточка Free Press и индексированный фрагмент авторской Нобелевской лекции. Полный текст книги не получен; подробный разбор требует законного доступа.
 
-Источники (2026-10-25):
+Источники (2026-10-24):
 
 - [1](https://www.simonandschuster.com/books/The-Economic-Intstitutions-of-Capitalism/Oliver-E-Williamson/9780684863740)
 - [2](https://www.nobelprize.org/uploads/2018/06/williamson_lecture.pdf)

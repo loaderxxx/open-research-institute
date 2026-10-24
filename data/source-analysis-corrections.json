@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-25",
+  "checked": "2026-10-24",
   "method": "Primary-source checks during bilingual source analysis; individual reading limits are recorded in analysis indexes.",
   "corrections": [
     {
@@ -41,6 +41,97 @@
       "programme": "religion-and-cooperation",
       "before_en": "Article is open under CC BY. [Maastricht",
       "after_en": "Article is open under CC BY-NC. [Maastricht"
+    },
+    {
+      "programme": "brain",
+      "before_en": "Dayan/Abbott described as paid-only",
+      "after_en": "Author-posted chapter 7 and teaching materials linked; complete authorised open text not established."
+    },
+    {
+      "programme": "brain",
+      "before_en": "Ko 2025 labelled open article",
+      "after_en": "Abstract and public preview read; open full text not confirmed."
+    },
+    {
+      "programme": "consciousness",
+      "before_en": "Toker 2026 labelled open article",
+      "after_en": "Abstract and public preview read; open full text not confirmed."
+    },
+    {
+      "programme": "genomics",
+      "before_en": "Watson analysis relied on prior map after publisher access failures",
+      "after_en": "Official Pearson India catalogue supplied publisher description and seventh-edition contents; chapters remain unread."
+    },
+    {
+      "programme": "brain",
+      "before_en": "Squire/Kandel substantive orientation relied on prior map",
+      "after_en": "Publisher-provided description reproduced in Salk catalogue and contents checked against CARTA record; chapters remain unread."
+    },
+    {
+      "programme": "religion-and-cooperation",
+      "before_en": "[preregistered Fiji field experiment](https://doi.org/10.1177/13684302241307011), online 2025",
+      "after_en": "[“Thinking about God encourages intergroup prosociality even when conflict is salient”](https://doi.org/10.1177/13684302241307011), online 25 January 2025; issue 29(5), 2026"
+    },
+    {
+      "programme": "voluntary-governance",
+      "before_en": "Limit: conceptual contribution, not a comparative causal evaluation of partnership effectiveness.",
+      "after_en": "Abductive theory building uses three cases — SAI, WCF and RSPO — selected from 42 mapped partnerships; it is not a comparative causal estimate of effectiveness."
+    },
+    {
+      "programme": "voluntary-governance",
+      "before_en": "- Eakin et al.,",
+      "after_en": "- Eakin & Shearing,"
+    },
+    {
+      "programme": "voluntary-governance",
+      "before_en": "**Stefano Pascucci — University of Exeter, University of Auckland and Wageningen University.**",
+      "after_en": "**Stefano Pascucci — the article lists University of Exeter, University of Auckland and Wageningen University; current appointments were not separately checked.**"
+    },
+    {
+      "programme": "philosophy-and-meaning",
+      "before_en": "Winter 2025 edition, *Stanford Encyclopedia of Philosophy*. This current survey",
+      "after_en": "Winter 2025 archive, *Stanford Encyclopedia of Philosophy*; the stated substantive revision is 9 February 2021. The survey"
+    },
+    {
+      "programme": "philosophy-and-meaning",
+      "before_en": "Institutional profile is listed by [Oxford Academic](https://academic.oup.com/edited-volume/61380/chapter-abstract/533151538).",
+      "after_en": "The current [University of Pretoria profile](https://www.up.ac.za/philosophy/prof-thaddeus-metz) was checked separately from the [Oxford Academic chapter record](https://academic.oup.com/edited-volume/61380/chapter-abstract/533151538)."
+    },
+    {
+      "programme": "reliable-ai-research",
+      "language": "en",
+      "before": "The publisher page and resources are open; the book is for sale or library access.",
+      "after": "The publisher page is open; a complete [author web edition](https://vdsbook.com/) is linked from [Bin Yu’s official page](https://binyu.stat.berkeley.edu/). The print edition is for sale."
+    },
+    {
+      "programme": "reliable-ai-research",
+      "language": "ru",
+      "before": "Издательская страница и ресурсы открыты; книга продаётся, доступ может быть библиотечным.",
+      "after": "Издательская страница открыта; полная [авторская веб-версия](https://vdsbook.com/) подтверждена на [официальной странице Bin Yu](https://binyu.stat.berkeley.edu/). Печатное издание продаётся."
+    },
+    {
+      "programme": "reliable-ai-research",
+      "language": "ru",
+      "before": "решил 32,4% задач без экспертной подсказки.",
+      "after": "решил 32,4% задач за три попытки без экспертной подсказки в проверенной конфигурации 2025 года."
+    },
+    {
+      "programme": "reliable-ai-research",
+      "language": "en",
+      "before": "solved 32.4% without expert-provided knowledge.",
+      "after": "solved 32.4% within three attempts without expert-provided knowledge in the evaluated 2025 setup."
+    },
+    {
+      "programme": "verified-learning",
+      "language": "ru",
+      "before": "Метод требует надёжного оракула, а применение к свободным задачам остаётся открытым.",
+      "after": "В версии v3 от 12 октября 2026 года основные среды используют алгоритмических оракулов, а расширение на τ²-bench — экспертную LLM; это разные уровни проверки. Применение к свободным задачам остаётся открытым."
+    },
+    {
+      "programme": "verified-learning",
+      "language": "en",
+      "before": "The method requires a reliable oracle, and application to open-ended tasks remains unresolved.",
+      "after": "In v3 dated 12 October 2026, the core environments use algorithmic oracles while the τ²-bench extension uses an expert LLM; these provide different strengths of verification. Application to open-ended tasks remains unresolved."
     }
   ]
 }

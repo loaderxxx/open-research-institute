@@ -26,9 +26,8 @@ For ORI, the line is relevant to incentives, training and decision rights. The p
 
 **Access and reading limits.** The CEPR profile, indexed HBS record and working paper were checked. The map’s facId is incorrect; the verified HBS profile uses 602452. An exact rank is not inferred from inconsistent records.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
-- [1](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=489797)
-- [2](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452)
-- [3](https://cepr.org/about/people/christopher-stanton)
-- [4](https://arxiv.org/abs/2504.11436)
+- [1](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452)
+- [2](https://cepr.org/about/people/christopher-stanton)
+- [3](https://arxiv.org/abs/2504.11436)

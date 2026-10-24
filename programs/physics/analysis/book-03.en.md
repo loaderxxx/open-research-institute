@@ -2,7 +2,7 @@
 
 [Русский](book-03.md) · [Programme](../README.en.md)
 
-Checked: 25 October 2026. Initial source analysis; the author contents page was inspected; an open PDF is advertised, but extraction failed in this check.
+Checked: 24 October 2026. Initial source analysis; the author contents page was inspected; an open PDF is advertised, but extraction failed in this check.
 
 <!-- ori-toc:start -->
 ## Contents

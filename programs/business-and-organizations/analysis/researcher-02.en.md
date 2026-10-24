@@ -26,7 +26,7 @@ The research line helps connect individual decisions with organisational evaluat
 
 **Access and reading limits.** The MIT Sloan profile and QJE and NBER/arXiv author lists were inspected. The exemplar attribution is corrected here; the original map was not edited.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://mitsloan.mit.edu/faculty/directory/danielle-li)
 - [2](https://doi.org/10.1093/qje/qjae044)

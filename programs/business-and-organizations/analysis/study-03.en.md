@@ -26,6 +26,6 @@ The source supports comparisons of AI, specialisation and coordination. ORI shou
 
 **Access and reading limits.** The PDF dated 18 April 2025 was opened; the abstract, authorship information and opening introduction were inspected. Tables, appendices and code were not rechecked.
 
-Sources (2026-10-25):
+Sources (2026-10-24):
 
 - [1](https://www.hbs.edu/ris/Publication%20Files/25-021_491efe26-e444-4e02-b58e-f27300cde12f.pdf)

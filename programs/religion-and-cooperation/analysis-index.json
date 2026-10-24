@@ -25,7 +25,7 @@
     "markdown": "programs/religion-and-cooperation/analysis/book-01.md",
     "markdown_en": "programs/religion-and-cooperation/analysis/book-01.en.md",
     "status": "initial_analysis",
-    "checked": "2026-10-25"
+    "checked": "2026-10-24"
   },
   {
     "id": "book-02",
@@ -52,7 +52,7 @@
     "markdown": "programs/religion-and-cooperation/analysis/book-02.md",
     "markdown_en": "programs/religion-and-cooperation/analysis/book-02.en.md",
     "status": "initial_analysis",
-    "checked": "2026-10-25"
+    "checked": "2026-10-24"
   },
   {
     "id": "book-03",
@@ -80,7 +80,7 @@
     "markdown": "programs/religion-and-cooperation/analysis/book-03.md",
     "markdown_en": "programs/religion-and-cooperation/analysis/book-03.en.md",
     "status": "initial_analysis",
-    "checked": "2026-10-25"
+    "checked": "2026-10-24"
   },
   {
     "id": "study-01",
@@ -107,7 +107,7 @@
     "markdown": "programs/religion-and-cooperation/analysis/study-01.md",
     "markdown_en": "programs/religion-and-cooperation/analysis/study-01.en.md",
     "status": "initial_analysis",
-    "checked": "2026-10-25"
+    "checked": "2026-10-24"
   },
   {
     "id": "study-02",
@@ -135,7 +135,7 @@
     "markdown": "programs/religion-and-cooperation/analysis/study-02.md",
     "markdown_en": "programs/religion-and-cooperation/analysis/study-02.en.md",
     "status": "initial_analysis",
-    "checked": "2026-10-25"
+    "checked": "2026-10-24"
   },
   {
     "id": "study-03",
@@ -163,7 +163,7 @@
     "markdown": "programs/religion-and-cooperation/analysis/study-03.md",
     "markdown_en": "programs/religion-and-cooperation/analysis/study-03.en.md",
     "status": "initial_analysis",
-    "checked": "2026-10-25"
+    "checked": "2026-10-24"
   },
   {
     "id": "study-04",
@@ -191,7 +191,7 @@
     "markdown": "programs/religion-and-cooperation/analysis/study-04.md",
     "markdown_en": "programs/religion-and-cooperation/analysis/study-04.en.md",
     "status": "initial_analysis",
-    "checked": "2026-10-25"
+    "checked": "2026-10-24"
   },
   {
     "id": "study-05",
@@ -219,7 +219,7 @@
     "markdown": "programs/religion-and-cooperation/analysis/study-05.md",
     "markdown_en": "programs/religion-and-cooperation/analysis/study-05.en.md",
     "status": "initial_analysis",
-    "checked": "2026-10-25"
+    "checked": "2026-10-24"
   },
   {
     "id": "researcher-01",
@@ -248,7 +248,7 @@
     "markdown": "programs/religion-and-cooperation/analysis/researcher-01.md",
     "markdown_en": "programs/religion-and-cooperation/analysis/researcher-01.en.md",
     "status": "initial_analysis",
-    "checked": "2026-10-25"
+    "checked": "2026-10-24"
   },
   {
     "id": "researcher-02",
@@ -277,7 +277,7 @@
     "markdown": "programs/religion-and-cooperation/analysis/researcher-02.md",
     "markdown_en": "programs/religion-and-cooperation/analysis/researcher-02.en.md",
     "status": "initial_analysis",
-    "checked": "2026-10-25"
+    "checked": "2026-10-24"
   },
   {
     "id": "researcher-03",
@@ -305,6 +305,6 @@
     "markdown": "programs/religion-and-cooperation/analysis/researcher-03.md",
     "markdown_en": "programs/religion-and-cooperation/analysis/researcher-03.en.md",
     "status": "initial_analysis",
-    "checked": "2026-10-25"
+    "checked": "2026-10-24"
   }
 ]
