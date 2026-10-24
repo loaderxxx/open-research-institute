@@ -38,7 +38,7 @@ The reviews examine concepts and published findings, strong objections, and limi
 
 These materials help readers assess AI research without treating a polished answer, a high score, and reliable knowledge as the same thing.
 
-[Bibliography and reading depth](SOURCES.en.md) · [Machine-readable register](sources.json) · [All programs](../../README.en.md) · [Full library](../../LIBRARY.en.md)
+[Current research map](RESEARCH_MAP.en.md) · [Bibliography and reading depth](SOURCES.en.md) · [Machine-readable register](sources.json) · [All programs](../../README.en.md) · [Full library](../../LIBRARY.en.md)
 
 The materials were prepared with AI assistance and internal editorial review. They have not undergone external scientific peer review. Review date: 23 September 2026. Below is a concise map of the first release's underlying evidence; its identifiers refer to the shared `data/sources.json` register.
 

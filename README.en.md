@@ -24,18 +24,18 @@ The repository contains **13 programmes**, each with a description in English an
 
 | Programme | Main question | Current stage |
 |---|---|---|
-| [Physics of information](programs/physics/README.en.md) | How do energy, information and interactions shape complex systems? | Description and agenda |
-| [Biology of cellular systems](programs/biology/README.en.md) | How do interactions between cells give rise to living tissues? | Description and agenda |
-| [Brain and memory](programs/brain/README.en.md) | How do neural circuits turn experience into memory and behaviour? | Description and agenda |
+| [Physics of information](programs/physics/README.en.md) | How do energy, information and interactions shape complex systems? | Agenda and sources |
+| [Biology of cellular systems](programs/biology/README.en.md) | How do interactions between cells give rise to living tissues? | Agenda and sources |
+| [Brain and memory](programs/brain/README.en.md) | How do neural circuits turn experience into memory and behaviour? | Agenda and sources |
 | [Consciousness and perception](programs/consciousness/README.en.md) | What distinguishes conscious experience from information processing without awareness? | Reviews published |
-| [DNA and gene regulation](programs/genomics/README.en.md) | How does the same genome support different cell identities and functions? | Description and agenda |
+| [DNA and gene regulation](programs/genomics/README.en.md) | How does the same genome support different cell identities and functions? | Agenda and sources |
 
 ### Business, government and society
 
 | Programme | Main question | Current stage |
 |---|---|---|
-| [Business and organizations](programs/business-and-organizations/README.en.md) | How do entrepreneurs and companies organise decisions, incentives and joint work under uncertainty? | Description and agenda |
-| [State and institutions](programs/state-and-institutions/README.en.md) | How do state institutions provide public services, citizen participation and accountability across levels of government? | Description and agenda |
+| [Business and organizations](programs/business-and-organizations/README.en.md) | How do entrepreneurs and companies organise decisions, incentives and joint work under uncertainty? | Agenda and sources |
+| [State and institutions](programs/state-and-institutions/README.en.md) | How do state institutions provide public services, citizen participation and accountability across levels of government? | Agenda and sources |
 | [Religion, ritual and cooperation](programs/religion-and-cooperation/README.en.md) | How do beliefs and rituals shape trust and collective action? | Reviews published |
 | [Voluntary coordination](programs/voluntary-governance/README.en.md) | Under what conditions do people sustain shared rules and accountability? | Reviews published |
 | [Philosophy and meaning](programs/philosophy-and-meaning/README.en.md) | What makes a life meaningful, and how can competing answers be assessed? | Reviews published |
@@ -52,7 +52,7 @@ The repository contains **13 programmes**, each with a description in English an
 
 The [library](LIBRARY.en.md) retains **21 standalone reviews** across seven programmes: one general and two focused reviews per programme. All texts are available in English and Russian. New programme descriptions are not completed studies and do not increase the review count.
 
-Business, government, physics, biology, brain research and genomics currently have scope descriptions, research questions, information-gathering plans and expected materials. The next stage is a separate launch of source collection and research based on these descriptions.
+All 13 programmes now have [initial literature maps](RESEARCH_MAPS.en.md): linked books, historical milestones, public research, researchers and teams, current questions and further reading. Collection date: 24 October 2026. Source access and verification limits are stated. The maps supplement existing reviews; for the six new programmes they are a first collection of materials, to be followed by detailed reading and analysis.
 
 ## Methodology
 
@@ -64,7 +64,7 @@ Current materials review published knowledge and were prepared with AI assistanc
 
 Every new programme immediately receives a `programs/<slug>/` folder with `README.md` and `README.en.md`: scope, main question, research priorities, current status and next step. It is added to the [catalogue](catalog.json) and the website catalogue.
 
-Until materials are ready, its status is `PROGRAMME_AGENDA` and its review list is empty. Completed reviews enter the [reading catalogue](data/reading-library.json) after preparation and checks. Programme counts and published review counts are tracked separately.
+While a programme is developing, its status is `PROGRAMME_AGENDA` and its review list is empty. Public-source maps live in `RESEARCH_MAP.md` and `RESEARCH_MAP.en.md`, linked from the [catalogue](catalog.json). Completed reviews enter the [reading catalogue](data/reading-library.json) after preparation and checks. Programmes, source maps and published reviews are counted separately.
 
 ## Collaboration and corrections
 

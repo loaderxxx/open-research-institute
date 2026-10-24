@@ -2,6 +2,8 @@
 
 [Русский](README.md)
 
+[Research map](RESEARCH_MAP.en.md) · [Карта литературы на русском](RESEARCH_MAP.en.md)
+
 **Central question:** How can we discuss values and meaning while preserving the distinction between argument and measurement?
 
 This program compares philosophical accounts of a good and meaningful life, pluralism, and public justification. One topic is the psychological measurement of the experience of meaning and its limits. We explain the assumptions behind arguments, strong objections, and disagreements that cannot be resolved by a single empirical scale.

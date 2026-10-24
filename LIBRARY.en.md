@@ -4,6 +4,8 @@
 
 21 reviews in Markdown. Each general review has two standalone topic reviews. This list records the completed first reading cycle; it is not an exhaustive map of the disciplines.
 
+Books, field histories, recent publications and researchers across all 13 programmes are collected separately in the [literature maps](RESEARCH_MAPS.en.md).
+
 <!-- ori-toc:start -->
 ## Contents
 

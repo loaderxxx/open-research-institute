@@ -2,7 +2,9 @@
 
 [Русский](README.md)
 
-**Status:** `PROGRAMME_AGENDA` — Research agenda. The programme's first standalone review is planned; adjacent reviews in the existing library provide a starting point.
+**Status:** `PROGRAMME_AGENDA` — Research agenda. A starting literature map is available; reviews and analysis are ahead. Adjacent reviews in the library also provide a starting point.
+
+[Starting literature map](RESEARCH_MAP.en.md) · [Карта литературы на русском](RESEARCH_MAP.en.md)
 
 **Central question:** How do state institutions provide public services, citizen participation and accountability across levels of government?
 

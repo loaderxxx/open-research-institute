@@ -38,7 +38,7 @@ The reviews examine concepts and published findings, strong objections, and limi
 
 The review explains the limitations of published methods. It does not promise to train a universal model to a specified level of quality.
 
-[Bibliography and reading depth](SOURCES.en.md) · [Machine-readable register](sources.json) · [All programs](../../README.en.md) · [Full library](../../LIBRARY.en.md)
+[Current research map](RESEARCH_MAP.en.md) · [Bibliography and reading depth](SOURCES.en.md) · [Machine-readable register](sources.json) · [All programs](../../README.en.md) · [Full library](../../LIBRARY.en.md)
 
 The materials were prepared with AI assistance and internal editorial review. They have not undergone external scientific peer review. Review date: 23 September 2026. Below is a concise map of the first release's underlying evidence; its identifiers refer to the shared `data/sources.json` register.
 

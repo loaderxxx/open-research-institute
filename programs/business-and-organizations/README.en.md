@@ -2,7 +2,9 @@
 
 [Русский](README.md)
 
-**Status:** `PROGRAMME_AGENDA` — Research agenda. The first round of source collection and review is planned; the programme has not yet produced its own findings.
+**Status:** `PROGRAMME_AGENDA` — Research agenda. A starting literature map is available; reviews and analysis are ahead, and the programme has not yet produced its own findings.
+
+[Starting literature map](RESEARCH_MAP.en.md) · [Карта литературы на русском](RESEARCH_MAP.en.md)
 
 **Central question:** How do entrepreneurs and companies organise decisions, incentives and joint work under uncertainty?
 

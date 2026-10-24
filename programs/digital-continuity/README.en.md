@@ -38,7 +38,7 @@ The reviews examine concepts and published findings, strong objections, and the 
 
 None of the works presented is treated as a completed transfer of consciousness or proof of personal immortality.
 
-[Bibliography and reading depth](SOURCES.en.md) · [Machine-readable registry](sources.json) · [All programs](../../README.en.md) · [Full library](../../LIBRARY.en.md)
+[Current research map](RESEARCH_MAP.en.md) · [Bibliography and reading depth](SOURCES.en.md) · [Machine-readable registry](sources.json) · [All programs](../../README.en.md) · [Full library](../../LIBRARY.en.md)
 
 The materials were prepared with AI assistance and internal editorial review. No external scientific peer review has been conducted. Date of the current review: 23 September 2026. Below is a brief map of the first edition's source evidence; its identifiers refer to the shared registry `data/sources.json`.
 

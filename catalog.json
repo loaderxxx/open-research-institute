@@ -9,7 +9,9 @@
     "page": "programs/physics/README.md",
     "page_en": "programs/physics/README.en.md",
     "documents": [],
-    "status": "PROGRAMME_AGENDA"
+    "status": "PROGRAMME_AGENDA",
+    "research_map": "programs/physics/RESEARCH_MAP.md",
+    "research_map_en": "programs/physics/RESEARCH_MAP.en.md"
   },
   {
     "slug": "biology",
@@ -21,7 +23,9 @@
     "page": "programs/biology/README.md",
     "page_en": "programs/biology/README.en.md",
     "documents": [],
-    "status": "PROGRAMME_AGENDA"
+    "status": "PROGRAMME_AGENDA",
+    "research_map": "programs/biology/RESEARCH_MAP.md",
+    "research_map_en": "programs/biology/RESEARCH_MAP.en.md"
   },
   {
     "slug": "brain",
@@ -33,7 +37,9 @@
     "page": "programs/brain/README.md",
     "page_en": "programs/brain/README.en.md",
     "documents": [],
-    "status": "PROGRAMME_AGENDA"
+    "status": "PROGRAMME_AGENDA",
+    "research_map": "programs/brain/RESEARCH_MAP.md",
+    "research_map_en": "programs/brain/RESEARCH_MAP.en.md"
   },
   {
     "slug": "consciousness",
@@ -49,7 +55,9 @@
       "indicators-and-measurement",
       "theories-and-evidence"
     ],
-    "status": "LITERATURE_REVIEW"
+    "status": "LITERATURE_REVIEW",
+    "research_map": "programs/consciousness/RESEARCH_MAP.md",
+    "research_map_en": "programs/consciousness/RESEARCH_MAP.en.md"
   },
   {
     "slug": "genomics",
@@ -61,7 +69,9 @@
     "page": "programs/genomics/README.md",
     "page_en": "programs/genomics/README.en.md",
     "documents": [],
-    "status": "PROGRAMME_AGENDA"
+    "status": "PROGRAMME_AGENDA",
+    "research_map": "programs/genomics/RESEARCH_MAP.md",
+    "research_map_en": "programs/genomics/RESEARCH_MAP.en.md"
   },
   {
     "slug": "business-and-organizations",
@@ -73,7 +83,9 @@
     "page": "programs/business-and-organizations/README.md",
     "page_en": "programs/business-and-organizations/README.en.md",
     "documents": [],
-    "status": "PROGRAMME_AGENDA"
+    "status": "PROGRAMME_AGENDA",
+    "research_map": "programs/business-and-organizations/RESEARCH_MAP.md",
+    "research_map_en": "programs/business-and-organizations/RESEARCH_MAP.en.md"
   },
   {
     "slug": "state-and-institutions",
@@ -85,7 +97,9 @@
     "page": "programs/state-and-institutions/README.md",
     "page_en": "programs/state-and-institutions/README.en.md",
     "documents": [],
-    "status": "PROGRAMME_AGENDA"
+    "status": "PROGRAMME_AGENDA",
+    "research_map": "programs/state-and-institutions/RESEARCH_MAP.md",
+    "research_map_en": "programs/state-and-institutions/RESEARCH_MAP.en.md"
   },
   {
     "slug": "religion-and-cooperation",
@@ -101,7 +115,9 @@
       "religion-and-institutions",
       "ritual-and-cooperation"
     ],
-    "status": "LITERATURE_REVIEW"
+    "status": "LITERATURE_REVIEW",
+    "research_map": "programs/religion-and-cooperation/RESEARCH_MAP.md",
+    "research_map_en": "programs/religion-and-cooperation/RESEARCH_MAP.en.md"
   },
   {
     "slug": "voluntary-governance",
@@ -117,7 +133,9 @@
       "commons-and-polycentricity",
       "participation-and-accountability"
     ],
-    "status": "LITERATURE_REVIEW"
+    "status": "LITERATURE_REVIEW",
+    "research_map": "programs/voluntary-governance/RESEARCH_MAP.md",
+    "research_map_en": "programs/voluntary-governance/RESEARCH_MAP.en.md"
   },
   {
     "slug": "philosophy-and-meaning",
@@ -133,7 +151,9 @@
       "pluralism-and-measurement",
       "theories-of-meaning"
     ],
-    "status": "LITERATURE_REVIEW"
+    "status": "LITERATURE_REVIEW",
+    "research_map": "programs/philosophy-and-meaning/RESEARCH_MAP.md",
+    "research_map_en": "programs/philosophy-and-meaning/RESEARCH_MAP.en.md"
   },
   {
     "slug": "reliable-ai-research",
@@ -149,7 +169,9 @@
       "agents-and-evaluation",
       "evidence-and-citations"
     ],
-    "status": "LITERATURE_REVIEW"
+    "status": "LITERATURE_REVIEW",
+    "research_map": "programs/reliable-ai-research/RESEARCH_MAP.md",
+    "research_map_en": "programs/reliable-ai-research/RESEARCH_MAP.en.md"
   },
   {
     "slug": "verified-learning",
@@ -165,7 +187,9 @@
       "process-verification",
       "synthetic-data"
     ],
-    "status": "LITERATURE_REVIEW"
+    "status": "LITERATURE_REVIEW",
+    "research_map": "programs/verified-learning/RESEARCH_MAP.md",
+    "research_map_en": "programs/verified-learning/RESEARCH_MAP.en.md"
   },
   {
     "slug": "digital-continuity",
@@ -181,6 +205,8 @@
       "connectomics-and-memory",
       "identity-and-models"
     ],
-    "status": "LITERATURE_REVIEW"
+    "status": "LITERATURE_REVIEW",
+    "research_map": "programs/digital-continuity/RESEARCH_MAP.md",
+    "research_map_en": "programs/digital-continuity/RESEARCH_MAP.en.md"
   }
 ]

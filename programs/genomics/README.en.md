@@ -46,6 +46,6 @@ The next step is to gather and organise information. The proposed sequence is:
 
 ## Available now
 
-The programme description, questions and plan are available now. Information gathering and data selection are planned next; this directory does not yet contain a completed review or analysis.
+A [starter literature map](RESEARCH_MAP.en.md) is available; the review, data selection and analysis still lie ahead. The map is a starting point, not a systematic assessment of the sources.
 
 [All programmes](../../README.en.md) · [Library](../../LIBRARY.en.md)

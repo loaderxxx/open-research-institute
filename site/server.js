@@ -34,7 +34,7 @@ function createServer({ env = process.env, fetchImpl = fetch, root = __dirname, 
   let inFlight = 0;
   const repo = path.dirname(root);
   const files = new Map(['/style.css', '/reader.css', '/app.js'].map(p => [p, path.join(root, p)]));
-  for (const doc of ['README', 'LIBRARY', 'EDITORIAL_NOTE', 'RIGHTS', 'METHODOLOGY']) {
+  for (const doc of ['README', 'LIBRARY', 'EDITORIAL_NOTE', 'RIGHTS', 'METHODOLOGY', 'RESEARCH_MAPS']) {
     for (const suffix of ['.md', '.en.md']) files.set('/' + doc + suffix, path.join(repo, doc + suffix));
   }
   files.set('/data/reading-library.json', path.join(repo, 'data/reading-library.json'));
@@ -50,7 +50,7 @@ function createServer({ env = process.env, fetchImpl = fetch, root = __dirname, 
   const programmesReady = fs.readFile(path.join(repo, 'catalog.json'), 'utf8').then(raw => {
     for (const item of JSON.parse(raw)) {
       if (!/^[a-z-]+$/.test(item.slug)) continue;
-      for (const doc of ['README.md', 'README.en.md']) {
+      for (const doc of ['README.md', 'README.en.md', 'RESEARCH_MAP.md', 'RESEARCH_MAP.en.md']) {
         const name = '/programs/' + item.slug + '/' + doc;
         files.set(name, path.join(repo, name));
       }

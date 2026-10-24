@@ -98,6 +98,27 @@ test('Markdown contents target generated heading anchors, including Cyrillic and
   assert.ok(!markdown.render('<script>alert(1)</script>').includes('<script>'));
 });
 
+test('literature maps are readable in both languages without exposing unrelated files', async t => {
+  const { base } = await withServer(t);
+  const catalogue = require('../catalog.json');
+  for (const lang of ['ru', 'en']) {
+    const suffix = lang === 'en' ? '.en.md' : '.md';
+    for (const route of ['/RESEARCH_MAPS' + suffix, ...catalogue.map(p => '/' + p[lang === 'en' ? 'research_map_en' : 'research_map'])]) {
+      const response = await fetch(base + route, { headers: { Accept: 'text/html' } });
+      assert.equal(response.status, 200, route);
+      const html = await response.text();
+      assert.ok(html.includes(`<html lang="${lang}">`), route);
+      assert.match(html, /<h1\b/);
+      const other = lang === 'en' ? route.replace('.en.md', '.md') : route.replace('.md', '.en.md');
+      assert.ok(html.includes(`href="${other}"`), 'paired language link: ' + route);
+    }
+  }
+  for (const route of ['/programs/physics/NOTES.md', '/programs/not-a-programme/RESEARCH_MAP.md', '/site/server.js']) {
+    assert.equal((await fetch(base + route)).status, 404, route);
+  }
+  assert.equal(require('../data/reading-library.json').length, 21);
+});
+
 test('programme pages render without a reading entry, preserve language and expose only published reviews', async t => {
   const { base } = await withServer(t);
   const programmes = require('./research-programmes.json');

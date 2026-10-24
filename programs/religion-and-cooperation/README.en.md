@@ -2,6 +2,8 @@
 
 [Русский](README.md)
 
+[Research map](RESEARCH_MAP.en.md) · [Карта литературы на русском](RESEARCH_MAP.en.md)
+
 **Central question:** How are religious beliefs, rituals, and joint action related?
 
 This program examines religion through specific research questions about trust, group belonging, ritual practice, and institutions. We compare field, laboratory, and historical findings while taking cultural context and alternative explanations into account. Debates about causality and changes to historical data are part of the review.
