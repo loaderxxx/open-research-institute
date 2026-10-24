@@ -276,6 +276,13 @@
       "english_sha256": "02bcac5ad6bfc0cdfca20eeeca68c54c5a56c9359ec3ef7bb401659fe7d082ff"
     },
     {
+      "source": "scripts/PDF_BUILD.md",
+      "source_sha256": "cc3e40d95a91f5908e0f5b18581600bda5d2d7e336cad9e4a111fa5a54913c69",
+      "english": "scripts/PDF_BUILD.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "2f6bbef42d40e114bdf54ddc28682c4249dec29e7aca2bba3aeff77b41049567"
+    },
+    {
       "source": "site/DEPLOYMENT.md",
       "source_sha256": "e345e29d289ffdec1ec0078541056281c1bc134e43b263482ed686d74bcee613",
       "english": "site/DEPLOYMENT.en.md",
@@ -284,10 +291,10 @@
     },
     {
       "source": "site/README.md",
-      "source_sha256": "36357d9383957bfd47a6b40a0e4bc27c01c3a0d367e58c6b4b1d0aa1b83dfe66",
+      "source_sha256": "fd141004eff12254babf9bd9bc77c95005e6a1b614981c570569230d80f0dca2",
       "english": "site/README.en.md",
       "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
-      "english_sha256": "4232165793a67d4587e40a5f5598e7176275ff01e42903bf5c8c368b02ff5eb8"
+      "english_sha256": "f33643a5690ab60bfe4a9aff6c40b7a7a5a5f4e3d02f9d39fd88de870278da12"
     }
   ]
 }

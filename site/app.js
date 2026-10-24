@@ -1,5 +1,6 @@
 (() => {
   const emailAddress = 'im@vladimiruzbek.com';
+  let deliveryMode = 'email-link';
   const t = {
     en: {
       skip:'Skip to content', menu:'Menu', navLabel:'Main navigation', languageLabel:'Language', navResearch:'Research', navLibrary:'Library', navPresentation:'Presentation', navCollaborate:'Collaborate',
@@ -8,7 +9,7 @@
       libraryEyebrow:'02 — Reading room', libraryTitle:'Read the work.<br><em>Check the sources.</em>', libraryIntro:'Seven programmes, 21 literature reviews, and direct paths to the underlying documents. Each review is available in PDF and Markdown.', statPrograms:'programmes', statReviews:'literature reviews', statFormats:'formats · PDF / MD', librarySummaryLabel:'Library overview', languageNote:'The current library texts are in Russian. English translations are pending; titles and availability are shown as published, with no English texts implied.', libraryLoading:'Loading the reading catalogue…', catalogLink:'Full catalogue ↗', editorialLink:'Editorial note ↗',
       deckEyebrow:'03 — A short introduction', deckTitle:'The institute,<br><em>in thirteen slides.</em>', deckIntro:'A concise introduction to the work, its boundaries and a practical first collaboration.', deckTag:'OPEN RESEARCH INSTITUTE', slideChooser:'Choose slide', previous:'Previous', next:'Next', deckHint:'Use the arrow keys or the controls to move through the presentation.',
       collabEyebrow:'04 — Work together', collabTitle:'Start with one<br><em>checkable question.</em>', collabIntro:'A useful first collaboration is small enough to finish and clear enough for another person to verify.', partnerResearchers:'Researchers & universities', partnerResearchersText:'Review a bounded set of claims, or use a programme in a supervised reading seminar.', partnerTeams:'Engineering teams', partnerTeamsText:'Define one evaluation question and a limited technical pilot.', partnerBusiness:'Business partners', partnerBusinessText:'Bring one decision where an evidence brief would be useful.', stageLabel:'Current stage.', stageText:'Literature synthesis and collaboration development. “Institute” names the initiative; it does not imply accreditation, a registered scientific institution or a permanent research staff.',
-      formEyebrow:'Propose a research request', formTitle:'What should we<br>examine together?', formIntro:`Describe a bounded question, collaboration idea or correction. Requests go to the ORI team at <a href="mailto:${emailAddress}">${emailAddress}</a>.`, nameLabel:'Name <small>optional</small>', emailLabel:'Email address', topicLabel:'Topic', questionLabel:'Your question or request', submitLabel:'Send request', privacyNote:'Your request and email address are sent through our email provider to ORI. Acceptance for delivery does not guarantee inbox delivery, a response or an investigation. Please do not include confidential or sensitive information.', formRequired:'Please complete the required fields.', formEmail:'Please enter a valid email address.', formLength:'Topic must be 3–180 characters and the request must be 10–6,000 characters.', formSubmitting:'Sending your request…', formSuccess:'Your request was accepted for delivery to ORI. This does not confirm inbox delivery or review.', formUnavailable:'The request form is temporarily unavailable. Please email the ORI team directly:', formFailure:'We could not send your request. Please try again or email the ORI team:',
+      formEyebrow:'Propose a research request', formTitle:'What should we<br>examine together?', formIntro:`Describe a bounded question, collaboration idea or correction. Requests go to the ORI team at <a href="mailto:${emailAddress}">${emailAddress}</a>.`, nameLabel:'Name <small>optional</small>', emailLabel:'Email address', topicLabel:'Topic', questionLabel:'Your question or request', submitLabel:'Send request', prepareEmail:'Prepare email', privacyNote:'Your request and email address will be sent to ORI via an email service. Please do not include sensitive information.', emailLinkNote:`This button prepares an email to ${emailAddress}. Your email app will open so you can review and send it. Please do not include sensitive information.`, formRequired:'Please complete the required fields.', formEmail:'Please enter a valid email address.', formLength:'Topic must be 3–180 characters and the request must be 10–6,000 characters.', formSubmitting:'Sending your request…', formEmailPrepared:'Email prepared. Open your email app and send it to ORI.', formEmailAction:'Open email app and send ↗', formSuccess:'Request accepted for delivery. Thank you.', formUnavailable:'The request form is temporarily unavailable. Please email the ORI team directly:', formFailure:'We could not send your request. Please try again or email the ORI team:',
       footerNote:'Independent literature synthesis. Clear about evidence, careful about claims.', footerRepo:'GitHub ↗', footerEmail:'Email ↗', footerStage:'Research initiative · Literature synthesis', libraryError:'The reading catalogue could not be loaded. Open the public catalogue on GitHub.', bookPdf:'PDF', bookText:'Markdown', translationPending:'English translation pending', readInRussian:'Full text in Russian', published:'Published', pageCount:'pages A5', sourceCount:'sources', notAvailable:'File unavailable',
       programmes:[
         ['Reliable AI research','When does an answer deserve trust?'],['Learning from verified results','What counts as useful verification?'],['Consciousness & measurement','Competing theories, observable indicators and limits of interpretation.'],['Digital continuity of identity','Memory, neural structure and the difference between a model and a person.'],['Religion, ritual & cooperation','Belief, group membership and collective action.'],['Voluntary coordination','Shared resources, participation and accountability.'],['Philosophy & meaning','Values, pluralism and the limits of measurement.']
@@ -36,7 +37,7 @@
       libraryEyebrow:'02 — Читальный зал', libraryTitle:'Читайте обзоры.<br><em>Проверяйте источники.</em>', libraryIntro:'Семь программ, 21 обзор литературы и прямой доступ к документам. Каждый обзор опубликован в PDF и Markdown.', statPrograms:'программ', statReviews:'обзоров литературы', statFormats:'формата · PDF / MD', librarySummaryLabel:'О библиотеке', languageNote:'Опубликованные тексты библиотеки сейчас на русском языке. Переводы на английский готовятся; названия и доступность указаны по факту публикации, без обещания англоязычных текстов.', libraryLoading:'Загружаем каталог чтения…', catalogLink:'Полный каталог ↗', editorialLink:'Редакционная заметка ↗',
       deckEyebrow:'03 — Краткое знакомство', deckTitle:'Об инициативе<br><em>за тринадцать слайдов.</em>', deckIntro:'Краткое знакомство с работой, её границами и практическим форматом первого сотрудничества.', deckTag:'OPEN RESEARCH INSTITUTE', slideChooser:'Выбрать слайд', previous:'Назад', next:'Далее', deckHint:'Переключайте слайды стрелками на клавиатуре или кнопками.',
       collabEyebrow:'04 — Сотрудничество', collabTitle:'Начнём с одного<br><em>проверяемого вопроса.</em>', collabIntro:'Для первого проекта лучше выбрать небольшую задачу, которую можно завершить и результат которой сможет проверить другой человек.', partnerResearchers:'Исследователи и университеты', partnerResearchersText:'Проверить ограниченный набор утверждений или провести семинар по одной программе под руководством преподавателя.', partnerTeams:'Инженерные команды', partnerTeamsText:'Сформулировать один вопрос для оценки и небольшой технический пилот.', partnerBusiness:'Бизнес-партнёры', partnerBusinessText:'Предложить решение, для которого полезна записка с разбором свидетельств.', stageLabel:'Текущий этап.', stageText:'Обзор литературы и развитие сотрудничества. Слово «институт» обозначает инициативу и не подразумевает аккредитацию, регистрацию научного учреждения или постоянный штат исследователей.',
-      formEyebrow:'Предложить исследовательский запрос', formTitle:'Какой вопрос<br>изучим вместе?', formIntro:`Опишите конкретный вопрос, идею сотрудничества или исправление. Запрос поступит команде ORI: <a href="mailto:${emailAddress}">${emailAddress}</a>.`, nameLabel:'Имя <small>необязательно</small>', emailLabel:'Электронная почта', topicLabel:'Тема', questionLabel:'Ваш вопрос или запрос', submitLabel:'Отправить запрос', privacyNote:'Запрос и адрес электронной почты передаются ORI через почтового провайдера. Принятие запроса провайдером не гарантирует доставку во входящие, ответ или проведение исследования. Не указывайте конфиденциальные или чувствительные сведения.', formRequired:'Заполните обязательные поля.', formEmail:'Введите корректный адрес электронной почты.', formLength:'Тема должна содержать от 3 до 180 знаков, запрос — от 10 до 6000 знаков.', formSubmitting:'Отправляем запрос…', formSuccess:'Почтовый сервис принял запрос к отправке в ORI. Это не подтверждает доставку во входящие или рассмотрение.', formUnavailable:'Форма временно недоступна. Напишите команде ORI напрямую:', formFailure:'Не удалось отправить запрос. Попробуйте ещё раз или напишите команде ORI:',
+      formEyebrow:'Предложить исследовательский запрос', formTitle:'Какой вопрос<br>изучим вместе?', formIntro:`Опишите конкретный вопрос, идею сотрудничества или исправление. Запрос поступит команде ORI: <a href="mailto:${emailAddress}">${emailAddress}</a>.`, nameLabel:'Имя <small>необязательно</small>', emailLabel:'Электронная почта', topicLabel:'Тема', questionLabel:'Ваш вопрос или запрос', submitLabel:'Отправить запрос', prepareEmail:'Подготовить письмо', privacyNote:'Ваш запрос и адрес электронной почты будут отправлены в ORI через почтовый сервис. Не указывайте чувствительные сведения.', emailLinkNote:`Кнопка подготовит письмо на адрес ${emailAddress}. Почтовое приложение откроется, чтобы вы могли проверить и отправить письмо. Не указывайте чувствительные сведения.`, formRequired:'Заполните обязательные поля.', formEmail:'Введите корректный адрес электронной почты.', formLength:'Тема должна содержать от 3 до 180 знаков, запрос — от 10 до 6000 знаков.', formSubmitting:'Отправляем запрос…', formEmailPrepared:'Письмо подготовлено. Откройте почтовое приложение и отправьте его в ORI.', formEmailAction:'Открыть почтовое приложение и отправить ↗', formSuccess:'Запрос принят к отправке. Спасибо.', formUnavailable:'Форма временно недоступна. Напишите команде ORI напрямую:', formFailure:'Не удалось отправить запрос. Попробуйте ещё раз или напишите команде ORI:',
       footerNote:'Независимый обзор литературы. Внимательно к свидетельствам и формулировкам.', footerRepo:'GitHub ↗', footerEmail:'Электронная почта ↗', footerStage:'Исследовательская инициатива · Обзор литературы', libraryError:'Не удалось загрузить каталог. Откройте его в публичном репозитории GitHub.', bookPdf:'PDF', bookText:'Markdown', translationPending:'Перевод на английский готовится', readInRussian:'Полный текст на русском', published:'Опубликовано', pageCount:'стр. A5', sourceCount:'источников', notAvailable:'Файл недоступен',
       programmes:[
         ['Надёжные исследования с ИИ','Когда ответу можно доверять?'],['Обучение на проверенных результатах','Что считать полезной проверкой?'],['Сознание и измерение','Конкурирующие теории, наблюдаемые признаки и пределы интерпретации.'],['Цифровая непрерывность личности','Память, структура мозга и различие между моделью и человеком.'],['Религия, ритуал и сотрудничество','Вера, принадлежность к группе и совместные действия.'],['Добровольная координация','Общие ресурсы, участие и подотчётность.'],['Философия и смысл','Ценности, плюрализм и пределы измерения.']
@@ -83,6 +84,7 @@
         ? (lang === 'ru' ? '/LIBRARY.md' : '/LIBRARY.en.md')
         : (lang === 'ru' ? '/EDITORIAL_NOTE.md' : '/EDITORIAL_NOTE.en.md');
     });
+    updateDeliveryCopy();
     document.title = lang === 'ru' ? 'Институт открытых исследований — Интеллект, свидетельства, сотрудничество' : 'Open Research Institute — Intelligence, evidence, cooperation';
     document.querySelector('meta[name="description"]').content = lang === 'ru'
       ? 'Институт открытых исследований изучает выводы опубликованных работ, различия в объяснениях и вопросы для дальнейшей проверки.'
@@ -204,12 +206,30 @@
     node.dataset.kind = kind;
     const text = document.createElement('span'); text.textContent = message; node.append(text);
   }
-  function addMailFallback(subject, body) {
+  function addMailFallback(subject, body, actionLabel) {
     const status = document.querySelector('#form-status');
     const link = document.createElement('a');
     link.href = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    link.textContent = emailAddress;
+    link.textContent = actionLabel || emailAddress;
     status.append(link);
+  }
+  function updateDeliveryCopy() {
+    const copy = dict();
+    const submitText = document.querySelector('#submit-request [data-i18n="submitLabel"]');
+    if (!submitText) return;
+    submitText.textContent = deliveryMode === 'email-link' ? copy.prepareEmail : copy.submitLabel;
+    document.querySelector('.privacy-note').textContent = deliveryMode === 'email-link' ? copy.emailLinkNote : copy.privacyNote;
+  }
+  async function loadDeliveryConfig() {
+    try {
+      const response = await fetch('/api/research-requests/config', {headers:{Accept:'application/json'}});
+      if (!response.ok) return;
+      const config = await response.json();
+      if (config.delivery === 'server' || config.delivery === 'email-link') deliveryMode = config.delivery;
+      updateDeliveryCopy();
+    } catch {
+      // Keep the safe email-link mode when configuration cannot be confirmed.
+    }
   }
   const form = document.querySelector('#request-form');
   form.addEventListener('submit', async event => {
@@ -225,13 +245,20 @@
       invalid.focus();
       return;
     }
+    const payload = Object.fromEntries(['topic','question','email','name','website'].map(name => [name, form.elements.namedItem(name).value.trim()]));
+    const subject = `[ORI research request] ${payload.topic}`;
+    const body = `Name: ${payload.name || '(not provided)'}\nEmail: ${payload.email}\nTopic: ${payload.topic}\n\n${payload.question}`;
+    if (deliveryMode === 'email-link') {
+      setStatus(dict().formEmailPrepared, 'prepared');
+      addMailFallback(subject, body, dict().formEmailAction);
+      return;
+    }
     const button = document.querySelector('#submit-request');
     const submitText = button.querySelector('[data-i18n="submitLabel"]');
     button.disabled = true;
     button.setAttribute('aria-busy','true');
     submitText.textContent = dict().formSubmitting;
     setStatus(dict().formSubmitting);
-    const payload = Object.fromEntries(['topic','question','email','name','website'].map(name => [name, form.elements.namedItem(name).value.trim()]));
     try {
       const response = await fetch('/api/research-requests', {method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(payload)});
       if (response.status === 202) {
@@ -240,14 +267,10 @@
       } else {
         const unavailable = response.status === 503;
         setStatus(unavailable ? dict().formUnavailable : dict().formFailure, 'error');
-        const subject = `[ORI research request] ${payload.topic}`;
-        const body = `Name: ${payload.name || '(not provided)'}\nEmail: ${payload.email}\nTopic: ${payload.topic}\n\n${payload.question}`;
         addMailFallback(subject, body);
       }
     } catch (error) {
       setStatus(dict().formFailure, 'error');
-      const subject = `[ORI research request] ${payload.topic}`;
-      const body = `Name: ${payload.name || '(not provided)'}\nEmail: ${payload.email}\nTopic: ${payload.topic}\n\n${payload.question}`;
       addMailFallback(subject, body);
     } finally {
       button.disabled = false;
@@ -282,4 +305,5 @@
   document.querySelector('#year').textContent = new Date().getFullYear();
   applyLanguage(lang, false);
   loadLibrary();
+  loadDeliveryConfig();
 })();

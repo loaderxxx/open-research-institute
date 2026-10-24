@@ -62,6 +62,20 @@ test('public routes work; source, secrets and traversal blocked', async t => {
 test('production requires explicitly configured origin', async t => {
   const { post } = await withServer(t, { env: { NODE_ENV: 'production' } }); assert.equal((await post()).status, 403);
 });
+test('delivery configuration exposes no secrets and reflects provider availability', async t => {
+  const { base } = await withServer(t, { env: {} });
+  const r = await fetch(base + '/api/research-requests/config');
+  assert.deepEqual(await r.json(), { code: 'configuration', delivery: 'email-link' });
+  const configured = await withServer(t);
+  const ready = await fetch(configured.base + '/api/research-requests/config');
+  assert.deepEqual(await ready.json(), { code: 'configuration', delivery: 'server' });
+});
+test('only explicitly listed production origins are accepted', async t => {
+  const { post } = await withServer(t, { env: { NODE_ENV: 'production', SITE_ORIGINS: 'https://ori-lab.org,https://www.ori-lab.org' } });
+  assert.equal((await post(valid, { Origin: 'https://ori-lab.org' })).status, 503);
+  assert.equal((await post(valid, { Origin: 'https://www.ori-lab.org' })).status, 503);
+  assert.equal((await post(valid, { Origin: 'https://attacker.example' })).status, 403);
+});
 test('document reader renders English with language link and offers original Markdown', async t => {
   const { base } = await withServer(t);
   const response = await fetch(base + '/programs/consciousness/README.en.md', { headers: { Accept: 'text/html' } });

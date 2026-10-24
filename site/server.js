@@ -53,10 +53,13 @@ function createServer({ env = process.env, fetchImpl = fetch, root = __dirname, 
     res.setHeader('Content-Security-Policy', "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'");
     try {
       const pathname = new URL(req.url, 'http://local').pathname;
+      if (pathname === '/api/research-requests/config' && req.method === 'GET') {
+        return reply(res, 200, 'configuration', { delivery: env.RESEND_API_KEY && env.MAIL_FROM ? 'server' : 'email-link' });
+      }
       if (pathname === '/api/research-requests') {
         if (req.method !== 'POST') { res.setHeader('Allow', 'POST'); return reply(res, 405, 'method_not_allowed'); }
-        const expectedOrigin = env.SITE_ORIGIN || (env.NODE_ENV !== 'production' ? 'http://' + req.headers.host : null);
-        if (!expectedOrigin || req.headers.origin !== expectedOrigin || req.headers['sec-fetch-site'] === 'cross-site') return reply(res, 403, 'origin_rejected');
+        const expectedOrigins = (env.SITE_ORIGINS || env.SITE_ORIGIN || (env.NODE_ENV !== 'production' ? 'http://' + req.headers.host : '')).split(',').map(origin => origin.trim()).filter(Boolean);
+        if (!expectedOrigins.includes(req.headers.origin) || req.headers['sec-fetch-site'] === 'cross-site') return reply(res, 403, 'origin_rejected');
         if (!/^application\/json(?:;|$)/i.test(req.headers['content-type'] || '')) return reply(res, 415, 'json_required');
         const time = now();
         for (const [key, value] of attempts) if (value.reset <= time) attempts.delete(key);
