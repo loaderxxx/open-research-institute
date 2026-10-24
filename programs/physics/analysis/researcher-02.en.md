@@ -4,6 +4,16 @@
 
 Checked: 25 October 2026. Initial source analysis; Minagawa’s profile and selected parts of the joint paper were checked; the Nagoya profile returned an error.
 
+<!-- ori-toc:start -->
+## Contents
+
+- [Researchers and scope](#researchers-and-scope)
+- [Main research line](#main-research-line)
+- [ORI's analytical questions](#oris-analytical-questions)
+- [Using this profile](#using-this-profile)
+- [Sources](#sources)
+<!-- ori-toc:end -->
+
 ## Researchers and scope
 
 Minagawa's current author profile places him at Aix-Marseille Université and lists quantum measurement, resource theories and thermodynamics among his interests. Buscemi is affiliated with Nagoya University in the joint information-thermodynamics paper. His separate institutional page did not load during this check, so it does not provide a fresh confirmation of his current position.

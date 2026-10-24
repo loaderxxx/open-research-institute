@@ -16,9 +16,17 @@ for (const p of programmes) {
   }
   for(const a of items) {
     count++;
+    const prefix={books:'book',studies:'study',researchers:'researcher'}[a.kind];
+    if(a.id!==`${prefix}-${String(a.ordinal).padStart(2,'0')}`) failures.push(`${p.slug}/${a.id}: ID does not match category/order`);
+    if(a.markdown_en!==a.markdown.replace(/\.md$/,'.en.md')) failures.push(`${p.slug}/${a.id}: language paths do not pair`);
     if(!access.has(a.access)||!a.checked||!a.status||!a.long_form_status) failures.push(`${p.slug}/${a.id}: incomplete provenance`);
+    if(a.kind!=='books'&&a.long_form_status!=='not_applicable') failures.push(`${p.slug}/${a.id}: nonbook has a book reading status`);
+    if(Boolean(a.deep_markdown)!==(a.long_form_status==='extended_analysis')) failures.push(`${p.slug}/${a.id}: extended reading status disagrees with documents`);
     if(!Array.isArray(a.evidence_urls)||!a.evidence_urls.length) failures.push(`${p.slug}/${a.id}: no evidence URLs`);
     const ru=fs.readFileSync(path.join(root,a.markdown),'utf8'),en=fs.readFileSync(path.join(root,a.markdown_en),'utf8');
+    const urls=body=>[...body.matchAll(/\]\((https?:[^)]+)\)/g)].map(m=>m[1]).sort();
+    if(JSON.stringify(urls(ru))!==JSON.stringify(urls(en))) failures.push(`${p.slug}/${a.id}: source URLs differ across languages`);
+    if(!ru.includes(`](${path.basename(a.markdown_en)})`)||!en.includes(`](${path.basename(a.markdown)})`)) failures.push(`${p.slug}/${a.id}: missing reciprocal language link`);
     for(const [lang,body] of [['ru',ru],['en',en]]) {
       const words=body.split(/\s+/).filter(Boolean).length;
       if(words<180) failures.push(`${p.slug}/${a.id}/${lang}: only ${words} words`);
@@ -27,6 +35,7 @@ for (const p of programmes) {
     }
     if(a.deep_markdown) {
       extended++;
+      if(a.deep_markdown_en!==a.deep_markdown.replace(/\.md$/,'.en.md')) failures.push(`${p.slug}/${a.id}: extended language paths do not pair`);
       for(const field of ['deep_markdown','deep_markdown_en']) {
         const body=fs.readFileSync(path.join(root,a[field]),'utf8');
         if(body.split(/\s+/).length<4500) failures.push(`${a[field]}: extended analysis below 4500 words`);

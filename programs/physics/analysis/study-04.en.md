@@ -4,6 +4,16 @@
 
 Checked: 25 October 2026. Initial source analysis; selected parts of arXiv v3 were read; not all proofs or a complete comparison with the journal version.
 
+<!-- ori-toc:start -->
+## Contents
+
+- [Authors' question and result](#authors-question-and-result)
+- [Interpreting universality](#interpreting-universality)
+- [What still needs checking](#what-still-needs-checking)
+- [Programme relevance](#programme-relevance)
+- [Sources](#sources)
+<!-- ori-toc:end -->
+
 ## Authors' question and result
 
 The paper considers measurement, outcome-dependent feedback and erasure of controller memory. The authors characterise protocols compatible with the second law while relaxing earlier readout assumptions. In the accessible author version, the framework includes a target system, internal memory, a classical outcome register and thermal reservoirs. It is a mathematical investigation of consistency between descriptions.

@@ -4,6 +4,16 @@
 
 Checked: 25 October 2026. Initial source analysis; the indexed IBM/IEEE abstract was checked; direct DOI access required browser verification.
 
+<!-- ori-toc:start -->
+## Contents
+
+- [Question and idea](#question-and-idea)
+- [What matters](#what-matters)
+- [Critical questions](#critical-questions)
+- [Programme connection](#programme-connection)
+- [Sources](#sources)
+<!-- ori-toc:end -->
+
 ## Question and idea
 
 Landauer examines operations whose outputs do not uniquely determine their inputs. The author abstract associates this logical irreversibility with physical irreversibility and heat generation. It also describes bistable-device models, switching speed and thermal errors. This is a theoretical paper, not an experimental measurement of a bound.

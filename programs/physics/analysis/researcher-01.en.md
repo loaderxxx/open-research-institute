@@ -4,6 +4,16 @@
 
 Checked: 25 October 2026. Initial source analysis; the Caltech profile and paper abstract were checked; the complete proof was not evaluated.
 
+<!-- ori-toc:start -->
+## Contents
+
+- [Research direction](#research-direction)
+- [Concrete example](#concrete-example)
+- [Reading questions](#reading-questions)
+- [Why follow this work](#why-follow-this-work)
+- [Sources](#sources)
+<!-- ori-toc:end -->
+
 ## Research direction
 
 The Caltech profile identifies Preskill's central interests as quantum information, computation and error correction. Of particular relevance here are protecting quantum states against noise and establishing whether an experiment prepared the intended state. This is a research profile, not a description of an ORI partner.

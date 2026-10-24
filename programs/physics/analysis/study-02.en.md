@@ -4,6 +4,16 @@
 
 Checked: 25 October 2026. Initial source analysis; the author abstract in PubMed was read; publisher full text was not checked.
 
+<!-- ori-toc:start -->
+## Contents
+
+- [What was studied](#what-was-studied)
+- [Main significance](#main-significance)
+- [Evaluating the evidence](#evaluating-the-evidence)
+- [Relevance to ORI](#relevance-to-ori)
+- [Sources](#sources)
+<!-- ori-toc:end -->
+
 ## What was studied
 
 The authors tested the heat cost of one-bit erasure using a colloidal particle in a controlled double-well potential. The two positions serve as memory states. According to the abstract, mean dissipated heat approaches the Landauer bound as the erasure cycle becomes longer. This is an experiment with a particular physical implementation of an information operation.

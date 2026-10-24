@@ -4,6 +4,16 @@
 
 Checked: 25 October 2026. Initial source analysis; the author contents page was inspected; an open PDF is advertised, but extraction failed in this check.
 
+<!-- ori-toc:start -->
+## Contents
+
+- [Subject and main ideas](#subject-and-main-ideas)
+- [Analytical significance](#analytical-significance)
+- [Limits of transfer](#limits-of-transfer)
+- [Next step](#next-step)
+- [Sources](#sources)
+<!-- ori-toc:end -->
+
 ## Subject and main ideas
 
 The author's contents connect random walks, equilibrium and entropy with ensembles, computational methods, order parameters and phase transitions. The central theme for our reading is the relationship between microscopic descriptions and collective behaviour. The scope includes quantum statistical mechanics and models where scale, correlations and symmetry matter.

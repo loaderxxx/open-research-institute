@@ -12,6 +12,7 @@
 - [Historical landmarks](#historical-landmarks)
 - [Researchers and groups with recent work](#researchers-and-groups-with-recent-work)
 - [Current directions and open questions](#current-directions-and-open-questions)
+- [Access clarification — 25 October 2026](#access-clarification--25-october-2026)
 <!-- ori-toc:end -->
 
 ## Books to begin with

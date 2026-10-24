@@ -4,6 +4,16 @@
 
 Checked: 25 October 2026. Initial source analysis; the author abstract and journal metadata were checked; the experiment and supplements were not reproduced.
 
+<!-- ori-toc:start -->
+## Contents
+
+- [Question and approach](#question-and-approach)
+- [Main significance](#main-significance)
+- [Evidence questions](#evidence-questions)
+- [Why it matters to ORI](#why-it-matters-to-ori)
+- [Sources](#sources)
+<!-- ori-toc:end -->
+
 ## Question and approach
 
 The study examines residual logical errors after error correction. The authors use zero-noise extrapolation: physical noise is varied and its relationship to the output supports a corrected estimate. The abstract describes superconducting-processor experiments, including circuits using repetition and surface codes.

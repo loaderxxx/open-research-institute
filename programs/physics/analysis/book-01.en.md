@@ -4,6 +4,16 @@
 
 Checked: 25 October 2026. Initial source analysis; the author abstract and bibliographic record were read; full text was located but not read in full.
 
+<!-- ori-toc:start -->
+## Contents
+
+- [Subject and main ideas](#subject-and-main-ideas)
+- [Relevance to ORI](#relevance-to-ori)
+- [Limits and reading questions](#limits-and-reading-questions)
+- [Next reading step](#next-reading-step)
+- [Sources](#sources)
+<!-- ori-toc:end -->
+
 ## Subject and main ideas
 
 The textbook connects thermodynamics with quantum information. Its author abstract identifies three parts: thermodynamic foundations and their quantum formulation; cycles and work extraction; and information processing. This moves from describing a physical system to asking which resources are needed to control it. The intended reader already has grounding in quantum mechanics and statistical physics.

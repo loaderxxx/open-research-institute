@@ -4,6 +4,16 @@
 
 Checked: 25 October 2026. Initial source analysis; the Cambridge record was inspected; full-text access was not obtained.
 
+<!-- ori-toc:start -->
+## Contents
+
+- [What the book covers](#what-the-book-covers)
+- [Main significance for ORI](#main-significance-for-ori)
+- [What needs caution](#what-needs-caution)
+- [Close-reading task](#close-reading-task)
+- [Sources](#sources)
+<!-- ori-toc:end -->
+
 ## What the book covers
 
 The publisher presents a systematic introduction to quantum computation and information, including algorithms, teleportation, cryptography and error correction. Preparatory material connects quantum mechanics with computational concepts. Its value for this programme is a shared language in which physical states, permitted operations and information-processing tasks can be described consistently.

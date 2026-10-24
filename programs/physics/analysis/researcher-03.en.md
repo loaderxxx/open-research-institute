@@ -4,6 +4,16 @@
 
 Checked: 25 October 2026. Initial source analysis; the institutional profile, abstract and opening review sections were read; all applications were not checked.
 
+<!-- ori-toc:start -->
+## Contents
+
+- [Direction and source](#direction-and-source)
+- [Main significance](#main-significance)
+- [Critical reading](#critical-reading)
+- [Practical use](#practical-use)
+- [Sources](#sources)
+<!-- ori-toc:end -->
+
 ## Direction and source
 
 The Binghamton profile lists complex systems, self-organisation, artificial life and AI among Gershenson's interests. His 2025 review offers a personal account of the “what,” “how” and “why” of self-organising systems. It is explicitly an author's conceptual perspective rather than a definition agreed by everyone.

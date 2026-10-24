@@ -4,6 +4,16 @@
 
 Checked: 25 October 2026. Initial source analysis; the author arXiv abstract and UC Davis record were checked; the complete review was not read.
 
+<!-- ori-toc:start -->
+## Contents
+
+- [Subject](#subject)
+- [Main reading idea](#main-reading-idea)
+- [Limitations and alternatives](#limitations-and-alternatives)
+- [Use within ORI](#use-within-ori)
+- [Sources](#sources)
+<!-- ori-toc:end -->
+
 ## Subject
 
 The review asks how self-organisation can be described when structure itself lacks a precise mathematical definition. It surveys historical approaches and two modern lines: intrinsic computation and evolution operators. The authors propose a route towards describing organisation far from equilibrium. This is a review and theoretical programme rather than a single experiment.

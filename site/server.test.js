@@ -277,9 +277,12 @@ test('source-level analyses have bilingual reader routes and complete programme 
     }
     count += analyses.length;
     for (const a of analyses) {
+      const pairs = [['markdown','markdown_en']];
+      if (a.deep_markdown) pairs.push(['deep_markdown','deep_markdown_en']);
+      for (const pair of pairs) {
       for (const lang of ['ru','en']) {
-        const field = lang === 'en' ? 'markdown_en' : 'markdown';
-        const other = lang === 'en' ? 'markdown' : 'markdown_en';
+        const field = pair[lang === 'en' ? 1 : 0];
+        const other = pair[lang === 'en' ? 0 : 1];
         const response = await fetch(base + '/' + a[field], {headers:{Accept:'text/html'}});
         assert.equal(response.status, 200, a[field]);
         const html = await response.text();
@@ -287,9 +290,15 @@ test('source-level analyses have bilingual reader routes and complete programme 
         assert.ok(html.includes(`href="/${a[other]}"`));
         assert.match(html, /<h1\b/);
       }
+      }
     }
   }
   assert.equal(count, 144);
+  for (const file of ['SOURCE_ANALYSES.md','SOURCE_ANALYSES.en.md']) {
+    const response = await fetch(base + '/' + file, {headers:{Accept:'text/html'}});
+    assert.equal(response.status, 200, file);
+    assert.match(await response.text(), /<h1\b/);
+  }
   assert.equal(validDocument('biology', 'programs/biology/analysis/../../../../site/server.js'), false);
   assert.deepEqual(getSourceAnalyses('../site'), []);
   for (const route of ['/programs/biology/analysis/notes.md','/programs/biology/analysis-index.json','/site/source-analyses.js']) {

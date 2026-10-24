@@ -93,3 +93,5 @@ The MLQ separates self-reports of the presence of meaning from the search for me
 A claim made by a source does not mean its result was independently replicated. Philosophical arguments, correlations, and causal experiments have different evidential status. Reading depth and limitations are listed in the [source register](../../data/sources.json).
 
 This material was prepared with AI assistance. It has not undergone external scientific peer review.
+
+[Source analyses: ideas, evidence and limitations](../../SOURCE_ANALYSES.en.md). Reading depth and extended-book status are stated separately.

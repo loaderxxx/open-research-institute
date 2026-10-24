@@ -1,0 +1,46 @@
+{
+  "checked": "2026-10-25",
+  "method": "Primary-source checks during bilingual source analysis; individual reading limits are recorded in analysis indexes.",
+  "corrections": [
+    {
+      "programme": "biology",
+      "before_en": "The publisher’s teaching resource is open; the book and full text are paid.",
+      "after_en": "The linked instructor PDF requires sign-in. The [edition overview](https://learninglink.oup.com/access/cooper8e) is open; the complete book was not obtained here."
+    },
+    {
+      "programme": "genomics",
+      "before_en": "Full text and supplementary tables are available from the publisher.",
+      "after_en": "The publisher shows a subscription preview; the abstract and some supplementary materials are open. An [author manuscript in PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12704523/) was located, but its full text was not read in this check."
+    },
+    {
+      "programme": "business-and-organizations",
+      "before_en": "a concrete recent contribution is co-authorship of the [randomised Copilot study across 66 firms](https://www.nber.org/papers/w33795) (2025).",
+      "after_en": "a concrete recent contribution is [“Generative AI at Work”](https://doi.org/10.1093/qje/qjae044) with Erik Brynjolfsson and Lindsey Raymond (2025). Danielle Li is not an author of NBER w33795."
+    },
+    {
+      "programme": "business-and-organizations",
+      "before_en": "facId=489797",
+      "after_en": "facId=602452"
+    },
+    {
+      "programme": "state-and-institutions",
+      "before_en": "Works on digital government; a concrete recent contribution is co-authoring the 2025 GTMI update for 197 economies.",
+      "after_en": "Works on digital government. A related institutional resource is the 2025 GTMI update for 197 economies; personal coauthorship of that release was not established in this check."
+    },
+    {
+      "programme": "state-and-institutions",
+      "before_en": "a concrete current contribution is the 2026 WGI methodology and release of comparable country estimates.",
+      "after_en": "his work with Daniel Kaufmann on the 2024 WGI methodology account is confirmed. The 2026 WGI update is attributed to the World Bank; personal authorship of that update was not separately established."
+    },
+    {
+      "programme": "state-and-institutions",
+      "before_en": "— public-accountability team.** Their concrete introductory article is",
+      "after_en": "— public-accountability researchers.** Together with Mariannunziata Liguori, Sean McCandless and Henry C. Midgley, they coauthored the introductory article"
+    },
+    {
+      "programme": "religion-and-cooperation",
+      "before_en": "Article is open under CC BY. [Maastricht",
+      "after_en": "Article is open under CC BY-NC. [Maastricht"
+    }
+  ]
+}
