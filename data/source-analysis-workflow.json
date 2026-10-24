@@ -23,7 +23,7 @@
     "Source access and factual corrections are recorded per entry; old map dates do not substitute for current verification."
   ],
   "canonical_progress": "data/source-analysis-status.json",
-  "state": "INITIAL_COVERAGE_COMPLETE_EXTENDED_ANALYSIS_IN_PROGRESS",
+  "state": "INITIAL_COVERAGE_COMPLETE_WITH_TWO_SCOPED_EXTENDED_ANALYSES",
   "date_basis": "UTC; stable task/branch identifiers may contain the originally assigned 2026-10-25 label.",
   "initial_coverage": {
     "programmes": 13,
@@ -34,5 +34,32 @@
     ],
     "markdown_files": 288
   },
-  "book_length_goal_complete": false
+  "book_length_goal_complete": false,
+  "extended_coverage": {
+    "entries": 2,
+    "markdown_files": 4,
+    "scopes": [
+      {
+        "programme": "digital-continuity",
+        "id": "book-01",
+        "scope": "Entire designated Locke chapter II.27; not the whole Essay."
+      },
+      {
+        "programme": "reliable-ai-research",
+        "id": "book-02",
+        "scope": "VDS preface and selected sections of chapters 1, 2, 4, 5, 8 and 13; not the whole book."
+      }
+    ]
+  },
+  "remaining_book_entries": {
+    "requires_full_text": 30,
+    "pending_close_reading": 7,
+    "note": "Neither extended analysis is claimed as a complete-book reading or verified printed pagination."
+  },
+  "editorial_checks": [
+    "Primary-source checking with per-entry access notes and correction ledger.",
+    "Root editorial spot checks and a separate worker review of six bilingual pairs.",
+    "Separate worker arithmetic check of all hypothetical VDS examples.",
+    "Automated coverage, language-pair source links, internal links, public-reader routes and allowlist checks."
+  ]
 }

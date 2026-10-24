@@ -1,6 +1,6 @@
 # Locke — Of Identity and Diversity (1694)
 
-[Русский](book-01.md) · [Programme](../README.en.md)
+[Русский](book-01.md) · [Programme](../README.en.md) · [Extended chapter analysis](book-01-deep.en.md)
 
 Checked: 24 October 2026. Initial source analysis; the complete designated chapter II.27 was read in the open historical transcription; the rest of the book was not analysed.
 

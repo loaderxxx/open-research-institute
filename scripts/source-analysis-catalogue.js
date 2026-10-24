@@ -7,7 +7,7 @@ const programmes = require('../site/research-programmes.json');
 const { getResearchResources } = require('../site/research-resources');
 const { getSourceAnalyses } = require('../site/source-analyses');
 const inventory = [];
-const totals = { books: 0, studies: 0, researchers: 0, analyses: 0, extended: 0 };
+const totals = { books: 0, studies: 0, researchers: 0, analyses: 0, extended: 0, booksRequiringFullText: 0, booksAwaitingCloseReading: 0 };
 
 for (const p of programmes) {
   const ru = getResearchResources(p.slug, 'ru');
@@ -19,6 +19,8 @@ for (const p of programmes) {
       const analysis = analyses.find(a => a.kind === kind && a.ordinal === i + 1);
       if (analysis) totals.analyses++;
       if (analysis?.deep_markdown) totals.extended++;
+      if (analysis?.long_form_status === 'requires_full_text') totals.booksRequiringFullText++;
+      if (analysis?.long_form_status === 'pending_close_reading') totals.booksAwaitingCloseReading++;
       inventory.push({ programme: p.slug, kind, ordinal: i + 1,
         title: {ru: ru[kind][i].title, en: resource.title}, source_url: resource.url,
         ...(analysis || { status: 'pending', long_form_status: kind === 'books' ? 'pending_access_check' : 'not_applicable' }),
@@ -38,6 +40,9 @@ const labels = {
 for (const lang of ['ru', 'en']) {
   const t=labels[lang], suffix=lang==='en'?'.en':'', pair=lang==='en'?'':'.en';
   let out=`# ${t.title}\n\n[${t.pair}](SOURCE_ANALYSES${pair}.md) · [${t.back}](RESEARCH_MAPS${suffix}.md)\n\n${t.intro}\n\n## ${t.coverage}\n\n${totals.books} ${t.books}; ${totals.studies} ${t.studies}; ${totals.researchers} ${t.researchers}. ${t.initial}: **${totals.analyses}**. ${t.deep}: **${totals.extended}**.\n\n${t.scope}\n\n## ${t.depth}\n\n${t.depthText}\n`;
+  out += lang === 'ru'
+    ? `\nДля ${totals.booksRequiringFullText} книжных позиций нужен полный текст; ещё ${totals.booksAwaitingCloseReading} открытых книг ожидают углублённого чтения. Развёрнутый разбор может охватывать выбранную главу или разделы: точные границы указаны в начале каждого текста. Наличие такого разбора не означает, что вся книга прочитана.\n`
+    : `\nFull text is needed for ${totals.booksRequiringFullText} book entries; ${totals.booksAwaitingCloseReading} further open books await close reading. An extended analysis may cover a selected chapter or sections: its exact scope appears at the start of each text. An extended analysis does not imply that the entire book was read.\n`;
   for (const p of programmes) {
     out+=`\n## ${p[lang].title}\n`;
     for (const kind of ['books','studies','researchers']) {

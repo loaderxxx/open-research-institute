@@ -26,13 +26,15 @@ Substantive analyses of books, publications, data and research groups from the 1
 
 ## Coverage
 
-39 book entries; 66 publications and resources; 39 researcher and team entries. Bilingual analyses: **144**. Extended bilingual analyses: **1**.
+39 book entries; 66 publications and resources; 39 researcher and team entries. Bilingual analyses: **144**. Extended bilingual analyses: **2**.
 
 Entries are counted by programme: a work may be examined from different research perspectives. This layer is tracked separately from the 21 published thematic reviews. Their older bibliographies are preserved; this queue corresponds to the current literature maps.
 
 ## Reading depth and book analysis
 
 An initial analysis explains the subject, main ideas, grounds, limitations and relevance to its programme. It does not imply that an entire book was read. Each entry identifies what was actually inspected: publisher description, abstract, selected sections or full text. The target for an extended book analysis is approximately 20–30 conventional pages; length does not substitute for checking the content. Where full text is unavailable, a lawful copy is needed. Open books awaiting close reading are tracked separately.
+
+Full text is needed for 30 book entries; 7 further open books await close reading. An extended analysis may cover a selected chapter or sections: its exact scope appears at the start of each text. An extended analysis does not imply that the entire book was read.
 
 ## Physics of information
 
@@ -261,7 +263,7 @@ An initial analysis explains the subject, main ideas, grounds, limitations and r
 ### Books
 
 - **Robsky, Lavitas and Wang — Reliable Evaluations for LLMs and AI Agents** — [Analysis](programs/reliable-ai-research/analysis/book-01.en.md) · [Source](https://link.springer.com/book/10.1007/978-3-032-26749-8). Full text required.
-- **Yu and Barter — Veridical Data Science** — [Analysis](programs/reliable-ai-research/analysis/book-02.en.md) · [Source](https://mitpress.mit.edu/9780262049191/veridical-data-science/). Close reading not yet complete.
+- **Yu and Barter — Veridical Data Science** — [Analysis](programs/reliable-ai-research/analysis/book-02.en.md) · [Extended analysis](programs/reliable-ai-research/analysis/book-02-deep.en.md) · [Source](https://mitpress.mit.edu/9780262049191/veridical-data-science/).
 - **The Marquand House Collective — Auditing AI** — [Analysis](programs/reliable-ai-research/analysis/book-03.en.md) · [Source](https://mitpress.mit.edu/9780262051736/auditing-ai/). Close reading not yet complete.
 
 ### Studies and data

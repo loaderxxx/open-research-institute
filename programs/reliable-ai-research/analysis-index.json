@@ -38,23 +38,30 @@
     },
     "source_url": "https://mitpress.mit.edu/9780262049191/veridical-data-science/",
     "access": "selected_sections",
-    "long_form_status": "pending_close_reading",
+    "long_form_status": "extended_analysis",
     "evidence_urls": [
       "https://mitpress.mit.edu/9780262049191/veridical-data-science/",
       "https://binyu.stat.berkeley.edu/",
       "https://vdsbook.com/",
-      "https://vdsbook.com/01-veridical_ds"
+      "https://vdsbook.com/01-veridical_ds",
+      "https://vdsbook.com/02-dslc",
+      "https://vdsbook.com/04-data_cleaning",
+      "https://vdsbook.com/05-data_viz",
+      "https://vdsbook.com/08-prediction_intro",
+      "https://vdsbook.com/13-final_ml"
     ],
     "access_note": {
-      "ru": "Подтверждена авторская открытая веб-версия по ссылке с официальной страницы Bin Yu. Прочитаны предисловие и выбранные фрагменты главы 1; вся книга ещё не прочитана внимательно.",
-      "en": "The official Bin Yu page confirms the author-supplied open web edition. The preface and selected chapter 1 passages were inspected; the entire book has not yet been closely read."
+      "ru": "Подтверждена авторская открытая веб-версия. Для расширенного разбора прочитаны предисловие и выбранные разделы глав 1, 2, 4, 5, 8 и 13; точные границы указаны в тексте. Вся книга, упражнения и полный сопроводительный код не прочитаны и не воспроизведены.",
+      "en": "Author open web edition verified. The extended analysis reads the preface and selected sections of chapters 1, 2, 4, 5, 8 and 13; exact scope is stated in the text. The entire book, exercises and complete supporting code were not read or reproduced."
     },
     "kind": "books",
     "ordinal": 2,
     "markdown": "programs/reliable-ai-research/analysis/book-02.md",
     "markdown_en": "programs/reliable-ai-research/analysis/book-02.en.md",
     "status": "initial_analysis",
-    "checked": "2026-10-24"
+    "checked": "2026-10-24",
+    "deep_markdown": "programs/reliable-ai-research/analysis/book-02-deep.md",
+    "deep_markdown_en": "programs/reliable-ai-research/analysis/book-02-deep.en.md"
   },
   {
     "id": "book-03",

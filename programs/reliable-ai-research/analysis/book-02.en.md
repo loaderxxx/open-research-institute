@@ -1,6 +1,6 @@
 # Yu and Barter — Veridical Data Science
 
-[Русская версия](book-02.md)
+[Русская версия](book-02.md) · [Extended analysis of selected sections](book-02-deep.en.md)
 
 **Access and reading limits.** The official Bin Yu page confirms the author-supplied open web edition. The preface and selected chapter 1 passages were inspected; the entire book has not yet been closely read.
 
