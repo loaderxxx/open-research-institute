@@ -5,9 +5,24 @@
 <!-- ori-toc:start -->
 ## Contents
 
+- [24 October 2026 — thirteen research programmes release](#24-october-2026--thirteen-research-programmes-release)
 - [24 October 2026 — bilingual Markdown release](#24-october-2026--bilingual-markdown-release)
 - [7 October 2026 — historical release](#7-october-2026--historical-release)
 <!-- ori-toc:end -->
+
+## 24 October 2026 — thirteen research programmes release
+
+Status observed: **SUCCESS**; service **Online**, one running instance. Main URL: [ori-lab.org/ru/](https://ori-lab.org/ru/); [English edition](https://ori-lab.org/en/).
+
+- Source repository: loaderxxx/open-research-institute; branch: main.
+- Deployed commit: 277714c6347753e5857767ce7bc8ce78ece5b6e4.
+- Railway deployment ID: 2d55275e-ea98-4e3f-b8bb-647e8d348cce.
+- Successful startup: 24 October 2026, 16:51 UTC (19:51 Moscow time).
+- The service is pinned to this commit. Later documentation records do not trigger another release.
+
+The homepage presents 13 programmes in three areas. Six new programmes have bilingual descriptions and research questions in the repository; gathering research materials is their next stage. Methodology and protocols have a [dedicated page](https://ori-lab.org/en/methodology/). The library retains the previous 21 reviews.
+
+Before release, 17 tests passed, 1,741 local links were checked and all 48 language pairs were present. Live browser checks covered 18 page and viewport combinations (1440, 1000 and 390 pixels), with no horizontal overflow. Language switching and business-programme form prefill were verified. The main, www and Railway domains respond successfully. Research requests remain in “Prepare email” mode; no real emails were sent during verification.
 
 ## 24 October 2026 — bilingual Markdown release
 

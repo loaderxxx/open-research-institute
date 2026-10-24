@@ -4,7 +4,7 @@
 
 Published on 24 October with the owner’s authorization. See [the deployment record](DEPLOYMENT.en.md) for the verified commit, checks and current email-delivery mode.
 
-The next local revision centres on research programmes: 13 programmes in three areas: nature and life; business, government and society; AI and identity. Six new areas — physics, biology, brain research, genomics, business and government — have agendas with bilingual README files. All 21 published reviews remain available in a separate library. This revision has not been deployed.
+The current published revision centres on research programmes: 13 programmes in three areas: nature and life; business, government and society; AI and identity. Six new areas — physics, biology, brain research, genomics, business and government — have agendas with bilingual README files. All 21 published reviews remain available in a separate library. Methodology and protocols have a dedicated page.
 
 <!-- ori-toc:start -->
 ## Contents

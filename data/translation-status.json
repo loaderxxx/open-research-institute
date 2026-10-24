@@ -326,17 +326,17 @@
     },
     {
       "source": "site/DEPLOYMENT.md",
-      "source_sha256": "6a7914a2abec8f34ec937e5ac6cf953b086acb7836c050aee8eaf67594ce43fd",
+      "source_sha256": "2bbb78ad0dd1501936f36e03ccb2a93d14dff55e984d758e0434659edde99de0",
       "english": "site/DEPLOYMENT.en.md",
       "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
-      "english_sha256": "b5653cae3e3d608db5dc05bcab806b4d96f43bdd0311e2397100dc4181ec2adb"
+      "english_sha256": "1faece44e0ab659570f6352ce35f39ebefccacf78e98b1b80d9a63044085e2e2"
     },
     {
       "source": "site/README.md",
-      "source_sha256": "a25f5a3b19d4ba1853e5feca163f85c9e265bb90df18069fb5d376463f670780",
+      "source_sha256": "10067fd275773a99702d03c1f7a1e092423886753b80dd8bc3bfb98d1acba9ad",
       "english": "site/README.en.md",
       "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
-      "english_sha256": "e56a5074ba986b9767d49251fc41d6b7824eb8ef107adcc562a6766c9d4990c1"
+      "english_sha256": "20c4c176cd1efb99c2001ef4afc22e30295f8c8dde4281afc1170c50c7d9a627"
     }
   ]
 }
