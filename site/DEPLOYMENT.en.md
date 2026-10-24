@@ -5,11 +5,30 @@
 <!-- ori-toc:start -->
 ## Contents
 
+- [24 October 2026 — bilingual analyses for all programme sources](#24-october-2026--bilingual-analyses-for-all-programme-sources)
 - [24 October 2026 — source links for every programme](#24-october-2026--source-links-for-every-programme)
 - [24 October 2026 — thirteen research programmes release](#24-october-2026--thirteen-research-programmes-release)
 - [24 October 2026 — bilingual Markdown release](#24-october-2026--bilingual-markdown-release)
 - [7 October 2026 — historical release](#7-october-2026--historical-release)
 <!-- ori-toc:end -->
+
+## 24 October 2026 — bilingual analyses for all programme sources
+
+Verified Railway status: **SUCCESS**; service **Online**, one running replica and no pending changes. [Russian source catalogue](https://ori-lab.org/SOURCE_ANALYSES.md) and [English source catalogue](https://ori-lab.org/SOURCE_ANALYSES.en.md).
+
+- Deployed commit: 128239b61a5c8c446f699482084e2a4ec48280ce; branch main; PR #1.
+- Tested tree: 8d8940ca6f4cd7e3684110ded553cb2bfa4731bc; local and remote tree equality was verified before release.
+- Deployment identifier: 83c1cfda-d190-4061-8876-9e95dff89b64.
+- SUCCESS recorded on 24 October 2026 at 21:38:49 UTC.
+- The service is pinned to this commit; the subsequent documentation record does not trigger another publication.
+
+All 144 entries in the current literature maps now have initial Russian and English analyses: 39 book entries, 66 studies/resources and 39 researchers/teams. Cards expose a short explanation, an analysis link and the original source; every listed study is shown. The existing 21 thematic reviews remain intact.
+
+Two extended bilingual texts were added: the fully read Locke chapter II.27 and selected sections of Veridical Data Science. Their scope is stated at the beginning; whole-book reading and a printed 20–30-page count are not asserted. Thirty book entries require full text, while seven further open books await close reading.
+
+Before publication, 22 site tests passed together with checks of all 144 initial and two extended language pairs, 418 Markdown documents and 3,355 local links. All 209 language pairs are present. Internal editorial checks included content spot checks and a separate arithmetic review of hypothetical examples; this is not external scientific peer review.
+
+After publication, 325 requests were checked on the primary domain: 292 analysis addresses, two catalogues, 26 programme pages and two libraries returned 200 with expected content; three unapproved internal addresses returned 404. There were no failures. Browser checks covered seven distinct pages: both catalogue languages, the AI programme and both extended readers in both languages; the source-card transition and language switching worked. Catalogue layout and the Russian VDS reader were visually inspected at the current desktop width. No new mobile-width check was performed.
 
 ## 24 October 2026 — source links for every programme
 

@@ -1453,10 +1453,10 @@
     },
     {
       "source": "site/DEPLOYMENT.md",
-      "source_sha256": "df89824766a08def8fc70a5d9a93877c3f1226a8e3e45e0305aa9cd91bf6b95f",
+      "source_sha256": "d34c624dadb98490044d267e488e5e3e74642ef6e54023937ad622b61caf0601",
       "english": "site/DEPLOYMENT.en.md",
       "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
-      "english_sha256": "4186aec3f09ca2caa67034ca348441e8b23d565fd0e1a32555feea4c8abb038a"
+      "english_sha256": "ff09acb67677537d19a2eececdd0deea08df75baafe45ecca75e8951263b7b50"
     },
     {
       "source": "site/README.md",
