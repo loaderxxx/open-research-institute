@@ -108,3 +108,35 @@ test('published routes support GET/HEAD with existing security policy and no sou
     assert.equal((await fetch(base + route)).status, 404, route);
   }
 });
+
+test('each published topic has an accessible, passive SVG served only at its exact public URL', async t => {
+  const base = await serve(t);
+  const catalogue = require('../data/quantum-rap.json');
+  const illustrations = require('../data/quantum-rap-illustrations.json');
+  assert.equal(new Set(illustrations.map(i => i.slug)).size, catalogue.length);
+  for (const article of catalogue) {
+    const item = illustrations.find(i => i.slug === article.slug);
+    assert.ok(item, article.slug);
+    assert.ok(item.alt.length > 40 && item.caption.length > 80 && item.description.length > 150);
+    const page = await (await fetch(base + '/ru/quantum-rap/' + article.slug + '/')).text();
+    assert.equal((page.match(/<figure /g) || []).length, 1);
+    assert.match(page, /<details class="figure-description"><summary>/);
+    const url = '/quantum-rap-images/' + article.slug + '.svg';
+    assert.ok(page.includes('src="' + url + '"'));
+    const response = await fetch(base + url);
+    assert.equal(response.status, 200, url);
+    assert.match(response.headers.get('content-type'), /^image\/svg\+xml/);
+    assert.equal(response.headers.get('x-content-type-options'), 'nosniff');
+    const svg = await response.text();
+    assert.match(svg, /role="img" aria-labelledby="title description"/);
+    assert.match(svg, /<title id="title">.+<\/title><desc id="description">.+<\/desc>/);
+    assert.ok(!/<(?:script|foreignObject|image|a|animate|set)\b|\bon\w+\s*=|(?:href|url)\s*=|<!ENTITY/i.test(svg), 'SVG must remain passive and self-contained');
+    assert.equal((await fetch(base + url, { method: 'HEAD' })).status, 200);
+    assert.equal((await fetch(base + url, { method: 'POST' })).status, 405);
+  }
+  for (const url of ['/quantum-rap-images/', '/quantum-rap-images/unknown.svg', '/quantum-rap-images/../server.js', '/site/quantum-rap-images/wave-or-particle.svg', '/data/quantum-rap-illustrations.json', '/site/quantum-rap-illustrations.js']) {
+    assert.equal((await fetch(base + url)).status, 404, url);
+  }
+  const draft = { ...catalogue[0], status: 'draft' };
+  assert.deepEqual(createQuantumRap(fixture(t, [draft])).assets, []);
+});

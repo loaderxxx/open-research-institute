@@ -11,7 +11,7 @@ const escapeHtml = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;'
 const RECIPIENT = 'im@vladimiruzbek.com';
 const MAX_BODY = 16384;
 const WINDOW = 15 * 60 * 1000;
-const MIME = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.json': 'application/json; charset=utf-8', '.md': 'text/plain; charset=utf-8' };
+const MIME = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.json': 'application/json; charset=utf-8', '.md': 'text/plain; charset=utf-8', '.svg': 'image/svg+xml; charset=utf-8' };
 
 function reply(res, status, code, extra = {}) {
   res.writeHead(status, { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' });
@@ -38,6 +38,7 @@ function createServer({ env = process.env, fetchImpl = fetch, root = __dirname, 
   const quantumRap = createQuantumRap(repo);
   const files = new Map(['/style.css', '/reader.css', '/app.js'].map(p => [p, path.join(root, p)]));
   if (quantumRap.enabled) files.set('/quantum-rap.css', path.join(root, 'quantum-rap.css'));
+  for (const asset of quantumRap.assets) files.set(asset.url, path.join(root, 'quantum-rap-images', asset.filename));
   for (const doc of ['README', 'LIBRARY', 'EDITORIAL_NOTE', 'RIGHTS', 'METHODOLOGY', 'RESEARCH_MAPS', 'SOURCE_ANALYSES']) {
     for (const suffix of ['.md', '.en.md']) files.set('/' + doc + suffix, path.join(repo, doc + suffix));
   }
