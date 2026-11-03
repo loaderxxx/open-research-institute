@@ -1,6 +1,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const { markdown, headingIds } = require('./markdown');
+const { getIllustration, renderIllustration } = require('./quantum-rap-illustrations');
 
 const BASE = '/ru/quantum-rap/';
 const esc = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -37,10 +38,29 @@ function createQuantumRap(repo) {
     const titleStart = tokens.findIndex(t => t.type === 'heading_open' && t.tag === 'h1');
     tokens.splice(titleStart, 3);
     const sections = headings.filter(h => h.level === 2);
-    articles.set(slug, { slug, title, description, track, trackUrl, sections, body: markdown.renderer.render(tokens, markdown.options, {}) });
+    const illustration = getIllustration(slug);
+    if (illustration) {
+      // Insert after two introductory paragraphs, before the deeper reading.
+      // The figure is built only from the repository's reviewed metadata.
+      let paragraphs = 0;
+      let inIntroduction = false;
+      let insertAt = tokens.length;
+      for (let i = 0; i < tokens.length; i++) {
+        if (tokens[i].type === 'heading_open' && tokens[i].tag === 'h2') {
+          if (inIntroduction) { insertAt = i; break; }
+          inIntroduction = true;
+        }
+        if (inIntroduction && tokens[i].type === 'paragraph_close' && ++paragraphs === 2) { insertAt = i + 1; break; }
+      }
+      const figure = new tokens[0].constructor('html_block', '', 0);
+      figure.content = renderIllustration(illustration);
+      tokens.splice(insertAt, 0, figure);
+    }
+    articles.set(slug, { slug, title, description, track, trackUrl, sections, illustration, body: markdown.renderer.render(tokens, markdown.options, {}) });
   }
   return {
     enabled: articles.size > 0,
+    assets: [...articles.values()].filter(a => a.illustration).map(a => ({ url: a.illustration.url, filename: a.slug + '.svg' })),
     render(pathname) {
       if (!articles.size) return null;
       if (pathname === BASE || pathname === BASE.slice(0, -1)) {
