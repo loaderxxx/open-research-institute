@@ -1,6 +1,7 @@
 const { test } = require('node:test');
 const assert = require('node:assert/strict');
 const { createServer, RECIPIENT } = require('./server');
+require('./quantum-rap.test');
 const valid = { topic: 'AI evidence', question: 'How can we verify claims?', email: 'visitor@example.com', name: 'Reader', website: '' };
 async function withServer(t, options = {}) {
   const server = createServer({ env: { RESEND_API_KEY: 'test-only', MAIL_FROM: 'ORI <test@example.org>' }, ...options });

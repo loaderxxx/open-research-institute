@@ -5,6 +5,7 @@ const { randomUUID, createHash } = require('node:crypto');
 const { markdown } = require('./markdown');
 const { renderPage } = require('./pages');
 const { getSourceAnalyses } = require('./source-analyses');
+const { createQuantumRap } = require('./quantum-rap');
 const escapeHtml = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 const RECIPIENT = 'im@vladimiruzbek.com';
@@ -34,7 +35,9 @@ function createServer({ env = process.env, fetchImpl = fetch, root = __dirname, 
   const attempts = new Map(), pending = new Set(), accepted = new Map();
   let inFlight = 0;
   const repo = path.dirname(root);
+  const quantumRap = createQuantumRap(repo);
   const files = new Map(['/style.css', '/reader.css', '/app.js'].map(p => [p, path.join(root, p)]));
+  if (quantumRap.enabled) files.set('/quantum-rap.css', path.join(root, 'quantum-rap.css'));
   for (const doc of ['README', 'LIBRARY', 'EDITORIAL_NOTE', 'RIGHTS', 'METHODOLOGY', 'RESEARCH_MAPS', 'SOURCE_ANALYSES']) {
     for (const suffix of ['.md', '.en.md']) files.set('/' + doc + suffix, path.join(repo, doc + suffix));
   }
@@ -128,7 +131,7 @@ function createServer({ env = process.env, fetchImpl = fetch, root = __dirname, 
         res.writeHead(308, { Location: '/' + legacyMethods[1] + '/methodology/' + new URL(req.url, 'http://local').search });
         return res.end();
       }
-      const page = renderPage(pathname === '/index.html' ? '/' : pathname);
+      const page = quantumRap.render(pathname) ?? renderPage(pathname === '/index.html' ? '/' : pathname);
       if (page !== null) {
         res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-cache' });
         return res.end(req.method === 'HEAD' ? undefined : page);
