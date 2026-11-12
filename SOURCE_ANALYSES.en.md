@@ -26,7 +26,7 @@ Substantive analyses of books, publications, data and research groups from the 1
 
 ## Coverage
 
-39 book entries; 66 publications and resources; 39 researcher and team entries. Bilingual analyses: **144**. Extended bilingual analyses: **2**.
+39 book entries; 66 publications and resources; 40 researcher and team entries. Bilingual analyses: **145**. Extended bilingual analyses: **2**.
 
 Entries are counted by programme: a work may be examined from different research perspectives. This layer is tracked separately from the 21 published thematic reviews. Their older bibliographies are preserved; this queue corresponds to the current literature maps.
 
@@ -278,6 +278,7 @@ Full text is needed for 30 book entries; 7 further open books await close readin
 - **Huan Sun and OSU NLP — scientific agents** — [Analysis](programs/reliable-ai-research/analysis/researcher-01.en.md) · [Source](https://people.engineering.osu.edu/people/sun.397).
 - **Yiyou Sun and Dawn Song’s group — long-horizon agent evaluation** — [Analysis](programs/reliable-ai-research/analysis/researcher-02.en.md) · [Source](https://sunyiyou.github.io/).
 - **Daoyu Wang and PaperArena — scientific-literature workflows** — [Analysis](programs/reliable-ai-research/analysis/researcher-03.en.md) · [Source](https://ustcagi.github.io/author/daoyu-wang/).
+- **LawZero and Scientist AI — separating prediction from action** — [Analysis](programs/reliable-ai-research/analysis/researcher-04.en.md) · [Source](https://lawzero.org/en/research).
 
 ## Learning from verified results
 
