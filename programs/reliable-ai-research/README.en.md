@@ -96,3 +96,5 @@ This material was prepared with AI assistance. It has not undergone external sci
 [Source analyses: ideas, evidence and limitations](../../SOURCE_ANALYSES.en.md). Reading depth and extended-book status are stated separately.
 
 - [LawZero: architecture, assurance and cross-research](analysis/researcher-04.en.md)
+
+- [AI 2040: can we negotiate a safer future?](reading/ai-futures-plan-a.en.md)
