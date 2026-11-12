@@ -43,6 +43,8 @@
 - **Yiyou Sun and Dawn Song’s group**, University of California, Berkeley: study agent training and evaluation on long-horizon tasks ([researcher profile](https://sunyiyou.github.io/)). A 2026 work is *Agents’ Last Exam*, a living benchmark of professional workflows with verifiable outcomes; it measures agent reliability in work tasks, not scientific truth specifically.
 - **Daoyu Wang and the PaperArena co-authors**, University of Science and Technology of China: develop tests for cross-paper reasoning and tool use ([Wang's institutional profile](https://ustcagi.github.io/author/daoyu-wang/) · [paper and authors](https://arxiv.org/abs/2510.10909)). Version v4, dated 30 January 2026, reports results on this specific benchmark; they should not be generalized to scientific work overall.
 
+- **LawZero and Yoshua Bengio**, Montréal: an external nonprofit developing Scientist AI, an approach that aims to separate prediction from goal-directed action ([official research page](https://lawzero.org/en/research)). [ORI analytical profile](analysis/researcher-04.en.md), checked 12 November 2026: architecture, conditional safety arguments, funding announcements and limits. This is not an ORI project or partner.
+
 ## Current work and open questions
 
 In 2025–2026, the field is moving from impressive demonstrations to task suites that check execution, cost, data, and expert review. Available results still show leading agents far behind experts at literature synthesis and reproducing analyses. New benchmarks also cover long workflows, open research questions, and work across multiple papers. Their results remain preliminary and depend strongly on task selection, available tools, and scoring rules.

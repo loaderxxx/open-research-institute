@@ -29,7 +29,7 @@ for (const p of programmes) {
   }
 }
 fs.writeFileSync(path.join(root, 'data/source-analysis-status.json'), JSON.stringify({
-  updated: '2026-10-24', scope: 'All entries in the 13 public RESEARCH_MAP files, in their original order. Programme-level recommendations may repeat a source.',
+  updated: inventory.reduce((latest, item) => item.checked > latest ? item.checked : latest, '2026-10-24'), scope: 'All entries in the 13 public RESEARCH_MAP files, in their original order. Programme-level recommendations may repeat a source.',
   totals, entries: inventory,
 }, null, 2) + '\n');
 

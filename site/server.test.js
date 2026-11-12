@@ -294,7 +294,7 @@ test('source-level analyses have bilingual reader routes and complete programme 
       }
     }
   }
-  assert.equal(count, 144);
+  assert.equal(count, 145);
   for (const file of ['SOURCE_ANALYSES.md','SOURCE_ANALYSES.en.md']) {
     const response = await fetch(base + '/' + file, {headers:{Accept:'text/html'}});
     assert.equal(response.status, 200, file);

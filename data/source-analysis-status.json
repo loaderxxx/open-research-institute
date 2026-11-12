@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-11-12",
   "scope": "All entries in the 13 public RESEARCH_MAP files, in their original order. Programme-level recommendations may repeat a source.",
   "totals": {
     "books": 39,
     "studies": 66,
-    "researchers": 39,
-    "analyses": 144,
+    "researchers": 40,
+    "analyses": 145,
     "extended": 2,
     "booksRequiringFullText": 30,
     "booksAwaitingCloseReading": 7
@@ -3548,6 +3548,41 @@
       "markdown_en": "programs/reliable-ai-research/analysis/researcher-03.en.md",
       "status": "initial_analysis",
       "checked": "2026-10-24"
+    },
+    {
+      "programme": "reliable-ai-research",
+      "kind": "researchers",
+      "ordinal": 4,
+      "title": {
+        "ru": "LawZero и Scientist AI — безопасность через разделение предсказания и действия",
+        "en": "LawZero and Scientist AI — separating prediction from action"
+      },
+      "source_url": "https://lawzero.org/en/research",
+      "id": "researcher-04",
+      "summary": {
+        "ru": "Внешняя некоммерческая организация Йошуа Бенжио. Архитектура Scientist AI, условные гарантии безопасности, объявленное финансирование и открытые вопросы. Не проект и не партнёр ORI.",
+        "en": "Yoshua Bengio’s external nonprofit. Scientist AI architecture, conditional safety arguments, announced funding and open questions. Not an ORI project or partner."
+      },
+      "access": "selected_sections",
+      "long_form_status": "not_applicable",
+      "evidence_urls": [
+        "https://lawzero.org/en/news/yoshua-bengio-launches-lawzero-new-nonprofit-advancing-safe-design-ai",
+        "https://arxiv.org/abs/2502.15657",
+        "https://lawzero.org/en/publication/scientist-ai-safe-design-not-desiring",
+        "https://lawzero.org/en/publication/safety-honesty-disinterested-ai-predictor",
+        "https://lawzero.org/sites/default/files/publications/99/safety-honesty-disinterested-ai-predictor_4.pdf",
+        "https://www.canada.ca/en/innovation-science-economic-development/news/2026/09/canada-and-germany-invest-in-lawzero-to-build-a-new-approach-to-safe-sovereign-ai.html",
+        "https://lawzero.org/en/news/lawzero-receives-commitment-300m-joint-funding-canada-and-germany",
+        "https://lawzero.org/en/publication/language-models-recognize-dropout-and-gaussian-noise-applied-their-activations"
+      ],
+      "access_note": {
+        "ru": "Официальные страницы, аннотация исходной работы и выбранные разделы технического PDF; без независимой проверки доказательств, экспериментов или финансов.",
+        "en": "Official pages, initial-paper abstract and selected technical-PDF sections; no independent proof, experimental or financial audit."
+      },
+      "markdown": "programs/reliable-ai-research/analysis/researcher-04.md",
+      "markdown_en": "programs/reliable-ai-research/analysis/researcher-04.en.md",
+      "status": "initial_analysis",
+      "checked": "2026-11-12"
     },
     {
       "programme": "verified-learning",
