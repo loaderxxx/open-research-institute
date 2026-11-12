@@ -80,3 +80,5 @@
 ## Новый сравнительный обзор
 
 [Международная карта проверяемого и управляемого AI](programs/reliable-ai-research/reading/safe-ai-landscape.md). Дополнение к исходному циклу обзоров, проверено 12 ноября 2026 года.
+
+- [AI 2040: можно ли договориться о безопасном будущем?](programs/reliable-ai-research/reading/ai-futures-plan-a.md)
