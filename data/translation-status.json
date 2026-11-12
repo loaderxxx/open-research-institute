@@ -11,10 +11,10 @@
     },
     {
       "source": "LIBRARY.md",
-      "source_sha256": "f9296967448e2fedb03ba543d4ffa5cc6166d95a85e8c573efa88e7b78db916b",
+      "source_sha256": "76b07a39f2224ae8934badf0132899760a1d0e6721d63600deeb80fe89a7f298",
       "english": "LIBRARY.en.md",
       "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
-      "english_sha256": "2be1975e2454aff1f892fb1ab07f32322865207bb2f236488b485032c3169f18"
+      "english_sha256": "dea4ddad471d81276137f0bdff04ab25b701e14d45ddb3e1a1644092d7cb9813"
     },
     {
       "source": "METHODOLOGY.md",
@@ -46,10 +46,87 @@
     },
     {
       "source": "SOURCE_ANALYSES.md",
-      "source_sha256": "d49ae167f8a05701c9a730fe9cca1e80b2bd99721ef95e7027b7bf4efd279436",
+      "source_sha256": "49c6cef23d66dc7b310d56b09c71f49ba0f21c29a2ce9f2109b0ecae9e736ee5",
       "english": "SOURCE_ANALYSES.en.md",
       "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
-      "english_sha256": "c63c04ed735b2ffb66d0f08d413e2a8794dab2b780f2f94afe72bb98909bd955"
+      "english_sha256": "af6ca3a56254e0bd695fea2716ccfa71dfe51c1a50f7801d21ffa31d6c874089"
+    },
+    {
+      "source": "content/quantum-rap/before-taking-a-step.md",
+      "source_sha256": "223ed3ed585cea88096ddbb447f642f10d6a1bded366969f2333573c34c295ea",
+      "english": "content/quantum-rap/before-taking-a-step.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "content/quantum-rap/boundary-of-experience.md",
+      "source_sha256": "e738b302918e883346d972e239dabd6b72ddd1c86ae4ee9a20d3618382223ac1",
+      "english": "content/quantum-rap/boundary-of-experience.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "content/quantum-rap/common-rhythm.md",
+      "source_sha256": "a0977f3e42ef51d1f83687594adbba461d0605fce0201f05e18c0141d8c95d16",
+      "english": "content/quantum-rap/common-rhythm.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "content/quantum-rap/confident-voice.md",
+      "source_sha256": "e260857ba426496c5d0bcd0603bd2dad656536c07144c1aa481d5cdc8a921a18",
+      "english": "content/quantum-rap/confident-voice.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "content/quantum-rap/einstein-space-time.md",
+      "source_sha256": "1051bdbd2d775dcf4a3fd78ad56d0b1992f5fac55c64df0c7d076cbf9b8d5dff",
+      "english": "content/quantum-rap/einstein-space-time.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "content/quantum-rap/from-voice-to-action.md",
+      "source_sha256": "bbb4c3506650d790a032868daa716b9c0b56d6e637312ad48138c72e6182f0d7",
+      "english": "content/quantum-rap/from-voice-to-action.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "content/quantum-rap/higgs-boson.md",
+      "source_sha256": "219c9a2746ae92e8b4ba45cc6ee757b3a695eb7ac5988d46b454967cb990b13b",
+      "english": "content/quantum-rap/higgs-boson.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "content/quantum-rap/preserve-a-trace.md",
+      "source_sha256": "06a1488e0bc4c01ac15b2ff819b22729a9148eba2dacfff8abc4604f22b00825",
+      "english": "content/quantum-rap/preserve-a-trace.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "content/quantum-rap/proton-and-neutron.md",
+      "source_sha256": "3b53c679e0494404538e9ba2431a84600888f35123189c634aa80bf8102fb802",
+      "english": "content/quantum-rap/proton-and-neutron.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "content/quantum-rap/step-by-step.md",
+      "source_sha256": "bf780d9814c949848c027370efbd68f5a1ce02d83b408588fabaa15f851a1791",
+      "english": "content/quantum-rap/step-by-step.en.md",
+      "status": "MISSING",
+      "english_sha256": null
+    },
+    {
+      "source": "content/quantum-rap/wave-or-particle.md",
+      "source_sha256": "879790a4eab1e9a902bebbda553fa103dd356b4d555f69bc5306fffa27499ece",
+      "english": "content/quantum-rap/wave-or-particle.en.md",
+      "status": "MISSING",
+      "english_sha256": null
     },
     {
       "source": "programs/biology/README.md",
@@ -879,17 +956,17 @@
     },
     {
       "source": "programs/reliable-ai-research/README.md",
-      "source_sha256": "13d07e35ef07dbcac54ed46ea73a8fe01fc1420e34a20726b3ee247dc56526ca",
+      "source_sha256": "d499e1852e7ed44a4a2d3e53fd8c3735034e5d8c868665855283bdd54ff8d4b9",
       "english": "programs/reliable-ai-research/README.en.md",
       "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
-      "english_sha256": "bf0d2701626a597c3e976d84d320f5c4f9e99ed7e3f7544a696522a96f70b4d5"
+      "english_sha256": "90022013c5b7241ed4554a4e81df0e6a5c43f12dc9be5af6ec56dede3f45f879"
     },
     {
       "source": "programs/reliable-ai-research/RESEARCH_MAP.md",
-      "source_sha256": "5cc6a0eb424d3a5c8d75f6ab89f4eea76da29cff1ba80e87d2af7625a7fa2b6f",
+      "source_sha256": "765bc8a22028a221f556377581bb0661a503ee97182453026126a1d885dc23b8",
       "english": "programs/reliable-ai-research/RESEARCH_MAP.en.md",
       "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
-      "english_sha256": "9a5df8ee284459ce581ad640c48ccedd317942335ec17dc27afa9c5632ba7188"
+      "english_sha256": "7c0b86632fd28f02983438e462314e9d995b829d052d0a3dd3ba6aaec7fb981b"
     },
     {
       "source": "programs/reliable-ai-research/SOURCES.md",
@@ -948,6 +1025,13 @@
       "english_sha256": "faf8ac246ce2b05db982a82a3ee94154d243eb51afe535e73ea09d08b5e62046"
     },
     {
+      "source": "programs/reliable-ai-research/analysis/researcher-04.md",
+      "source_sha256": "4d19f0f44c5ca6aee2bbdcc58fc412d5f8a45a79f23c028cf8a1c01831db64d1",
+      "english": "programs/reliable-ai-research/analysis/researcher-04.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "f126c6fea66424ade0b215fabb28a4e72fe055675a58862bd2fd2a4b8581c8db"
+    },
+    {
       "source": "programs/reliable-ai-research/analysis/study-01.md",
       "source_sha256": "29db937ad348a016a74d1bf34cef60a1ccba5510cba0d7899f449e01a2663d74",
       "english": "programs/reliable-ai-research/analysis/study-01.en.md",
@@ -990,11 +1074,39 @@
       "english_sha256": "affd71db6216cde47829e32cfcd309e3e29d188f2c46536a9ab805b8c641882a"
     },
     {
+      "source": "programs/reliable-ai-research/reading/lawzero-architecture.md",
+      "source_sha256": "c4cea707b3108f0e37a21c5fa7202a9b8e73a81bfdf8c9bc2f6682e0947f5c5d",
+      "english": "programs/reliable-ai-research/reading/lawzero-architecture.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "cf508e1a4558ac77242b79805e41f9cd205731952ffe9512739d9fca22361977"
+    },
+    {
+      "source": "programs/reliable-ai-research/reading/lawzero-assurance.md",
+      "source_sha256": "4c4b33b5d761b3d578d5680049dd05ff1c4c3a1e1ceabda0abb1a8ba51ac0c2f",
+      "english": "programs/reliable-ai-research/reading/lawzero-assurance.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "97a6072c4a31bea7c1dc57c9e3ca4921a0fbb396b8cfabbbdb3d73ffb8191866"
+    },
+    {
+      "source": "programs/reliable-ai-research/reading/lawzero-cross-research.md",
+      "source_sha256": "3d0ceef44faa9d4b97a47bc78c18094c70e7418f5b651973099365eea34be035",
+      "english": "programs/reliable-ai-research/reading/lawzero-cross-research.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "f434d432d5b7194055db76770c77831653e65617c73863bda6f9070aedc001ad"
+    },
+    {
       "source": "programs/reliable-ai-research/reading/overview.md",
       "source_sha256": "b49999b529cbc8012d396e3f3acbb111bb0e4e3ced85648d1e2d6d399c16b24b",
       "english": "programs/reliable-ai-research/reading/overview.en.md",
       "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
       "english_sha256": "5a1fe2db373de1c46c1b4f66298753c5e2e676da099f454aaad8f0db72d2a540"
+    },
+    {
+      "source": "programs/reliable-ai-research/reading/safe-ai-landscape.md",
+      "source_sha256": "21b9a50e9b731522d75e60b6e2aab1ec19e13d8c587fe4883a66273b11ed109e",
+      "english": "programs/reliable-ai-research/reading/safe-ai-landscape.en.md",
+      "status": "PREPARED_REQUIRES_SEMANTIC_REVIEW",
+      "english_sha256": "559e9060665d4c8d740ed7781585b7f54da846886c4d7c1547d0afbdcb0b5752"
     },
     {
       "source": "programs/religion-and-cooperation/README.md",

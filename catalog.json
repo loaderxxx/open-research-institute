@@ -167,7 +167,11 @@
     "documents": [
       "overview",
       "agents-and-evaluation",
-      "evidence-and-citations"
+      "evidence-and-citations",
+      "lawzero-architecture",
+      "lawzero-assurance",
+      "lawzero-cross-research",
+      "safe-ai-landscape"
     ],
     "status": "LITERATURE_REVIEW",
     "research_map": "programs/reliable-ai-research/RESEARCH_MAP.md",

@@ -28,6 +28,7 @@ Start with the general review, then continue to the two standalone in-depth revi
 
 | Material | Read in repository |
 |---|---|
+| International landscape of verifiable and controllable AI | [Markdown](reading/safe-ai-landscape.en.md) |
 | Reliable AI Research | [Markdown](reading/overview.en.md) |
 | Agents and Evaluation of Research Systems | [Markdown](reading/agents-and-evaluation.en.md) |
 | Evidence and Citation | [Markdown](reading/evidence-and-citations.en.md) |
@@ -93,3 +94,5 @@ A claim made by a source does not mean its result was independently replicated. 
 This material was prepared with AI assistance. It has not undergone external scientific peer review.
 
 [Source analyses: ideas, evidence and limitations](../../SOURCE_ANALYSES.en.md). Reading depth and extended-book status are stated separately.
+
+- [LawZero: architecture, assurance and cross-research](analysis/researcher-04.en.md)

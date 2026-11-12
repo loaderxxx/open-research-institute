@@ -14,6 +14,7 @@
 - [Анализ ORI и исследовательские вопросы](#анализ-ori-и-исследовательские-вопросы)
 - [Границы чтения и проверки](#границы-чтения-и-проверки)
 - [Первоисточники](#первоисточники)
+- [Двухуровневое исследование ORI](#двухуровневое-исследование-ori)
 <!-- ori-toc:end -->
 
 ## Организация и предмет работы
@@ -74,3 +75,11 @@ LawZero описывает совместное обязательство ка�
 [6]: https://www.canada.ca/en/innovation-science-economic-development/news/2026/09/canada-and-germany-invest-in-lawzero-to-build-a-new-approach-to-safe-sovereign-ai.html
 [7]: https://lawzero.org/en/news/lawzero-receives-commitment-300m-joint-funding-canada-and-germany
 [8]: https://lawzero.org/en/publication/language-models-recognize-dropout-and-gaussian-noise-applied-their-activations
+
+## Двухуровневое исследование ORI
+
+- [LawZero: архитектура и границы неагентности](../reading/lawzero-architecture.md)
+- [LawZero: от условной теоремы к проверке безопасности](../reading/lawzero-assurance.md)
+- [LawZero и ORI: цифровая непрерывность, обучение и научные агенты](../reading/lawzero-cross-research.md)
+
+- [Международная карта: 23 исследовательские линии](../reading/safe-ai-landscape.md)

@@ -143,7 +143,9 @@ test('literature maps are readable in both languages without exposing unrelated 
   for (const route of ['/programs/physics/NOTES.md', '/programs/not-a-programme/RESEARCH_MAP.md', '/site/server.js']) {
     assert.equal((await fetch(base + route)).status, 404, route);
   }
-  assert.equal(require('../data/reading-library.json').length, 21);
+  const reading = require('../data/reading-library.json');
+  assert.ok(reading.length >= 21);
+  assert.equal(new Set(reading.map(x => x.program + '/' + x.slug)).size, reading.length);
 });
 
 test('programme pages render without a reading entry, preserve language and expose only published reviews', async t => {
@@ -165,7 +167,7 @@ test('programme pages render without a reading entry, preserve language and expo
       }
     }
     const library = await (await fetch(`${base}/${lang}/library/`)).text();
-    assert.equal((library.match(/class="reading-card"/g) || []).length, 21);
+    assert.equal((library.match(/class="reading-card"/g) || []).length, require('../data/reading-library.json').length);
     const home = await (await fetch(`${base}/${lang}/`)).text();
     assert.equal((home.match(/class="programme-card"/g) || []).length, 13);
     assert.ok(!home.includes('slide-content'));
@@ -230,7 +232,7 @@ test('research resources link every programme section to its bilingual source ma
     for (const href of expectedMaps) assert.ok(library.includes(href), `${lang} library links ${href}`);
     assert.equal(expectedMaps.size, 13, `${lang} library has 13 programme maps`);
     const reviewLinks = new Set([...library.matchAll(/href=["'](\/programs\/[a-z-]+\/reading\/[a-z-]+(?:\.en)?\.md)["']/g)].map(match => match[1]));
-    assert.equal(reviewLinks.size, 21, `${lang} library links all 21 published reviews`);
+    assert.equal(reviewLinks.size, require('../data/reading-library.json').length, `${lang} library links all published reviews`);
   }
 });
 
@@ -348,6 +350,17 @@ test('every website programme is registered and has bilingual repository descrip
       const body = await response.text();
       assert.match(body, /^# /);
       if (p.stage === 'agenda') assert.ok(body.includes('PROGRAMME_AGENDA'), file);
+    }
+  }
+});
+
+ test('safe AI landscape is bilingual, registered and preserves the LawZero profile', async t => {
+  const { base } = await withServer(t);
+  for (const suffix of ['.md', '.en.md']) {
+    for (const name of ['reading/safe-ai-landscape', 'analysis/researcher-04']) {
+      const response = await fetch(base + '/programs/reliable-ai-research/' + name + suffix);
+      assert.equal(response.status, 200);
+      assert.match(await response.text(), /LawZero/);
     }
   }
 });

@@ -4,26 +4,6 @@
 
 Substantive analyses of books, publications, data and research groups from the 13 public literature maps. AI-assisted texts with internal editorial review; no external scientific peer review has been conducted.
 
-<!-- ori-toc:start -->
-## Contents
-
-- [Coverage](#coverage)
-- [Reading depth and book analysis](#reading-depth-and-book-analysis)
-- [Physics of information](#physics-of-information)
-- [Biology of cellular systems](#biology-of-cellular-systems)
-- [Brain and memory](#brain-and-memory)
-- [Consciousness and perception](#consciousness-and-perception)
-- [DNA and gene regulation](#dna-and-gene-regulation)
-- [Business and organizations](#business-and-organizations)
-- [State and institutions](#state-and-institutions)
-- [Religion, ritual and cooperation](#religion-ritual-and-cooperation)
-- [Voluntary coordination](#voluntary-coordination)
-- [Philosophy and meaning](#philosophy-and-meaning)
-- [AI for scientific research](#ai-for-scientific-research)
-- [Learning from verified results](#learning-from-verified-results)
-- [Digital continuity of identity](#digital-continuity-of-identity)
-<!-- ori-toc:end -->
-
 ## Coverage
 
 39 book entries; 66 publications and resources; 40 researcher and team entries. Bilingual analyses: **145**. Extended bilingual analyses: **2**.

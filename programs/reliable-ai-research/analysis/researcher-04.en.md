@@ -14,6 +14,7 @@
 - [ORI analysis and research questions](#ori-analysis-and-research-questions)
 - [Reading and verification limits](#reading-and-verification-limits)
 - [Primary sources](#primary-sources)
+- [Two-level ORI research](#two-level-ori-research)
 <!-- ori-toc:end -->
 
 ## Organization and research focus
@@ -74,3 +75,11 @@ We read official announcements, the HTML architecture overview, the original pre
 [6]: https://www.canada.ca/en/innovation-science-economic-development/news/2026/09/canada-and-germany-invest-in-lawzero-to-build-a-new-approach-to-safe-sovereign-ai.html
 [7]: https://lawzero.org/en/news/lawzero-receives-commitment-300m-joint-funding-canada-and-germany
 [8]: https://lawzero.org/en/publication/language-models-recognize-dropout-and-gaussian-noise-applied-their-activations
+
+## Two-level ORI research
+
+- [LawZero: architecture and the limits of non-agency](../reading/lawzero-architecture.en.md)
+- [LawZero: from conditional theorem to safety evaluation](../reading/lawzero-assurance.en.md)
+- [LawZero and ORI: digital continuity, learning and scientific agents](../reading/lawzero-cross-research.en.md)
+
+- [International landscape: 23 research lines](../reading/safe-ai-landscape.en.md)
