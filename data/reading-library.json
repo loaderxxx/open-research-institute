@@ -248,5 +248,15 @@
     "status": "PUBLISHED",
     "sources": 42,
     "markdown_en": "programs/reliable-ai-research/reading/safe-ai-landscape.en.md"
+  },
+  {
+    "program": "reliable-ai-research",
+    "slug": "ai-futures-plan-a",
+    "title": "AI 2040: можно ли договориться о безопасном будущем?",
+    "markdown": "programs/reliable-ai-research/reading/ai-futures-plan-a.md",
+    "words": 824,
+    "status": "PUBLISHED",
+    "sources": 7,
+    "markdown_en": "programs/reliable-ai-research/reading/ai-futures-plan-a.en.md"
   }
 ]
