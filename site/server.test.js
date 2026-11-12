@@ -378,3 +378,17 @@ test('LawZero narrative essays preserve bilingual reading and repository source 
     }
   }
 });
+
+test('homepages announce new safe AI research with matching-language links', async t => {
+  const { base } = await withServer(t);
+  for (const lang of ['ru', 'en']) {
+    const response = await fetch(`${base}/${lang}/`);
+    assert.equal(response.status, 200);
+    const html = await response.text();
+    assert.match(html, /<aside class="research-update"/);
+    const target = `/programs/reliable-ai-research/reading/safe-ai-landscape${lang === 'en' ? '.en' : ''}.md`;
+    assert.ok(html.includes(`href="${target}"`));
+    assert.ok(html.includes(lang === 'ru' ? 'Новое исследование' : 'New research'));
+    assert.equal((await fetch(base + target)).status, 200);
+  }
+});
