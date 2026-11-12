@@ -214,7 +214,7 @@
     "slug": "lawzero-architecture",
     "title": "LawZero: архитектура и границы неагентности",
     "markdown": "programs/reliable-ai-research/reading/lawzero-architecture.md",
-    "words": 883,
+    "words": 1072,
     "status": "PUBLISHED",
     "sources": 11,
     "markdown_en": "programs/reliable-ai-research/reading/lawzero-architecture.en.md"
@@ -224,7 +224,7 @@
     "slug": "lawzero-assurance",
     "title": "LawZero: от условной теоремы к проверке безопасности",
     "markdown": "programs/reliable-ai-research/reading/lawzero-assurance.md",
-    "words": 864,
+    "words": 1034,
     "status": "PUBLISHED",
     "sources": 10,
     "markdown_en": "programs/reliable-ai-research/reading/lawzero-assurance.en.md"
@@ -232,21 +232,21 @@
   {
     "program": "reliable-ai-research",
     "slug": "lawzero-cross-research",
-    "title": "LawZero и ORI: цифровая непрерывность, обучение и научные агенты",
+    "title": "AI в лаборатории: кто проверит красивую идею?",
     "markdown": "programs/reliable-ai-research/reading/lawzero-cross-research.md",
-    "words": 668,
+    "words": 836,
     "status": "PUBLISHED",
-    "sources": 5,
+    "sources": 4,
     "markdown_en": "programs/reliable-ai-research/reading/lawzero-cross-research.en.md"
   },
   {
     "program": "reliable-ai-research",
     "slug": "safe-ai-landscape",
-    "title": "Международная карта проверяемого и управляемого AI",
+    "title": "Как исследователи учатся делать AI безопаснее",
     "markdown": "programs/reliable-ai-research/reading/safe-ai-landscape.md",
-    "words": 2525,
+    "words": 2204,
     "status": "PUBLISHED",
-    "sources": 41,
+    "sources": 42,
     "markdown_en": "programs/reliable-ai-research/reading/safe-ai-landscape.en.md"
   }
 ]

@@ -1,53 +1,59 @@
-# LawZero and ORI: digital continuity, learning and scientific agents
+# An AI in the laboratory: who checks a beautiful idea?
 
 <!-- ori-nav:start -->
 [Русский](lawzero-cross-research.md) · [Programme description](../README.en.md) · [Research library](../../../LIBRARY.en.md) · [Sources and reading depth](../SOURCES.en.md)
 <!-- ori-nav:end -->
 
-[Русский](lawzero-cross-research.md) · [LawZero profile](../analysis/researcher-04.en.md)
+[Русский](lawzero-cross-research.md) · [LawZero](../analysis/researcher-04.en.md)
 
-**Updated: 12 November 2026. Independent ORI analysis, not a partnership publication.**
+Independent ORI essay, updated 12 November 2026. No partnership or completed experiments are implied.
 
 [GitHub: source / исходный текст](https://github.com/loaderxxx/open-research-institute/blob/work/chatgpt/ori-lawzero-deep-20261112/programs/reliable-ai-research/reading/lawzero-cross-research.en.md)
 
 <!-- ori-toc:start -->
 ## Contents
 
-- [1. A connection map, not proof of a unified theory](#1-a-connection-map-not-proof-of-a-unified-theory)
-- [2. Digital continuity: predicting a person is not being that person](#2-digital-continuity-predicting-a-person-is-not-being-that-person)
-- [3. Learning: evaluating a step or rewarding progress](#3-learning-evaluating-a-step-or-rewarding-progress)
-- [4. Scientific agents: from polished reports to auditable traces](#4-scientific-agents-from-polished-reports-to-auditable-traces)
-- [Review limits](#review-limits)
+- [1. An elegant explanation is not yet a discovery](#1-an-elegant-explanation-is-not-yet-a-discovery)
+- [2. Can an assistant learn to notice its mistake?](#2-can-an-assistant-learn-to-notice-its-mistake)
+- [3. Why five agreeing agents do not replace verification](#3-why-five-agreeing-agents-do-not-replace-verification)
+- [4. From an answer to an operating laboratory](#4-from-an-answer-to-an-operating-laboratory)
+- [Reading limits](#reading-limits)
 <!-- ori-toc:end -->
 
-## 1. A connection map, not proof of a unified theory
+## 1. An elegant explanation is not yet a discovery
 
-This module connects two levels: the Scientist AI architectural idea and testable questions in existing ORI programmes. These connections are our research interpretation, not a claim of collaboration between LawZero and ORI. The shared principle is to predict observables, state uncertainty and avoid turning model accuracy into unsupported conclusions about human nature. [C01](https://arxiv.org/abs/2502.15657)
+Scientific AI has an appealing talent: it can turn scattered observations into a coherent story in seconds. That is precisely why it needs a good critic. A story about why a medicine worked or a material became stronger does not establish the cause. Perhaps a measurement was wrong, the sample biased, or an important negative observation left outside the narrative.
 
-The starting ORI map comprises [identity and models](../../digital-continuity/reading/identity-and-models.en.md), [process verification in learning](../../verified-learning/reading/process-verification.en.md), [agents and evaluation](agents-and-evaluation.en.md), and [evidence and citations](evidence-and-citations.en.md). These programmes cannot be collapsed into one benchmark: each needs its own measurement object and error criterion.
+Scientist AI interests ORI not as a promise to replace scientists but as an attempt to separate two activities: inventing explanations and assessing whether evidence actually supports them. The first benefits from imagination. The second must resist selecting the most impressive story. The original paper presents a research direction, not a demonstration of a completed automated laboratory. [C01](https://arxiv.org/abs/2502.15657)
 
-## 2. Digital continuity: predicting a person is not being that person
+We therefore connect LawZero primarily to [scientific evidence checking](evidence-and-citations.en.md), [research-agent evaluation](agents-and-evaluation.en.md), and [verifiable learning](../../verified-learning/reading/process-verification.en.md). These are concrete connections: each asks what an evaluator actually checks and where it can fail.
 
-Research on agents grounded in people's self-reports allows behavioural forecasts to be evaluated relative to participants' own repeated measurements. This normalisation matters: people do not answer identically on every retest. Simulation accuracy does not establish transfer of memory, consciousness or subjective identity. Behavioural resemblance and continuity of experience are different claims. [C02](https://arxiv.org/abs/2411.10109)
+## 2. Can an assistant learn to notice its mistake?
 
-ORI experiment: with participants' voluntary consent, separate initial interviews, subsequent observations and an independent test. Compare a personalised model with a non-personalised baseline. Report errors by question type, degradation over time and participants' ability to correct or withdraw data. A probabilistic predictor is valuable here as a tool for honest uncertainty: insufficient evidence is preferable to a convincing imitation of confidence.
+Mathematics offers a simpler starting point because at least some answers can be checked independently. Let's Verify Step by Step studies feedback on intermediate solution steps. Instead of receiving only a final right-or-wrong signal, training receives information within the reasoning process. This illustrates evaluation becoming a task of its own. Yet the evaluator must also learn, so its errors do not disappear. Results in the selected mathematical setting do not guarantee correctness of arbitrary scientific conclusions. [C03](https://arxiv.org/abs/2305.20050)
 
-The connection to [virtual brain twins](../../digital-continuity/analysis/study-04.en.md) concerns model identifiability and testing on new observations. Even accurate simulation of measured dynamics does not automatically demonstrate preservation of a person. Further investigation must distinguish tissue models, behavioural models, biographical archives and philosophical claims about personal survival.
+An interesting fork then appears. Imagine a solution in which someone takes a wrong turn, notices a contradiction and corrects course. Strict step-by-step correctness and progress towards the right answer can judge that path differently. ORI's analysis of [Rewarding Progress](../../verified-learning/analysis/study-01.en.md) helps pose this question: in a particular task, should feedback reward local correctness or an increased probability of eventual success?
 
-## 3. Learning: evaluating a step or rewarding progress
+For a scientific assistant this is not a dispute over labels. An evaluator that penalises every unsuccessful hypothesis may inhibit exploration; one that rewards only convincing conclusions may overlook faulty foundations. A meaningful next experiment would compare both approaches on tasks with recoverable errors and independent outcome checking. We propose this experiment rather than presenting it as an existing ORI result.
 
-Let's Verify Step by Step studies process feedback in mathematical reasoning. It is an important example of separating solution generation and evaluation, not proof of a universally reliable evaluator. Compare it with ORI's existing analysis of [Rewarding Progress](../../verified-learning/analysis/study-01.en.md): local step correctness and increasing the chance of eventual success can be different objectives. [C03](https://arxiv.org/abs/2305.20050)
+## 3. Why five agreeing agents do not replace verification
 
-ORI proposal: give a generator tasks containing recoverable errors and compare a correctness evaluator, a progress evaluator and a final-answer verifier. Separate structurally familiar and novel tasks, accounting for labelling and compute costs. Agreement between two models is not independent verification if they share training data or the same faulty template. A useful outcome is to identify the conditions under which each feedback mechanism fails.
+It seems natural to assemble a digital laboratory from several assistants: one searches the literature, another proposes a hypothesis, a third checks calculations. But the number of participants says nothing by itself about independent judgement. All may rely on one misread source or trust the same answer template.
 
-## 4. Scientific agents: from polished reports to auditable traces
+MAST investigates failures in multi-agent systems and offers a vocabulary for specific breakdowns in coordination and verification. It is useful neighbouring research, not a test of Scientist AI or confirmation of its theorems. The LawZero connection concerns separation of functions: is declaring different roles enough, or do we need genuinely different evidence and checking methods? [C04](https://arxiv.org/abs/2503.13657)
 
-MAST categorises failures in multi-agent systems. For ORI this is a second level beyond general reliability questions: measure specific coordination and verification failures rather than assuming more agents provide more independent evidence. The LawZero connection is the separation of hypothesis generation, probability evaluation and authority to act. MAST does not test Scientist AI or validate its theorems. [C04](https://arxiv.org/abs/2503.13657)
+Imagine an agent finding a paper that demonstrates an effect only in a small sample. The next retells it as a general law, and a third cites that retelling. Three links did not create three pieces of evidence: one error acquired three voices. In a sound research system, the checker returns to the primary source, sees the experiment's limits and preserves negative findings. If the source is unavailable, an honest gap is better than a plausible citation.
 
-A minimal research protocol preserves the hypothesis, source, data version, executable method, negative results and stopping rationale. The evaluator should receive independent evidence where possible. When a source is unavailable, the system should mark the gap rather than invent a plausible citation. Publishing a report and running an experiment remain separate actions requiring separate permissions.
+ORI therefore treats the research trail, from claim to data and checking method, as part of the result. Its purpose is not bureaucracy: it allows another person to locate the point where a conclusion stopped following from the evidence.
 
-ORI's next step is a small public test suite connecting these themes: behavioural forecasting with abstention, evaluation of recoverable mathematical reasoning, and a scientific task with deliberately conflicting sources. A shared evidence-card format allows error comparisons, but results must not be collapsed into a single intelligence-safety score. This is a research proposal; these experiments have not been conducted as part of this publication.
+## 4. From an answer to an operating laboratory
 
-## Review limits
+The final transition matters most. An adviser may make a textual error; a laboratory system may turn that error into an action. A good forecast and permission to act are therefore different things. A scientific hypothesis may be judged highly probable while the system still lacks authority to run an experiment, alter data or publish on someone's behalf.
 
-LawZero architecture materials and selected sections of the original paper were read; related research was checked at abstract and available methodological-section level, not fully audited. ORI proposals are separated from published results. This is not an exhaustive literature search or experimental replication.
+For ORI a reasonable beginning is not a promise of fully autonomous science but a small reproducible research testbed. An assistant receives conflicting sources, proposes an explanation, states uncertainty and submits its conclusion to independent checking. We would examine not just correct answers but whether the system can stop, recognise missing data and preserve an intelligible history of corrections.
+
+This places LawZero within a broader scientific story: a powerful idea generator needs disciplined checking, not an even more confident voice. The [architecture essay](lawzero-architecture.en.md) explains how that separation might be built inside a model; the [safety discussion](lawzero-assurance.en.md) shows why it still falls short of a universal guarantee. The [international overview](safe-ai-landscape.en.md) introduces other paths towards the same practical goal: systems trusted only as far as the evidence permits.
+
+## Reading limits
+
+This essay combines published research with ORI’s existing reviews. The connections are analytical proposals, not experimental validation of Scientist AI. Selected sections and abstracts were read; no full proof audit or replication was performed.

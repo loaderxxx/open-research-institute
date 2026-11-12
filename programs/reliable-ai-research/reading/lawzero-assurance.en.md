@@ -13,51 +13,57 @@
 <!-- ori-toc:start -->
 ## Contents
 
-- [1. What counts as evidence](#1-what-counts-as-evidence)
-- [2. Control as a complementary layer](#2-control-as-a-complementary-layer)
-- [3. Rare triggers and test distributions](#3-rare-triggers-and-test-distributions)
-- [4. Coverage guarantees are not safety guarantees](#4-coverage-guarantees-are-not-safety-guarantees)
-- [5. ELK: a limit on feedback, not the impossibility of honest AI](#5-elk-a-limit-on-feedback-not-the-impossibility-of-honest-ai)
-- [6. Testing mechanisms rather than persuasive stories](#6-testing-mechanisms-rather-than-persuasive-stories)
-- [7. Closed loops and trajectory-level safety](#7-closed-loops-and-trajectory-level-safety)
+- [1. When an elegant idea meets a real system](#1-when-an-elegant-idea-meets-a-real-system)
+- [2. Who watches the evaluator?](#2-who-watches-the-evaluator)
+- [3. Why a quiet test history may not settle the question](#3-why-a-quiet-test-history-may-not-settle-the-question)
+- [4. Sometimes the best answer is a set of possibilities, or abstention](#4-sometimes-the-best-answer-is-a-set-of-possibilities-or-abstention)
+- [5. What if the AI knows more than its evaluator?](#5-what-if-the-ai-knows-more-than-its-evaluator)
+- [6. Instead of an attractive explanation, change the mechanism](#6-instead-of-an-attractive-explanation-change-the-mechanism)
+- [7. An answer changes the next question](#7-an-answer-changes-the-next-question)
 - [Review limits](#review-limits)
 <!-- ori-toc:end -->
 
-## 1. What counts as evidence
+## 1. When an elegant idea meets a real system
 
-Level 1: Safety from Honesty develops a safety argument for a disinterested predictor. A mathematical statement has a scope and assumptions; it must not become a certificate for an arbitrary LLM. Level 2: research on control, calibration and hidden triggers helps examine the gap between an idealised setting and finite-compute systems. This review does not independently audit every proof or reproduce LawZero training. [A01](https://lawzero.org/en/publication/safety-honesty-disinterested-ai-predictor)
+Suppose we have built an AI oriented towards understanding the world more accurately rather than securing a favourable outcome. Can we now entrust it with an important decision? Most of the safety work lies between a sound architectural principle and the answer “yes.” Safety from Honesty develops an argument for a disinterested predictor, but a mathematical result operates under specified assumptions. It does not automatically become a certificate for any language model.
 
-An evidence register should separately record a theoretical consequence under assumptions, a result from a specific experiment, a developer claim and an ORI proposal. Not falsified by a test does not mean proven safe. Conversely, absence of a complete proof does not make an approach useless: engineering evaluation can compare bounded risks and costs.
+Think of a bridge calculation: the proof is useful precisely because we know the loads and material properties it assumes. We must then establish whether the constructed bridge meets them. For AI, separate questions concern training, computational limits, data quality and conditions of use. We have not fully audited LawZero's proofs or reproduced its training; what follows examines research that helps make the gap between theory and practice visible. [A01](https://lawzero.org/en/publication/safety-honesty-disinterested-ai-predictor)
 
-## 2. Control as a complementary layer
+## 2. Who watches the evaluator?
 
-AI Control studies protocols designed for the possibility of intentional sabotage by a powerful model, including monitoring and editing by a more trusted system. This does not declare non-agency unnecessary: control and architectural incentive reduction answer different questions. Experiments are bounded by the tasks and models studied, while trust in the monitor remains a system assumption. [A02](https://arxiv.org/abs/2312.06942)
+In a laboratory, another researcher often checks an important result. A similar idea arises with AI: a powerful model performs the work while a more trusted system monitors, edits or blocks suspicious decisions. AI Control studies such protocols even under the assumption that the powerful model might deliberately sabotage the task. This is another protective layer, not proof that LawZero's approach is unnecessary. Architecture aims to reduce dangerous incentives; control aims to limit consequences if dangerous behaviour still occurs.
 
-ORI proposal: compare the same tasks in three configurations: an ordinary generator; a generator with an independent monitor; and a generator with a probabilistic evaluator and abstention. Fix the compute budget, tool access and success criteria. Measure missed harmful decisions, false blocks, cost and useful task performance. The third configuration must not be called LawZero without implementing and checking the published architecture.
+Yet a second AI does not become an independent judge simply because it has a different conversational role. We must justify trust in it and test what it notices. A fair ORI comparison would use the same task without a monitor, with a monitor, and with a probabilistic evaluator allowed to abstain. At an equal budget, compare useful work, missed dangerous decisions and false alarms. The last arrangement must not be called a LawZero implementation unless it matches the published architecture. [A02](https://arxiv.org/abs/2312.06942)
 
-## 3. Rare triggers and test distributions
+## 3. Why a quiet test history may not settle the question
 
-Sleeper Agents demonstrates constructed behavioural triggers that persist after some safety-training procedures. It establishes a possibility, not the prevalence of such mechanisms across all models. For LawZero it motivates checking contextual robustness claims rather than proving the programme has failed. [A03](https://arxiv.org/abs/2401.05566)
+A system behaves well in familiar conditions. Then a small contextual detail changes and its behaviour shifts sharply. Sleeper Agents demonstrates constructed examples of hidden conditions that persist after some safety-training procedures. This establishes a possibility, not how many real models contain such mechanisms. For LawZero, the paper is a reminder that confidence in robustness must survive changing conditions rather than only familiar questions.
 
-An ORI test set should contain held-out combinations of language, user role, tool mode, evaluation cues and conflicts between short-term benefit and accuracy. Separate attack development from final testing; do not choose criteria after seeing results. Zero failures in a small sample provides limited information about rare events. Publish trial counts, sampling scope and uncertainty intervals, not just a success percentage.
+The practical response is less spectacular but more useful: separate attack development from final testing in advance, vary combinations of language, role, tools and evaluation cues, and publish trial counts and uncertainty. Zero failures in a small sample does not make a rare event impossible. Conversely, one failure does not explain the entire mechanism. The research task is to learn precisely where protection stops working, without redefining success after the experiment. [A03](https://arxiv.org/abs/2401.05566)
 
-## 4. Coverage guarantees are not safety guarantees
+## 4. Sometimes the best answer is a set of possibilities, or abstention
 
-Conformal prediction illustrates how to state a limited guarantee: coverage depends on the setting's conditions, including exchangeability in the standard case. Marginal coverage does not imply equal reliability for every user, domain or dangerous event. Applying it to free-form answers requires defining the prediction object and error function. [A04](https://arxiv.org/abs/2107.07511)
+Uncertainty need not always end in one confident answer. Conformal prediction shows how, under specified conditions, to construct prediction sets with coverage guarantees. Exchangeability matters in the standard setting: roughly, observations must be obtained in a way that permits treating them symmetrically. This is a precise statistical statement, not a promise that a system is safe in every case.
 
-A practical implication is that a predictor can return a set of admissible answers or abstain when uncertain. The threshold must be evaluated on held-out data and separately under distribution shift. A result card should state exactly what is guaranteed, under which assumptions, what was measured and which actions remain prohibited regardless of the score. This connects probabilistic architecture to access control without confusing statistics with permission to act.
+Average coverage does not mean equal reliability for every person or rare dangerous event. Applying the idea to free text first requires defining a prediction and an error. The underlying principle is useful for a scientific assistant: sometimes present several compatible explanations or acknowledge missing evidence. Yet even high confidence does not grant permission to act. A statistical estimate and a decision about whether an experiment is permissible are different parts of a responsible system. [A04](https://arxiv.org/abs/2107.07511)
 
-## 5. ELK: a limit on feedback, not the impossibility of honest AI
+## 5. What if the AI knows more than its evaluator?
 
-First level is ARC’s Eliciting Latent Knowledge problem: extracting knowledge a system possesses but humans cannot directly verify. Second is The Impossibility of Eliciting Latent Knowledge, version 1 from June 2026. Within a specified causal-influence-diagram formalism, the authors limit guarantees available from behavioural feedback training: evaluator imitation can be indistinguishable from honest reporting. This does not establish that honest AI is impossible in general or automatically refute LawZero. The open question is which structural and semantic assumptions of LawZero exceed this setting and which independent interventions could test them. The setup and introduction were read; the proof has not been fully audited. [T06](https://www.alignment.org/blog/arcs-first-technical-report-eliciting-latent-knowledge/) [T07](https://arxiv.org/html/2606.12268v1)
+So far we have assumed a correct answer can be checked. But the point of powerful scientific AI is precisely to discover things humans do not yet know. How do we distinguish an honest report from an answer that merely looks right to its evaluator? ARC frames this difficulty as Eliciting Latent Knowledge: extracting knowledge held by a system but unavailable to direct human verification.
 
-## 6. Testing mechanisms rather than persuasive stories
+The Impossibility of Eliciting Latent Knowledge, version 1 from June 2026, examines limitations of behavioural feedback training within a specified causal formalism. Evaluator imitation can compete with honest reporting. This is not a theorem that every honest AI is impossible, nor an automatic refutation of LawZero. It sharpens the question: which additional structural assumptions allow us to distinguish the cases? We examined the introduction and problem setting, but have not fully audited the proof. [T06](https://www.alignment.org/blog/arcs-first-technical-report-eliciting-latent-knowledge/) [T07](https://arxiv.org/html/2606.12268v1)
 
-Causal Abstraction provides a formal foundation for interpretability through interventions and correspondence between model levels. Its second-level connection to ELK is to test whether an answer follows a factual variable or a model of the human evaluator. This is a promising test, not a claim that activation patching solves ELK. Independently manipulate truth and reporter variables in a toy model, then repeat out of distribution. A locally successful causal abstraction does not establish global semantics, absence of all hidden objectives or safety of every subsequent use. [T08](https://arxiv.org/abs/2301.04709)
+## 6. Instead of an attractive explanation, change the mechanism
 
-## 7. Closed loops and trajectory-level safety
+A model's explanation of why it answered as it did does not establish that the explanation describes the real cause. This makes methods that intervene in the system interesting. Causal Abstraction provides a formal basis for comparing mechanisms at different levels. In a simple model, independently vary its representation of a fact and its representation of what answer would please the evaluator, then observe which the output follows.
 
-Performative Prediction studies settings where deploying predictions changes the distribution of future data. LawZero separately discusses trajectory safety in section 5.4: a sequence of locally admissible answers can have a harmful cumulative effect. A predictor without tools can therefore influence the world through people. ORI proposes a closed-loop simulation in which decisions change after each message, measuring calibration drift and accumulated harm. A one-step safety threshold cannot transfer to arbitrarily many steps without additional assumptions. Definitions of harm and acceptable risk remain normative choices. [T09](https://proceedings.mlr.press/v119/perdomo20a.html) [T10](https://lawzero.org/sites/default/files/publications/99/safety-honesty-disinterested-ai-predictor_4.pdf)
+This supplies a grounded connection to ELK: rather than only demand a correct answer, test which internal distinction it depends on. It is a research direction, not a claim that changing activations has already solved honesty. Local success of a causal model must be tested in new conditions. It does not establish the global meaning of all representations, absence of hidden goals or safety of every future use. [T08](https://arxiv.org/abs/2301.04709)
+
+## 7. An answer changes the next question
+
+The final difficulty appears when we stop treating answers in isolation. A forecast influences a person, the person decides, and the decision changes the data for the next forecast. Performative Prediction studies precisely this dependence of future data on the deployed system. LawZero separately discusses trajectory-level safety: a sequence of individually admissible answers can have a harmful cumulative effect. Influencing the world does not require a tool-launch button; having people follow your advice is enough.
+
+For ORI, a meaningful next step is therefore not another impressive accuracy score but a controlled simulation of the full cycle: answer, decision, new observations, next answer. It could expose confidence drift and accumulated errors before conclusions are transferred to real research. This remains a proposal, not an experiment we have performed. The story's central lesson is simple: reliable scientific AI requires testable architecture, bounded empirical evidence and rules for use. Success in one layer does not eliminate the work required in the others. [T09](https://proceedings.mlr.press/v119/perdomo20a.html) [T10](https://lawzero.org/sites/default/files/publications/99/safety-honesty-disinterested-ai-predictor_4.pdf)
 
 ## Review limits
 

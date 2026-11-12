@@ -364,3 +364,17 @@ test('every website programme is registered and has bilingual repository descrip
     }
   }
 });
+
+test('LawZero narrative essays preserve bilingual reading and repository source access', async t => {
+  const { base } = await withServer(t);
+  for (const slug of ['lawzero-architecture', 'lawzero-assurance', 'lawzero-cross-research', 'safe-ai-landscape']) {
+    for (const suffix of ['.md', '.en.md']) {
+      const response = await fetch(base + '/programs/reliable-ai-research/reading/' + slug + suffix, { headers: { Accept: 'text/html' } });
+      assert.equal(response.status, 200);
+      const html = await response.text();
+      assert.match(html, /github\.com\/loaderxxx\/open-research-institute/);
+      assert.match(html, /LawZero/);
+      assert.ok(!html.includes('<table'), 'Essays should not become comparison tables');
+    }
+  }
+});
