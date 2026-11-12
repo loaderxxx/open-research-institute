@@ -18,6 +18,7 @@
 - [Религия, ритуал и сотрудничество](#религия-ритуал-и-сотрудничество)
 - [Добровольная координация](#добровольная-координация)
 - [Философия и смысл](#философия-и-смысл)
+- [Новый сравнительный обзор](#новый-сравнительный-обзор)
 <!-- ori-toc:end -->
 
 ## [Надёжные исследования с ИИ](programs/reliable-ai-research/README.md)
@@ -75,3 +76,7 @@
 | Философия смысла жизни | [Читать](programs/philosophy-and-meaning/reading/overview.md) | 3590 слов |
 | Плюрализм и измерение смысла | [Читать](programs/philosophy-and-meaning/reading/pluralism-and-measurement.md) | 3519 слов |
 | Теории смысла | [Читать](programs/philosophy-and-meaning/reading/theories-of-meaning.md) | 3659 слов |
+
+## Новый сравнительный обзор
+
+[Международная карта проверяемого и управляемого AI](programs/reliable-ai-research/reading/safe-ai-landscape.md). Дополнение к исходному циклу обзоров, проверено 12 ноября 2026 года.

@@ -4,6 +4,10 @@
 
 **Checked: 12 November 2026. Status: analytical profile of an external organization.** LawZero is not an ORI project or an established ORI partner. Library inclusion does not imply that its authors endorse our interpretations.
 
+Imagine an AI that can explain why a bridge might fail, but has no objective of persuading anyone to build or demolish it. The distinction sounds small until advice becomes action. LawZero starts from this boundary: perhaps making AI more capable need not mean giving it ever stronger incentives to reshape the world.
+
+This is not a description of an already perfected machine. It is a research programme with an unusually direct question: can an AI understand more while wanting less?
+
 <!-- ori-toc:start -->
 ## Contents
 
@@ -11,9 +15,10 @@
 - [The research idea](#the-research-idea)
 - [Evidence and unresolved questions](#evidence-and-unresolved-questions)
 - [Funding: commitments are not expenditure](#funding-commitments-are-not-expenditure)
-- [ORI analysis and research questions](#ori-analysis-and-research-questions)
+- [Why this matters for a scientific institute](#why-this-matters-for-a-scientific-institute)
 - [Reading and verification limits](#reading-and-verification-limits)
 - [Primary sources](#primary-sources)
+- [Continue the story](#continue-the-story)
 <!-- ori-toc:end -->
 
 ## Organization and research focus
@@ -38,19 +43,13 @@ On 16 September 2026, Canada's government announced planned support of **CAD 150
 
 LawZero describes the joint commitment as **up to CAD 300 million**. This is the organization's formulation, not our independent estimate of cash received. Its announcement also describes plans for Canadian computing infrastructure and expansion into Berlin; an intention should not be presented as an accomplished outcome. [LawZero announcement][7].
 
-## ORI analysis and research questions
+## Why this matters for a scientific institute
 
-For ORI, the useful principle is a testable separation of hypothesis proposal, evidence evaluation and authorization to act. That separation merits study without assuming that the label “neutral” makes an implementation neutral. Even a correctly expressed probability depends on data, a world model and the wording of a question.
+Imagine a research assistant that proposes an elegant explanation, then evaluates it, then writes the final report. If all three stages repeat the same mistake, the polished report can hide the absence of an independent check. LawZero makes an important question visible: could generating an idea and judging the evidence for it be separated more fundamentally?
 
-Proposed ORI questions, **not experiments already performed**:
+For ORI the relevant connection is therefore reliable scientific work. We want to understand when an evaluator can distinguish evidence from quotation, recognise conflicting sources and admit that it cannot decide. A model agreeing with another model is not enough: they may share the same blind spot. The useful test is whether the proposed separation changes measurable errors under unfamiliar conditions.
 
-1. Compare probability calibration and abstention under domain shifts and conflicting sources. High average accuracy does not replace testing rare harmful errors.
-2. Test whether contextualization distinguishes evidence, opinion, quotation and instruction. Include cases where identical words have different evidential status depending on their source.
-3. Evaluate generator and evaluator errors separately. Agreement may reflect a shared systematic error rather than independent confirmation.
-4. For each safety claim, record assumptions, applicability limits and ways to detect violations. Compare computational cost, latency and scenario coverage.
-5. Evaluate the complete system after tools are attached. An agent using a predictor's outputs does not automatically inherit its desirable behaviour.
-
-The connection to digital continuity is limited: careful evidence provenance and belief updating are useful for digital models of people, but this programme does not establish mind uploading or preservation of subjective personal identity.
+There is also a practical boundary. A careful adviser can still be placed inside a careless laboratory. Once a system can run code, modify data or initiate experiments, the permissions and checks around it matter alongside its predictions. ORI has not yet carried out the experiments discussed in these essays; they are proposed ways to test the ideas rather than achievements to advertise.
 
 ## Reading and verification limits
 
@@ -74,3 +73,9 @@ We read official announcements, the HTML architecture overview, the original pre
 [6]: https://www.canada.ca/en/innovation-science-economic-development/news/2026/09/canada-and-germany-invest-in-lawzero-to-build-a-new-approach-to-safe-sovereign-ai.html
 [7]: https://lawzero.org/en/news/lawzero-receives-commitment-300m-joint-funding-canada-and-germany
 [8]: https://lawzero.org/en/publication/language-models-recognize-dropout-and-gaussian-noise-applied-their-activations
+
+## Continue the story
+
+To follow the idea inside the model, read [how Scientist AI separates explanations from evaluation](../reading/lawzero-architecture.en.md). The next essay asks [what would count as evidence that this is safe](../reading/lawzero-assurance.en.md). We then return to the laboratory in [AI as a scientific assistant](../reading/lawzero-cross-research.en.md), before widening the view to [the international search for reliable AI](../reading/safe-ai-landscape.en.md).
+
+[GitHub: source / исходники](https://github.com/loaderxxx/open-research-institute/tree/work/chatgpt/ori-lawzero-deep-20261112/programs/reliable-ai-research)

@@ -18,6 +18,7 @@ For source-by-source reading, use the [bilingual analysis catalogue](SOURCE_ANAL
 - [Religion, Ritual, and Cooperation](#religion-ritual-and-cooperation)
 - [Voluntary Coordination](#voluntary-coordination)
 - [Philosophy and Meaning](#philosophy-and-meaning)
+- [New comparative review](#new-comparative-review)
 <!-- ori-toc:end -->
 
 ## [Reliable AI Research](programs/reliable-ai-research/README.en.md)
@@ -75,3 +76,7 @@ For source-by-source reading, use the [bilingual analysis catalogue](SOURCE_ANAL
 | The Philosophy of Meaning in Life | [Read](programs/philosophy-and-meaning/reading/overview.en.md) | 3590 words |
 | Pluralism and the Measurement of Meaning | [Read](programs/philosophy-and-meaning/reading/pluralism-and-measurement.en.md) | 3519 words |
 | Theories of Meaning | [Read](programs/philosophy-and-meaning/reading/theories-of-meaning.en.md) | 3659 words |
+
+## New comparative review
+
+[International landscape of verifiable and controllable AI](programs/reliable-ai-research/reading/safe-ai-landscape.en.md). A supplement to the original review cycle, checked on 12 November 2026.
