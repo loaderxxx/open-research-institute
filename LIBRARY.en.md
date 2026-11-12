@@ -80,3 +80,5 @@ For source-by-source reading, use the [bilingual analysis catalogue](SOURCE_ANAL
 ## New comparative review
 
 [International landscape of verifiable and controllable AI](programs/reliable-ai-research/reading/safe-ai-landscape.en.md). A supplement to the original review cycle, checked on 12 November 2026.
+
+- [AI 2040: can we negotiate a safer future?](programs/reliable-ai-research/reading/ai-futures-plan-a.en.md)
