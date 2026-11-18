@@ -8,6 +8,10 @@ Books, field histories, recent publications and researchers across all 13 progra
 
 For source-by-source reading, use the [bilingual analysis catalogue](SOURCE_ANALYSES.en.md). These analyses are distinct from the 21 thematic reviews below; their access notes distinguish descriptions, abstracts, selected sections and complete reading.
 
+## Focused clinical reviews
+
+[The clinical microbiome: what changes a decision?](studies/clinical-microbiome-2026/README.md) compares clinical trials, screening studies and Gulf cohorts. English edition, 18 November 2026.
+
 <!-- ori-toc:start -->
 ## Contents
 
