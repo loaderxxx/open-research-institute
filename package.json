@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node site/server.js",
-    "test": "node --test site/server.test.js",
+    "test": "node --test site/server.test.js site/dfw-publication.test.js",
     "translations": "node scripts/translation-status.js",
     "format:docs": "node scripts/format-markdown.js",
     "check:docs": "node scripts/check-markdown.js",

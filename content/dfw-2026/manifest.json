@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-19",
+  "title": {
+    "en": "Seven questions for a useful future",
+    "ru": "Семь вопросов о полезном будущем"
+  },
+  "method": {
+    "en": "Independent AI-assisted literature synthesis and research proposals, not empirical results. Open Research Institute is independent of the Oxford Robotics Institute and of the institutions discussed. Sources distinguish primary evidence, catalogue descriptions and proposals.",
+    "ru": "Независимый обзор литературы с помощью ИИ и исследовательские предложения, не результаты экспериментов. Open Research Institute не связан с Oxford Robotics Institute и упомянутыми организациями. Мы различаем первичные данные, описания каталога и предложения."
+  },
+  "credits": {
+    "en": "Vladimir commissioned, Lyra Queen orchestrated, Lyra Researcher researched, Claude assisted.",
+    "ru": "Владимир поставил задачу, Lyra Queen координировала, Lyra Researcher исследовала, Claude помогал."
+  },
+  "provenance": {
+    "en": "These credits describe project roles. The source package records work by native Claude workers; execution of a separate Queen runtime was not verified.",
+    "ru": "Эти титры описывают роли в проекте. В исходном пакете записана работа встроенных агентов Claude; запуск отдельной среды Queen не подтверждён."
+  },
+  "items": [
+    {
+      "slug": "newman-shared-sensing",
+      "status": "editorial_ready",
+      "title": {
+        "en": "Knowing when autonomy should stop",
+        "ru": "Когда автономная система должна остановиться"
+      },
+      "summary": {
+        "en": "Paul Newman's Oxford profile identifies navigation and mobile autonomy as core interests. Research on localisation and shared camera networks motivates a practical question: how should a system represent uncertainty when its sensors cannot see enough? Our proposed evaluation distinguishes clear, occupied and unknown areas rather than treating missing evidence as safety.",
+        "ru": "В официальном профиле Пола Ньюмана в Oxford среди основных интересов указаны навигация и мобильная автономность. Исследования локализации и общих сетей камер подводят к практическому вопросу: как обозначать неопределённость, когда датчики видят недостаточно? Мы предлагаем различать свободные, занятые и неизвестные зоны, а не принимать отсутствие данных за безопасность."
+      },
+      "limitations": {
+        "en": "A research proposal, not a validated safety system. Disputed timing comparisons are omitted. No Oxford or Oxa collaboration or endorsement is implied.",
+        "ru": "Это предложение исследования, не проверенная система безопасности. Спорные сравнения времени исключены. Сотрудничество или одобрение Oxford и Oxa не заявляется."
+      },
+      "callout": {
+        "en": "Explore localisation uncertainty and fail-safe evaluation criteria.",
+        "ru": "Изучите неопределённость локализации и критерии безопасной остановки."
+      },
+      "sources": [
+        {
+          "title": "Oxford: Paul Newman",
+          "url": "https://eng.ox.ac.uk/people/paul-newman",
+          "evidence_status": "opened_current_review"
+        },
+        {
+          "title": "Multi-robot warehouse research",
+          "url": "https://arxiv.org/html/2606.06762v1",
+          "evidence_status": "archive_reviewed_not_refetched"
+        },
+        {
+          "title": "Shared sensing research",
+          "url": "https://doi.org/10.1007/s10514-025-10227-2",
+          "evidence_status": "archive_reviewed_not_refetched"
+        },
+        {
+          "title": "Churchill & Newman (2013): Experience-based navigation for long-term localisation",
+          "url": "https://doi.org/10.1177/0278364913499193",
+          "evidence_status": "publisher_abstract_checked"
+        }
+      ],
+      "concept": {
+        "title": {
+          "en": "Adjacent ORI concept: Road Surface Alerts",
+          "ru": "Смежная концепция ORI: Road Surface Alerts"
+        },
+        "summary": {
+          "en": "A proposed silent-mode study would use consented, securely mounted fleet phones on two repeat routes from one Dubai fleet or depot. Candidate road defects would require independent repeat passes, explicit direction and position uncertainty, and human verification. Evaluation would compare confirmed defects, false alerts, wrong directed road segments and time to verification. Raw traces should be minimised and access restricted; no driver-facing alerts during the study. Conceptual reference: Churchill and Newman (2013) accumulate visual experiences for long-term localisation. Our proposed concept instead uses repeated phone observations; this is a methodological analogy, not a validated transfer of their system.",
+          "ru": "Предлагается исследование без предупреждений водителям: закреплённые телефоны с согласием участников, один дубайский автопарк или депо и два повторяемых маршрута. Кандидатные дефекты должны подтверждаться независимыми проездами с учётом направления, неопределённости координат и проверкой человеком. Метрики: подтверждённые дефекты, ложные сигналы, ошибочная привязка к направлению дорожного сегмента и время проверки. Сбор исходных траекторий минимизируется, доступ ограничивается. Концептуальная основа: Churchill и Newman (2013) накапливают визуальные наблюдения для долговременной локализации. Наша концепция использует повторные наблюдения телефона; это методологическая аналогия, а не проверенный перенос их системы."
+        },
+        "limitations": {
+          "en": "Concept stage; no field results, fleet agreement or partnership. The link to Oxford is methodological localisation relevance, not a claim that Newman works on this pothole project.",
+          "ru": "Стадия концепции: полевых результатов, договорённости с автопарком или партнёрства нет. Связь с Oxford касается методов локализации; участие Ньюмана в этом проекте дорожных дефектов не заявляется."
+        }
+      }
+    },
+    {
+      "slug": "senseable-city-dubai",
+      "status": "partial_hold",
+      "title": {
+        "en": "The city is part of the mobility system",
+        "ru": "Город — часть транспортной системы"
+      },
+      "summary": {
+        "en": "This brief connects urban mobility evidence with a proposed routing evaluation: a useful recommendation must account for the conditions in which the route is actually available. We separate published mobility studies from a still-unverified Dubai heat-routing anchor.",
+        "ru": "Обзор связывает исследования городской мобильности с предложением проверки маршрутов: полезная рекомендация должна учитывать, доступен ли маршрут в реальных условиях. Опубликованные исследования мобильности отделены от пока не проверенной работы о маршрутах в жарком Дубае."
+      },
+      "limitations": {
+        "en": "Walking smart in the heat remains on hold pending full-text verification. Its numerical findings, authorship details and Dubai-specific conclusions are not reproduced here. No new route experiment has been run.",
+        "ru": "Работа Walking smart in the heat остаётся на проверке до чтения полного текста. Её числа, сведения об авторах и выводы о Дубае здесь не воспроизводятся. Новый эксперимент с маршрутами не проводился."
+      },
+      "callout": {
+        "en": "Review mobility evidence and the checks a practical route recommendation needs.",
+        "ru": "Посмотрите исследования мобильности и условия проверки практического маршрута."
+      },
+      "sources": [
+        {
+          "title": "Urban mobility study",
+          "url": "https://www.nature.com/articles/s41893-026-01797-9",
+          "evidence_status": "archive_reviewed_not_refetched"
+        },
+        {
+          "title": "Urban mobility study",
+          "url": "https://www.nature.com/articles/s41467-025-57997-y",
+          "evidence_status": "archive_reviewed_not_refetched"
+        },
+        {
+          "title": "Speed compliance preprint",
+          "url": "https://arxiv.org/abs/2507.04434",
+          "evidence_status": "archive_reviewed_not_refetched"
+        },
+        {
+          "title": "Walking smart in the heat: verification pending",
+          "url": "https://doi.org/10.1016/j.compenvurbsys.2025.102337",
+          "evidence_status": "full_text_pending_do_not_quote_results"
+        }
+      ]
+    },
+    {
+      "slug": "aymerich-franch-handback",
+      "status": "editorial_ready",
+      "title": {
+        "en": "Acceptance is not the same as control",
+        "ru": "Принятие технологии не равно контролю"
+      },
+      "summary": {
+        "en": "Laura Aymerich-Franch's work on cybernetic avatars motivates a distinction between welcoming a service and retaining control over it. Our proposed evaluation asks whether users understand who is operating an avatar, can request a human, and can stop or correct an interaction.",
+        "ru": "Работы Лауры Аймерих-Франч о кибернетических аватарах помогают разделить принятие сервиса и сохранение контроля. Предлагаемая проверка выясняет, понимает ли пользователь, кто управляет аватаром, может ли обратиться к человеку, остановить или исправить взаимодействие."
+      },
+      "limitations": {
+        "en": "This is an evaluation proposal, not evidence of clinical benefit or demonstrated user control. Survey acceptance alone cannot establish either.",
+        "ru": "Это предложение проверки, не доказательство клинической пользы или сохранения контроля. Одного принятия технологии в опросе для таких выводов недостаточно."
+      },
+      "callout": {
+        "en": "Compare usefulness, clear disclosure and reversible interaction.",
+        "ru": "Сопоставьте полезность, понятное раскрытие режима работы и возможность отмены действий."
+      },
+      "sources": [
+        {
+          "title": "Public acceptance of cybernetic avatars",
+          "url": "https://doi.org/10.3389/frobt.2025.1719342",
+          "evidence_status": "archive_reviewed_not_refetched"
+        },
+        {
+          "title": "Related learning and technology research",
+          "url": "https://link.springer.com/article/10.1007/s11423-026-10611-4",
+          "evidence_status": "archive_reviewed_not_refetched"
+        }
+      ]
+    },
+    {
+      "slug": "deangeli-proteomizer",
+      "status": "editorial_ready",
+      "title": {
+        "en": "When does an RNA-to-protein model travel?",
+        "ru": "Переносится ли модель РНК–белок на новые данные?"
+      },
+      "summary": {
+        "en": "The Proteomizer preprint is a useful case for separating within-dataset prediction from generalisation to new tissues or protocols. Our synthesis focuses on validation design: report results within tissues and cohorts, distinguish retraining from unchanged transfer, and make the comparison baseline explicit.",
+        "ru": "Препринт Proteomizer полезен для различения предсказаний внутри набора данных и переноса на новые ткани или протоколы. Обзор сосредоточен на проверке модели: результаты по тканям и когортам, различие между переобучением и переносом без изменений, явно указанный базовый метод сравнения."
+      },
+      "limitations": {
+        "en": "Literature appraisal only. Disputed baseline numbers and unconfirmed biography are omitted. No patient data, clinical recommendation, experimental protocol or independent replication is supplied.",
+        "ru": "Только анализ литературы. Спорные численные значения и неподтверждённые биографические сведения исключены. Здесь нет данных пациентов, клинических рекомендаций, экспериментальных протоколов или независимого воспроизведения."
+      },
+      "callout": {
+        "en": "Inspect the evidence needed before a prediction model is used in a new setting.",
+        "ru": "Изучите, какие подтверждения нужны модели в новых условиях."
+      },
+      "sources": [
+        {
+          "title": "Proteomizer preprint",
+          "url": "https://doi.org/10.1101/2025.06.22.660946",
+          "evidence_status": "archive_reviewed_not_refetched"
+        },
+        {
+          "title": "T2Pdecoder comparator",
+          "url": "https://www.nature.com/articles/s41467-026-74209-3",
+          "evidence_status": "archive_reviewed_not_refetched"
+        }
+      ]
+    },
+    {
+      "slug": "ishiguro-avatar-control",
+      "status": "editorial_ready",
+      "title": {
+        "en": "Who is operating the avatar?",
+        "ru": "Кто управляет аватаром?"
+      },
+      "summary": {
+        "en": "Hiroshi Ishiguro's Moonshot programme describes real-world trials of teleoperated cybernetic avatars. These deployments motivate a practical design question: can people distinguish a live operator, a recording and autonomous software? Our proposal treats clear mode disclosure and the ability to stop an interaction as separate outcomes from engagement.",
+        "ru": "Программа Moonshot Хироси Исигуро описывает полевые испытания дистанционно управляемых кибернетических аватаров. Возникает практический вопрос: различают ли люди живого оператора, запись и автономную программу? В нашем предложении понятное раскрытие режима и возможность остановить общение оцениваются отдельно от вовлечённости."
+      },
+      "limitations": {
+        "en": "No new field trial was conducted. We do not claim that controller attribution has never been studied; this is a question raised by the reviewed evidence.",
+        "ru": "Новое полевое испытание не проводилось. Мы не утверждаем, что восприятие источника управления никогда не изучалось: это вопрос к рассмотренным данным."
+      },
+      "callout": {
+        "en": "Explore transparent human–avatar interaction.",
+        "ru": "Изучите прозрачное взаимодействие человека с аватаром."
+      },
+      "sources": [
+        {
+          "title": "JST Moonshot: field experiments",
+          "url": "https://www.jst.go.jp/moonshot/en/program/goal1/appeal/11_ishiguro_ap07.html",
+          "evidence_status": "opened_current_review"
+        },
+        {
+          "title": "Avatar field study",
+          "url": "https://doi.org/10.3389/frai.2026.1928110",
+          "evidence_status": "archive_reviewed_not_refetched"
+        },
+        {
+          "title": "Related robotics study",
+          "url": "https://doi.org/10.3389/frobt.2024.1469626",
+          "evidence_status": "archive_reviewed_not_refetched"
+        }
+      ]
+    },
+    {
+      "slug": "inayatullah-ai-foresight",
+      "status": "editorial_ready",
+      "title": {
+        "en": "Whose future does AI describe?",
+        "ru": "Чьё будущее описывает ИИ?"
+      },
+      "summary": {
+        "en": "Sohail Inayatullah's work on futures methods and AI-assisted reflection motivates an auditable foresight workflow. Our proposal separates source material, interpretation, assumptions and generated scenarios, so readers can see where a claim came from and challenge the frame behind it.",
+        "ru": "Работы Сохаила Инайатуллы о методах исследования будущего и рефлексии с ИИ подводят к проверяемому процессу форсайта. Мы предлагаем разделять исходные материалы, интерпретации, допущения и сгенерированные сценарии, чтобы читатель мог проследить происхождение утверждения и оспорить его рамку."
+      },
+      "limitations": {
+        "en": "Interpretive desk analysis, not a causal experiment or validated forecasting system. No claim of collaboration or endorsement.",
+        "ru": "Кабинетный интерпретационный анализ, не причинный эксперимент и не проверенная система прогнозирования. Сотрудничество или одобрение не заявляется."
+      },
+      "callout": {
+        "en": "Make assumptions and sources visible when exploring alternative futures.",
+        "ru": "Делайте допущения и источники видимыми при исследовании альтернативных сценариев."
+      },
+      "sources": [
+        {
+          "title": "AI and futures methods",
+          "url": "https://doi.org/10.1177/19467567231170833",
+          "evidence_status": "archive_reviewed_not_refetched"
+        },
+        {
+          "title": "Workshop reflection",
+          "url": "https://jfsdigital.org/2026/10/05/from-the-pedagogy-of-pain-to-a-pedagogy-of-possibility/",
+          "evidence_status": "archive_reviewed_not_refetched"
+        },
+        {
+          "title": "Foresight interview",
+          "url": "https://www.metafuture.org/2026/03/26/communicating-the-future-foresight-as-mindfulness-an-interview-with-sohail-inayatullah/",
+          "evidence_status": "archive_reviewed_not_refetched"
+        }
+      ]
+    },
+    {
+      "slug": "energy-of-useful-ai-work",
+      "status": "catalogue_context",
+      "title": {
+        "en": "Measure useful work, not just output",
+        "ru": "Измерять полезную работу, а не просто выдачу"
+      },
+      "summary": {
+        "en": "Tushar Kanade's programme listings prompt an ORI methods proposal: measure energy per accepted result alongside energy per attempt and latency. Separately, the Oriva catalogue describes a neonatal diagnostic prototype. Both examples illustrate why a compelling concept and validated performance must remain distinct.",
+        "ru": "Программные записи Тушара Канаде побуждают предложить методику ORI: измерять энергию на принятый результат наряду с энергией на попытку и задержкой. Отдельно каталог Oriva описывает прототип неонатальной диагностики. Оба примера показывают, почему привлекательную концепцию следует отличать от проверенной эффективности."
+      },
+      "limitations": {
+        "en": "Catalogue-based context, not review of unavailable Kanade manuscripts or clinical validation of Oriva. Harvard affiliation is attributed to organiser listings, not institutional endorsement. No energy measurements were made.",
+        "ru": "Контекст основан на каталоге, а не на чтении недоступных рукописей Канаде или клинической проверке Oriva. Указание Harvard относится к данным организатора, а не к одобрению университета. Измерения энергии не проводились."
+      },
+      "callout": {
+        "en": "Explore evaluation boundaries before comparing prototypes.",
+        "ru": "Определите границы проверки, прежде чем сравнивать прототипы."
+      },
+      "sources": [
+        {
+          "title": "Short papers catalogue",
+          "url": "https://prototypesforhumanity.com/latestnews/press/2026-short-papers",
+          "evidence_status": "archive_reviewed_not_refetched"
+        },
+        {
+          "title": "Oriva catalogue",
+          "url": "https://prototypesforhumanity.com/prototypes/oriva",
+          "evidence_status": "opened_current_review"
+        },
+        {
+          "title": "ML.ENERGY benchmark",
+          "url": "https://arxiv.org/abs/2505.06371",
+          "evidence_status": "archive_reviewed_not_refetched"
+        },
+        {
+          "title": "MLPerf Power",
+          "url": "https://arxiv.org/abs/2410.12032",
+          "evidence_status": "archive_reviewed_not_refetched"
+        }
+      ]
+    }
+  ]
+}

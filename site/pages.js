@@ -1,3 +1,4 @@
+const dfw = require('./dfw-publication');
 const fs = require('node:fs');
 const path = require('node:path');
 const programmes = require('./research-programmes.json');
@@ -137,7 +138,7 @@ function programmeCatalogue(lang) {
 function home(lang) {
   const c = copy[lang];
   return `<section class="hero"><div class="page-wrap hero-grid"><div class="hero-copy"><p class="eyebrow">${c.eyebrow}</p><h1>${c.hero}</h1><p class="hero-lede">${c.lead}</p><a class="button button-light" href="#research">${c.explore}<span aria-hidden="true">↘</span></a></div><div class="hero-plate" aria-hidden="true"><div class="plate-heading">ORI / ${c.mapLabel}</div>${['physics','genomics','brain'].map((slug,i)=>`<div class="plate-row"><span class="plate-index">0${i+1}</span>${illustration(slug)}<span class="plate-label">${c.scales[i]}</span></div>`).join('')}<div class="plate-caption">${c.heroCaption}</div></div></div></section>
-    <aside class="research-update" aria-label="${lang === 'ru' ? 'Новое исследование' : 'New research'}"><div class="page-wrap research-update-inner"><span class="research-update-label">${lang === 'ru' ? 'Новое исследование' : 'New research'}</span><a href="/programs/reliable-ai-research/reading/safe-ai-landscape${lang === 'en' ? '.en' : ''}.md">${lang === 'ru' ? 'Как исследователи учатся делать AI безопаснее' : 'How researchers are learning to make AI safer'}<span aria-hidden="true"> ↗</span></a></div></aside>
+    ${dfw.banner(lang)}<aside class="research-update" aria-label="${lang === 'ru' ? 'Новое исследование' : 'New research'}"><div class="page-wrap research-update-inner"><span class="research-update-label">${lang === 'ru' ? 'Новое исследование' : 'New research'}</span><a href="/programs/reliable-ai-research/reading/safe-ai-landscape${lang === 'en' ? '.en' : ''}.md">${lang === 'ru' ? 'Как исследователи учатся делать AI безопаснее' : 'How researchers are learning to make AI safer'}<span aria-hidden="true"> ↗</span></a></div></aside>
     <section id="research" class="section research"><div class="page-wrap"><div class="section-heading"><div><p class="eyebrow">${c.researchEyebrow}</p><h2>${c.researchTitle}</h2></div><p class="section-intro">${c.researchIntro}</p></div>${programmeCatalogue(lang)}</div></section>
     <section class="reading-strip"><div class="page-wrap reading-strip-inner"><div><p class="eyebrow">${c.readingEyebrow}</p><h2>${c.readingTitle}</h2><p>${c.readingText}</p></div><a class="button button-outline" href="/${lang}/library/">${c.allReading}<span aria-hidden="true">↗</span></a></div></section>
     <section id="about" class="section"><div class="page-wrap about-grid"><div><p class="eyebrow">${c.aboutEyebrow}</p><h2>${c.aboutTitle}</h2></div><div class="about-copy"><p>${c.aboutText}</p><p>${c.aboutStage}</p></div></div></section>${requestForm(lang)}`;
@@ -171,6 +172,7 @@ function renderPage(pathname) {
   const lang = match[1], rawRoute = match[2] || '', route = rawRoute ? rawRoute.replace(/\/$/, '') + '/' : '';
   let content, title = copy[lang].siteTitle, description = copy[lang].description;
   if (!route) content = home(lang);
+  else if (route === 'research/dfw-2026/') { const publication = dfw.render(lang); if (!publication) return null; content=publication.content; title=publication.title+' — ORI'; description=publication.description; }
   else if (route === 'library/') { content = libraryPage(lang); title = copy[lang].libraryTitle + ' — ORI'; }
   else if (route === 'methodology/') { content = methodsPage(lang); title = copy[lang].methods + ' — ORI'; description = methodology[lang].intro; }
   else {
@@ -180,7 +182,7 @@ function renderPage(pathname) {
     content = programmePage(p,lang); title = p[lang].title + ' — ORI'; description = p[lang].question;
   }
   const values = {lang, title:esc(title), description:esc(description), header:header(lang,route), content, footer:footer(lang)};
-  return template.replace(/\{\{(\w+)\}\}/g, (_, key)=>values[key] || '');
+  return template.replace(/\{\{(\w+)\}\}/g, (_, key)=>values[key] || '').replace('</head>', (route === 'research/dfw-2026/' ? dfw.head(lang) : '') + '</head>');
 }
 
 module.exports = { renderPage };
