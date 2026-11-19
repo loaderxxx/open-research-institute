@@ -20,6 +20,7 @@ Choose a question. **Overview** explains what we know; **source atlas** maps pri
 
 ## How to check the work
 
+- [Independent scientific appraisal](SCIENTIFIC-REVIEW.md): primary-source findings, which claims transfer, and the next test for each question.
 - [Review method](METHOD.md): how we selected sources, what we read, and how we label evidence boundaries.
 - [Cross-study synthesis](CROSS-STUDY.md): how the seven topics distinguish measurable proxies from outcomes that still need testing.
 
