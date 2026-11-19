@@ -1,5 +1,7 @@
 # Evidence atlas: when people can take back control
 
+English · [Русский](ATLAS.ru.md)
+
 [Study introduction](README.md) · [Proposed tests](RESEARCH-DESIGN.md)
 
 ## Foundational evidence

@@ -1,5 +1,7 @@
 # Acceptance is not the same as control
 
+English · [Русский](README.ru.md)
+
 Can a person who welcomes an avatar as a guide identify the current decision-maker, cancel a pending action, and recover when delegated work goes wrong? Acceptance data cannot answer that question. The Dubai survey establishes a useful contrast between information and more sensitive service tasks; neighboring human–AI experiments show why an interface should measure reliance and error recovery separately.
 
 ## Read the study

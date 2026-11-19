@@ -1,5 +1,7 @@
 # From conference prompt to evidence atlas
 
+**English** · [Русский](METHOD.ru.md)
+
 [All studies](README.md) · [Cross-study synthesis](CROSS-STUDY.md)
 
 ## Where the research started

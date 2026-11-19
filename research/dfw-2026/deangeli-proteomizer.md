@@ -1,5 +1,7 @@
 # When does an RNA-to-protein model travel?
 
+English · [Русский](deangeli-proteomizer.ru.md)
+
 [Expanded study atlas and research design](deangeli-proteomizer/README.md)
 
 Editorial status: editorial_ready

@@ -1,5 +1,7 @@
 # Evidence atlas: disagreement and provenance in AI-assisted foresight
 
+**English** · [Русский](ATLAS.ru.md)
+
 [Study introduction](README.md) · [Proposed tests](RESEARCH-DESIGN.md)
 
 ## Foresight and method fidelity

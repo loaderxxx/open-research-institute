@@ -34,7 +34,8 @@ test('all seven detail pages preserve legacy anchors and translate reciprocal pa
    assert.ok(html.includes(`href="${prefix}#${slug}"`));
    assert.ok(html.includes(`href="/${other}/research/dfw-2026/${slug}/"`));
    assert.ok(html.includes(`rel="canonical" href="https://ori-lab.org${url}"`));
-   assert.ok(html.includes(`/${slug}/README.md"`));
+   assert.ok(html.includes(`/${slug}/README${lang==='ru'?'.ru':''}.md"`));
+   assert.ok(html.includes(`/${slug}/ATLAS${lang==='ru'?'.ru':''}.md"`));
    for(const id of ['findings','evidence','limits','next-question']){
     assert.ok(html.includes(`href="#${id}"`));
     assert.ok(html.includes(`id="${id}"`));

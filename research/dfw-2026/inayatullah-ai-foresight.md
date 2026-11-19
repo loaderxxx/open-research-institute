@@ -1,5 +1,7 @@
 # Whose future does AI describe?
 
+English · [Русский](inayatullah-ai-foresight.ru.md)
+
 [Expanded study atlas and research design](inayatullah-ai-foresight/README.md)
 
 Editorial status: editorial_ready

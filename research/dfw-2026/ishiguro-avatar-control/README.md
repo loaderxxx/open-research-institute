@@ -1,5 +1,7 @@
 # Who is operating the avatar?
 
+English · [Русский](README.ru.md)
+
 A single face or voice can present a live operator, replay a recording, or synthesize a new action. The studies mapped here show why those dimensions must remain distinct: robot engagement, educational presence and expo uptime tell us different things, and none establishes that a visitor correctly identified who could act.
 
 - [Original study note](../ishiguro-avatar-control.md): field evidence and context.

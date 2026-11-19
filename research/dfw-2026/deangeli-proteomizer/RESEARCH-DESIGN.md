@@ -1,5 +1,7 @@
 # Appraisal checklist: validation claims for matched human abundance studies
 
+**English** · [Русский](RESEARCH-DESIGN.ru.md)
+
 [Overview](README.md) · [Evidence atlas](ATLAS.md)
 
 **Status:** reading and audit framework, not an experimental or clinical protocol.

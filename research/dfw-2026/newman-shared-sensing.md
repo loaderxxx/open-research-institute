@@ -1,5 +1,7 @@
 # Knowing when autonomy should stop
 
+English · [Русский](newman-shared-sensing.ru.md)
+
 [Expanded study atlas and research design](newman-shared-sensing/README.md)
 
 Editorial status: editorial_ready

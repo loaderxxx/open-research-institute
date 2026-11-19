@@ -1,5 +1,7 @@
 # Knowing when autonomy should stop
 
+**EN** · [Русский](README.ru.md)
+
 The Oxford studies show three distinct capabilities: recognizing a previously visited place, allowing a controller to hand navigation between cameras, and coordinating several robots in one warehouse. They do not establish that a shared camera network can fail safely at port scale. A separate line of work on road surface monitoring shows why repeated reports help prioritize an inspection, but a repeatable signal is still not a verified defect.
 
 | Read next | What it answers |

@@ -1,5 +1,7 @@
 # Evidence atlas: energy per accepted result
 
+**English** · [Русский](ATLAS.ru.md)
+
 [Study overview](README.md) · [Proposed evaluation](RESEARCH-DESIGN.md)
 
 ## What the festival material actually establishes

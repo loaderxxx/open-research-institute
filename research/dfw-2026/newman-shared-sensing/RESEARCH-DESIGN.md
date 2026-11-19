@@ -1,5 +1,7 @@
 # Proposed tests: safe abstention and credible road alerts
 
+**EN** · [Русский](RESEARCH-DESIGN.ru.md)
+
 [Study overview](README.md) · [Evidence atlas](ATLAS.md)
 
 These are separate, unrun studies. The yard test is simulation-only. The road concept is a retrospective maintenance triage experiment, not a routing or driver-safety system.

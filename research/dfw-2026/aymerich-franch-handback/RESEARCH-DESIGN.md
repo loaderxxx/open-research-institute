@@ -1,5 +1,7 @@
 # Research design: evaluate reversible delegation
 
+English · [Русский](RESEARCH-DESIGN.ru.md)
+
 [Study introduction](README.md) · [Evidence atlas](ATLAS.md)
 
 **Status: proposed, not run.**

@@ -1,5 +1,7 @@
 # When does an RNA-to-protein model travel?
 
+**English** · [Русский](README.ru.md)
+
 **Research question:** What evidence shows that a model estimating human protein abundance from transcriptomics transfers to a new cohort rather than merely interpolating within familiar data?
 
 **ORI synthesis:** Within-cohort validation, target-domain refitting and untouched external validation answer different questions. Publishing a single pooled correlation can hide both sources of leakage and serious errors within a cohort. Measure each claim with the split, comparison and unit it requires.

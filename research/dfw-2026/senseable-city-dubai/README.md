@@ -1,5 +1,7 @@
 # The city is part of the mobility system
 
+**EN** · [Русский](README.ru.md)
+
 A route that appears shadier on a map is useful only if a pedestrian can actually take it. Dubai's metro study finds a small average modeled detour with less sun exposure around four stations. The next question is how many gains survive when every indoor gate, crossing and accessible entrance is checked for the actual time of travel.
 
 | Read next | What it answers |

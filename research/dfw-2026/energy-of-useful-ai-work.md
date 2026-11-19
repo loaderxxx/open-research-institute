@@ -1,5 +1,7 @@
 # Measure useful work, not just output
 
+English · [Русский](energy-of-useful-ai-work.ru.md)
+
 [Expanded study atlas and research design](energy-of-useful-ai-work/README.md)
 
 Editorial status: catalogue_context

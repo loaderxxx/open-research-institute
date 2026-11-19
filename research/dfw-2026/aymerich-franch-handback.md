@@ -1,5 +1,7 @@
 # Acceptance is not the same as control
 
+English · [Русский](aymerich-franch-handback.ru.md)
+
 [Expanded study atlas and research design](aymerich-franch-handback/README.md)
 
 Editorial status: editorial_ready

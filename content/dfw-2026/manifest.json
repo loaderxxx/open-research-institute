@@ -76,18 +76,18 @@
     },
     {
       "slug": "senseable-city-dubai",
-      "status": "partial_hold",
+      "status": "editorial_ready",
       "title": {
         "en": "The city is part of the mobility system",
         "ru": "Город — часть транспортной системы"
       },
       "summary": {
-        "en": "This brief connects urban mobility evidence with a proposed routing evaluation: a useful recommendation must account for the conditions in which the route is actually available. We separate published mobility studies from a still-unverified Dubai heat-routing anchor.",
-        "ru": "Обзор связывает исследования городской мобильности с предложением проверки маршрутов: полезная рекомендация должна учитывать, доступен ли маршрут в реальных условиях. Опубликованные исследования мобильности отделены от пока не проверенной работы о маршрутах в жарком Дубае."
+        "en": "This brief connects urban mobility studies with a proposed routing evaluation. Useful recommendations depend on when routes are accessible, what shade the model predicts along the route, and whether those predictions match what pedestrians encounter.",
+        "ru": "Обзор связывает исследования городской мобильности с предложением проверки маршрутов. Полезная рекомендация зависит от того, когда маршрут доступен, сколько тени прогнозирует модель и совпадает ли прогноз с условиями на месте."
       },
       "limitations": {
-        "en": "Walking smart in the heat remains on hold pending full-text verification. Its numerical findings, authorship details and Dubai-specific conclusions are not reproduced here. No new route experiment has been run.",
-        "ru": "Работа Walking smart in the heat остаётся на проверке до чтения полного текста. Её числа, сведения об авторах и выводы о Дубае здесь не воспроизводятся. Новый эксперимент с маршрутами не проводился."
+        "en": "The full text of Walking smart in the heat was checked. Its outdoor comparison models the sunlit share of routes at four stations, not actual route choices or measured heat exposure. No new ORI route experiment has been run.",
+        "ru": "Полный текст Walking smart in the heat проверен. Сравнение для улиц моделирует долю пути под прямым солнцем у четырёх станций. Это не наблюдение за выбором маршрутов и не измерение тепловой нагрузки. ORI не проводил собственный маршрутный эксперимент."
       },
       "callout": {
         "en": "Review mobility evidence and the checks a practical route recommendation needs.",
@@ -110,9 +110,9 @@
           "evidence_status": "archive_reviewed_not_refetched"
         },
         {
-          "title": "Walking smart in the heat: verification pending",
+          "title": "Walking smart in the heat",
           "url": "https://doi.org/10.1016/j.compenvurbsys.2025.102337",
-          "evidence_status": "full_text_pending_do_not_quote_results"
+          "evidence_status": "opened_current_review"
         }
       ]
     },

@@ -1,5 +1,7 @@
 # Proposed evaluation: energy per accepted artifact
 
+**English** · [Русский](RESEARCH-DESIGN.ru.md)
+
 [Overview](README.md) · [Evidence atlas](ATLAS.md)
 
 **Status:** proposal only; not executed. Compare two configurations on ordinary source-grounded summarization tasks using a fixed set of public, non-sensitive documents.

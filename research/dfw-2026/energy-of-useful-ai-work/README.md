@@ -1,5 +1,7 @@
 # Measure useful work, not just output
 
+**English** · [Русский](README.ru.md)
+
 **Research question:** Will a system that uses less electricity per generation still use less electricity to deliver an answer that passes a defined quality review?
 
 **ORI synthesis:** Hardware and serving benchmarks can tell us which setup uses less energy within a particular workload and measurement boundary. That ranking can reverse when failed generations, retries and review criteria count. Track both the physical energy boundary and the task acceptance boundary; neither can stand in for the other.

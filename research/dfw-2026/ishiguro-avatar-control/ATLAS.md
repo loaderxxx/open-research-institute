@@ -1,5 +1,7 @@
 # Evidence atlas: provenance and control of avatars
 
+English · [Русский](ATLAS.ru.md)
+
 [Study introduction](README.md) · [Proposed tests](RESEARCH-DESIGN.md)
 
 | Primary source | Design and supported conclusion | Limit for this question |

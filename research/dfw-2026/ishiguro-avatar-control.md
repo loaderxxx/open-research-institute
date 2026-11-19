@@ -1,5 +1,7 @@
 # Who is operating the avatar?
 
+English · [Русский](ishiguro-avatar-control.ru.md)
+
 [Expanded study atlas and research design](ishiguro-avatar-control/README.md)
 
 Editorial status: editorial_ready

@@ -1,5 +1,7 @@
 # Research design: identify origin, mediation and authority
 
+English · [Русский](RESEARCH-DESIGN.ru.md)
+
 [Study introduction](README.md) · [Evidence atlas](ATLAS.md)
 
 **Status: proposed, not run.**

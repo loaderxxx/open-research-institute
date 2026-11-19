@@ -1,5 +1,7 @@
 # Evidence atlas: separating interpolation from transfer
 
+**English** · [Русский](ATLAS.ru.md)
+
 [Study overview](README.md) · [Appraisal checklist](RESEARCH-DESIGN.md)
 
 ## Core sources and adjacent evidence

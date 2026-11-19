@@ -45,6 +45,7 @@ const sourceRows = (item,lang) => item.sources.map(s =>
 function render(lang, data=manifest, publication=release, notes=atlas) {
  if (!['en','ru'].includes(lang) || !enabled(data,publication)) return null;
  const ru=lang==='ru', rich=validAtlas(data,notes);
+ const suffix=ru ? '.ru.md' : '.md';
  const cards=data.items.map((i,index)=>`
    <article class="dfw-entry dfw-atlas-card" id="${i.slug}">
     <p class="dfw-card-kicker"><span>${number(index)}</span> ${esc(label(i.status,lang))}</p>
@@ -52,34 +53,35 @@ function render(lang, data=manifest, publication=release, notes=atlas) {
     <p>${esc(i.summary[lang])}</p>
     ${i.concept ? `<section class="dfw-concept"><h3>${esc(i.concept.title[lang])}</h3><p>${esc(i.concept.summary[lang])}</p><p>${esc(i.concept.limitations[lang])}</p></section>` : ''}
     <details><summary>${ru?'Источники и ограничения':'Sources and limitations'}</summary><p>${esc(i.limitations[lang])}</p><ul>${sourceRows(i,lang)}</ul></details>
-    <a class="dfw-card-link" href="${rich ? urlFor(lang,i.slug) : repos('')+i.slug+'.md'}">${rich ? (ru?'Открыть исследование':'Explore this study') : (ru?'Заметка в репозитории':'Repository note')} <span aria-hidden="true">↗</span></a>
+    <a class="dfw-card-link" href="${rich ? urlFor(lang,i.slug) : repos('')+i.slug+suffix}">${rich ? (ru?'Открыть исследование':'Explore this study') : (ru?'Заметка в репозитории':'Repository note')} <span aria-hidden="true">↗</span></a>
    </article>`).join('');
- const nav=`<nav id="dfw-index" class="dfw-atlas-index" aria-label="${ru?'Темы атласа':'Atlas topics'}"><ol>${data.items.map((i,k)=>`<li><a href="#${i.slug}"><span aria-hidden="true">${number(k)}</span> ${esc(i.title[lang])}</a></li>`).join('')}</ol></nav>`;
+ const nav=`<nav id="dfw-index" class="dfw-atlas-index" aria-label="${ru?'Темы атласа':'Atlas topics'}"><ol>${data.items.map((i,k)=>`<li><a href="${rich ? urlFor(lang,i.slug) : '#'+i.slug}"><span aria-hidden="true">${number(k)}</span> ${esc(i.title[lang])}</a></li>`).join('')}</ol></nav>`;
  const hero=`<section class="dfw-hero"><div class="page-wrap dfw-hero-grid"><div><p class="eyebrow">ORI · DUBAI FUTURE WEEK 2026</p><h1>${esc(data.title[lang])}</h1><p class="dfw-lede">${esc(data.method[lang])}</p><a class="button button-light" href="#dfw-index">${ru?'Перейти к темам':'Browse the atlas'} <span aria-hidden="true">↓</span></a></div><aside class="dfw-hero-note"><span aria-hidden="true">07</span><p>${ru?'Семь обзоров литературы. Каждый отделяет выводы из источников от вопросов, которые ещё предстоит проверить.':'Seven literature reviews. Each separates what the sources show from what still needs testing.'}</p></aside></div></section>`;
- const credits=`<section class="dfw-credits"><h2>${ru?'Как мы работали':'How we worked'}</h2><p>${esc(data.credits[lang])}</p>${data.provenance?.[lang] ? `<p>${esc(data.provenance[lang])}</p>` : ''}${rich ? `<div class="dfw-doc-links"><a href="${repos('')}${ru?'README.ru.md':'README.md'}">${ru?'Репозиторий атласа':'Atlas repository'} ↗</a><a href="${repos('')}METHOD.md">${ru?'Методология (EN)':'Review method'} ↗</a><a href="${repos('')}CROSS-STUDY.md">${ru?'Сравнение семи тем (EN)':'Cross-study synthesis'} ↗</a></div>` : ''}</section>`;
- return {title:data.title[lang],description:data.method[lang],content:hero+`<div class="page-wrap dfw-content dfw-atlas-content">${nav}<div class="dfw-atlas-grid">${cards}</div>${credits}</div>`};
+ const credits=`<section class="dfw-credits"><h2>${ru?'Как мы работали':'How we worked'}</h2><p>${esc(data.credits[lang])}</p>${data.provenance?.[lang] ? `<p>${esc(data.provenance[lang])}</p>` : ''}${rich ? `<div class="dfw-doc-links"><a href="${repos('')}${ru?'README.ru.md':'README.md'}">${ru?'Репозиторий атласа':'Atlas repository'} ↗</a><a href="${repos('')}METHOD${suffix}">${ru?'Методология':'Review method'} ↗</a><a href="${repos('')}CROSS-STUDY${suffix}">${ru?'Сравнение семи тем':'Cross-study synthesis'} ↗</a></div>` : ''}</section>`;
+ return {title:data.title[lang],description:data.method[lang],content:hero+`<div class="page-wrap dfw-content dfw-atlas-content">${nav}<div class="dfw-atlas-intro"><h2>${ru?'Выберите исследование':'Choose a study'}</h2><p>${ru?'Откройте тему, чтобы увидеть выводы, атлас источников и ссылки на смежные исследования.':'Open a topic to see its findings, source atlas, and related studies.'}</p></div><div class="dfw-atlas-grid">${cards}</div>${credits}</div>`};
 }
 function renderStudy(lang,slug,data=manifest,publication=release,notes=atlas) {
  if (!['en','ru'].includes(lang) || !enabled(data,publication) || !validAtlas(data,notes)) return null;
  const index=data.items.findIndex(i=>i.slug===slug);
  if (index < 0) return null;
  const i=data.items[index], n=notes[slug], ru=lang==='ru';
- const labelsHere=ru?['Что известно','Источники','Ограничения','Что проверить дальше']:['What we know','Sources','Limitations','What to test next'];
+ const suffix=ru ? '.ru.md' : '.md';
+ const labelsHere=ru?['Главные выводы','Атлас источников','Ограничения','Что проверить дальше']:['Key findings','Source atlas','Limitations','What to test next'];
  const sections=['findings','evidence','limits','next-question'];
  const related=n.related.map(s=>data.items.find(j=>j.slug===s));
  const nextStudy=data.items[(index+1)%data.items.length];
- const readMore=`<div class="dfw-doc-links"><a href="${repos(slug)}README.md">${ru?'Полный разбор в репозитории (EN)':'Read the full repository atlas'} ↗</a><a href="${repos(slug)}RESEARCH-DESIGN.md">${ru?'План проверки (EN)':'Proposed research design'} ↗</a></div>`;
+ const readMore=`<div class="dfw-doc-links"><a href="${repos(slug)}README${suffix}">${ru?'Разбор в репозитории':'Read the repository overview'} ↗</a><a href="${repos(slug)}ATLAS${suffix}">${ru?'Расширенный атлас':'Extended source atlas'} ↗</a><a href="${repos(slug)}RESEARCH-DESIGN${suffix}">${ru?'План проверки':'Proposed research design'} ↗</a></div>`;
  return {title:i.title[lang],description:n.question[lang],content:`
   <section class="dfw-hero dfw-study-hero"><div class="page-wrap">
-   <a class="back-link" href="${urlFor(lang)}#${slug}">← ${ru?'К атласу':'Back to the atlas'}</a>
+   <nav class="dfw-breadcrumb" aria-label="${ru?'Путь к странице':'Breadcrumb'}"><a class="back-link" href="${urlFor(lang)}#${slug}">← ${ru?'Все семь исследований':'All seven studies'}</a><span aria-hidden="true">/</span><span>${ru?'Исследование':'Study'} ${number(index)} / 07</span></nav>
    <div class="dfw-study-title"><p class="eyebrow">ORI · DFW 2026 / ${number(index)} <span aria-hidden="true">·</span> ${esc(label(i.status,lang))}</p>
-   <h1>${esc(i.title[lang])}</h1><p class="dfw-lede">${esc(n.question[lang])}</p></div>
+   <h1>${esc(i.title[lang])}</h1><p class="dfw-lede">${esc(n.question[lang])}</p><div class="dfw-hero-actions"><a class="button button-light" href="#evidence">${labelsHere[1]} <span aria-hidden="true">↓</span></a><a class="dfw-hero-language" lang="${ru?'en':'ru'}" href="${urlFor(ru?'en':'ru',slug)}">${ru?'Read in English':'Читать по-русски'}</a></div></div>
   </div></section>
   <div class="page-wrap dfw-study-layout">
    <nav class="dfw-study-nav" aria-label="${ru?'На этой странице':'On this page'}"><p>${ru?'На этой странице':'On this page'}</p><ol>${labelsHere.map((v,k)=>`<li><a href="#${sections[k]}">${v}</a></li>`).join('')}</ol></nav>
    <article class="dfw-study-body">
     <section id="findings"><h2>${labelsHere[0]}</h2><p class="dfw-study-summary">${esc(i.summary[lang])}</p><ol class="dfw-takeaways">${n.takeaways.map(t=>`<li>${esc(t[lang])}</li>`).join('')}</ol></section>
-    <section id="evidence"><h2>${labelsHere[1]}</h2><ul class="dfw-source-list">${n.evidence.map(e=>`<li><a href="${esc(e.url)}" rel="noopener noreferrer">${esc(e.title)} <span aria-hidden="true">↗</span></a><p>${esc(e.detail[lang])}</p></li>`).join('')}</ul><details><summary>${ru?'Источники исходного обзора и статус чтения':'Original review sources and reading status'}</summary><ul>${sourceRows(i,lang)}</ul></details>${readMore}</section>
+    <section id="evidence"><h2>${labelsHere[1]}</h2><p class="dfw-evidence-intro">${ru?'Откуда взялись выводы, что показывают смежные работы и чего они не доказывают.':'Where the findings come from, what adjacent work shows, and what it cannot establish.'}</p><ul class="dfw-source-list">${n.evidence.map(e=>`<li><a href="${esc(e.url)}" rel="noopener noreferrer">${esc(e.title)} <span aria-hidden="true">↗</span></a><p>${esc(e.detail[lang])}</p></li>`).join('')}</ul><details><summary>${ru?'Источники исходного обзора и статус чтения':'Original review sources and reading status'}</summary><ul>${sourceRows(i,lang)}</ul></details>${readMore}</section>
     <section id="limits"><h2>${labelsHere[2]}</h2><p>${esc(i.limitations[lang])}</p></section>
     <section id="next-question"><h2>${labelsHere[3]}</h2><p>${esc(n.next[lang])}</p>${i.concept ? `<div class="dfw-concept"><h3>${esc(i.concept.title[lang])}</h3><p>${esc(i.concept.summary[lang])}</p><p>${esc(i.concept.limitations[lang])}</p></div>` : ''}</section>
     <section class="dfw-related"><h2>${ru?'Смежные темы атласа':'Related studies in the atlas'}</h2><ul>${related.map(j=>`<li><a href="${urlFor(lang,j.slug)}">${esc(j.title[lang])} <span aria-hidden="true">↗</span></a></li>`).join('')}</ul><a class="dfw-card-link" href="${urlFor(lang,nextStudy.slug)}">${ru?'Следующая тема:':'Next study:'} ${esc(nextStudy.title[lang])} <span aria-hidden="true">→</span></a></section>

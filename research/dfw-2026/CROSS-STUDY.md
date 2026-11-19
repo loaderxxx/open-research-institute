@@ -1,5 +1,7 @@
 # Seven studies, four recurring measurement problems
 
+**English** · [Русский](CROSS-STUDY.ru.md)
+
 [All studies](README.md) · [Source and review method](METHOD.md)
 
 This is an ORI interpretation, not a pooled statistical result. The source domains and units are different. The value of comparing them is to notice an error that recurs even when the technology changes.

@@ -1,5 +1,7 @@
 # Proposed evaluation: a shade recommendation people can actually follow
 
+**EN** · [Русский](RESEARCH-DESIGN.ru.md)
+
 [Study overview](README.md) · [Evidence atlas](ATLAS.md)
 
 **Research question.** Does a shade-aware choice remain favorable when access is verified at the time of the trip and the trade-off is calculated against the shortest route that meets the same accessibility criteria?
