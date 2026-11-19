@@ -1,0 +1,380 @@
+{
+  "newman-shared-sensing": {
+    "question": {
+      "en": "When do repeated observations justify acting on a road hazard?",
+      "ru": "Когда повторных наблюдений достаточно, чтобы считать дорожный дефект подтверждённым?"
+    },
+    "takeaways": [
+      {
+        "en": "Recognising the same place is different from recognising the same hazard. Repeated observations can improve localisation without showing what caused an impact.",
+        "ru": "Узнать то же место и распознать тот же дефект — разные задачи. Повторные наблюдения помогают локализации, но не объясняют причину удара."
+      },
+      {
+        "en": "Agreement is more informative across separate vehicles or mountings. Repeated passes by one vehicle can reproduce the same error.",
+        "ru": "Совпадение между разными автомобилями или способами крепления информативнее. Повторные проезды одной машины могут повторять одну и ту же ошибку."
+      },
+      {
+        "en": "Keep an unverified observation distinct from an alert. A speed bump, joint or loose mount can imitate a defect signal.",
+        "ru": "Непроверенное наблюдение не должно превращаться в предупреждение. Лежачий полицейский, стык или незакреплённый телефон могут давать похожий сигнал."
+      }
+    ],
+    "evidence": [
+      {
+        "title": "Churchill & Newman — Experience-based navigation",
+        "url": "https://ori.ox.ac.uk/media/5616/2013ijrr_churchill.pdf",
+        "detail": {
+          "en": "The paper accumulates visual experiences to support long-term localisation. It does not detect potholes.",
+          "ru": "Авторы накапливали визуальные наблюдения для долговременной локализации. Ямы в работе не распознавались."
+        }
+      },
+      {
+        "title": "Agarwal et al. — Radar localisation",
+        "url": "https://ora.ox.ac.uk/objects/uuid%3A209f215d-3672-40b2-8efa-adf80bda1c36/files/rx346d6275",
+        "detail": {
+          "en": "The radar study tests uncertainty-aware place recognition against reference positions. Its thresholds describe its own benchmark, not a phone-based alert.",
+          "ru": "В работе проверяется распознавание мест по радару с учётом неопределённости. Пороговые расстояния относятся к конкретному тесту, а не к предупреждениям со смартфона."
+        }
+      },
+      {
+        "title": "Eriksson et al. — The Pothole Patrol",
+        "url": "https://www.cs.purdue.edu/homes/bb/2020-fall-cs590bb/docs/ot/mit-madden-balakrishnan-pot-hole-p2-mobisys-2008.pdf",
+        "detail": {
+          "en": "Instrumented taxis and checked observations provide a precedent for field verification, not an estimate of a Dubai pilot's accuracy.",
+          "ru": "Поездки оборудованных такси и проверка наблюдений дают пример полевой верификации, но не оценку точности пилота в Дубае."
+        }
+      }
+    ],
+    "related": [
+      "senseable-city-dubai",
+      "energy-of-useful-ai-work"
+    ],
+    "next": {
+      "en": "In a small fleet, compare single-pass flags with independently corroborated observations against an inspection record. Keep results internal until measured.",
+      "ru": "На небольшом автопарке сравнить одиночные сигналы и независимые подтверждения с журналом осмотра. До получения результатов не выдавать публичных предупреждений."
+    }
+  },
+  "senseable-city-dubai": {
+    "question": {
+      "en": "Can a route be more walkable even if it is slightly longer?",
+      "ru": "Может ли чуть более длинный маршрут оказаться удобнее для пешей прогулки?"
+    },
+    "takeaways": [
+      {
+        "en": "The Dubai model found a trade-off: shaded routes in the four station cases were 1.3% longer, with 8.8% less modeled sun exposure. These are modeled averages, not observed choices.",
+        "ru": "Для четырёх станций модель показала компромисс: маршруты с учётом тени были в среднем на 1,3% длиннее, с уменьшением расчётного пребывания на солнце на 8,8%. Это результаты модели, а не наблюдение за выбором пешеходов."
+      },
+      {
+        "en": "A connected path on a map does not guarantee a usable crossing, an entrance open at that hour or a step-free route.",
+        "ru": "Связный путь на карте не гарантирует удобный переход, открытый в это время вход или маршрут без ступеней."
+      },
+      {
+        "en": "Exposure to direct sunlight and heat stress are different outcomes. Wind, humidity, radiant heat and individual circumstances can change the experience.",
+        "ru": "Прямое солнце и тепловая нагрузка — разные показатели. Ветер, влажность, тепловое излучение и особенности человека меняют условия прогулки."
+      }
+    ],
+    "evidence": [
+      {
+        "title": "Wen et al. — Walking smart in the heat",
+        "url": "https://senseable.mit.edu/papers/pdf/20250911_Wen-etal_WalkingSmart_CEUS.pdf",
+        "detail": {
+          "en": "Full text checked: modelled routes around four Dubai Metro stations, with a behavioural proxy from Singapore and selected on-site connectivity checks.",
+          "ru": "Проверен полный текст: смоделированы маршруты у четырёх станций Dubai Metro. Для оценки поведения использованы данные Сингапура; на месте проверялись отдельные соединения маршрутов."
+        }
+      },
+      {
+        "title": "Melnikov et al. — Behavioural value of shade",
+        "url": "https://dr.ntu.edu.sg/server/api/core/bitstreams/6d2beaa1-9b0b-4e82-a379-813d317e7b7d/content",
+        "detail": {
+          "en": "A Singapore choice experiment tests willingness to trade distance for shade. Its preference estimates are not direct observations of Dubai walkers.",
+          "ru": "Эксперимент в Сингапуре проверял, готовы ли люди идти дальше ради тени. Это не прямое наблюдение за пешеходами Дубая."
+        }
+      },
+      {
+        "title": "Harnessing street shade to mitigate heat stress",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39674147/",
+        "detail": {
+          "en": "In-situ thermal measurements illustrate why geometric shade and the pedestrian thermal environment should be assessed separately.",
+          "ru": "Измерения на улице показывают, почему геометрию тени и тепловые условия для пешеходов нужно оценивать отдельно."
+        }
+      }
+    ],
+    "related": [
+      "newman-shared-sensing",
+      "inayatullah-ai-foresight"
+    ],
+    "next": {
+      "en": "Walk matched route pairs at several times, auditing shade, accessibility and opening hours, before making routing recommendations.",
+      "ru": "Пройти сопоставимые пары маршрутов в разные часы, проверить тень, доступность и режим работы входов. Только потом давать рекомендации."
+    }
+  },
+  "aymerich-franch-handback": {
+    "question": {
+      "en": "Can a person actually take back control from an avatar they like using?",
+      "ru": "Может ли человек реально вернуть себе управление, даже если ему нравится пользоваться аватаром?"
+    },
+    "takeaways": [
+      {
+        "en": "Dubai survey respondents were more positive about receiving information than about complaint handling. They rated hypothetical tasks, so the responses show preferences, not successful real-world intervention.",
+        "ru": "Участники опроса в Дубае положительнее относились к получению справочной информации, чем к разбору жалоб. Задания были гипотетическими: ответы отражают предпочтения, а не способность вмешаться в реальной ситуации."
+      },
+      {
+        "en": "Knowing what the avatar is doing, rejecting a recommendation and stopping an action are separate abilities. A design should show each one explicitly.",
+        "ru": "Понимать, что делает аватар, отклонять его рекомендацию и останавливать действие — разные возможности. Интерфейс должен показывать каждую из них."
+      },
+      {
+        "en": "Asking for attention can help at a consequential decision, but repeated interruptions can obscure the moment when intervention matters.",
+        "ru": "Запрос внимания может помочь в важный момент, но частые прерывания рискуют скрыть именно тот момент, когда вмешательство действительно нужно."
+      }
+    ],
+    "evidence": [
+      {
+        "title": "Aymerich-Franch et al. — Avatar acceptance",
+        "url": "https://doi.org/10.3389/frobt.2025.1719342",
+        "detail": {
+          "en": "A Dubai scenario survey with 1,001 valid responses. Quota recruitment is not probability sampling, and participants did not operate the system.",
+          "ru": "В опросе о сценариях применения в Дубае получен 1 001 валидный ответ. Квотный набор не равнозначен вероятностной выборке; участники не управляли системой."
+        }
+      },
+      {
+        "title": "Buçinca, Malaya & Gajos — Cognitive forcing",
+        "url": "https://arxiv.org/abs/2102.09692",
+        "detail": {
+          "en": "Deliberation cues reduced overreliance in the decision task tested, with usability trade-offs in some designs. This is not a cancellation test.",
+          "ru": "Подсказки, побуждавшие обдумать решение, снижали чрезмерное доверие в изученной задаче, но некоторые интерфейсы были менее удобны. Отмену действий не проверяли."
+        }
+      },
+      {
+        "title": "Amershi et al. — Human–AI interaction guidelines",
+        "url": "https://doi.org/10.1145/3290605.3300233",
+        "detail": {
+          "en": "Correction, dismissal and graceful failure guide design. They are not a validation of a particular concierge interface.",
+          "ru": "Возможность исправить или отклонить результат и понятное поведение при сбое — принципы проектирования, а не подтверждение эффективности конкретного консьерж-интерфейса."
+        }
+      }
+    ],
+    "related": [
+      "ishiguro-avatar-control",
+      "energy-of-useful-ai-work"
+    ],
+    "next": {
+      "en": "In a simulated service flow, compare interfaces on correct cancellation, transfer time and confirmation of the stopped state. No real transactions.",
+      "ru": "В имитации сервисного процесса сравнить интерфейсы по доле правильных отмен, времени возврата управления и пониманию того, что действие остановлено. Без реальных транзакций."
+    }
+  },
+  "deangeli-proteomizer": {
+    "question": {
+      "en": "What would make a human protein-abundance prediction credible in a new cohort?",
+      "ru": "Что подтверждает достоверность оценки содержания белков в новой группе людей?"
+    },
+    "takeaways": [
+      {
+        "en": "A held-out sample from a familiar cohort, a refitted model in a new setting, and an unchanged model tested externally answer different questions.",
+        "ru": "Отложенные данные из знакомой выборки, дообучение на новой группе и внешняя проверка модели без изменений отвечают на разные вопросы."
+      },
+      {
+        "en": "Pooled correlation can hide errors within cohorts or differences in coverage. Report the unit of comparison and how many measurements were missing.",
+        "ru": "Объединённая корреляция может скрывать ошибки внутри отдельных выборок и различия в охвате. Важно указывать единицу сравнения и число отсутствующих измерений."
+      },
+      {
+        "en": "The available comparator literature does not resolve the Proteomizer preprint's baseline discrepancy. We do not report the disputed figures or infer clinical utility.",
+        "ru": "Доступные работы для сравнения не разрешают расхождение в базовых показателях препринта Proteomizer. Мы не приводим спорные числа и не делаем выводов о клинической пользе."
+      }
+    ],
+    "evidence": [
+      {
+        "title": "Proteomizer — preprint",
+        "url": "https://doi.org/10.1101/2025.06.22.660946",
+        "detail": {
+          "en": "Archive-reviewed lead; the full text could not be independently reopened in this pass. It motivates the question but supplies no numerical headline here.",
+          "ru": "Источник разобран в архиве; на этом этапе повторно открыть полный текст не удалось. Работа задаёт вопрос, но её численные результаты здесь не приводятся."
+        }
+      },
+      {
+        "title": "T2Pdecoder — publisher manuscript",
+        "url": "https://www.nature.com/articles/s41467-026-74209-3_reference.pdf",
+        "detail": {
+          "en": "The study reports internal and independent glioma evaluations, plus separate training and evaluation in breast-cancer cohorts. The last is not unchanged cross-tissue transfer.",
+          "ru": "В работе есть внутренняя и независимая проверки на данных глиом, а также отдельное обучение и оценка на выборках рака молочной железы. Последнее не показывает перенос неизменённой модели между тканями."
+        }
+      },
+      {
+        "title": "Eraslan et al. — Protein per mRNA across tissues",
+        "url": "https://doi.org/10.15252/msb.20188513",
+        "detail": {
+          "en": "Paired human measurements show why protein-to-RNA relationships should be interpreted in tissue context, not treated as individual-level predictions.",
+          "ru": "Парные измерения у людей показывают, почему связь белка и РНК нужно рассматривать в контексте конкретной ткани, не выдавая её за индивидуальный прогноз."
+        }
+      }
+    ],
+    "related": [
+      "senseable-city-dubai",
+      "energy-of-useful-ai-work"
+    ],
+    "next": {
+      "en": "Audit the published validation split, sample overlap, comparator and coverage before crediting a transfer claim. This is literature appraisal, not a clinical recommendation.",
+      "ru": "Прежде чем принимать утверждение о переносимости, проверить, как разделили выборки, не пересекаются ли они, с чем сравнивали модель и какие данные вошли в оценку. Это разбор литературы, а не медицинская рекомендация."
+    }
+  },
+  "ishiguro-avatar-control": {
+    "question": {
+      "en": "Can visitors tell who is operating an avatar and what it is authorised to do?",
+      "ru": "Могут ли посетители понять, кто управляет аватаром и какие у него полномочия?"
+    },
+    "takeaways": [
+      {
+        "en": "An avatar can replay a person, relay a live operator or generate a response. A natural presentation does not reveal which happened.",
+        "ru": "Аватар может воспроизводить запись, транслировать действия оператора в реальном времени или генерировать ответ. Естественная подача не показывает, какой режим используется."
+      },
+      {
+        "en": "Separate the source of each message from who can approve a request, correct a mistake or answer a follow-up. These roles may change mid-session.",
+        "ru": "Источник реплики и право утвердить запрос, исправить ошибку или ответить на уточнение — разные вещи. Роли могут меняться прямо по ходу разговора."
+      },
+      {
+        "en": "Presence, engagement and learning measure different outcomes from identifying who is in control. Do not use them as substitutes.",
+        "ru": "Ощущение присутствия, вовлечённость и результаты обучения не показывают, понял ли человек, кто управляет аватаром."
+      }
+    ],
+    "evidence": [
+      {
+        "title": "Suemitsu et al. — Robot-to-robot interaction",
+        "url": "https://doi.org/10.3389/frai.2026.1928110",
+        "detail": {
+          "en": "An Osaka public-venue field study of engagement around teleoperated robots. Engagement does not measure attribution accuracy.",
+          "ru": "В полевом исследовании на публичной площадке в Осаке изучали вовлечённость при взаимодействии с роботами под удалённым управлением. Точность определения источника не измерялась."
+        }
+      },
+      {
+        "title": "Kodani et al. — Android avatar lectures",
+        "url": "https://doi.org/10.3389/frobt.2024.1469626",
+        "detail": {
+          "en": "The laboratory comparison used prerecorded presentations. Subjective outcomes do not establish that viewers knew the presentation mode.",
+          "ru": "В лабораторном сравнении использовали записанные заранее выступления. Субъективные оценки не показывают, распознали ли зрители режим работы."
+        }
+      },
+      {
+        "title": "Shinkawa et al. — Long-term android operation",
+        "url": "https://arxiv.org/abs/2606.08099",
+        "detail": {
+          "en": "The archive-reviewed deployment preprint describes recorded performances and selected live operation. It does not establish visitors' understanding of which mode was active.",
+          "ru": "Разобранный в архиве препринт описывает использование записей и отдельные сеансы прямого управления. Из него нельзя понять, различали ли посетители эти режимы."
+        }
+      }
+    ],
+    "related": [
+      "aymerich-franch-handback",
+      "inayatullah-ai-foresight"
+    ],
+    "next": {
+      "en": "Randomise clear mode labels in a simulated encounter and test whether people correctly identify the source, its authority and how to reach a human.",
+      "ru": "В имитации разговора случайным образом менять обозначения режимов и проверять, правильно ли люди определяют источник, понимают его полномочия и знают, как обратиться к человеку."
+    }
+  },
+  "inayatullah-ai-foresight": {
+    "question": {
+      "en": "Does AI-assisted foresight preserve disagreement or smooth it away?",
+      "ru": "Сохраняет ли ИИ-форсайт разногласия или сглаживает их?"
+    },
+    "takeaways": [
+      {
+        "en": "Fluent forecasts can obscure whether assumptions come from participants, source documents or the model itself.",
+        "ru": "Даже убедительный прогноз может скрывать, откуда взялись допущения: от участников, из документов или из самой модели."
+      },
+      {
+        "en": "A good consensus statement and a faithful record of dissent are different outputs. Publish them separately and label suggestions generated by the model.",
+        "ru": "Удачная формулировка общего мнения и точное описание разногласий — разные результаты. Их стоит публиковать отдельно и явно помечать предложения модели."
+      },
+      {
+        "en": "A transcript correction shows that errors can occur, not how often they occur. Use blinded scoring to compare methods rather than treating a single example as a benchmark.",
+        "ru": "Исправление в стенограмме показывает, что ошибка возможна, но не говорит, как часто это бывает. Для сравнения методов нужна слепая оценка, а не один пример."
+      }
+    ],
+    "evidence": [
+      {
+        "title": "Inayatullah — Causal Layered Analysis",
+        "url": "https://www.sciencedirect.com/science/article/pii/S001632879800086X",
+        "detail": {
+          "en": "The method distinguishes observable issues, social causes, worldviews and myths. Populating four boxes alone does not show that those distinctions were applied correctly.",
+          "ru": "Метод различает наблюдаемые проблемы, социальные причины, мировоззрения и мифы. Само заполнение четырёх ячеек не подтверждает, что различия поняты верно."
+        }
+      },
+      {
+        "title": "Inayatullah — Deconstructing ChatGPT, Part 1",
+        "url": "https://jfsdigital.org/2023/01/23/deconstructing-chatgpt-part-1/",
+        "detail": {
+          "en": "The original transcript documents the author correcting the model's account of CLA. It is a case record, not a comparison across systems.",
+          "ru": "В исходной стенограмме автор исправляет объяснение метода, данное моделью. Это описание отдельного случая, а не сравнение моделей."
+        }
+      },
+      {
+        "title": "Tessler et al. — AI and common ground",
+        "url": "https://doi.org/10.1126/science.adq2852",
+        "detail": {
+          "en": "An AI mediation study tests convergence on group statements. It does not show that a summary retains minority views.",
+          "ru": "В работе об ИИ-посредничестве проверяли, помогает ли система находить общую формулировку. Она не показывает, сохраняет ли итоговое резюме позицию меньшинства."
+        }
+      }
+    ],
+    "related": [
+      "ishiguro-avatar-control",
+      "senseable-city-dubai"
+    ],
+    "next": {
+      "en": "In a bilingual workshop exercise, score whether summaries preserve dissent, identify each source and keep model-generated suggestions separate from participant views.",
+      "ru": "В двуязычном упражнении проверить, сохраняют ли резюме разногласия, указывают ли источник каждого тезиса и отделяют ли предложения модели от мнений участников."
+    }
+  },
+  "energy-of-useful-ai-work": {
+    "question": {
+      "en": "Does the cheapest generation also deliver the least expensive acceptable answer?",
+      "ru": "Означает ли самая экономная генерация минимальные энергозатраты на пригодный ответ?"
+    },
+    "takeaways": [
+      {
+        "en": "Energy per generation measures serving efficiency. Energy per accepted result counts what it takes to deliver a usable artifact, including failed attempts and retries.",
+        "ru": "Энергия на одну генерацию показывает эффективность обработки запроса. Энергия на принятый результат учитывает, сколько пришлось потратить до получения пригодного материала, включая неудачные попытки."
+      },
+      {
+        "en": "GPU telemetry, host wall power and facility estimates have different boundaries. Comparisons should match the boundary or explain the difference.",
+        "ru": "Телеметрия GPU, потребление всего сервера и оценка энергозатрат объекта охватывают разные уровни. Их нельзя сравнивать без указания границ."
+      },
+      {
+        "en": "A lower energy figure is not informative if the acceptance criteria, retry budget and workload change between systems.",
+        "ru": "Низкая цифра мало о чём говорит, если у сравниваемых систем различаются критерии приёмки, лимит повторов и нагрузка."
+      }
+    ],
+    "evidence": [
+      {
+        "title": "Chung et al. — ML.ENERGY",
+        "url": "https://arxiv.org/html/2505.06371v2",
+        "detail": {
+          "en": "Uses GPU telemetry and estimates average request energy from steady-state serving. It is not a direct measurement of facility electricity per request.",
+          "ru": "Авторы используют телеметрию GPU для оценки средней энергии запроса при устойчивой нагрузке. Это не прямой замер энергозатрат всего объекта на один запрос."
+        }
+      },
+      {
+        "title": "Tschand et al. — MLPerf Power",
+        "url": "https://arxiv.org/html/2410.12032v1",
+        "detail": {
+          "en": "Documents scale-dependent instrumentation covering the tested system during execution. It is not an audit of downstream editorial rework.",
+          "ru": "Авторы описывают измерения всей тестируемой системы во время выполнения задачи с учётом её масштаба. Последующую редакторскую переработку не учитывают."
+        }
+      },
+      {
+        "title": "Luccioni, Jernite & Strubell — Power Hungry Processing",
+        "url": "https://doi.org/10.1145/3630106.3658542",
+        "detail": {
+          "en": "Compares sequential inference energy for selected tasks and models. Results are not a universal ranking of pipelines, and do not include rework.",
+          "ru": "Авторы сравнивают энергозатраты последовательных запусков на выбранных задачах и моделях. Это не универсальный рейтинг процессов; затраты на переделку не включены."
+        }
+      }
+    ],
+    "related": [
+      "newman-shared-sensing",
+      "deangeli-proteomizer"
+    ],
+    "next": {
+      "en": "Run both configurations on the same task set with blinded acceptance scoring and record energy, failures and latency. ORI has not yet run this benchmark.",
+      "ru": "Запустить обе конфигурации на одинаковых задачах, провести слепую приёмку и зафиксировать энергию, неудачи и задержку. ORI пока не проводил этот тест."
+    }
+  }
+}

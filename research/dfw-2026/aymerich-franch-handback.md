@@ -1,5 +1,7 @@
 # Acceptance is not the same as control
 
+[Expanded study atlas and research design](aymerich-franch-handback/README.md)
+
 Editorial status: editorial_ready
 
 Laura Aymerich-Franch's work on cybernetic avatars motivates a distinction between welcoming a service and retaining control over it. Our proposed evaluation asks whether users understand who is operating an avatar, can request a human, and can stop or correct an interaction.

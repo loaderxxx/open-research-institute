@@ -1,5 +1,7 @@
 # Who is operating the avatar?
 
+[Expanded study atlas and research design](ishiguro-avatar-control/README.md)
+
 Editorial status: editorial_ready
 
 Hiroshi Ishiguro's Moonshot programme describes real-world trials of teleoperated cybernetic avatars. These deployments motivate a practical design question: can people distinguish a live operator, a recording and autonomous software? Our proposal treats clear mode disclosure and the ability to stop an interaction as separate outcomes from engagement.

@@ -1,5 +1,7 @@
 # Measure useful work, not just output
 
+[Expanded study atlas and research design](energy-of-useful-ai-work/README.md)
+
 Editorial status: catalogue_context
 
 Tushar Kanade's programme listings prompt an ORI methods proposal: measure energy per accepted result alongside energy per attempt and latency. Separately, the Oriva catalogue describes a neonatal diagnostic prototype. Both examples illustrate why a compelling concept and validated performance must remain distinct.

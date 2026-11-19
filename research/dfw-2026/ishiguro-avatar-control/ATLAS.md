@@ -1,0 +1,17 @@
+# Evidence atlas: provenance and control of avatars
+
+[Study introduction](README.md) · [Proposed tests](RESEARCH-DESIGN.md)
+
+| Primary source | Design and supported conclusion | Limit for this question |
+| --- | --- | --- |
+| [Suemitsu et al., robot-to-robot interaction](https://doi.org/10.3389/frai.2026.1928110), journal full text | Field study at an Osaka public venue investigated early-stage engagement around teleoperated robot avatars and robot-to-robot interaction. The relevant outcome is behaviour near the interaction, not the visitor's private judgment of how the robot was controlled. | Attention is neither consent nor correct identification. Conditions from a limited field setting need a controlled follow-up before attributing any visibility effect to embodiment alone. |
+| [Kodani et al., android avatar lectures](https://doi.org/10.3389/frobt.2024.1469626), journal full text | Lab arm compared two prerecorded delivery formats with random assignment. Subjective educational outcomes improved on some measures under the android presentation, but the short surprise quiz did not separate conditions significantly. A separate live-teleoperated Q&A is not part of the randomized lab contrast. | Video versus embodied delivery is not live versus replay. Neither subjective presence nor an unchanged quiz result quantifies mode misidentification. |
+| [Shinkawa et al., long-term android operation at Expo 2025](https://arxiv.org/abs/2606.08099), archive-reviewed preprint | Deployment account describes recorded operator performances as the mainly used mode, with live operation in selected circumstances. | Operating hours and practical staffing constraints are not a randomized trust study; Ishiguro is acknowledged, not a listed author. |
+| [JST Moonshot Avatar Land summary](https://www.jst.go.jp/moonshot/en/program/goal1/appeal/11_ishiguro_ap07.html), program report | Documents a multi-location avatar event with survey data. [Related autonomous-avatar analysis](https://arxiv.org/abs/2507.12741) focuses on autonomous cases from that event. | Do not add survey denominators across reports or treat them as independent replications. Program self-report does not measure state recognition. |
+| [Kodani, Uchida & Ishiguro, gesture system](https://www.nature.com/articles/s41598-026-57322-7), publisher indexed description | The authors describe software that produces an avatar's gestures from an operator's speech for asynchronous presentations. | A human source for speech and a software source for gestures can coexist. We use the available publisher description to establish the design, not to infer comparative performance; full text not independently retrieved here. |
+
+## Cross-analysis
+
+**Separate origin, mediation and authority.** The origin of an utterance can be human live, human recorded or generated. The delivered output can be modified, replayed or augmented. Authority is the separate matter of who can approve, undo or answer a follow-up. A binary human-versus-AI badge hides cases where all three dimensions differ. [The JST ethics project](https://www.jst.go.jp/moonshot/en/program/goal1/appeal/11_ishiguro_ap08.html) illustrates one mediated case: operator input can be transformed by software.
+
+**A result is not a proxy for a different result.** Presence ratings, public dwell time, quiz performance and operating duration answer different questions. To design an accountable avatar, measure source and authority recognition directly and evaluate changes in useful engagement separately.

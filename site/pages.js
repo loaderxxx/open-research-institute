@@ -170,9 +170,10 @@ function renderPage(pathname) {
   const match = pathname === '/' ? ['', 'en', ''] : pathname.match(/^\/(en|ru)(?:\/(.*))?$/);
   if (!match) return null;
   const lang = match[1], rawRoute = match[2] || '', route = rawRoute ? rawRoute.replace(/\/$/, '') + '/' : '';
+  const dfwSlug = dfw.routeSlug(route);
   let content, title = copy[lang].siteTitle, description = copy[lang].description;
   if (!route) content = home(lang);
-  else if (route === 'research/dfw-2026/') { const publication = dfw.render(lang); if (!publication) return null; content=publication.content; title=publication.title+' — ORI'; description=publication.description; }
+  else if (dfwSlug !== undefined) { const publication = dfwSlug ? dfw.renderStudy(lang, dfwSlug) : dfw.render(lang); if (!publication) return null; content=publication.content; title=publication.title+' — ORI'; description=publication.description; }
   else if (route === 'library/') { content = libraryPage(lang); title = copy[lang].libraryTitle + ' — ORI'; }
   else if (route === 'methodology/') { content = methodsPage(lang); title = copy[lang].methods + ' — ORI'; description = methodology[lang].intro; }
   else {
@@ -182,7 +183,7 @@ function renderPage(pathname) {
     content = programmePage(p,lang); title = p[lang].title + ' — ORI'; description = p[lang].question;
   }
   const values = {lang, title:esc(title), description:esc(description), header:header(lang,route), content, footer:footer(lang)};
-  return template.replace(/\{\{(\w+)\}\}/g, (_, key)=>values[key] || '').replace('</head>', (route === 'research/dfw-2026/' ? dfw.head(lang) : '') + '</head>');
+  return template.replace(/\{\{(\w+)\}\}/g, (_, key)=>values[key] || '').replace('</head>', (dfwSlug !== undefined ? dfw.head(lang, dfwSlug) : '') + '</head>');
 }
 
 module.exports = { renderPage };

@@ -1,5 +1,7 @@
 # The city is part of the mobility system
 
+[Expanded study atlas and research design](senseable-city-dubai/README.md)
+
 Editorial status: partial_hold
 
 This brief connects urban mobility evidence with a proposed routing evaluation: a useful recommendation must account for the conditions in which the route is actually available. We separate published mobility studies from a still-unverified Dubai heat-routing anchor.

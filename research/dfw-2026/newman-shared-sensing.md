@@ -1,5 +1,7 @@
 # Knowing when autonomy should stop
 
+[Expanded study atlas and research design](newman-shared-sensing/README.md)
+
 Editorial status: editorial_ready
 
 Paul Newman's Oxford profile identifies navigation and mobile autonomy as core interests. Research on localisation and shared camera networks motivates a practical question: how should a system represent uncertainty when its sensors cannot see enough? Our proposed evaluation distinguishes clear, occupied and unknown areas rather than treating missing evidence as safety.

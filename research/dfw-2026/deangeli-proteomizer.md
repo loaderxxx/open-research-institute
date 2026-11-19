@@ -1,5 +1,7 @@
 # When does an RNA-to-protein model travel?
 
+[Expanded study atlas and research design](deangeli-proteomizer/README.md)
+
 Editorial status: editorial_ready
 
 The Proteomizer preprint is a useful case for separating within-dataset prediction from generalisation to new tissues or protocols. Our synthesis focuses on validation design: report results within tissues and cohorts, distinguish retraining from unchanged transfer, and make the comparison baseline explicit.

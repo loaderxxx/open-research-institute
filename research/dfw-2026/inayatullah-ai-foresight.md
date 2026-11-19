@@ -1,5 +1,7 @@
 # Whose future does AI describe?
 
+[Expanded study atlas and research design](inayatullah-ai-foresight/README.md)
+
 Editorial status: editorial_ready
 
 Sohail Inayatullah's work on futures methods and AI-assisted reflection motivates an auditable foresight workflow. Our proposal separates source material, interpretation, assumptions and generated scenarios, so readers can see where a claim came from and challenge the frame behind it.
