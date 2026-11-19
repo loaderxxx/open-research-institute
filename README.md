@@ -2,6 +2,8 @@
 
 [English](README.en.md)
 
+**[Dubai Future Week: семь исследовательских атласов ↗](https://github.com/loaderxxx/open-research-institute/blob/work/chatgpt/ori-dfw-publication-20261119/research/dfw-2026/README.ru.md)** · [Читать на сайте ORI](https://ori-lab.org/ru/research/dfw-2026/)
+
 **Изучаем известное. Ищем новое.**
 
 Open Research Institute — независимая исследовательская инициатива о природе, интеллекте и обществе. Наши программы охватывают физику, биологию, мозг, сознание, ДНК, искусственный интеллект, бизнес, государство, религию и человеческое сотрудничество.

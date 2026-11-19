@@ -2,6 +2,8 @@
 
 [Русский](README.md)
 
+**[Dubai Future Week: seven research atlases ↗](https://github.com/loaderxxx/open-research-institute/blob/work/chatgpt/ori-dfw-publication-20261119/research/dfw-2026/README.md)** · [Read on ORI Lab](https://ori-lab.org/en/research/dfw-2026/)
+
 **We study what is known. We search for what is new.**
 
 Open Research Institute is an independent research initiative in nature, intelligence and society. Our programmes span physics, biology, the brain, consciousness, DNA, artificial intelligence, business, government, religion and human cooperation.
